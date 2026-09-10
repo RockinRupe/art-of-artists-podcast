@@ -28,15 +28,40 @@
         <h1>Art of Artists</h1>
         <p class="tagline">Two brothers who love pretty much everything about music discuss what inspires famous musicians, their backgrounds, and how they achieved fame.</p>
         <div class="listen-buttons">
-          <!-- TODO: replace # with your actual Spotify and Apple Podcasts show links -->
-          <a class="btn btn-spotify" href="#" target="_blank" rel="noopener">Listen on Spotify</a>
-          <a class="btn btn-apple" href="#" target="_blank" rel="noopener">Listen on Apple Podcasts</a>
+          <a class="btn btn-spotify" href="https://open.spotify.com/show/3cyXQL4kBuqOkCgAFvwczI" target="_blank" rel="noopener">Listen on Spotify</a>
+          <a class="btn btn-apple" href="https://podcasts.apple.com/us/podcast/art-of-artists/id1646595706" target="_blank" rel="noopener">Listen on Apple Podcasts</a>
         </div>
       </div>
     </div>
   </header>
 
   <main class="container">
+    <section id="listen">
+      <h2>Listen</h2>
+      <div class="embed-grid">
+        <iframe
+          class="embed-frame"
+          src="https://open.spotify.com/embed/show/3cyXQL4kBuqOkCgAFvwczI?utm_source=generator"
+          width="100%"
+          height="352"
+          frameborder="0"
+          allowfullscreen
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+          title="Art of Artists on Spotify"
+        ></iframe>
+        <iframe
+          class="embed-frame"
+          allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+          height="352"
+          style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;"
+          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+          src="https://embed.podcasts.apple.com/us/podcast/art-of-artists/id1646595706"
+          title="Art of Artists on Apple Podcasts"
+        ></iframe>
+      </div>
+    </section>
+
     <section id="episodes">
       <h2>Latest Episodes</h2>
       <ul class="episode-list" id="episode-list">
