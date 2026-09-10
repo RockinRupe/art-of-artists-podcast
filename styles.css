@@ -249,6 +249,19 @@ h2 {
   border: none;
 }
 
+.embed-frame-light {
+  background: #fff;
+  min-height: 300px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#tiktok-embed-container .btn {
+  margin: 24px auto;
+}
+
 .episode-list {
   list-style: none;
   margin: 0;

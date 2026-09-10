@@ -53,4 +53,28 @@ async function loadEpisodes() {
   }
 }
 
+const TIKTOK_PROFILE_URL = "https://www.tiktok.com/@artofartistspod";
+
+async function loadTikTokEmbed() {
+  const container = document.getElementById("tiktok-embed-container");
+  if (!container) return;
+
+  try {
+    const res = await fetch(`https://www.tiktok.com/oembed?url=${encodeURIComponent(TIKTOK_PROFILE_URL)}`);
+    if (!res.ok) throw new Error(`oEmbed request failed: ${res.status}`);
+
+    const data = await res.json();
+    container.innerHTML = data.html;
+
+    const script = document.createElement("script");
+    script.src = "https://www.tiktok.com/embed.js";
+    script.async = true;
+    document.body.appendChild(script);
+  } catch (err) {
+    console.warn("Could not load TikTok embed, showing fallback link:", err);
+    container.innerHTML = `<a class="btn" href="${TIKTOK_PROFILE_URL}" target="_blank" rel="noopener">View on TikTok</a>`;
+  }
+}
+
 loadEpisodes();
+loadTikTokEmbed();
