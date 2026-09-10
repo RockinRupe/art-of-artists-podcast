@@ -269,6 +269,15 @@ h2 {
   font-size: 1.15rem;
 }
 
+.episode h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.episode h3 a:hover {
+  text-decoration: underline;
+}
+
 .episode p {
   margin: 0;
   color: var(--text-muted);
