@@ -343,3 +343,71 @@ h2 {
     justify-content: center;
   }
 }
+
+/* ---------- Desktop ----------
+   Everything above is the mobile-first base — it's what phones and tablets
+   get. These rules only apply on wide screens, so they can't change mobile. */
+@media (min-width: 900px) {
+  /* Nav, content, and footer widen together so their left edges line up. */
+  .container {
+    max-width: 1140px;
+  }
+
+  /* auto-fit, not auto-fill: at this width auto-fill reserves a 4th empty
+     track and leaves three cards narrow and hugging the left edge. */
+  .card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+  }
+
+  .hero {
+    padding: 88px 0 72px;
+  }
+
+  .hero-inner {
+    gap: 56px;
+  }
+
+  .cover-art {
+    width: 280px;
+    height: 280px;
+  }
+
+  .hero h1 {
+    font-size: 3.25rem;
+  }
+
+  .tagline {
+    font-size: 1.15rem;
+  }
+
+  /* Home: episodes and About sit side by side instead of stacking, which
+     also keeps episode text at a readable line length at this width. */
+  .home-columns {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    gap: 48px;
+    align-items: start;
+  }
+
+  .home-columns #about {
+    margin-top: 0;
+  }
+
+  /* Socials: the three profile links become a row of tiles. Handle drops
+     under the name — side by side, "@art.of.artists.podcast" can't fit a
+     third of the row near the breakpoint and has no spaces to wrap at. */
+  .social-list {
+    flex-direction: row;
+  }
+
+  .social-list li {
+    flex: 1;
+  }
+
+  .social-list li a {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+}
