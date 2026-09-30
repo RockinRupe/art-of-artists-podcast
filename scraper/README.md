@@ -24,9 +24,17 @@ Output goes to `data/`:
 - `music-news.json` holds the same stories as structured data (title, link, source,
   date, summary, categories, matched artists), plus any feeds that failed.
 
-The site's **Music News** page (`news.html`) reads `data/music-news.json`. To
-update the page, run the scraper, then commit and push the `data/` folder. Until
+The site's **Music News** page (`news.html`) reads `data/music-news.json`. Until
 that file exists, the page shows "No news yet".
+
+## Daily updates
+
+`.github/workflows/music-news.yml` runs the scraper every day at 12:17 UTC on
+GitHub Actions, then commits the refreshed `data/` folder to `main`. To run it
+immediately, open the repo's **Actions** tab, pick **Update music news**, and
+click **Run workflow**. If every feed fails, the job fails and nothing is
+committed, so the page keeps showing the last good results. You can still run
+the scraper by hand and commit `data/` yourself.
 
 ## Customize: `scraper/config.json`
 
