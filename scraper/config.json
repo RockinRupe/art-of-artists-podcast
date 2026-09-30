@@ -1,0 +1,47 @@
+{
+  "days": 7,
+  "watchlist": [
+    "Taylor Swift",
+    "Kendrick Lamar",
+    "Radiohead",
+    "Beyoncé",
+    "Tyler, the Creator",
+    "Fleetwood Mac"
+  ],
+  "feeds": [
+    { "name": "Pitchfork News", "url": "https://pitchfork.com/feed/feed-news/rss" },
+    { "name": "Pitchfork Reviews", "url": "https://pitchfork.com/feed/feed-album-reviews/rss", "category": "new_release" },
+    { "name": "Rolling Stone", "url": "https://www.rollingstone.com/music/music-news/feed/" },
+    { "name": "Billboard", "url": "https://www.billboard.com/c/music/music-news/feed/" },
+    { "name": "Stereogum", "url": "https://www.stereogum.com/feed/" },
+    { "name": "NME", "url": "https://www.nme.com/news/music/feed" },
+    { "name": "Consequence", "url": "https://consequence.net/feed/" },
+    { "name": "Google News: music deaths", "url": "https://news.google.com/rss/search?q=(musician+OR+singer+OR+rapper+OR+guitarist+OR+drummer)+(dies+OR+died+OR+%22dead+at%22)+when:7d&hl=en-US&gl=US&ceid=US:en" },
+    { "name": "Google News: new albums", "url": "https://news.google.com/rss/search?q=%22new+album%22+OR+%22new+single%22+when:7d&hl=en-US&gl=US&ceid=US:en" }
+  ],
+  "search_watchlist_on_google_news": true,
+  "categories": {
+    "death": [
+      "\\bdies\\b", "\\bdied\\b", "\\bdead at \\d+", "\\bhas died\\b", "\\bpassed away\\b",
+      "\\bobituary\\b", "\\bin memoriam\\b", "\\bR\\.?I\\.?P\\.?\\b", "\\bdeath of\\b",
+      "\\bremembering\\b", "\\bmourn(s|ing)?\\b", "\\btributes? (pour|flow)"
+    ],
+    "new_release": [
+      "\\bnew (album|single|song|ep|lp|mixtape|record|video|music)\\b",
+      "\\b(announces?|shares?|releases?|drops?|unveils?|premieres?|teases?) .*\\b(album|single|song|ep|lp|mixtape|track|video)\\b",
+      "\\bout now\\b", "\\bsurprise[- ]release", "\\bdebut (album|single|ep)\\b",
+      "\\btracklist\\b", "\\balbum review\\b", "\\blisten\\b"
+    ],
+    "tour": [
+      "\\btour\\b", "\\btour dates\\b", "\\bfestival\\b", "\\blineup\\b", "\\bresidency\\b", "\\breunion\\b"
+    ],
+    "awards_charts": [
+      "\\bgramm(y|ys)\\b", "\\bbillboard (200|hot 100)\\b", "\\bchart(s|ing)?\\b", "\\bnominat(ed|ions?)\\b",
+      "\\bawards?\\b", "\\bno\\. ?1\\b", "\\bhall of fame\\b"
+    ],
+    "legal_drama": [
+      "\\blawsuit\\b", "\\bsu(es|ed|ing)\\b", "\\barrest(ed)?\\b", "\\bcharged\\b", "\\bcourt\\b",
+      "\\bcancel(s|led|ed)\\b", "\\bfeud\\b", "\\bbreak(s)? up\\b", "\\bsplit\\b"
+    ]
+  }
+}
