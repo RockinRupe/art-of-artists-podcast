@@ -121,7 +121,7 @@ def parse_feed(xml_bytes: bytes, source: str) -> list[Story]:
         stories.append(Story(
             title=title,
             link=link,
-            source=f"{source} ({item_source})" if item_source else source,
+            source=item_source or source,
             published=dt.isoformat() if dt else None,
             summary=clean_text(_text(item, "description")),
         ))

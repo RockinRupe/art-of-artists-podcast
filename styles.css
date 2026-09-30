@@ -50,7 +50,8 @@ body {
 
 .nav-links {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 8px 20px;
 }
 
 .nav-links a {
@@ -322,6 +323,69 @@ h2 {
   margin: 0;
   color: var(--text-muted);
   font-size: 0.95rem;
+}
+
+/* ---------- Music News ---------- */
+.page-header .news-updated {
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.news-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 24px 0;
+}
+
+.news-filters button {
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.news-filters button:hover {
+  color: var(--text);
+}
+
+.news-filters button[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.news-source {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+
+.news-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.news-tags span {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-muted);
+}
+
+.news-empty {
+  color: var(--text-muted);
+  list-style: none;
 }
 
 .site-footer {

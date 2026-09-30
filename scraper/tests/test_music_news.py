@@ -48,7 +48,7 @@ class ParseTests(unittest.TestCase):
     def test_google_news_strips_publisher_suffix(self):
         stories = mn.parse_feed((FIXTURES / "google_news.xml").read_bytes(), "GN")
         self.assertEqual(stories[0].title, "Taylor Swift surprise-releases acoustic EP")
-        self.assertEqual(stories[0].source, "GN (Billboard)")
+        self.assertEqual(stories[0].source, "Billboard")
 
 
 class ScrapeTests(unittest.TestCase):

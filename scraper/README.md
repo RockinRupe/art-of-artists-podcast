@@ -22,8 +22,11 @@ Output goes to `data/`:
 
 - `music-news.md` is a readable digest grouped by watchlist artist, then by category.
 - `music-news.json` holds the same stories as structured data (title, link, source,
-  date, summary, categories, matched artists), plus any feeds that failed. A
-  web page could load this file later.
+  date, summary, categories, matched artists), plus any feeds that failed.
+
+The site's **Music News** page (`news.html`) reads `data/music-news.json`. To
+update the page, run the scraper, then commit and push the `data/` folder. Until
+that file exists, the page shows "No news yet".
 
 ## Customize: `scraper/config.json`
 
