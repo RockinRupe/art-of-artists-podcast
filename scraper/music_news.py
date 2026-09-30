@@ -146,8 +146,9 @@ def parse_feed(xml_bytes: bytes, source: str) -> list[Story]:
     return stories
 
 
-def google_news_url(query: str, days: int) -> str:
-    q = urllib.parse.quote_plus(f'"{query}" when:{days}d')
+def google_news_url(terms: list[str], days: int) -> str:
+    phrases = " OR ".join(f'"{t}"' for t in terms)
+    q = urllib.parse.quote_plus(f"{phrases} when:{days}d")
     return f"https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
 
 
@@ -162,9 +163,34 @@ def compile_categories(config: dict) -> dict[str, list[re.Pattern]]:
     }
 
 
-def artist_pattern(name: str) -> re.Pattern:
+def artist_pattern(terms: list[str]) -> re.Pattern:
     # Word boundaries that also work for names starting/ending in punctuation.
-    return re.compile(rf"(?<!\w){re.escape(name)}(?!\w)", re.IGNORECASE)
+    alternatives = "|".join(re.escape(t) for t in terms)
+    return re.compile(rf"(?<!\w)(?:{alternatives})(?!\w)", re.IGNORECASE)
+
+
+def load_watchlist(path: Path) -> dict[str, list[str]]:
+    """Read the artists file: one artist per line, "#" starts a comment.
+
+    "Queen | Freddie Mercury | Brian May" tracks Queen using only the terms
+    after the name, for artists whose name is too common to search alone.
+    """
+    watchlist: dict[str, list[str]] = {}
+    for line in path.read_text(encoding="utf-8-sig").splitlines():
+        line = line.split("#", 1)[0].strip()
+        if not line:
+            continue
+        name, *terms = [part.strip() for part in line.split("|")]
+        terms = [t for t in terms if t]
+        if name:
+            watchlist[name] = terms or [name]
+    return watchlist
+
+
+def as_watchlist(watchlist: dict[str, list[str]] | list[str]) -> dict[str, list[str]]:
+    if isinstance(watchlist, dict):
+        return watchlist
+    return {name: [name] for name in watchlist}
 
 
 def classify(story: Story, categories: dict[str, list[re.Pattern]],
@@ -209,25 +235,27 @@ def dedupe(stories: Iterable[Story]) -> list[Story]:
     return out
 
 
-def build_feed_list(config: dict, days: int, watchlist: list[str]) -> list[dict]:
+def build_feed_list(config: dict, days: int,
+                    watchlist: dict[str, list[str]] | list[str]) -> list[dict]:
     feeds = list(config.get("feeds", []))
     if config.get("search_watchlist_on_google_news", True):
-        for artist in watchlist:
+        for artist, terms in as_watchlist(watchlist).items():
             feeds.append({
                 "name": f"Google News: {artist}",
-                "url": google_news_url(artist, days),
+                "url": google_news_url(terms, days),
                 "artist": artist,
             })
     return feeds
 
 
-def scrape(config: dict, days: int, watchlist: list[str],
+def scrape(config: dict, days: int, watchlist: dict[str, list[str]] | list[str],
            fetcher: Callable[[str], bytes] = fetch,
            now: datetime | None = None, log=print) -> tuple[list[Story], list[dict]]:
     now = now or datetime.now(timezone.utc)
     cutoff = now - timedelta(days=days)
     categories = compile_categories(config)
-    artists = {name: artist_pattern(name) for name in watchlist}
+    watchlist = as_watchlist(watchlist)
+    artists = {name: artist_pattern(terms) for name, terms in watchlist.items()}
     feeds = build_feed_list(config, days, watchlist)
 
     def load(feed: dict) -> tuple[dict, list[Story] | None, str | None]:
@@ -343,7 +371,9 @@ def main(argv: list[str] | None = None) -> int:
 
     config = json.loads(args.config.read_text(encoding="utf-8"))
     days = args.days or config.get("days", 7)
-    watchlist = list(dict.fromkeys(config.get("watchlist", []) + args.artist))
+    watchlist = load_watchlist(args.config.parent / config.get("watchlist_file", "artists.txt"))
+    for name in args.artist:
+        watchlist.setdefault(name, [name])
 
     print(f"Scraping music news from the last {days} day(s)…", file=sys.stderr)
     stories, errors = scrape(config, days, watchlist)
@@ -352,7 +382,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.watchlist_only:
         stories = [s for s in stories if s.artists]
 
-    json_path, md_path = write_outputs(stories, errors, args.out, days, watchlist,
+    json_path, md_path = write_outputs(stories, errors, args.out, days, list(watchlist),
                                        datetime.now(timezone.utc))
     print(f"\n{len(stories)} stories → {json_path} and {md_path}", file=sys.stderr)
     if errors:
