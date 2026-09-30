@@ -51,6 +51,29 @@ class ParseTests(unittest.TestCase):
         self.assertEqual(stories[0].source, "Billboard")
 
 
+class WatchlistTests(unittest.TestCase):
+    def test_load_watchlist(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "artists.txt"
+            path.write_text(
+                "\ufeff# comment\n\nPost Malone\n  Queen | Freddie Mercury | Brian May  \n"
+                "Heart |  # no terms given, falls back to the name\n",
+                encoding="utf-8")
+            self.assertEqual(mn.load_watchlist(path), {
+                "Post Malone": ["Post Malone"],
+                "Queen": ["Freddie Mercury", "Brian May"],
+                "Heart": ["Heart"],
+            })
+
+    def test_shipped_artists_file_loads(self):
+        watchlist = mn.load_watchlist(mn.ROOT / "artists.txt")
+        self.assertIn("Post Malone", watchlist)
+
+    def test_google_news_url_ors_terms(self):
+        url = mn.google_news_url(["Freddie Mercury", "Brian May"], 7)
+        self.assertIn("%22Freddie+Mercury%22+OR+%22Brian+May%22+when%3A7d", url)
+
+
 class ScrapeTests(unittest.TestCase):
     def setUp(self):
         config = load_config(feeds=[
@@ -97,6 +120,14 @@ class ScrapeTests(unittest.TestCase):
         stories, errors = mn.scrape(config, 7, [], fetcher=fake_fetcher, now=NOW, log=quiet)
         self.assertTrue(stories)
         self.assertEqual([e["feed"] for e in errors], ["Broken"])
+
+    def test_search_terms_stand_in_for_common_names(self):
+        config = load_config(feeds=[{"name": "RSS", "url": "https://example.com/rss"}],
+                             search_watchlist_on_google_news=False)
+        stories, _ = mn.scrape(config, 7, {"Jane Doe Fans": ["Jane Doe", "Someone Else"]},
+                               fetcher=fake_fetcher, now=NOW, log=quiet)
+        tagged = [s.title for s in stories if s.artists == ["Jane Doe Fans"]]
+        self.assertEqual(tagged, ["Legendary Soul Singer Jane Doe Dies at 81"])
 
     def test_write_outputs(self):
         with tempfile.TemporaryDirectory() as tmp:

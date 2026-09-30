@@ -36,11 +36,22 @@ click **Run workflow**. If every feed fails, the job fails and nothing is
 committed, so the page keeps showing the last good results. You can still run
 the scraper by hand and commit `data/` yourself.
 
-## Customize: `scraper/config.json`
+## Artists we follow: `scraper/artists.txt`
+
+This file lists the artists shown under **Artists We Follow** on the Music
+News page. Put one artist per line. Each artist also gets their own Google
+News search. To edit it on GitHub, open the file, click the pencil icon, and
+commit. The next daily update uses the new list.
+
+If an artist's name is also an everyday word, put the search terms after a
+`|`, like `Queen | Freddie Mercury | Brian May`. Instructions are at the top of
+the file.
+
+## Other settings: `scraper/config.json`
 
 | Key | What it does |
 | --- | --- |
-| `watchlist` | Artists to track. Each one also gets its own Google News search. |
+| `watchlist_file` | The file listing the artists to track (`artists.txt`). |
 | `feeds` | RSS/Atom feeds to read. Add `"category": "new_release"` to force a category for every story in a feed. |
 | `categories` | Regex patterns matched against headlines to tag stories. Add a new key to create a new category. |
 | `days` | Default look-back window. |

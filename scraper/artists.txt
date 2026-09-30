@@ -1,0 +1,15 @@
+# Artists we follow on the Music News page.
+#
+# Put one artist per line. Blank lines and lines starting with # are ignored.
+# Changes take effect on the next daily update.
+#
+# Some names are also everyday words ("Queen", "Heart", "Yes"), so searching
+# for the name alone brings in unrelated news. For those, put a | after the
+# name, then list the words to search for instead, separated by more |
+# symbols. Only those words are searched. The name is just the label shown on
+# the site.
+#
+#   Queen | Freddie Mercury | Brian May
+
+Post Malone
+Queen | Freddie Mercury | Brian May
