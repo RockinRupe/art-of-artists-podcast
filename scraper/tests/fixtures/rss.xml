@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Test Music News</title>
+<item><title>Legendary Soul Singer Jane Doe Dies at 81</title><link>https://example.com/jane-doe-dies</link><pubDate>Tue, 29 Sep 2026 14:00:00 GMT</pubDate><description>&lt;p&gt;The singer passed away at home.&lt;/p&gt;</description></item>
+<item><title>Radiohead Announce New Album, Share Lead Single</title><link>https://example.com/radiohead-album?utm=rss</link><pubDate>Mon, 28 Sep 2026 10:00:00 GMT</pubDate><description>Listen now.</description></item>
+<item><title>Kendrick Lamar Adds Stadium Tour Dates</title><link>https://example.com/kendrick-tour</link><pubDate>Sun, 27 Sep 2026 09:00:00 GMT</pubDate></item>
+<item><title>Grateful Dead Archive Opens to Public</title><link>https://example.com/dead-archive</link><pubDate>Sun, 27 Sep 2026 08:00:00 GMT</pubDate><description>Includes notes on Jerry Garcia, who died in 1995.</description></item>
+<item><title>Old Story From Last Year</title><link>https://example.com/old</link><pubDate>Mon, 01 Sep 2025 10:00:00 GMT</pubDate></item>
+</channel></rss>

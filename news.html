@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music News — Art of Artists</title>
+  <meta name="description" content="The latest music news: new releases, tributes, tours, and the artists we're following." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">Art of Artists</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="news.html" class="active">News</a>
+        <a href="merch.html">Merch</a>
+        <a href="socials.html">Socials</a>
+        <a href="recommendations.html">Recommendations</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="page-header">
+      <h1>Music News</h1>
+      <p>New releases, tributes, tours, and the artists we're keeping an eye on, pulled from around the music press.</p>
+      <p class="news-updated" id="news-updated"></p>
+    </section>
+
+    <section>
+      <div class="news-filters" id="news-filters" role="group" aria-label="Filter stories"></div>
+      <ul class="episode-list news-list" id="news-list">
+        <li class="news-empty">Loading the latest stories…</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Art of Artists</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
