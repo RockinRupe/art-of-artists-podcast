@@ -8,7 +8,7 @@ The site is published with GitHub Pages from the `main` branch, so changes pushe
 
 ## Music News
 
-The [Music News page](https://rockinrupe.github.io/art-of-artists-podcast/news.html) is updated automatically every day by a scraper that collects music news.
+The [Music News page](https://rockinrupe.github.io/art-of-artists-podcast/news.html) is updated automatically every weekday by a scraper that collects music news.
 
 - **To change which artists it follows,** edit [`scraper/artists.txt`](scraper/artists.txt).
 - **To learn how the scraper works,** see [`scraper/README.md`](scraper/README.md).

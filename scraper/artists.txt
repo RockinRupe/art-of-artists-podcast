@@ -1,7 +1,7 @@
 # Artists we follow on the Music News page.
 #
 # Put one artist per line. Blank lines and lines starting with # are ignored.
-# Changes take effect on the next daily update.
+# Changes take effect on the next weekday update.
 #
 # Some names are also everyday words ("Queen", "Heart", "Yes"), so searching
 # for the name alone brings in unrelated news. For those, put a | after the

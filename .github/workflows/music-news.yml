@@ -1,10 +1,10 @@
 name: Update music news
 
-# Runs scraper/music_news.py once a day and commits the refreshed
+# Runs scraper/music_news.py every weekday and commits the refreshed
 # data/music-news.json (read by news.html) and data/music-news.md.
 on:
   schedule:
-    - cron: "17 12 * * *" # daily at 12:17 UTC (morning in the US)
+    - cron: "17 12 * * 1-5" # Monday to Friday at 12:17 UTC (morning in the US)
   workflow_dispatch: # "Run workflow" button on the Actions tab
 
 permissions:
