@@ -27,9 +27,9 @@ Output goes to `data/`:
 The site's **Music News** page (`news.html`) reads `data/music-news.json`. Until
 that file exists, the page shows "No news yet".
 
-## Daily updates
+## Weekday updates
 
-`.github/workflows/music-news.yml` runs the scraper every day at 12:17 UTC on
+`.github/workflows/music-news.yml` runs the scraper every weekday at 12:17 UTC on
 GitHub Actions, then commits the refreshed `data/` folder to `main`. To run it
 immediately, open the repo's **Actions** tab, pick **Update music news**, and
 click **Run workflow**. If every feed fails, the job fails and nothing is
@@ -41,7 +41,7 @@ the scraper by hand and commit `data/` yourself.
 This file lists the artists shown under **Artists We Follow** on the Music
 News page. Put one artist per line. Each artist also gets their own Google
 News search. To edit it on GitHub, open the file, click the pencil icon, and
-commit. The next daily update uses the new list.
+commit. The next weekday update uses the new list.
 
 If an artist's name is also an everyday word, put the search terms after a
 `|`, like `Queen | Freddie Mercury | Brian May`. Instructions are at the top of
