@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Music news scraper for Art of Artists.
+"""Music news scraper for The Art of Everything.
 
 Pulls RSS/Atom feeds from music publications (plus Google News searches for
 each watchlist artist), tags every story by category (deaths, new releases,
@@ -33,7 +33,7 @@ from typing import Callable, Iterable
 ROOT = Path(__file__).resolve().parent
 DEFAULT_CONFIG = ROOT / "config.json"
 DEFAULT_OUT_DIR = ROOT.parent / "data"
-USER_AGENT = "Mozilla/5.0 (compatible; ArtOfArtistsNewsBot/1.0)"
+USER_AGENT = "Mozilla/5.0 (compatible; ArtOfEverythingNewsBot/1.0)"
 
 CATEGORY_LABELS = {
     "death": "Deaths & Tributes",

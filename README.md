@@ -1,6 +1,6 @@
-# Art of Artists Podcast
+# The Art of Everything Podcast
 
-Website for **Art of Artists**, a podcast where two brothers who love pretty much everything about music discuss what inspires famous musicians, their backgrounds, and how they achieved fame.
+Website for **The Art of Everything**, a podcast where two brothers who love pretty much everything about music discuss what inspires famous musicians, their backgrounds, and how they achieved fame.
 
 **Live site:** https://rockinrupe.github.io/art-of-artists-podcast/
 
