@@ -54,10 +54,9 @@ the file.
 
 The terms after `|` **replace** the name: only those terms are searched and
 matched, and the name is just the label. Use `|` only for names that are also
-everyday words. For a name like `Breaking Benjamin | Benjamin Burley`, nothing
-searches for "Breaking Benjamin", and a misspelled term (the singer is Benjamin
-Burnley) finds nothing. To include the name too, list it as a term:
-`Name | Name | Other term`.
+everyday words. For example, `Breaking Benjamin | Benjamin Burnley` would never
+search for "Breaking Benjamin", and a misspelled term would find nothing at
+all. To include the name too, list it as a term: `Name | Name | Other term`.
 
 ## Other settings: `scraper/config.json`
 
