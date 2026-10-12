@@ -379,7 +379,7 @@ def main(argv: list[str] | None = None) -> int:
     stories, errors = scrape(config, days, watchlist)
     if args.category:
         stories = [s for s in stories if args.category in s.categories]
-    if args.watchlist_only:
+    if args.watchlist_only or config.get("watchlist_only", False):
         stories = [s for s in stories if s.artists]
 
     json_path, md_path = write_outputs(stories, errors, args.out, days, list(watchlist),

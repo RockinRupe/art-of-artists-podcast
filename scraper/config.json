@@ -1,6 +1,7 @@
 {
   "days": 7,
   "watchlist_file": "artists.txt",
+  "watchlist_only": true,
   "feeds": [
     { "name": "Pitchfork News", "url": "https://pitchfork.com/feed/feed-news/rss" },
     { "name": "Pitchfork Reviews", "url": "https://pitchfork.com/feed/feed-album-reviews/rss", "category": "new_release" },
