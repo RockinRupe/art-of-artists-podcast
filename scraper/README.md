@@ -36,6 +36,11 @@ click **Run workflow**. If every feed fails, the job fails and nothing is
 committed, so the page keeps showing the last good results. You can still run
 the scraper by hand and commit `data/` yourself.
 
+GitHub often starts scheduled runs late. In practice the update has landed
+between about 18:00 and 21:30 UTC instead of 12:17, so don't rely on the exact
+time. Each commit the job makes republishes the site through GitHub Pages
+automatically. No extra deploy step is needed.
+
 ## Artists we follow: `scraper/artists.txt`
 
 This file lists the artists shown under **Artists We Follow** on the Music
@@ -46,6 +51,13 @@ commit. The next weekday update uses the new list.
 If an artist's name is also an everyday word, put the search terms after a
 `|`, like `Queen | Freddie Mercury | Brian May`. Instructions are at the top of
 the file.
+
+The terms after `|` **replace** the name: only those terms are searched and
+matched, and the name is just the label. Use `|` only for names that are also
+everyday words. For a name like `Breaking Benjamin | Benjamin Burley`, nothing
+searches for "Breaking Benjamin", and a misspelled term (the singer is Benjamin
+Burnley) finds nothing. To include the name too, list it as a term:
+`Name | Name | Other term`.
 
 ## Other settings: `scraper/config.json`
 
