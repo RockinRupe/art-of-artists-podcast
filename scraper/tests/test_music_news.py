@@ -1,3 +1,5 @@
+import contextlib
+import io
 import json
 import sys
 import tempfile
@@ -137,6 +139,38 @@ class ScrapeTests(unittest.TestCase):
             md = md_path.read_text()
             self.assertIn("## Deaths & Tributes (1)", md)
             self.assertIn("### Radiohead", md)
+
+
+class MainTests(unittest.TestCase):
+    def run_main(self, watchlist_only):
+        stories = [
+            mn.Story("About Radiohead", "https://example.com/a", "RSS", None, artists=["Radiohead"]),
+            mn.Story("About someone else", "https://example.com/b", "RSS", None),
+        ]
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            (tmp / "artists.txt").write_text("Radiohead\n", encoding="utf-8")
+            config = load_config(feeds=[], search_watchlist_on_google_news=False,
+                                 watchlist_only=watchlist_only)
+            (tmp / "config.json").write_text(json.dumps(config), encoding="utf-8")
+            original = mn.scrape
+            mn.scrape = lambda *args, **kwargs: (stories, [])
+            try:
+                with contextlib.redirect_stderr(io.StringIO()):
+                    mn.main(["--config", str(tmp / "config.json"), "--out", str(tmp / "out")])
+            finally:
+                mn.scrape = original
+            data = json.loads((tmp / "out" / "music-news.json").read_text())
+            return [s["title"] for s in data["stories"]]
+
+    def test_watchlist_only_setting_keeps_only_followed_artists(self):
+        self.assertEqual(self.run_main(True), ["About Radiohead"])
+
+    def test_watchlist_only_off_keeps_everything(self):
+        self.assertEqual(self.run_main(False), ["About Radiohead", "About someone else"])
+
+    def test_shipped_config_is_watchlist_only(self):
+        self.assertTrue(load_config().get("watchlist_only"))
 
 
 if __name__ == "__main__":

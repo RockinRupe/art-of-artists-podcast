@@ -43,8 +43,11 @@ automatically. No extra deploy step is needed.
 
 ## Artists we follow: `scraper/artists.txt`
 
-This file lists the artists shown under **Artists We Follow** on the Music
-News page. Put one artist per line. Each artist also gets their own Google
+This file chooses which artists the Music News page covers. With
+`watchlist_only` on (the default), every story on the page (news, releases,
+tributes, tours, and everything else) is about an artist in this file. The
+music publication feeds are still read, but only stories that mention one of
+these artists are kept. Put one artist per line. Each artist also gets their own Google
 News search. To edit it on GitHub, open the file, click the pencil icon, and
 commit. The next weekday update uses the new list.
 
@@ -63,6 +66,7 @@ all. To include the name too, list it as a term: `Name | Name | Other term`.
 | Key | What it does |
 | --- | --- |
 | `watchlist_file` | The file listing the artists to track (`artists.txt`). |
+| `watchlist_only` | `true` keeps only stories about artists in `artists.txt`, in every category. Set it to `false` to show all music news, with your artists tagged. |
 | `feeds` | RSS/Atom feeds to read. Add `"category": "new_release"` to force a category for every story in a feed. |
 | `categories` | Regex patterns matched against headlines to tag stories. Add a new key to create a new category. |
 | `days` | Default look-back window. |

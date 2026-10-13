@@ -160,8 +160,11 @@ async function loadMusicNews() {
     filters.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.key === key));
   }
 
-  // Only offer filters that have stories behind them.
+  // Only offer filters that have stories behind them. When every story is
+  // about a followed artist, "Artists We Follow" would just repeat "All".
+  const everyStoryFollowed = stories.every((s) => s.artists.length > 0);
   filters.innerHTML = NEWS_FILTERS.filter(([key]) => stories.some((s) => matches(s, key)))
+    .filter(([key]) => !(key === "watchlist" && everyStoryFollowed))
     .map(([key, label]) => `<button type="button" data-key="${key}">${label}</button>`)
     .join("");
   filters.addEventListener("click", (e) => {
