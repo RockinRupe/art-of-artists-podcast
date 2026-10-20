@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T18:44:42.432923+00:00",
+  "generated_at": "2026-10-20T17:15:21.683034+00:00",
   "days": 7,
   "watchlist": [
     "Post Malone",
@@ -10,24 +10,245 @@
     "Kendrick Lamar"
   ],
   "counts": {
-    "other": 165,
+    "new_release": 5,
+    "other": 163,
     "awards_charts": 11,
-    "tour": 6,
-    "new_release": 6,
+    "tour": 7,
     "legal_drama": 2
   },
   "stories": [
     {
-      "title": "Why Conservatives Should Root for Taylor Swift",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBkRXBfb3RySUNZdlgtdjNXOElMWllsY1RHRlRGeFhGemVQZjZ2WFJnRmRpd3M1Z2Q5Yk1EVHNmQ0lxcmZHbkFSRjdaeTlGazRaaEkxMEJnQUZ2MW5JNzBaemhmaGp6aWU1N0Q4NnMtUF9QdVI3Z29OeUhNcFRnQQ?oc=5",
-      "source": "Institute for Family Studies",
-      "published": "2026-10-19T17:28:21+00:00",
-      "summary": "Why Conservatives Should Root for Taylor Swift Institute for Family Studies",
+      "title": "Taylor Swift to release new original song for 'Toy Story 5'",
+      "link": "https://news.google.com/rss/articles/CBMizhNBVV95cUxPOEVhRkJsSVJGQ09TckUxMFBLWG1CVHFYbmJjVDZzeUY3bVQ4RGs2WEFvb1YtVE9KRkViOTd2NHVUZ0EwUDdIbkg1a21qMXVZZ3NTZDNieHlsYW5ycFp5T3REazdsTUJPSGVNamhVdWFjUlRYQnRiWXE2VEt6M0x4YVdhZFY3WFJOVHVpalFuTmpQM3lJTW1XY3FlNWFFX1F4VTJTUnhQQ0tkZnhXUkZ4WUpBWVg5aEJTU09wR3ZfY1dLNjhqVWlTVTU3SG9mblNVcE1zLUcwa1BMalVhSWNSOEJub1A0LUhvWFh2ZDQyWE92UXJrblB4VkthT0U0VlZEazhueTZQQnUtSEVjcU51Ni1QU1B5UEJ6bjNaSkxRRzE1aFh5ZVJZUy0wN2hWNmU1MHl1cGYzMUpFNGpDbXNEYi1SMF9fMjBqcW1NMXM3Z2VxTkhnb3R1QXhxZ0dESGxhakxCT0FiejFGY3hXVFZnMF84YzE3YjlaU3dwV1B4c2ZYb3RBdGVONU5HcjlEUURlcDRoZXNyQjZCWm4zZEx3eS1FTXpUekQ3T0hTMm9MLXZVUDJPMmhXbGRvblRsNFNjTGpkN0hDOXp1RlZjaDhXLURybi1uc3dmeXJyeHJYZnFUVWNqcm9hWlpPYnFMc3NaNG0wLUJqa1hqeXJOdWlYME9vRkxINFZqZnNMNnlDSTJLUmFqdGxfOVZlaHhhaUV2RkRPMV9hRHg4ZDk3Y3VsVkd3U0kyS0l0ZDFGa2I0LTBqYWV3SDZZRmVTUzB1LUp6MnRlLUNEUTU2MVU2ZndUVDg3M3BHLW1qUE43YjAwMTVOeGRfTnNHel93U2NyenRmZXhyNGVVa05wN21nQUZGRkJicWJHZWJFS1d0WTM5aDV4SXM5eFJtd2gzT0hIRkNkQ3h4OWFKX1AyS0dVVjJVVHdKRXJLeFNvVDREYkh4UWhlSkpWU0hzOXJVSE1ZT21QVVoxdDY4TkpSRXBPTVplS2FVajdPMDA0eEgtM0tUVXI3M0sza0VXbHNlV2E5RWMzSVJ6Qmx0QXNfdE5UclMzY0lyeGtORHRmaVhMb2xfUk11WGFaTkUxSnh0ekIwT1FMQnNhemN3NHVEYWZEZEl3SFgzTEIzbDBIalg2ZU9ueUdYVXp1NUdWbmtYeC1wRnpfdXhTOGo2YjdqMlNlOE5BM2k0RXRWNVN1bzlLSG9jYmoyZFA0aHR5cDB6Zk9Qd2tDYzhuSDRfcnE3WVhhelhoNHp0YU9DcF9ZaVdXVDUySlNudUJZR0NMcER3LVN5b0ZxMzRiTWFwelVYeE9fcUpYdWlSd2xHT1pZSkJDY1lxaHVseHlmczZfZ0Z1amtQSFc1QWpMbG9GbmJBN0kwanlRdnJsNmpxN1RMd2NuNUlRX3VmdmpWWHBKSGFnWU0xZUY5YlpUZExCX2NuaFN5ZG1MU3NqRzlxRnV5ZkVReW02N0ZtU1ZNeWVNQi1tTEFKbnc0YnRxUHNOekpIeHIydkpsSlRaaUx0ckk4VkI3R2prNUJQWUNrbWlNR3ZWMUZrNEJhUnBsTDZ4dnZxT25mOUgxa2tPOEJfeEVDUlhKMzdHNENzenNHU3NMX2gxV0hIVGRENEVPX0VOajZyQzNiMnpydUFSRFJuYnJwSEVjcklDejlMdWtZTThqRGtSQUJPa3NwcGZVaHI2V1h2UmRmOXgtT2FIRGh2ZkVUa2xmSHNocWNsWkRVM2lNS2ZWV2dmbnhXNnF4SV8xMTFfQ2d6cUQxdnBEY1ZFTUdfcnk2NGk4UmFMUzlnbTl1eHR6MFpNWWhhb2xPaWVQTlRQekd2MFRtNzV3WDEyRDEtQzFTZWxyLUxpVVEtNzZtY29GRURQU2ZDcHJqTFEyOTBuYUJBUE9MZjNDaEFkd1gxVUxsV01tWUdocURDbXQ0cTZuVUVkeEJxQktHcVYyR1gzODhueE94a0RtdnBpX0FRd296S3VYREduT1U3T2IyYmtvWjRQWWdsYVFCeDdNTFlzU1Fha0UyVlNhTXQtRGdGZk82R1daTnlxRk5ZWGQ2ejhyRTBVWk85eFQyQW5aY3lXVlphQ3loZ3h1MW8taTZuWGZyNTgxT3c5ZXQza2JaeVFZOW5kQkl1NzVMb1d3cWZMbGhMQTBBUGNEcmU5di0zZG1yV3ZxMndxbjg3YS1Tai1uSU81UGMzQ3pzTy1veDByeHI2T0ZzZnBZRkdPZEJva0l4TmIxczFwS0kxdTNkQlBqOXEzY25ReTNfQXlLelZIUzRUeWNqWDJfVXJCb3YtMVhyNDhQOXhNZXJoUFR4ZlllVkJyQTdTSUt4c2Z5Z2d2U1JtODctVkxXdk9zQ1hmQzdnV1hyZkVWTkRES1J0bGE2SDBSN1ZtNzZtNTF0OV91Ry16MnM3UjFpbEpZUVpraE5RVERDY2VIZWJHTS1PcFJWMTdUQ2dab09MN3lscXd4bUhHYzZ2NDNNdFd1UUZuSElSU2VZRVlsZnRnb1NVNG1qZ1hoRDI3dXhvYUVSbE1uTTJrYmhwd1BSS2l3bVVoZ0loMnlOOTFaVktWN1FqWjQ3R3J1Wm1vVk8tcDVzRUFua2RqMEREdmkxUm1fMk1vTEdSSkppa1E0bXBiSW93N0E3cGl0MjEtQVlPaDBuX2gzMnNONmh2LTFzOHRGMEV1Q2QySmY2eDBoTkNlZjk5N0M2NmFPbjNFTkU4WHRhSm1VbXNhT2FmLTNPOW5WRjdteVFnQTFjbmdjdXpRclV1ZE1GdHNiOHI2N202N2t4MER5QXhxWXM1VFlNODZ6emRCUmVDVmxvZjdJcGR4MFh2cnZNZkV2WFJnbFdWakxkaHdmLUZKSFh0UWQwbUJzbmFZTVFwYzVybjNsNGxkRGc2bUQ2VWsyQkZmLVJIaUdQYW5zYjVQbW93djZldkxidjNMc21VRGpZanF6a1ZqSENqTE16QVhRZFl2cGU1eVliaU51VzliYWNIeldZQWdPZjNzWE5QMldaLTZCWG5kMWpFa3R0WmdoVlk3TkJtbEF6cVpSZ0RPeXhhQU92T0huSjB5WEtROVMtVHhpUjFiVFlDQUMxY2lKNlpEazIzcGdudGxwU1ZiNFY2di1rVEV4a2E3Q2w0QkI5c0pnMUZwdzlmakdWT1Bla0N2RDhpR282V0NYUXd4Sldhb3IxdzRIU0JCS1JYR0JULVk4RHNFUEJ6YVVxY1o2b1V5ZHJ4TmxFb0dHZmVBb21uc2hrZUM0MDZjOVZqYi1IZnZXMkdNZkgxNXRGMGN3X0dsRWpXS2k2aFZHY183NGQzX3NPM2RSNUdNVHdqU2ZPb1NwMmhFTnc5WVZieFl4QdIBkAFBVV95cUxNaUV1eHNSYVBxZER2NzdZSjZtVUw2N2V1T2M5WWw0NFN4dlJzVGJvMHM2c0p6VzhMaDhMWnBxdk1QbUFTbUc0S2ZoTEpJb3c2WXpZcGt6RVF1SzJJU1kwclNITHhRNXNONGRoLWR0S25CT1BLaDBQNElkVVV6ZWtnU2lSUkcyYzh3WUdsQWoydnQ?oc=5",
+      "source": "ABC11 News",
+      "published": "2026-10-20T12:34:47+00:00",
+      "summary": "Taylor Swift to release new original song for 'Toy Story 5' ABC11 News",
+      "categories": [
+        "new_release"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift, Grimes, femtanyl, A$AP Rocky | Weekly Track Roundup: 10/18/26",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPakNJZExrX1QwTjEwMFpsVWtnbnVEM3FjWHVrWnhkNEE3cDc2N0RwMFdHYXhwWHYxNjFpSktGcUcxb3BnX0dyLUJJcmRkbV9kOEo5MlJlbW50azE2WmpCZnNDaEsybDE4UkZNRHE1YkpueWdWRnN6ZzhfUFJ4WEFlUTcwYlVwRWllR19EUkdiRjZxNXAxT2U1Mkg3Q2I0aW9pMmVRYUVDZ21neTNHaVA1R2REOA?oc=5",
+      "source": "The Needle Drop",
+      "published": "2026-10-20T12:28:36+00:00",
+      "summary": "Taylor Swift, Grimes, femtanyl, A$AP Rocky | Weekly Track Roundup: 10/18/26 The Needle Drop",
       "categories": [
         "other"
       ],
       "artists": [
         "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Brian May makes 'unworthy' admission as he recieves top award",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQXExeHlOX0lCcjYxa3VHOTY3Z0xjSTU1RU10eFhZVm1OTGJ1WlVKV05UbEFqbVdrOXI1UnQzdFFxNkstQUJ4Z2hEOXBTSGhqeHdQSnd1TEtLR0txdFN2cjRTT3ZBbHVnSzhhcDRoWFhNUDZvYVlfaC1IbGxXUW10ODJLTHlaOUhyT3fSAY8BQVVfeXFMUGktX1FxbmhwWjlMYWNkZ1ZtdlUwMEpLTEVjdzBaNktKVGJQbTdHUGdiVWRkdUJjcTVSeUZNdmxEMTFLbUFfTmhQT3pIRjlKN0FYRVp4d3djWXZiUzV2d1Ztc3BGUS1XSjR6OUZ6c3hucC14a3A0OUI2VmpOZVlUR0Q2M3puUzhvaDNEWml4NVk?oc=5",
+      "source": "Daily Express",
+      "published": "2026-10-20T11:23:00+00:00",
+      "summary": "Brian May makes 'unworthy' admission as he recieves top award Daily Express",
+      "categories": [
+        "awards_charts"
+      ],
+      "artists": [
+        "Queen"
+      ]
+    },
+    {
+      "title": "Taylor Swift, Travis Kelce are married: All the details",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM2kzeXBZaWx3UTgtREdlWFFZTnRSbE9OWXJ5Z1l1Q2w2el9kOXRwMG1ldVBpUzJTSHA2dmxBZ3gtVHk4NUg5OGpyYk1DRXFtVjFtQVFRS09zVURXZ0V3cXJJQWdMOW9PZlY1am52V19RTHl1dENUODBFLWhfSlBPSmdFdWpfUXpnMlhUOC1EUVRoNXNINk5sM1NzWU9ZV0k5bV9EcHhFTdIBrAFBVV95cUxQOGUxOThQbTRuWWpzeFc3OV90bkRMb2VYNU50ZHZZSENWYy1pbE03RHlrZDJzbDlTUm10Qjg4MXprUjlsX3RrSDkzekMyTDBqWGtkb1B5MGM4WkJ5UDZXTDZJTEw5Qm1mRWl4WmZYdFlYWUVYTUF0STV3WGV3UWxXQU15NlBzOGdRVURwQV95T1phSnNvTWF1RWNRbkt0ZEhjZThZYnNWRG5Qak1N?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-10-20T09:49:42+00:00",
+      "summary": "Taylor Swift, Travis Kelce are married: All the details ABC News - Breaking News, Latest News and Videos",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "See moment Taylor Swift snaps at fan who filmed her during NFL game",
+      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNZFlnMjdvUlFvaGpYZHdpbzF3WW00UkNIMzBabnhmR3ZOMk9fY1FvaEQ4eFhBTmhuek5BVE1menpuSGVzN1RMUGllWjloSGRDVXpGQ0w3Q1BpOU1FQ21CdllzMll4VlRNY3VveHhOUmJQZ2JQMXdhczMxazJXTkVSQVU0T0pETXVkMEs3cmZDSV84OVdMT3FXRU1faVJTTzVTeGxodWtabE1nejJOLXY3NW5mYWVKMDJrNFdFMHZvNkxycXpSXzVDdmZ2Vk9CRnpOMnNTTVJZcDg1TExDc3JlV3E5cXhYVTNOQ1lfT21lcmQ2WVJjYTVQVERjS1BfS0xqd1E5b2NINTNGT01Vb01EZzd2d1VySGF2Ni1uYnZrbml2MkZob1Y3dWFVenc1em9v?oc=5",
+      "source": "Sky News Australia",
+      "published": "2026-10-20T03:07:11+00:00",
+      "summary": "See moment Taylor Swift snaps at fan who filmed her during NFL game Sky News Australia",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Did Taylor Swift Call Out a Fan for Filming Her at Chiefs Game? Here’s What Allegedly Happened.",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVFRNWU9YQ1JzMDNxaDBkV0Zkcks5Sm9FRTJHZ2tfSEdpc2NkX3plQUl1TU5VbXZxTTh4Y3pfajBfaVhhTkRRY1p1QmZuVHh3MFVFUFJSYXBWdWR0elJsclY0V2tHWDFBRjFkNjd3MHUtNExJSDdNWGF6MHd4b091OElQY0xQUVByN0kzc0syU1RFN1RmTE1SeDZhbw?oc=5",
+      "source": "Sports Illustrated",
+      "published": "2026-10-20T02:40:37+00:00",
+      "summary": "Did Taylor Swift Call Out a Fan for Filming Her at Chiefs Game? Here’s What Allegedly Happened. Sports Illustrated",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift Switches Up Her Wedding Ring Stack in the Subtlest Way Possible",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeS1jVC05eVlIbk9sOWlOckt6LTlvd0pxZjFjMFhrSnQ3VTB3cVZhRHZxYUVMOFBCbnJxWVAyUHJQLUJoalg1VWFIMkU3cFJGTVJGUHhXaWlzd1pSRlY2OTEzSmFVbnluOTYyUW1IdkNneXYwTjA3WFdWRHM2U1p6c24wTEVjV2VSQlhlR1haSll5WVp4OFZRdnFIcjdubDQ?oc=5",
+      "source": "InStyle",
+      "published": "2026-10-19T23:47:53+00:00",
+      "summary": "Taylor Swift Switches Up Her Wedding Ring Stack in the Subtlest Way Possible InStyle",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift faces questions over reported absence from Travis Kelce’s game",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMmVlQ21qR0k4RThiaVY3Q3hUWWtTWEpXNEM0Umk2aXg0STJFR3MtY19vdXFsMXRsVVN4SzZpai1aRWlFX0RfcFlEanB2MmRWcGpvZnZZREtQYmRrZjM3bDBFYTJ4amQ0MjhLMzQxR3JVTmpCYUNJZzFXN2dOU3d2RUxxaENzQTdqQl8wam9KVk5KaFZaQWp6NXpneDFOb3FNbzc4U3pB?oc=5",
+      "source": "Yahoo",
+      "published": "2026-10-19T22:00:00+00:00",
+      "summary": "Taylor Swift faces questions over reported absence from Travis Kelce’s game Yahoo",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift Made a Subtle Change to Her Wedding Stack—and Wore Her Band on Its Own",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdnVXZWYzMF9JZmwtUkh2eVRzUVJvLVMweEdlX3U4YkVSWE1qcklrZ1pZUWpWY3lOcjU4Z0Nxbk91dTBjUUZiX3hyZlRWbUkySVVqRWt2Zk9FNmxTbHlRU0FIV2c0QXNESzRoWm1sb05hdFNMNVBUc0djaVh5ZHZLOVBoM1hGU3FkNTZMRXdNbWx3eTdZeVRSbkJlMk5lZ2EtUTIwbkpSX3FJSzdHaHVILWJR?oc=5",
+      "source": "ELLE",
+      "published": "2026-10-19T21:15:00+00:00",
+      "summary": "Taylor Swift Made a Subtle Change to Her Wedding Stack—and Wore Her Band on Its Own ELLE",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift among 10 best-dressed stars at the Academy Museum Gala",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObE0wUnp0NUNjLXp4NndrdExmSHhvdlE3ZkhkbFd5SXk1ejRDdmhxejZDR0Y5dU1ydzFURjJyNlZoam9UMDQydmV1bjBSZTJ1Zi14WG56VjBubER6UDZhVXVUQVhnRGlkeGFtQnBQTFNwZ1ZBb3pnVHM2MnliVG5sWGpHVDd0SzNzVVZPWlpicGpndDJUOTJZVndPcTRrSUh2cTRDYlJhMkJaSjI1MlhZd3RBSlFtSlF3NjZyRS1ZUHhTSExnWXc?oc=5",
+      "source": "Los Angeles Times",
+      "published": "2026-10-19T21:01:28+00:00",
+      "summary": "Taylor Swift among 10 best-dressed stars at the Academy Museum Gala Los Angeles Times",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "REACTION INCOMING – 'What the HELL was that?!': Steele on Sen. Blackburn's AI Kendrick Lamar ad",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1JZXdwRW1QNTc5UlF0REFmelV2cUl6MWtIRWVZaklCRFlCZ1o1WlJCMjB1dWVhY19UVmlZd2l4REpjSGFYOVB0ZmFrMGNNZnpVZEVDdlEtV2NwUXFVclpV0gFcQVVfeXFMUGxKbHZ2OWhwR1h1RjVUZ1FWX2ZOV3lUUmtIZFU0Q1RyV0hDRUF1RThxRVhmWjJsaGkxZEY0RmJZT0cyUWEtSDZGdi1GU2IxNmVRbFNtVFR6N2U4dGQ?oc=5",
+      "source": "Modern Ghana",
+      "published": "2026-10-19T20:40:00+00:00",
+      "summary": "REACTION INCOMING – 'What the HELL was that?!': Steele on Sen. Blackburn's AI Kendrick Lamar ad Modern Ghana",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Kendrick Lamar"
+      ]
+    },
+    {
+      "title": "Strummingbird 2026 Announces Post Malone As Headliner For Three-Date Australian Run",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdnZDS1FlemJWV0xtcTZLMExLUi1Edl9JTGs0X3NYS0sxSm82ZHJhbm1hWXpfelVGdU1LUFN2RWZyeHl5M0RWOF95LUh6RFAzc0d1ODBoV3Y2UU5IS29EUnZ4WE92eFEyMEJzNnhCcHptOWlSZGdkdkhiN18wZ01zbVdB?oc=5",
+      "source": "TicketNews",
+      "published": "2026-10-19T20:16:12+00:00",
+      "summary": "Strummingbird 2026 Announces Post Malone As Headliner For Three-Date Australian Run TicketNews",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Post Malone"
+      ]
+    },
+    {
+      "title": "Post Malone Announces Asia Tour Dates with Don Toliver",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWkZPcm5FMlZIWnR4aXNvQURMRmUzSnNrRWRwYUYxTWx1RzVHYVJWLW9FTG9JN3JTRUNLbjJNZXFsdnFLUHBNRWNPXzhNRWdIUktvdXplcEVBRjVqREpaWXl0VzA2TF9HcXRudDhsNUZHM1lkNVJabUNoWnVWWFZHclZ6U3dDVVdnS2JHV0pHNW1QMW5u?oc=5",
+      "source": "TicketNews",
+      "published": "2026-10-19T20:06:51+00:00",
+      "summary": "Post Malone Announces Asia Tour Dates with Don Toliver TicketNews",
+      "categories": [
+        "tour"
+      ],
+      "artists": [
+        "Post Malone"
+      ]
+    },
+    {
+      "title": "Post Malone, HARDY Set to Headline Salute 250 Concert in Columbus",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYlVHRUpHNDkxckhnSExCZzkyXzAxUzhqZ3hkVUxEN1daWFMtUVE2QkxZeU5Nc21VTDNCV3ZZT1dLWDB2VUNZeTRjdHE0eWRZSFJjbGVqVGRqRW9JM1RDRnVkTjQ1MGd5Ry1yNGcwUnFsZFVhOERWN21rY0hTSW5QUkd0TWRDLW1N?oc=5",
+      "source": "TicketNews",
+      "published": "2026-10-19T20:02:23+00:00",
+      "summary": "Post Malone, HARDY Set to Headline Salute 250 Concert in Columbus TicketNews",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Post Malone"
+      ]
+    },
+    {
+      "title": "Taylor Swift seemingly tells fan to stop filming her during Chiefs game",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZC1lNXV1MHJhSGpKd21yN25tWm1qbF85a1g5Vm9malpta2JCYS1yRklONU04UWxkZ3RrV3I4XzJ5c0JEM2RoLTdVMW1lbFQzR3lkVzBna0h3Z0s1bGdwajZYTHZXMlUxY1lnaG9lRFlxRW9JU0NkYkxucjROZmZRNHdyT0RybEZ1WHQ5N0o3TkxPTC11Z240T0p4UEtIcTJpcDhVTA?oc=5",
+      "source": "Yahoo",
+      "published": "2026-10-19T19:59:08+00:00",
+      "summary": "Taylor Swift seemingly tells fan to stop filming her during Chiefs game Yahoo",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Post Malone, Riley Green, Luke Bryan and Blake Shelton Lead Carolina Country Music Fest Lineup",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQkJoc3ExVjFIbUxEUV9fdVloXzJEa2FybVlqZ0hsNVV6cTk3UzkycUJ0WWZFd0VpcE1XemZfUFhnOEdnZzFNdXNqUzRnaW5Vd2NQV3Q1UjlKRW0ycEMtWGE3Xy1rZVk3dmlULXRtOFNuMFl5TzNkODFoMTdxYjcwd184bVg0NDljR1hzX3otQng1WjQzRVFkQmhhVWc2WnFZaF93MUNiQW9La1Z4LWZ6amZMZllSa0xScTN5MlNLa2RsYm5FUHZV?oc=5",
+      "source": "TicketNews",
+      "published": "2026-10-19T19:39:37+00:00",
+      "summary": "Post Malone, Riley Green, Luke Bryan and Blake Shelton Lead Carolina Country Music Fest Lineup TicketNews",
+      "categories": [
+        "tour"
+      ],
+      "artists": [
+        "Post Malone"
+      ]
+    },
+    {
+      "title": "QUEEN's BRIAN MAY And YES Legend RICK WAKEMAN Deliver Spectacular Performances At STARMUS Festival In Tenerife!",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNMExQOWcwejhuSkJNM3BxdFV3LWFVM3hlUUN6QW9ZZTZwQklVZVJ1azBrWnVFXy1LRklteHBRRlNHTEhnUkZBYTJMdi1OUW5yc1N3U05wU0hsMkFHSEw3aDZUa0RwY2hiZmY3akpOcDQyZE1Xd0QwRS1leVFQM0NHbFlTTDN3SDlBWjRVeUpBbnNtUFNPeTNZRDhJRWVDQUJMOGRINjRZcWFUaHJrYV9zdEhXTWtURE5jd1NtRWpsRTIzNThTTTgwSENUbHpzRkFDYVI1eklWd0xaZkdZeXA4ZVBtaDZqb2pkWlF2eXlHaTZtU3JJZ0E?oc=5",
+      "source": "https://theriffreport.co.uk/",
+      "published": "2026-10-19T18:52:13+00:00",
+      "summary": "QUEEN's BRIAN MAY And YES Legend RICK WAKEMAN Deliver Spectacular Performances At STARMUS Festival In Tenerife! https://theriffreport.co.uk/",
+      "categories": [
+        "tour"
+      ],
+      "artists": [
+        "Queen"
+      ]
+    },
+    {
+      "title": "Bilmuri tickets on sale in Portland at Moda Center",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMGRxbTZJRXFuaHVZWEhyYlltNDJkM3JCWVpPVGlIU21oUURLNG1zcVhKV09paGFFTVM5TlNCUFFVSmtPM0xOdjFCWXRra0xjb3NxWkZ2TUljUlc0bUIzOXJlUWxSN2pNdVhZYVM3NXZvb0Vxc2xrcXI3dTBIT09XNnd1UXhON3c4YUEtcGs3aw?oc=5",
+      "source": "TicketNews",
+      "published": "2026-10-19T18:01:15+00:00",
+      "summary": "Bilmuri tickets on sale in Portland at Moda Center TicketNews",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Bilmuri"
       ]
     },
     {
@@ -51,6 +272,32 @@
       "summary": "Taylor Swift’s ‘Patient Zero’ No. 1 on Hot 100 for 3rd Week Billboard",
       "categories": [
         "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift Appears to Snap at Fan Trying to Film Her at Chiefs Game",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVmZKTFB5bnlhSDh5SUV6UTRmNi1zV0VPMnM2OVlYX3plVjFRdDJFUENBbHh0RmEzZGFURXZDMFRkS3I4R1hLYUh6a1NHWFZ4RjRpTnZyUFRhc2hwcmFCRDlFNmg2bkxTNzJRd3pnbk4wVDdsOWRWWU5oNVVmQ01oUEZXOWNfMS14MUNZTGVyYnNudmt5NU1pNw?oc=5",
+      "source": "Complex",
+      "published": "2026-10-19T16:41:35+00:00",
+      "summary": "Taylor Swift Appears to Snap at Fan Trying to Film Her at Chiefs Game Complex",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift visibly annoyed as Chiefs fan crosses the line during game",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdVh0WXlwakVpWmdyU3A2bTNmXzdsYTQtVl8tN2djR1JWRGVnbk1KSUdhM3hoLXRGV2owdXNkZTdzVjZPOHVYWDVIY2UwSjdlZjZqN2FReFhtZjltZ3ZTa2lTQUdpUlQwQmtnSld4N1hUcVI4LWZKTi1ZVWFSQVZpcUZaRmxydmpMTHUwWGtOUjhKNzJEMHdpZGVGNmlYVGNMenFxSllfNTgzbk9aTE81aUFNWlprbnR5N2dWNUROa1I0QjdHRUZKMnF2U3VpNmpK0gHQAUFVX3lxTFB5QUUzZ2hONFhic0JBLXVGUVJ2RFNSM3l0V3RqWlZCeEZEeFBhSVRCeU9qUlpPTlFKeXFNemp0SllOVnZsdjBGQ0VGZkxqYWNYRmJqRldnT3M0cFhhcHpwOXIzU19jU3lEdHRXUXJRRlgycEs4b3VWdW4yeHRXanF2a3VfeGNsejJUV1l0M1oyc0xkeXA2bVBjU3BoMGllVTBRQXdNaFNLSDY0NXZCRy11emZwWER0YTZWN193UExXLTNLX3AySjVER3llcEFydEU?oc=5",
+      "source": "MARCA",
+      "published": "2026-10-19T16:17:27+00:00",
+      "summary": "Taylor Swift visibly annoyed as Chiefs fan crosses the line during game MARCA",
+      "categories": [
+        "other"
       ],
       "artists": [
         "Taylor Swift"
@@ -83,6 +330,32 @@
       ]
     },
     {
+      "title": "Taylor Swift and Travis Kelce: Seven photos from Sunday’s Chiefs game in KC",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQanJDY2xxdGRTUmlkbzcwWWhEaGNEUW1uMy1YbmlHSG1Mdm04RFdHZmhTWGJLeEV1ak9wa1JEd0dvRXVHVDJyTDBRZVVCc00tVnFsdXpuQlh3NUFsSno3TnF6VGw0SXdyVEZ4YTUzNnBpdXJ6ODFJT0Y1N2FKT2NDbURTZkTSAYQBQVVfeXFMTU53TWlabUZlUlZxYVdwUXZEREdNa0EyMFNLenMyeHdOQi1fMXBaamxXZ1JFZTQwN0R6d2pqSGJxZkd4WVUtNV8weUNxNUJBcGdsREprSm16b21kVVNqbkI0dlZzSy1UZEFuY3NnUVJ0ekU3d01xbnlHVjJLaTFyS3NWNEY2?oc=5",
+      "source": "Kansas City Star",
+      "published": "2026-10-19T15:41:00+00:00",
+      "summary": "Taylor Swift and Travis Kelce: Seven photos from Sunday’s Chiefs game in KC Kansas City Star",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift Shows Off Her 13-Carat Wedding Ring Stack While Cheering on Husband Travis Kelce",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcFpZQWZPM0RtWjBNczBZcDc0MVVfUGllSjZaQ2NJTF9QQ1dEYkFuUXhfUTZOZTB5amJHVjIwcDVrUzdhakJFVmUwTzlJcFZRa3hYRkk1bll5dXhQUndDN2VWVjl6T0tjLXIwS0liODR4MkdMYUNKR3RsVGR1VFo2VG9jQnYtTnVhZlE?oc=5",
+      "source": "InStyle",
+      "published": "2026-10-19T15:36:36+00:00",
+      "summary": "Taylor Swift Shows Off Her 13-Carat Wedding Ring Stack While Cheering on Husband Travis Kelce InStyle",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Taylor Swift calls out fan for filming her during Travis Kelce’s Chiefs game",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSDZOQXZCS3JkTG9pcVp0OWhiM1poZ2oweFVzdWx6WUZFYUdJQWU0WjZhUGU3VW9Oanh1TVZBYlhuMVFFRVExWXh0dV9aVFAwOFFmRl9aQjI1M3h3ZVNDZnZsMGVLTTF0V0FHdUYxUGZ2azY3ZVJiWjktZXh1UHBDZWx6Qnh1WnN0djNtVUhMWG44UENmXzhIa3hKMDNoR1AtcmtSbVVPdk1fS3lVLTBHOHh4enYzU3NHcnc?oc=5",
       "source": "Page Six",
@@ -97,9 +370,9 @@
     },
     {
       "title": "Brian May and Rick Wakeman perform at STARMUS Festival",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOR1dPeTdHZG1yWlJNUEdPQ1lodTRqSklFaGRya1FFaWxVQm1Vb0FXRm5vbVdzR3phNkVhOWhOaTh1dmlFNXhsMkhYUEJvYnBXUzhDb3Boeno1Y1ZnM0FjcFE4d1hvbHQwcTF4eTZYWnRURVRkenBmX3d1eFYwRklya1Q4dWZRLVE1QkFOTkt3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdWd5UDFMLTNmeDMxa185QTZlelNVOEZOOGtIbkpGS0ZmZXlJdHdBODFoNXROZ1pWNzVraDFQeGtvWm9VTTdnMWhCNmtuYkpYbGxUZnYxZlI3STl2OHJzN3lnVnYydVV4X2xwNk1vRkJrRFRCc21CVnNwY2VwV1l1SEx2WXFWUWlnX05kcw?oc=5",
       "source": "Rayo",
-      "published": "2026-10-19T14:18:38+00:00",
+      "published": "2026-10-19T14:17:57+00:00",
       "summary": "Brian May and Rick Wakeman perform at STARMUS Festival Rayo",
       "categories": [
         "tour"
@@ -174,11 +447,11 @@
       ]
     },
     {
-      "title": "Taylor Swift is Coming for That Oscar Unless Netflix Pulls of a Miracle",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbDdGVlRUdE5HeldLT04xSi0xVUNHVjlkZ1VST2xaR005TXUtX04tamt2S085STRyM21kdDdaQlRGcUlQSG9IWlVvaWhqWWgyMHgwNWNWYi1JbmZWQ2EzWFVGbUV3SGVOeFdTdWQ4Y3BYcHlnOUxNUEJGWDBEZ05qQVZ5SnVuSlJwLXBtQnotVW9tTThsdF81eC10a1lxNEtzQndjWEZrWktKUGFCcFp6dg?oc=5",
-      "source": "Awards Daily",
-      "published": "2026-10-19T03:18:50+00:00",
-      "summary": "Taylor Swift is Coming for That Oscar Unless Netflix Pulls of a Miracle Awards Daily",
+      "title": "Taylor Swift, Travis Kelce are married: See their relationship timeline",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbGdTeDRLQmJmV2p1VUtjcEpGaTVXN0xVNHpleFZpWWNzU3hPR0N0Skk1a0h3MDdKaVdYOWFZWXJaY2ZnRUdXd25TLUx3VV9VRXp4dEZGcVhJOEVZbEJkdGRNX1plcEdYUUxwS0VDLXowM1h4TE1oWHljQ0t2Y1dBUDUzcU9DYWJaNGFnOE1iaWswZXZsS0ZUa2ZaMHFITWfSAaQBQVVfeXFMT1lKSzZXU2NxdTlKcmdHZWxwWnRmNElIb3JsMy1fZlIwTmNkUTV1RWMtTTh0VDBNTHQ4NmpHM09INXhQbmMxVDV5S29JdGROYzdiS3J6YnJaX1JNWGJUT0tpLXFkU2JjbzBhdjVjVmdqVjRrbXAyX0s5MXdUbWczdVhvbnhWVF9pS2VnMTBEM1pGT210dTdlaGF2ZDAxa2ZxUjlURE0?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-10-19T03:29:15+00:00",
+      "summary": "Taylor Swift, Travis Kelce are married: See their relationship timeline ABC News - Breaking News, Latest News and Videos",
       "categories": [
         "other"
       ],
@@ -382,32 +655,6 @@
       ]
     },
     {
-      "title": "Taylor Swift, Caitlin Clark hug during BFF moment at Chiefs-Chargers game",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSmx5Vk1PMnhpMUhPQnpOWG1OQjlQV1hDT0JpUVNpRVd0OFRtTXpwMHppNmhLcUJKVFRuY2RFUjlFMDVyOVlJQWE0UUpZQUlVZnpEc1E3TnVRYjhPaTlzdTY5Q1J2SXRmQjE5b1BtbkZZbWZJNW1aR3JUSTExTzQtMVJQSnY2UQ?oc=5",
-      "source": "Yahoo Sports",
-      "published": "2026-10-18T22:09:33+00:00",
-      "summary": "Taylor Swift, Caitlin Clark hug during BFF moment at Chiefs-Chargers game Yahoo Sports",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift sitting with Caitlin Clark at Chiefs game",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeFNrSktJUVBMQUpHSVowZlNBWkh6T2RsTnNxRnBxaEplSVhwTF9CU2lUanRFZEtUcWp0Z3ZaOE9SZ3FHbzRvTXRmTlVRR290ZldSczJzNFJraHR3RjI5ZHZMa0dJTXdBZFVmbUhfUXB6Wk9QRmVsTW1ZSUNxc3RTaHQxZldfU3hMNF84?oc=5",
-      "source": "Yahoo Sports",
-      "published": "2026-10-18T21:48:54+00:00",
-      "summary": "Taylor Swift sitting with Caitlin Clark at Chiefs game Yahoo Sports",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "Taylor Swift shows her team spirit in red at Chiefs vs. Chargers game",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMDJISUM0M2l0dC0za2s2cjNLQ1V2Ui1saFpsUTR0MklINGN1NHd6U0dMTGZBNGtYbEl0NjEzT01oOFhFZmJCZkZ1aUgyRTNpOXZHSEpFeVVWSl9wZm9lUnJfZ0w0Yk12ZzNkSmxjd1M3RC1fMFpXU2FwbFNnNjJySTdiRHIwVHB5a3drUHBGYUVWb0wxR25mVWc3SkR0ZGNvR0lxakxoeGlFUQ?oc=5",
       "source": "Page Six",
@@ -486,19 +733,6 @@
       ]
     },
     {
-      "title": "Travis Kelce and Taylor Swift’s Post-NFL Plans Remain Unclear Amid Reports of Another Major Estate",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSVZHblJrdE1oalJZRExWbUl5TE9CYWZOaGM5RlJzUmhpRF9pajZWUC1qWWw1emNrdTJWTzdDZEl5QXBGQ2RrTGhUMllWR3lFWGtyblRHM1V1SFNoR1pEVzNfYVFrT0c3MXNWVzJ6WmprazJlNnltelowN0R5MUhReHpESThHNnNwM19ZQlV2VTBYZnJ2MWVaX2xDeGVVRlY2enc?oc=5",
-      "source": "Yahoo",
-      "published": "2026-10-18T21:09:59+00:00",
-      "summary": "Travis Kelce and Taylor Swift’s Post-NFL Plans Remain Unclear Amid Reports of Another Major Estate Yahoo",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "Taylor Swift Spotted at Chiefs Game After Flying From L.A. to Kansas City",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQX1BsbHZrNURHejNaR2Z5RjA0aF8zMXZRcDVOcWh0Tk00WU10Q1c4SlBJY2N3Zk53TEptaTNXQ1EyOVpwUWc2OFc4NWMyMk9rcGtPRFVGeF9HZ3F4VXM1QzNxN01pMmFDWTFscnFMUlI1ajVGbXhZVnJTRTJ1U25ackdQLVlDTkNYSEg1TkgtZHRVQ21zbGxfYmNlZHk?oc=5",
       "source": "Cosmopolitan",
@@ -525,11 +759,11 @@
       ]
     },
     {
-      "title": "Inside Travis Kelce and Taylor Swift's New Ohio Mansion — All About the Lakefront Home",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX1JXMGZ4aFJUWXF1YWdLa3gzSmVCdDJIYkNiTWktTUlnQ3NUY21RVWJZbWJMR0VWMmRudk45anJRS2hTczZNWUY1bzBQblNqSEJQZGVXbVd4UTZFOTE1TGc1bDhaOFZyRWtxTjlxNmlWNXZaMEhhRXlJMm12RGVvS2lMa2hWOFhRQWVpMlV0QVY1MFNJVUJ6dzVlYjZBcGt4emNsMVVLN1lZZw?oc=5",
-      "source": "Sports Illustrated",
-      "published": "2026-10-18T20:30:00+00:00",
-      "summary": "Inside Travis Kelce and Taylor Swift's New Ohio Mansion — All About the Lakefront Home Sports Illustrated",
+      "title": "Taylor Swift Performs at Academy Museum Gala With Kim Kardashian, Connor Storrie and More in Attendance",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORENENTR4Q1Z1aHVGcFJEbHNFZ3Zyak5EOUhCUkVGQnRGTEpUY1pRa2RvNTNkdmR5cF9LYWtKc055VzVTZnNjZ0tFT1RBNVJsVmFLbUp0UmUxTkFYT2lGVnRIeF9vakRDbVJ0TUJrWmdZM2JMZzVkTXJGS2FzUDVNWE9WeHJUYkx1Wi1yNTN0dmN2c0hyOEdYOHNkMnJJQWpF?oc=5",
+      "source": "E! News",
+      "published": "2026-10-18T20:06:00+00:00",
+      "summary": "Taylor Swift Performs at Academy Museum Gala With Kim Kardashian, Connor Storrie and More in Attendance E! News",
       "categories": [
         "other"
       ],
@@ -545,6 +779,19 @@
       "summary": "Taylor Swift’s ‘The Life of a Showgirl’ Spends 15th Week at No. 1 on Albums Chart Variety",
       "categories": [
         "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift is Coming for That Oscar Unless Netflix Pulls of a Miracle",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbDdGVlRUdE5HeldLT04xSi0xVUNHVjlkZ1VST2xaR005TXUtX04tamt2S085STRyM21kdDdaQlRGcUlQSG9IWlVvaWhqWWgyMHgwNWNWYi1JbmZWQ2EzWFVGbUV3SGVOeFdTdWQ4Y3BYcHlnOUxNUEJGWDBEZ05qQVZ5SnVuSlJwLXBtQnotVW9tTThsdF81eC10a1lxNEtzQndjWEZrWktKUGFCcFp6dg?oc=5",
+      "source": "Awards Daily",
+      "published": "2026-10-18T19:26:38+00:00",
+      "summary": "Taylor Swift is Coming for That Oscar Unless Netflix Pulls of a Miracle Awards Daily",
+      "categories": [
+        "other"
       ],
       "artists": [
         "Taylor Swift"
@@ -590,11 +837,11 @@
       ]
     },
     {
-      "title": "Taylor Swift Stuns in Strapless Blue Gown at 2026 Academy Museum Gala",
-      "link": "https://www.billboard.com/music/music-news/taylor-swift-red-carpet-2026-academy-museum-gala-1236362432/",
-      "source": "Billboard",
-      "published": "2026-10-18T17:26:56+00:00",
-      "summary": "The pop superstar also debuted “The Fate of Ophelia” live and performed other hits at the event.",
+      "title": "Taylor Swift, Teyana Taylor, and More: The Best-Dressed Stars at the 2026 Academy Museum Gala",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGWHBod3FCVWRnMEZNaUpKNWNEdGxoMEtTQ3NsWUROSWtmbnZiUjRGSjdtNFFvLWxIcTBhSk1qRTRWaktQSXBJVHFfeXZuMHF4WXNCRGNVd3FYVWlETzBfZmxERE41SUoxekRzV0pnWVF0ZUhuWU1SS0RIYw?oc=5",
+      "source": "Vanity Fair",
+      "published": "2026-10-18T17:40:29+00:00",
+      "summary": "Taylor Swift, Teyana Taylor, and More: The Best-Dressed Stars at the 2026 Academy Museum Gala Vanity Fair",
       "categories": [
         "other"
       ],
@@ -655,11 +902,11 @@
       ]
     },
     {
-      "title": "Watch Taylor Swift Debut “The Fate of Ophelia” Live at the Academy Museum Gala",
-      "link": "https://pitchfork.com/story/watch-taylor-swift-debut-the-fate-of-ophelia-live-at-the-academy-museum-gala/",
-      "source": "Pitchfork News",
-      "published": "2026-10-18T16:39:55+00:00",
-      "summary": "She also performed “Love Story,” “Blank Space,” and her Toy Story 5 original song “I Knew It, I Knew You”",
+      "title": "Taylor Swift’s Spooky Night Out at the Academy Museum Gala",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYVFEam1XRncyc3EzTkJleWlhSExhaG1TdklfMVd1T1VDRUVDTWpFN1llcVlXeWthcGVtTERWX0FFU25yYk95YlY5d1NoM1EtdHJkMzA4M2dkUVlpVVJfLThsRG9DZnhQeHlFYlR1YlpoUm1wQ3RJaTZfbkpwVENEVXR4ajg2Z0c5UUZj?oc=5",
+      "source": "The New York Times",
+      "published": "2026-10-18T16:41:58+00:00",
+      "summary": "Taylor Swift’s Spooky Night Out at the Academy Museum Gala The New York Times",
       "categories": [
         "other"
       ],
@@ -668,11 +915,11 @@
       ]
     },
     {
-      "title": "Taylor Swift’s Spooky Night Out at the Academy Museum Gala",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYVFEam1XRncyc3EzTkJleWlhSExhaG1TdklfMVd1T1VDRUVDTWpFN1llcVlXeWthcGVtTERWX0FFU25yYk95YlY5d1NoM1EtdHJkMzA4M2dkUVlpVVJfLThsRG9DZnhQeHlFYlR1YlpoUm1wQ3RJaTZfbkpwVENEVXR4ajg2Z0c5UUZj?oc=5",
-      "source": "The New York Times",
-      "published": "2026-10-18T16:33:46+00:00",
-      "summary": "Taylor Swift’s Spooky Night Out at the Academy Museum Gala The New York Times",
+      "title": "Watch Taylor Swift Debut “The Fate of Ophelia” Live at the Academy Museum Gala",
+      "link": "https://pitchfork.com/story/watch-taylor-swift-debut-the-fate-of-ophelia-live-at-the-academy-museum-gala/",
+      "source": "Pitchfork News",
+      "published": "2026-10-18T16:39:55+00:00",
+      "summary": "She also performed “Love Story,” “Blank Space,” and her Toy Story 5 original song “I Knew It, I Knew You”",
       "categories": [
         "other"
       ],
@@ -694,19 +941,6 @@
       ]
     },
     {
-      "title": "Post Malone, Jennifer Hudson and more to perform at 2026 FIFA World Cup closing ceremony",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYnZaZ2hiS3BfSG9lVU44bHNjQUI2R3I3anBjbERtTUc3OWNiSzY1TDlLdEozSUtGOXlrV0ZURW02WEdJS3JCSk1Ec1pFVGdhLUlXSl9BREp6OEp0bGt1X2F5T19KUFl1SmVubnViTlBfRHNoQWt1QzdfUkdqNDR3b3B4dHBHcTdReHAzam5MREtEa3E4V3pEdzdDcG9SbDNyNzlBZNIBqgFBVV95cUxNRUNVZzNvdi1tempHUzRHOWp0cExUTHlUbUtacjN2OFRDdlFFV0FlRTl1TW5TLWxPdkVMMGVNR2NqdmFhRm1OSF9rc04tdEN4dVNScERibjc3MW0zUldnV3R4UU9pXzRnY3Vjc1FITGpMMVpabEJ5RUF6X0hacGZOd1ZTczJYWUtVY1ltRFR6NWRjMVRDN2VSVkw3UUtqcEpjazM0RE5hOEVhQQ?oc=5",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-10-18T16:13:28+00:00",
-      "summary": "Post Malone, Jennifer Hudson and more to perform at 2026 FIFA World Cup closing ceremony ABC News - Breaking News, Latest News and Videos",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Post Malone"
-      ]
-    },
-    {
       "title": "Taylor Swift Dazzles in Romantic Dior Gown and Jaw-Dropping Diamonds at 2026 Academy Museum Gala",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ2JWOXBHVGNLU0ZEN1B2dTdnNDBJbHdmZnQtYmlqU01XVTlUWk1BX1g1WHloYkpHd25INXpMaFNWTmVpMU11MWViZUNDc1l4RWVQSFlmUEhYZTNOVWxqaTlHRFJiMlFVRGFsZFNIT2ZRclFzQVdPaXZ0aHE0dXEtLWZscnhKUQ?oc=5",
       "source": "People.com",
@@ -720,11 +954,24 @@
       ]
     },
     {
+      "title": "Exclusive: See Taylor Swift, Jacob Elordi, Teyana Taylor, and More at the 2026 Academy Museum Gala",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVHhaTng4TGN1LXU3ZW9rWklHbFRiUlo2QXRVckgzbnRuMXVHMDJJWE50NDJKLXIzSDF6dVotLUxGVGRvU0FzaUUzV21aQXgwUGU4bk53Sy12VzZYU2YwQndkVm0tQzN4RGVQbGc4QS12SmtTV0JPUHhZbURRanlMSQ?oc=5",
+      "source": "Vanity Fair",
+      "published": "2026-10-18T16:01:43+00:00",
+      "summary": "Exclusive: See Taylor Swift, Jacob Elordi, Teyana Taylor, and More at the 2026 Academy Museum Gala Vanity Fair",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Taylor Swift Performs ‘The Fate of Ophelia’ Live for First Time at 2026 Academy Museum Gala",
-      "link": "https://www.billboard.com/music/music-news/taylor-swift-fate-of-ophelia-live-debut-academy-museum-gala-1236362416/",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONzhWT2JUcHEwZGxoZnF6WnlSd1RaVVhfci0wWW5zVXNYWVd5R1JNZExDelhteU92WEZ5TWFqeVg0WEF4dy1OLTZWMmVIVTRwUUdYQ3BMdzd3a0k0cF82WExvNFozb1dtTGZYclU1Vk5LOExtQTJ6bEplN1dwZ2dfVTBoUFlLUVU4MTVFYWt0cUZIdFdrUUUtRGtpUFRnMW9sbndmLWpuTXVwb0pQVE9aSUlLbEs?oc=5",
       "source": "Billboard",
-      "published": "2026-10-18T15:52:21+00:00",
-      "summary": "The pop superstar also performed her Toy Story 5 hit 'I Knew It, I Knew You' at the L.A. event.",
+      "published": "2026-10-18T15:52:35+00:00",
+      "summary": "Taylor Swift Performs ‘The Fate of Ophelia’ Live for First Time at 2026 Academy Museum Gala Billboard",
       "categories": [
         "other"
       ],
@@ -798,19 +1045,6 @@
       ]
     },
     {
-      "title": "Pan-European protests and Taylor Swift on stage: photos of the weekend",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uaTExb1dKcmJEYVJ5aWZkNzZXMDBldmI2ZjZ2aDZxbkVkSUhiY1Z3YjNaOXExMmY4UDg2TXI0VlRTNFVoX0FmOTBtdXVwVUx6NS1OaXVyQTQ2SHlta3JaWmNRSmJoaGxJSms3NTVIRmU5VUh4ZF8tRGV2OWZXdjA?oc=5",
-      "source": "The Guardian",
-      "published": "2026-10-18T13:57:00+00:00",
-      "summary": "Pan-European protests and Taylor Swift on stage: photos of the weekend The Guardian",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "Taylor Swift wows in Dior, debuts 'Fate of Ophelia' live at Academy Museum Gala",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeDlTRll0dW9lZk5NMkFMbjZTa3AwTTB4ZXBxd0M1OWlJdUJ3MHpLMmxXVkhENTlkS01GSnNxaEI2a056MnBoVnNoWGEzQ3JscFRNR2JyTFBhTHZGd2dQeWZSTTVvaVBJOEJDb1dsWGVnaWdNNEQyVUFwTlQxMDhlYkxTRkFvMTF6NmlUNURTc3p6Q1VGVS1wbGsxekZnOXZPRWU0NXhFZmQ3Y1M5cGFocExLT3E3VE0?oc=5",
       "source": "USA Today",
@@ -850,11 +1084,11 @@
       ]
     },
     {
-      "title": "Taylor Swift Performs at Academy Museum Gala With Kim Kardashian, Connor Storrie and More in Attendance",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORENENTR4Q1Z1aHVGcFJEbHNFZ3Zyak5EOUhCUkVGQnRGTEpUY1pRa2RvNTNkdmR5cF9LYWtKc055VzVTZnNjZ0tFT1RBNVJsVmFLbUp0UmUxTkFYT2lGVnRIeF9vakRDbVJ0TUJrWmdZM2JMZzVkTXJGS2FzUDVNWE9WeHJUYkx1Wi1yNTN0dmN2c0hyOEdYOHNkMnJJQWpF?oc=5",
-      "source": "E! News",
-      "published": "2026-10-18T13:06:00+00:00",
-      "summary": "Taylor Swift Performs at Academy Museum Gala With Kim Kardashian, Connor Storrie and More in Attendance E! News",
+      "title": "Pan-European protests and Taylor Swift on stage: photos of the weekend",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uaTExb1dKcmJEYVJ5aWZkNzZXMDBldmI2ZjZ2aDZxbkVkSUhiY1Z3YjNaOXExMmY4UDg2TXI0VlRTNFVoX0FmOTBtdXVwVUx6NS1OaXVyQTQ2SHlta3JaWmNRSmJoaGxJSms3NTVIRmU5VUh4ZF8tRGV2OWZXdjA?oc=5",
+      "source": "The Guardian",
+      "published": "2026-10-18T12:43:00+00:00",
+      "summary": "Pan-European protests and Taylor Swift on stage: photos of the weekend The Guardian",
       "categories": [
         "other"
       ],
@@ -902,11 +1136,11 @@
       ]
     },
     {
-      "title": "Roger Taylor Shares How He and Freddie Mercury Bonded Over Scrabble Between Recording Sessions",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZHFWcTdHZFk3SmpTWUY4R29YTlZoUE5QeThMV3pYLU9pSUFqWnFyaVo0OENpckhFM25XeE9DRm5WcE10d0dzSHA0XzZ1NHFGVGIyVlppalBwX2M2ZDZVVGFobFh2MmQyUE9pRW0xd2NGcVBtNHozZVlvejFDTE1IamlBWnEtakRE?oc=5",
-      "source": "AOL.co.uk",
+      "title": "Queen’s Roger Taylor Reveals the Unexpected Way He and Freddie Mercury Spent Their Time Between Recording Sessions",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSVdQUjh3dHZaSlp1Zm02VkQ0azgwVXJxWnJuQ0ZyMEFxMl9GZ29PZTNvT2FUNm1QMEJCQWhFM3EzdzRoYjVkX01Pd2x5NmpHdTB3Z20zVmJQQlVXQ1hfYURaOEQ5R1BpN0FkdGhvMVdCb2ZMTVh3T1Z3RlhHempfb09DQnVmLW56ZzRtT2NtdEZ6RkxiRFBZMFNRbXlab0xjaXlOVk9MY1VqLUNCby1zM2NJX012aG1xa2Q4QVZJMHY4VjFjZWF1ZS1qQmU5S29NSGFR?oc=5",
+      "source": "Parade Magazine",
       "published": "2026-10-18T12:07:00+00:00",
-      "summary": "Roger Taylor Shares How He and Freddie Mercury Bonded Over Scrabble Between Recording Sessions AOL.co.uk",
+      "summary": "Queen’s Roger Taylor Reveals the Unexpected Way He and Freddie Mercury Spent Their Time Between Recording Sessions Parade Magazine",
       "categories": [
         "other"
       ],
@@ -967,6 +1201,32 @@
       ]
     },
     {
+      "title": "Academy Museum Gala: Taylor Swift, Sabrina Carpenter, Jennifer Hudson, Connor Storrie, More Stars Walk the Carpet",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSmJVZ0F2VFVYQUlwcnpTMmhrcnlSNEhwWTcyTDBCcmQ4NkxvMFVvbHdBam5wMm5ST196UzhoZG0xbHJfeXhESElUZXdqRFppZG5rY2I0NG9SS2pMQ1pORW9XcTRyazN4V2VSVFBZTEZkR0EwVGczTl9KajRERzZzY0ZEbXk0Z2xsZ3c1b3N6cXAySnVJRkRNbXBlZmdvbGhFQldLTUFIa3ozSnNERGdOM3FB?oc=5",
+      "source": "The Hollywood Reporter",
+      "published": "2026-10-18T05:08:19+00:00",
+      "summary": "Academy Museum Gala: Taylor Swift, Sabrina Carpenter, Jennifer Hudson, Connor Storrie, More Stars Walk the Carpet The Hollywood Reporter",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Interview | Queen Guitarist Brian May on NASA's New Horizons",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOU1BGTFB4cjRsN0xxZXhjdDJDalVqSUk5QVJGZGd3NGtORE1ncTFlWDZNR0xlZWFXUG8xNUNsamxPbjZXMEVlWTdoM1V2Z2FYbmtoMW5tVDFfLWtUMTU0WHdBa3pNSHhDZ2M0ZWtLQWRFcl9NOHBtV0lVczhmbzZyeg?oc=5",
+      "source": "Britannica",
+      "published": "2026-10-18T05:00:00+00:00",
+      "summary": "Interview | Queen Guitarist Brian May on NASA's New Horizons Britannica",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Queen"
+      ]
+    },
+    {
       "title": "Taylor Swift, Charlize Theron and More Stars Arrive to the 2026 Academy Museum Gala",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeVJTQ1JQSUppMGxpTk95SWFLMDRlOHh3RDYxaDJOTUFLQWdTblFDZVRpcUZyUDNxVjh2N0Y3akhTSy11UllQSFlBc21HQjg5T2h6allJTlhwWnRMUmtRVTVVeG14cHZ1OW5IRnlqNm04eE9NRUIzdXRDM2txYnFMRzUwa1VteU9mVnREWlpURnlNR1pnV3JnWnJhekZfdlExbExqY1M5MWJtaEd6OWdCRXhn?oc=5",
       "source": "WWD",
@@ -985,19 +1245,6 @@
       "source": "ELLE",
       "published": "2026-10-18T03:49:00+00:00",
       "summary": "Taylor Swift’s Pale Blue Academy Museum Gala Gown Has a Subtle Wedding Connection ELLE",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "TAYLOR SWIFT: LOOKING BACK ON THE 20 YEARS OF MUSIC",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1LaGJ3LTl3Q2ZYdS1sdUlubk5mZ09DdG9oV3dIUTRHQ0dfdDJLV3RULTJfdi14UFJINWE3dW0tZFRhQXV6b2NZZ2xuUk16MmJZSTJZS2pnMXNTY21QTVhIQ2FpS3IxU01iTmZCSlo5eUtLWDhUV2xhdGl3?oc=5",
-      "source": "RissiWrites.com",
-      "published": "2026-10-18T03:31:06+00:00",
-      "summary": "TAYLOR SWIFT: LOOKING BACK ON THE 20 YEARS OF MUSIC RissiWrites.com",
       "categories": [
         "other"
       ],
@@ -1032,19 +1279,6 @@
       ]
     },
     {
-      "title": "Taylor Swift’s Dior Dress Tells a Cinderella Story on the Academy Museum Gala 2026 Red Carpet",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVFkzeXMxTnNQbEFxVldaLV9LcGtHRHNLR3FRaDVjSUxwYlhua3pTWFYtNTg3NVlZN1ZDVDhFeERtQXp0UXhaMDBhaHBPZUZXMnBZYzMxZEJhSXJxcGRseXpSZEJkRE44QTlRR0xhXzM4c0xsSnVpMkRicWpjeTEtclR6a0RMS3NsbXE3U1BjVnlEb1JxSzhUT0M1U0lISnpFUzFaVEdn?oc=5",
-      "source": "WWD",
-      "published": "2026-10-18T02:46:17+00:00",
-      "summary": "Taylor Swift’s Dior Dress Tells a Cinderella Story on the Academy Museum Gala 2026 Red Carpet WWD",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "Breaking Benjamin draws big crowd to Tuscaloosa amphitheater",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMnJrNmp2SWprclBicUxKOWZJWVVGbHo5Qm04MEFiajdhdG9COEliaUhqQ3RMVXU2RzRNWXozZ3NWOG9mZTJrVk5aWTNiQXhZamRMR0RzSEFGc21BRDBEdmVzdVR0WmttOXVlUnZzVlhqVWltcVBSTHNaenBRcE0yTThETHc1bUFtYlJ4Ty01MEYyNGV2UWxqTzZPak5HYkNDdzJ2V1ZmQXlQWEJlOUtPUFdoMjlLaHd4VWpRNnZNTXJOR0V5WUVQY0h6ZzlyZ0RoM3ktS1lma3REMWlBNEdqNV9WdWo?oc=5",
       "source": "The Alabama News Wire",
@@ -1058,11 +1292,11 @@
       ]
     },
     {
-      "title": "Taylor Swift Is Belle of the Ball in Dior—and a Curly Lob—at the 2026 Academy Museum Gala",
+      "title": "Taylor Swift Is Belle of the Ball in Dior at the 2026 Academy Museum Gala",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb1FwMF9sR0xVR2x2NkZlbFBtcTlieWZ0SC1QXzFNdHdYc3BkOWh1aUNoaGFyODZ3RktrdHV5OEZIb3E4SGhjbnIzOWNfVHJQek5TS2U0UnRCaFhWQWU2QmwtcHdITTBsZ0RxeTgtWE14Z0hSazBBdFVZUWUya3lvZXJGR0NlNXJranVXYlE2TU0wQQ?oc=5",
       "source": "Vogue",
       "published": "2026-10-18T02:34:22+00:00",
-      "summary": "Taylor Swift Is Belle of the Ball in Dior—and a Curly Lob—at the 2026 Academy Museum Gala Vogue",
+      "summary": "Taylor Swift Is Belle of the Ball in Dior at the 2026 Academy Museum Gala Vogue",
       "categories": [
         "other"
       ],
@@ -1097,11 +1331,11 @@
       ]
     },
     {
-      "title": "Academy Museum Gala: Taylor Swift, Sabrina Carpenter, Jennifer Hudson, Connor Storrie, More Stars Walk the Carpet",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSmJVZ0F2VFVYQUlwcnpTMmhrcnlSNEhwWTcyTDBCcmQ4NkxvMFVvbHdBam5wMm5ST196UzhoZG0xbHJfeXhESElUZXdqRFppZG5rY2I0NG9SS2pMQ1pORW9XcTRyazN4V2VSVFBZTEZkR0EwVGczTl9KajRERzZzY0ZEbXk0Z2xsZ3c1b3N6cXAySnVJRkRNbXBlZmdvbGhFQldLTUFIa3ozSnNERGdOM3FB?oc=5",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-18T01:59:54+00:00",
-      "summary": "Academy Museum Gala: Taylor Swift, Sabrina Carpenter, Jennifer Hudson, Connor Storrie, More Stars Walk the Carpet The Hollywood Reporter",
+      "title": "Taylor Swift Arrives at the Academy Museum Gala Wearing an Ice Blue Gown With a Giant Crystal Bow",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYWEyNGoxNlVDMWRlNjFtenA4eFBPZWRMV2dISVRMLVVSUGNWTzJOZFVfekxhdElVN3R2bDZ3TzZhYmlVNm5LUU5seG1ZclQ0YkF0UjZTc3RhVER5cnU2b0EwMDBuRWF2ellIekg3cmZaTjdKTEIzODFERFV2UW5YaXJzSFRSc2FFNWZodmlRVEJxSnJFWG1taFVUNVQ3UnJF?oc=5",
+      "source": "Cosmopolitan",
+      "published": "2026-10-18T01:59:00+00:00",
+      "summary": "Taylor Swift Arrives at the Academy Museum Gala Wearing an Ice Blue Gown With a Giant Crystal Bow Cosmopolitan",
       "categories": [
         "other"
       ],
@@ -1201,19 +1435,6 @@
       ]
     },
     {
-      "title": "Taylor Swift Heroine Clara Bow's 'It' Leads Carlotta, Artcraft Deal",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDJhZ3I2TWg2TFk1NXY0ZTkzYmVrazZlcVE3LXBWN1lUaTN2dkF0emhBTnRtTzZoQ0owT3Q2RmtLOGdJWDZDWVJRdEstX19pZ0s5UFdFNWNKc2Rmai1MLWI5SXY2ZmVBY3RZZ19MeUwzeEw3SnNobDd4UzZHMGtXZnVJVDhZenZPNDFCVUI5dVhLNXZhM3VnNll3bU1QcU1nclZQc1NuSjlNNEt5?oc=5",
-      "source": "Variety",
-      "published": "2026-10-17T10:37:00+00:00",
-      "summary": "Taylor Swift Heroine Clara Bow's 'It' Leads Carlotta, Artcraft Deal Variety",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "Post Malone Apologizes For Album Delay And Teases A Flood Of New Songs",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZmMxTmxVOUdvbUo1Zk1xNklaTzlMNzlnSUtTQU9lbnljZjlqVHllYUNqNldkaTBKaFptQmZFaWt2QmxleWVfQlBEUHBYUktFOUpFMURfY3ZDekR3d2dkNlVabXJvaTBHN0VjcER1ZlpDOWd0Z281RnlWd1dCSHExeFNnejB1SzBkc3ZPd0FnVnhIVWxaV2FKX1NoSERDdmNjZktadF9WWWRER1VYUVlMdkV4RHVTdjNOU1JDc1JZUGQ1ak14?oc=5",
       "source": "JubileeCast",
@@ -1273,71 +1494,6 @@
       "summary": "San Diego Ticket Reseller Accused Of $1.3 Billion Ticket Scalping Operation That Snatched 18.5 Million Tickets To Beyoncé, Post Malone And Thousands Of Events SanDiegoVille",
       "categories": [
         "other"
-      ],
-      "artists": [
-        "Post Malone"
-      ]
-    },
-    {
-      "title": "Post Malone, Riley Green, Luke Bryan and Blake Shelton Lead Carolina Country Music Fest Lineup",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQkJoc3ExVjFIbUxEUV9fdVloXzJEa2FybVlqZ0hsNVV6cTk3UzkycUJ0WWZFd0VpcE1XemZfUFhnOEdnZzFNdXNqUzRnaW5Vd2NQV3Q1UjlKRW0ycEMtWGE3Xy1rZVk3dmlULXRtOFNuMFl5TzNkODFoMTdxYjcwd184bVg0NDljR1hzX3otQng1WjQzRVFkQmhhVWc2WnFZaF93MUNiQW9La1Z4LWZ6amZMZllSa0xScTN5MlNLa2RsYm5FUHZV?oc=5",
-      "source": "TicketNews",
-      "published": "2026-10-17T04:06:06+00:00",
-      "summary": "Post Malone, Riley Green, Luke Bryan and Blake Shelton Lead Carolina Country Music Fest Lineup TicketNews",
-      "categories": [
-        "tour"
-      ],
-      "artists": [
-        "Post Malone"
-      ]
-    },
-    {
-      "title": "Brian May names Freddie Mercury’s “most beautiful” Queen song — and it’s not “Bohemian Rhapsody”",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY3N5aGhQUlNkYUVyNUdGOTh3SUF0ZHoxSm5EOURqcWI5SHRxUWhqbUw2NnYzSUw3N0wzaHdXZUY2bWl2V2lrZlRmR0d3dTZfM3R0aTJXT1JOMGc2eHJFVnBQbmlJTy1OOE9tVkFwQnk2bHpYc05XUTBFYUF0Y3ZGUUlwQ2hQaXFwaFMtWlNEbDV2ay01QldZQjBqQ1Z6SlE?oc=5",
-      "source": "Guitar Player",
-      "published": "2026-10-17T04:00:00+00:00",
-      "summary": "Brian May names Freddie Mercury’s “most beautiful” Queen song — and it’s not “Bohemian Rhapsody” Guitar Player",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Queen"
-      ]
-    },
-    {
-      "title": "Post Malone, HARDY Set to Headline Salute 250 Concert in Columbus",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYlVHRUpHNDkxckhnSExCZzkyXzAxUzhqZ3hkVUxEN1daWFMtUVE2QkxZeU5Nc21VTDNCV3ZZT1dLWDB2VUNZeTRjdHE0eWRZSFJjbGVqVGRqRW9JM1RDRnVkTjQ1MGd5Ry1yNGcwUnFsZFVhOERWN21rY0hTSW5QUkd0TWRDLW1N?oc=5",
-      "source": "TicketNews",
-      "published": "2026-10-17T03:42:29+00:00",
-      "summary": "Post Malone, HARDY Set to Headline Salute 250 Concert in Columbus TicketNews",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Post Malone"
-      ]
-    },
-    {
-      "title": "Strummingbird 2026 Announces Post Malone As Headliner For Three-Date Australian Run",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdnZDS1FlemJWV0xtcTZLMExLUi1Edl9JTGs0X3NYS0sxSm82ZHJhbm1hWXpfelVGdU1LUFN2RWZyeHl5M0RWOF95LUh6RFAzc0d1ODBoV3Y2UU5IS29EUnZ4WE92eFEyMEJzNnhCcHptOWlSZGdkdkhiN18wZ01zbVdB?oc=5",
-      "source": "TicketNews",
-      "published": "2026-10-17T03:07:37+00:00",
-      "summary": "Strummingbird 2026 Announces Post Malone As Headliner For Three-Date Australian Run TicketNews",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Post Malone"
-      ]
-    },
-    {
-      "title": "Post Malone Announces Asia Tour Dates with Don Toliver",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWkZPcm5FMlZIWnR4aXNvQURMRmUzSnNrRWRwYUYxTWx1RzVHYVJWLW9FTG9JN3JTRUNLbjJNZXFsdnFLUHBNRWNPXzhNRWdIUktvdXplcEVBRjVqREpaWXl0VzA2TF9HcXRudDhsNUZHM1lkNVJabUNoWnVWWFZHclZ6U3dDVVdnS2JHV0pHNW1QMW5u?oc=5",
-      "source": "TicketNews",
-      "published": "2026-10-17T00:58:01+00:00",
-      "summary": "Post Malone Announces Asia Tour Dates with Don Toliver TicketNews",
-      "categories": [
-        "tour"
       ],
       "artists": [
         "Post Malone"
@@ -1435,19 +1591,6 @@
       ]
     },
     {
-      "title": "Post Malone Teases He Has a ‘S–tload of Songs Coming,’ Apologizes for ‘Taking So Goddamn Long’",
-      "link": "https://www.billboard.com/music/music-news/post-malone-many-songs-coming-new-album-1236361929/",
-      "source": "Billboard",
-      "published": "2026-10-16T17:42:23+00:00",
-      "summary": "The star hasn't dropped a new LP since 2024's F-1 Trillion .",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Post Malone"
-      ]
-    },
-    {
       "title": "Olivia Rodrigo credits Kendrick Lamar for inspiring new lyrics",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQ0thY1FjME43Y0djbzA4OFZFbjdpWEc3bUtZUUIxVEh2Mi1yeTJTb1BMMEhhVlFJemVaQW03TkZoSS1WSFVpOVFfZV9Id2NuUU5qdUxiVTlaLVNPeTVhanFPR1RJWXlqQTJUdlNSRTdWb1ByaDE4S2pRd3QzR18yRnZMTm0talZmUmNYazFaMVFBU0RQTkoxTHZBWQ?oc=5",
       "source": "Geo News",
@@ -1458,19 +1601,6 @@
       ],
       "artists": [
         "Kendrick Lamar"
-      ]
-    },
-    {
-      "title": "NYers perplexed by voting mailer touting candidate who ‘prayed to be Taylor Swift’s husband’",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONklVZFFtQ0VIV3dMSE5FTnhtMXFhdlA4akY0UTRrM0xMZlpBOXE5c0JodFJpUmh2WmFwN1gzZ3RCV29NVGtaZks1UEVUZmV6Z1g1SjVlTjRrck9xZDFuLXRUZWthUktWRzNhRkdZcjlCeGJTY2ZlX3RSdUdqNTNOM2FNOXNMQmFUSEl3eDFhU09lUl95RWdxUlRtN0F6UWZCYTJ5VTZKejE3OV9rT3dILWU2cExaem9kTjlyUDdxSG5laUNjeWN3?oc=5",
-      "source": "New York Post",
-      "published": "2026-10-16T17:14:00+00:00",
-      "summary": "NYers perplexed by voting mailer touting candidate who ‘prayed to be Taylor Swift’s husband’ New York Post",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
       ]
     },
     {
@@ -1497,19 +1627,6 @@
       ],
       "artists": [
         "Kendrick Lamar"
-      ]
-    },
-    {
-      "title": "See Taylor Swift, BTS, Dolly Parton reflected in Halloween displays",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVWo4WW0yZ3VidTk2Vi1TUktaMndxbExVSWgtUzFvN0dENlRTQVI3dzV3b2JwMkR3N0c0TFkzZGFqQi1ySHpERGJjVnNQUjBHZ3Y1R2Z5LUxwNkRGNnl0eE14bnBoMzdUZGVBbjJZTTM0QlBpajJuQkVaRlFHWjJzbENxYmh0blllTkZpT1pkMmppS3dmd0lZYTJLdllBcFJIUENWdG1uZ2x4ZF9PQWFRUFlJbENsY0xxTXpZdjlKNlZhUQ?oc=5",
-      "source": "USA Today",
-      "published": "2026-10-16T14:54:36+00:00",
-      "summary": "See Taylor Swift, BTS, Dolly Parton reflected in Halloween displays USA Today",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
       ]
     },
     {
@@ -1552,6 +1669,19 @@
       ]
     },
     {
+      "title": "Post Malone, Jelly Roll cancel Birmingham concert",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdnBqY2tKd2xoeVEyaTRmdU8xNUZManZMNDN1SVF1NmJtUHRRdWNpcHZNd0d5ckg2MC0xeWdfcTFncmtqYTJ5Yng5b093LXVYSnhJeVJ2YUljXzVPSzdMdzRxUUdkVmYyYlJ4SmI4bkxpbXBJMExRa2tycTB0ZEtPTFBYSW5aYURxM3luVzZuWGNpWHRBaGc?oc=5",
+      "source": "alabamas42.com",
+      "published": "2026-10-16T12:34:51+00:00",
+      "summary": "Post Malone, Jelly Roll cancel Birmingham concert alabamas42.com",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Post Malone"
+      ]
+    },
+    {
       "title": "Post Malone Shelves Asia and Australia Tour Months After Cutting U.S. Stadium Dates",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVDM3YktqS1NtS2ZUWDg4NjdZZWU1dWdIMmZVc3BwaGU4MEloNUhpeW1qM1BMdkduemtyeGsxaVlZUUlJOXdhclNQME51M1NveS0ycU5fajdVRG5KMU82QU9fRW1EeTk5cV9xdFlKVkhNYTgwdFNKVjJyRWpsdFBSc01PMA?oc=5",
       "source": "TicketNews",
@@ -1578,6 +1708,19 @@
       ]
     },
     {
+      "title": "Brian May names Freddie Mercury’s “most beautiful” Queen song — and it’s not “Bohemian Rhapsody”",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY3N5aGhQUlNkYUVyNUdGOTh3SUF0ZHoxSm5EOURqcWI5SHRxUWhqbUw2NnYzSUw3N0wzaHdXZUY2bWl2V2lrZlRmR0d3dTZfM3R0aTJXT1JOMGc2eHJFVnBQbmlJTy1OOE9tVkFwQnk2bHpYc05XUTBFYUF0Y3ZGUUlwQ2hQaXFwaFMtWlNEbDV2ay01QldZQjBqQ1Z6SlE?oc=5",
+      "source": "Guitar Player",
+      "published": "2026-10-16T07:00:00+00:00",
+      "summary": "Brian May names Freddie Mercury’s “most beautiful” Queen song — and it’s not “Bohemian Rhapsody” Guitar Player",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Queen"
+      ]
+    },
+    {
       "title": "Breaking Benjamin at the Mercedes-Benz Amphitheater",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVHRDaXF3d281TkgxeFZXa090RTlUVkR5cjA2dHQ2WmJzcEtvQTUwYzFVc1FOc29hOGFCMXRKMTdTdU1KRXJoN01abkNQSGpJYkxGVmF4MVpNNTMxa3pGVFNVb0p1VGlEa0t1TnRjWnZtLXlmcU9fcm1ZbXJTSGw0eHJWcktWbTZQQ2FxQXo4ME1SR3BBSHBwWGNQRTU4dTBuanN5R0ZLajk4UUlmMjhTYkdlZmRvcXU5SDNxT1lGaTdReFB4SHV0akxwd0ItOWdrQkdKYnVB?oc=5",
       "source": "The Alabama News Wire",
@@ -1601,6 +1744,19 @@
       ],
       "artists": [
         "Post Malone"
+      ]
+    },
+    {
+      "title": "This Freddie Mercury exhibition is unexpectedly moving and not to be missed",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQcmRMTzF4dm5EckJkV1d5TWJLUmF6STlZNmNEcWI4UFFobnZXTE81U1lpWXNQQ0tOYnY3LTVMdzFsX1UzZXpsS3d4ZXlLTUJpd3BOckFSUnJlM1p3M1dJWHU0OERQeUlqc01oejlsUmtDeXJiWG1oanc5Rm9sMzBGTHpvX2hhY01MS2dsTk4zTWUzZHdCWUEwaU9lWk1KRDlIb1VYcEdLTUJ6TzJQS3haZVBYQjRVdjA0WU1vVmNkWVZFcWVoTks0LXZ0VkQ1cWFIUDlIbVFXUzFPOHFHamw5bEhicnI2NEtHQ0ZucTMzU3cyZ3lXX0tyOFFZNmdtUQ?oc=5",
+      "source": "Escape Australia",
+      "published": "2026-10-16T01:06:25+00:00",
+      "summary": "This Freddie Mercury exhibition is unexpectedly moving and not to be missed Escape Australia",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Queen"
       ]
     },
     {
@@ -1653,32 +1809,6 @@
       ],
       "artists": [
         "Post Malone"
-      ]
-    },
-    {
-      "title": "Post Malone Says His New Album Is Almost Finished and Promises “A Sh-tload of Songs”",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5feVo0a3h2Tm1PaktmVkJyZzQxVkdpblhmVkozSlc3Nkp3Q3hzZEhaRl92YmJsQkdSWVJRS054T3R1c2d0NmRmNHhlNjJLRHVDRm9Gdno2ZHA5VG00aHlUWGNGLXhHcTVPZ0NQSVNWUkpIVTBaLWc?oc=5",
-      "source": "InMusic Blog",
-      "published": "2026-10-15T20:04:11+00:00",
-      "summary": "Post Malone Says His New Album Is Almost Finished and Promises “A Sh-tload of Songs” InMusic Blog",
-      "categories": [
-        "new_release"
-      ],
-      "artists": [
-        "Post Malone"
-      ]
-    },
-    {
-      "title": "50 Cent Praises Drake’s Blend of Rap and R&B After Kendrick Lamar Battle",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdTZST29EUGxjeEVRd1V4eWRxQnR4MUNhY0t2YjZ0UFc0SW10ak1QZzJnNjZ2dXhROTZMMnFXSUlObGl0MURBclMzb0gwUGxPb0J1MER5dEQxSE42M1dVQU1OMXlfanFSYWU0UV9HMjh2T0RYM0dEcEV6cWJkMXJIbVBmUTZNSkpKaWNIUldhblFnaGtwWHdQNXFUX0pHaHRDRWo0?oc=5",
-      "source": "foxy99.com",
-      "published": "2026-10-15T19:40:29+00:00",
-      "summary": "50 Cent Praises Drake’s Blend of Rap and R&B After Kendrick Lamar Battle foxy99.com",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Kendrick Lamar"
       ]
     },
     {
@@ -1786,16 +1916,16 @@
       ]
     },
     {
-      "title": "Sacha Baron Cohen lost Freddie Mercury role as he didn't take it \"seriously enough\"",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTmRZSVZtV0d0Z2l6aUtTYnYxeTNXT2syZUJsMlZWdUxwaHhRWFhvbnEtQmpBelpGMkx4VlM4VTVkRnNoZjMwYmtvYV9WRGhMRld3VGdLUk1BYmZUQzhrV0x0NUZwQXpoU2pvdHZRVWxmTF9sNXlnWnpYZzFSQUxKZ1Y4R0UzRE5LRHVfWWxRVVBFQUthNHBhRTVId0tlWFlvVnlESVNnNm9hZzg4bFdFbzZHcVZSblFnWTRQQnRQbkVwYmZwUG1SOXU5UQ?oc=5",
-      "source": "Entertainment.ie",
-      "published": "2026-10-15T10:03:21+00:00",
-      "summary": "Sacha Baron Cohen lost Freddie Mercury role as he didn't take it \"seriously enough\" Entertainment.ie",
+      "title": "Why Conservatives Should Root for Taylor Swift",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBkRXBfb3RySUNZdlgtdjNXOElMWllsY1RHRlRGeFhGemVQZjZ2WFJnRmRpd3M1Z2Q5Yk1EVHNmQ0lxcmZHbkFSRjdaeTlGazRaaEkxMEJnQUZ2MW5JNzBaemhmaGp6aWU1N0Q4NnMtUF9QdVI3Z29OeUhNcFRnQQ?oc=5",
+      "source": "Institute for Family Studies",
+      "published": "2026-10-15T10:32:24+00:00",
+      "summary": "Why Conservatives Should Root for Taylor Swift Institute for Family Studies",
       "categories": [
         "other"
       ],
       "artists": [
-        "Queen"
+        "Taylor Swift"
       ]
     },
     {
@@ -1812,32 +1942,6 @@
       ]
     },
     {
-      "title": "50 Cent Says J. Cole Lost More Than Drake in Kendrick Lamar Rap Battle",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMEhRYzlkSlNBVTR3a2M5aG5ZenFLaTBha1hOS056WmZXOXYzUjRqZnFDNGpDRHctQ29CV3E1VzZhMS1qWGREamtaZVBDT3FtMjYwS2lvT2VnczdWTHdMVGFLU0EzNm0xZ2VhU3Q1eEhXVVhjSkhqVUo1al82SHZOY0VKQ09NUnBSQ2RlMzRUbDJVNUpTSTBhZDhiLUFYTWJRNUZiOFNBNjhrUGQ3ZUcyc0wyN2o?oc=5",
-      "source": "Vermilion County First",
-      "published": "2026-10-15T09:16:05+00:00",
-      "summary": "50 Cent Says J. Cole Lost More Than Drake in Kendrick Lamar Rap Battle Vermilion County First",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Kendrick Lamar"
-      ]
-    },
-    {
-      "title": "Victony – Everything ft. Swae Lee & Post Malone",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yV1V6OFlBQnlVNkRubDRFTzdJeFcyWnlEb05WMnVXRmRzRUFERWoxWkYzT1lRb29CbFMzZl81SC16M1pvVkJwRzB4TnM2UnpsbTNLeldLTmdjODQ5MFBVcVl4dEtnUE9CLXFLNUNZR04yT0g0NTkyaTdrYzR4QQ?oc=5",
-      "source": "Tooxclusive",
-      "published": "2026-10-15T07:00:00+00:00",
-      "summary": "Victony – Everything ft. Swae Lee & Post Malone Tooxclusive",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Post Malone"
-      ]
-    },
-    {
       "title": "Bilmuri",
       "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA3ZDdnSzROZUhtNW9xRFlOckloSHFwR0k0M3hMVUtXeTZFbW1lcXRSQ2NLRUNmLU1pb3VkZEVCVGd4NWRXVU5Fejdn?oc=5",
       "source": "The Nu-Metal Agenda",
@@ -1848,6 +1952,19 @@
       ],
       "artists": [
         "Bilmuri"
+      ]
+    },
+    {
+      "title": "50 Cent Says J. Cole Lost More Than Drake in Kendrick Lamar Rap Battle",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT2xKSmsyRTRPRF9WdUcwYTEya1hrNGlVY0lqdnBRVW5zcHJwNTkzWV80TXotZVZod05XVHo3bEVweTdyUjFVNWM3SURBd2FfTHlCdENRd3dEVVA1MmtYRk5jUW5vQlM1WVZadFhOSzNUX3c4VFBFbHVGdVJBaGxYd3FQcXNEUVlPeHdCVDhKSFJBZ2phc2ZnRk50N0stVE1Xd2VjSUhibU9ON2dzWnc?oc=5",
+      "source": "103.9 Wayne FM",
+      "published": "2026-10-15T06:00:31+00:00",
+      "summary": "50 Cent Says J. Cole Lost More Than Drake in Kendrick Lamar Rap Battle 103.9 Wayne FM",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Kendrick Lamar"
       ]
     },
     {
@@ -1869,19 +1986,6 @@
       "source": "CNN",
       "published": "2026-10-15T03:26:53+00:00",
       "summary": "Panel reacts to Sen. Blackburn campaign ad featuring Kendrick Lamar’s Super Bowl performance CNN",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Kendrick Lamar"
-      ]
-    },
-    {
-      "title": "Sen. Marsha Blackburn Faces Backlash for AI-Generated Kendrick Lamar Clip in Governor Campaign",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbnVrRV92X3FkMjlWbHhGdkxZQklqR3ozbU5tUmhWMXc3MEx5ZXhGVVJ4VGxVOHpJSG5UdXZlSkJHelBhTDk0TjRTUnZ6Wlh3WTBaYzB1dUZhOENVV3AyRUJFM2JhU3JOV283YlBPcnJ2QVhpb1hLbzd1MjBZTXFZWUdEeW5wOWVXVGVhVFBLRFZfY2NyNlB6T2NLUlhib05NYzFkOG9zcFJITk1Vb2hwZE5haEp4dVZnLVNtWg?oc=5",
-      "source": "SSBCrack",
-      "published": "2026-10-15T03:10:06+00:00",
-      "summary": "Sen. Marsha Blackburn Faces Backlash for AI-Generated Kendrick Lamar Clip in Governor Campaign SSBCrack",
       "categories": [
         "other"
       ],
@@ -1978,6 +2082,19 @@
       ],
       "artists": [
         "Queen"
+      ]
+    },
+    {
+      "title": "Marsha Blackburn dances like Kendrick Lamar in 'painfully cringe' AI post",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZnBzcWRaSENCcEFOZUU1SnFtak5IOF9LRFRlMmYxN3NOOWR5WVNaTkNXc3FGNEhIY09RV3gzZldrT1dBd2NVYkIzME5rNUFkVnRhRzUtQzUyMlVuYnM0aEZWdzV4cF9zUUNzcWdXUDFfR2xuSTZySjNBY0dhZlBzZ2c5TTFuNnlDcFE?oc=5",
+      "source": "AOL.com",
+      "published": "2026-10-14T19:47:24+00:00",
+      "summary": "Marsha Blackburn dances like Kendrick Lamar in 'painfully cringe' AI post AOL.com",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Kendrick Lamar"
       ]
     },
     {
@@ -2164,10 +2281,10 @@
     },
     {
       "title": "Marsha Blackburn Hit with Avalanche of Mockery Over Bizarre Kendrick Lamar Video: ‘We Need an Age Limit for AI’",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNd1VjMUVYUk55Mlg1bDUwOFJBeVMySHN6ZUVJdzNUaHpfOW5LQm93bXhQbW5meXE1LWpxZmNqQ3luSHdMcXhqSll0VWVMRm5JTzhsY1NIeFoxSWM5UzhhUWZmTm1vWF8yeEVXd013dThhNHpQT01hSmdVSnlWTnhkdGVxS3c1dXFKaktDb2lUV2ljSUx6UF8tOFAtU2VtdVJyQkJXU1JadnpHQ2JtazVUUENfR3Y2RWViVy1GWEFtSE1wcEkzZ1I1QlpwZWUwUWhqVG5rajFBQ2ppOFBJYmc?oc=5",
-      "source": "Mediaite",
-      "published": "2026-10-14T13:21:00+00:00",
-      "summary": "Marsha Blackburn Hit with Avalanche of Mockery Over Bizarre Kendrick Lamar Video: ‘We Need an Age Limit for AI’ Mediaite",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPR2xGY3JqMHkxRkZGN09SNFRZTHBucFZRYlF4QXZyYUVDcmxhb002SjRHQjZlTmI5VzBXT3ctR0VRT1ljc0xtN3RsN2g0Z0xtQWFKM25jMkFEbDQ4RFZIMThaM0Jhb09sUS1tTE5hRnBwXzJPWGtKQTZHaFNNdEtzX2sxbkNXVzRhYlE?oc=5",
+      "source": "AOL.com",
+      "published": "2026-10-14T13:21:08+00:00",
+      "summary": "Marsha Blackburn Hit with Avalanche of Mockery Over Bizarre Kendrick Lamar Video: ‘We Need an Age Limit for AI’ AOL.com",
       "categories": [
         "other"
       ],
@@ -2181,19 +2298,6 @@
       "source": "HuffPost",
       "published": "2026-10-14T10:09:01+00:00",
       "summary": "Marsha Blackburn Takes ‘AI Cringe’ To New Heights With Bonkers Kendrick Lamar Video HuffPost",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Kendrick Lamar"
-      ]
-    },
-    {
-      "title": "JAY-Z Releases Footnotes For 'The Story Of O.J' with Kendrick Lamar, Trevor Noah, Mahershala Ali & More",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdFpNOEY1ajZGVlVUR19UdmJtWmJXZmhoa1kzc3FWX2V6YzMzUXNOWDJhazhrZWpGMmdoRnJxZ2U5Znh0cnJTb0RnUXg4WnZDWE9lWDl6UlRqTmE0MnJEamNLX0xteDNHTVZQdjk0SnVxRXp3cm8wUmhVdVJFZEJOalM4aVdvN2YtRG5aa19ndjF5akpjT09YZFVkS0hjcjBDbTZTaW1Fdw?oc=5",
-      "source": "miixtapechiick",
-      "published": "2026-10-14T08:39:23+00:00",
-      "summary": "JAY-Z Releases Footnotes For 'The Story Of O.J' with Kendrick Lamar, Trevor Noah, Mahershala Ali & More miixtapechiick",
       "categories": [
         "other"
       ],
@@ -2267,11 +2371,11 @@
       ]
     },
     {
-      "title": "Travis Kelce supports Taylor Swift in sweet behind-the-scenes look at her directing ‘Patient Zero’ music video",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVTF0WFg4ek9oY3RYUnN2ZHNTc2NLZWZ6R3ZmVTU0WTJScURucVZEazJkdjF2Qy1ZbnhjWm43cWRqeElTUVJyd3RKSWFVUEJKa0NCbW5tRHdiSUdOTzQ3Uk8xYktfRFhFMDhkaV9IcWNXaHZ4WlQtQThpVXREM01SaGdRVF93N3lPb05VSmc2T1RfaEJwY21XbG52aDd0azFlQnRXT0VTN1d6YVpDYTI5U083MHFqNU0yeERDQQ?oc=5",
-      "source": "Page Six",
-      "published": "2026-10-14T01:09:00+00:00",
-      "summary": "Travis Kelce supports Taylor Swift in sweet behind-the-scenes look at her directing ‘Patient Zero’ music video Page Six",
+      "title": "See Taylor Swift and Travis Kelce Cuddle Up in Behind-the-Scenes Look at \"Patient Zero\"",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZmNMdFRiMUhJTG4xNHdGNFBYdDRSWVpYWDJIcTN2dDVUM0JMbEdlYWdPOUpiMloyVWRTdDNFMElyclNNeW1lMVd6a3VSSGZDVThQQU1JNjllOTQ0cWtXTmliNjVsaGExMmJjYnBJQkR6THpsSEtuUThOQ2ZJby1tb1BTZFdEYmIxSzNSamVjWWRfYk1LVFZqSmdFMXpCdWdBWEVidFAtU3BvdzN2bnc?oc=5",
+      "source": "E! News",
+      "published": "2026-10-14T04:57:00+00:00",
+      "summary": "See Taylor Swift and Travis Kelce Cuddle Up in Behind-the-Scenes Look at \"Patient Zero\" E! News",
       "categories": [
         "other"
       ],
@@ -2280,11 +2384,11 @@
       ]
     },
     {
-      "title": "See Taylor Swift and Travis Kelce Cuddle Up in Behind-the-Scenes Look at \"Patient Zero\"",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZmNMdFRiMUhJTG4xNHdGNFBYdDRSWVpYWDJIcTN2dDVUM0JMbEdlYWdPOUpiMloyVWRTdDNFMElyclNNeW1lMVd6a3VSSGZDVThQQU1JNjllOTQ0cWtXTmliNjVsaGExMmJjYnBJQkR6THpsSEtuUThOQ2ZJby1tb1BTZFdEYmIxSzNSamVjWWRfYk1LVFZqSmdFMXpCdWdBWEVidFAtU3BvdzN2bnc?oc=5",
-      "source": "E! News",
-      "published": "2026-10-13T21:57:00+00:00",
-      "summary": "See Taylor Swift and Travis Kelce Cuddle Up in Behind-the-Scenes Look at \"Patient Zero\" E! News",
+      "title": "Travis Kelce supports Taylor Swift in sweet behind-the-scenes look at her directing ‘Patient Zero’ music video",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVTF0WFg4ek9oY3RYUnN2ZHNTc2NLZWZ6R3ZmVTU0WTJScURucVZEazJkdjF2Qy1ZbnhjWm43cWRqeElTUVJyd3RKSWFVUEJKa0NCbW5tRHdiSUdOTzQ3Uk8xYktfRFhFMDhkaV9IcWNXaHZ4WlQtQThpVXREM01SaGdRVF93N3lPb05VSmc2T1RfaEJwY21XbG52aDd0azFlQnRXT0VTN1d6YVpDYTI5U083MHFqNU0yeERDQQ?oc=5",
+      "source": "Page Six",
+      "published": "2026-10-14T01:09:00+00:00",
+      "summary": "Travis Kelce supports Taylor Swift in sweet behind-the-scenes look at her directing ‘Patient Zero’ music video Page Six",
       "categories": [
         "other"
       ],
@@ -2350,136 +2454,6 @@
       "source": "InStyle",
       "published": "2026-10-13T19:12:50+00:00",
       "summary": "Taylor Swift and Travis Kelce Share an Intimate Moment in Never-Before-Seen Clip InStyle",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "The 1970s band Brian May wished he could have joined",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeDBlRkV0aEZfa0ZBSXJ6alhqYWpDazJETGJ1REswWkNtRjEzeDdkUG04TTBIQ2RVcDZURE80allaQUFtN3FZaWtYWEVUZXFOVlZuVTZPRkxrRFpyNlVTa2k0SmtZOHc4RmZrdmlNNzRBNzBkeVlwQVRuT1VYdzJ3Nw?oc=5",
-      "source": "Far Out Magazine",
-      "published": "2026-10-13T14:00:00+00:00",
-      "summary": "The 1970s band Brian May wished he could have joined Far Out Magazine",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Queen"
-      ]
-    },
-    {
-      "title": "Did Taylor Swift Drop New Music on October 13 at 8 AM? Here’s What Happened With That Easter Egg",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQko1WGVMNksxQy1md1l3cEFKeE5xYndPenNMOW1fV0podXJKZzQycm1YQjdMcTA2TkxrX3VDRlVyT2ZyNEhUUFFCdDBZWEdKc3k3bDBtMFVKWVFfWHNfX2x4ekN1cU5XMFFnV1ZQSC1FQlo3dC1ZYWc0ZzRtSkEyblFMaHJ5RTIyRG1WQXBick5ad1k?oc=5",
-      "source": "Cosmopolitan",
-      "published": "2026-10-13T12:04:00+00:00",
-      "summary": "Did Taylor Swift Drop New Music on October 13 at 8 AM? Here’s What Happened With That Easter Egg Cosmopolitan",
-      "categories": [
-        "new_release"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "\"It’s the hottest burning high-passion piece I’ve ever heard in my life.\" Queen legend Brian May on his favourite guitar solo of all time, and the Queen guitar solo he considers his finest work",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcXlUd2xKZE5PS3FEMGtMVzVsVkpGcXhESUhCdUQtYWw5ZDR3TUFJNk5YTVJrOFlKZ1oyVGxEM2h0QXpLaTdRTEZDZXp2YllEcVllaTNSSnlXZVduTUF3ZGYyTEV3RXNBX3haRV9PaGttOTFnZ3UtSEY4MngwcUJrYkpaT3BZRlJRTnhtWWU4MmVfbXhPOEhCUWZEb1k1Y2pqNFdlLVcyaTZMUkt4MUFINVBfU2VnLVRUV0ozQkZFMEIwMEQ4OHktdHNGN19iNzE2U2VaQVpyTQ?oc=5",
-      "source": "Louder",
-      "published": "2026-10-13T11:00:00+00:00",
-      "summary": "\"It’s the hottest burning high-passion piece I’ve ever heard in my life.\" Queen legend Brian May on his favourite guitar solo of all time, and the Queen guitar solo he considers his finest work Louder",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Queen"
-      ]
-    },
-    {
-      "title": "An Unlikely Taylor Swift Fan Gets Out of Prison, in “Daylight”",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeGh1Ym9uRjJBQlV0Z2hROUtHS3ZFOHlIcF9pbEVBRk1WYnd4NVI0MHBoX3F0VDJMd1p1TkdxZWZvemtoN2lGczc1UlE5SC1LWERZdlZnbExfNzJmY1lnRW00TXJfSGJtbVhnMUxhclFlRkJYem9pRHU3YVpXSFJoYWZUUEpzZ1FNNW1DSUZDZmE2SG5qTjZsVDc0M3dfZm5FajVmNkxfNGNBdmJUaTAtNlV0d0FsdE9QWXQ4dg?oc=5",
-      "source": "The New Yorker",
-      "published": "2026-10-13T10:00:00+00:00",
-      "summary": "An Unlikely Taylor Swift Fan Gets Out of Prison, in “Daylight” The New Yorker",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Quote Of The Day By Brian May: Freddie, In His Last Days, Was Like, 'Okay Guys, I'm Not Going To Be Here Long. Just Give Me...'",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOW1jdVRPZ1hLTXBUR1J1d1ZPMkRWNy1vbU51RGl5d3pJSDNkN2JOMDFCbHJHLUJWS2tnV21RNDI5a081cGJrVG1FNWtvZ3NwX0w4Q25HLS1LRElyVnloQ1RlTVJkYlg1YUVuV2RnZXpnRjQwZWMxRXNoenBXcXRyV0NR?oc=5",
-      "source": "Grunge",
-      "published": "2026-10-13T08:07:00+00:00",
-      "summary": "Quote Of The Day By Brian May: Freddie, In His Last Days, Was Like, 'Okay Guys, I'm Not Going To Be Here Long. Just Give Me...' Grunge",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Queen"
-      ]
-    },
-    {
-      "title": "How much critique is too much? An analysis on Taylor Swift",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVkIyZUw5X0U5UmpneTFscXJsQWtQbXRtbmo3RzBscHMyYmpVN243bWNuY1RHVGs1TFVTTlc0SXEtQWlUcGs3ckxOeFplbThPWGU5ZXN1ZzgwOWFMQm9yMXotMThCSm01VWRqSUw4SFJyWGhpd3V6clJET3BUMXk5aUV5aUZUQ3dfNGtJXzF3ZjBodw?oc=5",
-      "source": "The Denver Clarion",
-      "published": "2026-10-13T07:02:57+00:00",
-      "summary": "How much critique is too much? An analysis on Taylor Swift The Denver Clarion",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Marsha Blackburn dances like Kendrick Lamar in 'painfully cringe' AI post",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcE45SEJyYXQwQkZYd3g4YWJIdFgzd0lqa3pyandlMV83OHVSZzRGN2kxb2dGb1ZhVzNjVUJTeTRiUUEzZWlSZl9jbW9RV2RZSzA4QXk5SlJjUGoxd2ZmaURkOGRzNmo3LU84QUxJNkNWWl9sVDAwTE52NlZkdlJVVk5HS2JQV211UFFiTzdZTWFoNWdpU3FGR3VpbHRpTkU2UUhvWUl1d3BGcnRwczBzZ1RkZ2tMcUxkZ1E?oc=5",
-      "source": "The Tennessean",
-      "published": "2026-10-13T07:00:00+00:00",
-      "summary": "Marsha Blackburn dances like Kendrick Lamar in 'painfully cringe' AI post The Tennessean",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Kendrick Lamar"
-      ]
-    },
-    {
-      "title": "Taylor Swift, Meet The Beatles: How This Dynamic Duo Tells the Story of Now & Then on the Billboard Charts",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObHRYYzZHQ3NKeER6emNuRVRtZW9IcU1KS19JMVhxdVRvcUtHOEZBR1pSVHVaV3VSQ0xyWHQtOXpadWtFUE04eHJCdTA4dTUyTjkwc2RBUVhEWmZyZVRkQXJ5RUhYTzdBT0pEeUxWMEhhbEVFYjYyMllPUl8xQVRlVXJSaVBtZTY4U2lfd2ZmOE0xLUJxbDRKY25EUEN5QzhPMkh1dUdyZw?oc=5",
-      "source": "Billboard",
-      "published": "2026-10-13T00:42:19+00:00",
-      "summary": "Taylor Swift, Meet The Beatles: How This Dynamic Duo Tells the Story of Now & Then on the Billboard Charts Billboard",
-      "categories": [
-        "awards_charts"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift Signed This Guitar. It Could be Yours",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE13SXV5c0FkZkhpOWRDN3FEOWZHZW9Gd2F3YWtVOFgyZE15STdKQlhlenBhbHRKMzBPbkh1YUlPQ0gyXzVTMVlUeDVJeFVnN29sS1lXMU1sY2htMURPUzI5bXM4bnQ?oc=5",
-      "source": "Taste of Country",
-      "published": "2026-10-12T19:50:43+00:00",
-      "summary": "Taylor Swift Signed This Guitar. It Could be Yours Taste of Country",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift Just Wore the Fall Color Combo I'm About to Make My Entire Personality",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVTAtbEgxTlZyYThkN1lqRFZtYTkwcThsREdFT2pKZVlmaUhtOXRZLWxiVnI0c1dCaVJTZC15bzUweWVXcDJjbEFnckZwbVlQbzlfNWhZRW1oY1dEY3hwQXNqczFaYXNQaHFDdnZKN2NRZjJGTDBOMHB0NkJLUFZWT3lGeDVjeHF4TzRhS1JnbGJhUmJUQTRBbzdSUmZRdw?oc=5",
-      "source": "Cosmopolitan",
-      "published": "2026-10-12T19:26:00+00:00",
-      "summary": "Taylor Swift Just Wore the Fall Color Combo I'm About to Make My Entire Personality Cosmopolitan",
       "categories": [
         "other"
       ],
