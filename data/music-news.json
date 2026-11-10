@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T22:26:57.232724+00:00",
+  "generated_at": "2026-11-10T19:48:52.420668+00:00",
   "days": 7,
   "watchlist": [
     "Post Malone",
@@ -10,24 +10,362 @@
     "Kendrick Lamar"
   ],
   "counts": {
-    "other": 158,
-    "tour": 31,
+    "other": 159,
+    "tour": 28,
     "awards_charts": 3,
-    "legal_drama": 5,
-    "new_release": 3
+    "new_release": 2,
+    "legal_drama": 6
   },
   "stories": [
     {
-      "title": "Freddie Mercury | Splendid Things trail",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoNzU4VHhGWGllSWZjX0xKeU9SUXpBMEFUR25RSWtmZy12OXJrT1hDZkE0aFF2cVY0RlpyOEhkQWhwTnp3M2hLM2dPUDNuSS1aS1FzdUhQZTF2TzVWOFRUVWVYVzI4ZHlubEVqMW9LWE0wSW1lMU5n?oc=5",
-      "source": "Victoria and Albert Museum",
-      "published": "2026-11-09T21:33:44+00:00",
-      "summary": "Freddie Mercury | Splendid Things trail Victoria and Albert Museum",
+      "title": "Taylor Swift & Karlie Kloss ‘Patched Things Up’ Much Sooner Than Fans Realize",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNczhSa0Vuc2ZCMFJjdlg0RWRWRFk4azZ3RTZxQTV3a3Q5ZnE0aWJPYm9KTVZBVWtkWEprN2xvZXVXV01EZmdlRHh5SzhsUTdUUC1VQlRzT3M0aWZRek9aRWJPd2dZc2NEOFNfY256aXhjRS03dGNiS05jOTlTejBJZ3ZnekpMQ01ZWG9pQm5jeE5HYUZ4UWZOYThNdzQtR2FpcEE?oc=5",
+      "source": "SheKnows",
+      "published": "2026-11-10T19:05:00+00:00",
+      "summary": "Taylor Swift & Karlie Kloss ‘Patched Things Up’ Much Sooner Than Fans Realize SheKnows",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "New Red Rocks shows: PROF, Kai Wachi, Porter Robinson, Bilmuri, Christmas in Color",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbVV1YnJiNERkejZ3MHg3NVZ2X29tbVRubzAwVC1CQmxrYWF1eGZVeUdNamdQS2E5MEZRX3FHMll0V3NMQzlyVmpSUjEyTnRERnMxV2JLTU8zQ216bVV2TlY0bm14NERJOXVMWUpjWE82SHZOZ2c4RlhiaGZOdVJkS0tOY1o5cGdvSWw5VjR4UDh3U0NFVWNpX08tWVd6ZExC?oc=5",
+      "source": "Westword",
+      "published": "2026-11-10T18:31:27+00:00",
+      "summary": "New Red Rocks shows: PROF, Kai Wachi, Porter Robinson, Bilmuri, Christmas in Color Westword",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Bilmuri"
+      ]
+    },
+    {
+      "title": "Taylor Swift and Travis Kelce Gain Support In Neighborhood Battle Over New Home Renovations",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQS1iUk1FaFU1M1p2OUZPekd1SXk0MHJqeXoxeG1vWG5QT25JSTktUTdKNjVES2lXUmM2cU8zTnlNaVpCMnlpc3htaEhhanl4M3c3ZEg0cHJCREVSMnZ5ZGlzV3hsUHRrVnA4RGtScjF0TUNWcG4xeGdaeW5xUDh2VmpGd3I0dUUyTlNteWhkaUEtYmpmNW9Jb1pzQXVWcE1zTmc?oc=5",
+      "source": "Yahoo",
+      "published": "2026-11-10T18:00:57+00:00",
+      "summary": "Taylor Swift and Travis Kelce Gain Support In Neighborhood Battle Over New Home Renovations Yahoo",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Watch Hill property near Taylor Swift's home sells for $11.1 million",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQTnBnUnh6YmhFM3RmUVJRb2RJbV9nV2ZORG13bWhQYWxGejhuQ0hfZVZQVHpyS1BIQmFrRlJqbmh2N2NDaTFRVzFSQU8xQzRSaEpDd0RTclBROTVNX2JVRFNDdnR2SXpPVmpNSGJ2QmNtZ3MtNVF2Yld4ak5OcmJRdnE1b2lZblBiSWpBM3BmbGxyQXZ5cm1YYzZKUTd6RjRZcGJGTUI0VHhBTnJKQWtkYzRkWlNmcXlxUEpRQTBSSjFtd2ZUV05Ba0VQMkEzdVZWVEZzWlhYdEpHaDhWcWhaZjMzWEU5VFY2clZkUnRYSWtHXzg2bTJzdw?oc=5",
+      "source": "Westerly Sun",
+      "published": "2026-11-10T17:18:00+00:00",
+      "summary": "Watch Hill property near Taylor Swift's home sells for $11.1 million Westerly Sun",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift-themed workout class to benefit Arizona animals",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYVpqblZOMU9EQWJwZHBRRU1pTDJZSEl6MVhPRnlKVV84MUtESmNrempRZW10UTFNSGNGZmo0MzJaT3NRR19oWW9iQ0t2UndyVHJPR3c4OXptSEpHMnhVSzlGX3NMOTVLZENTbU1Od01fYm5FVVh2OEtNTlFsNzZ3NVVtVW5HNjBfcUg4ZUE2OEZ1SXAtMkl3Nm8yMXhtX2JrUjVLdzVkWE4yOUhGdS1vMm1tZHZVeWtOMTEydnByZFlhNnVnZGNiQzB3?oc=5",
+      "source": "Your Valley",
+      "published": "2026-11-10T17:11:25+00:00",
+      "summary": "Taylor Swift-themed workout class to benefit Arizona animals Your Valley",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Paul McCartney Now Has $1.4B Fortune, Making Him World’s 3rd-Richest Musician Behind Taylor Swift and Jay-Z",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaHljWUJXbUZ1blc3dVdMR21rbUo0QmxfSVlvdDJibTFxeUxIZUItc1JlVTlqa0lmSHZkZGM3MUVWRkJWVEU4NGNObktOek93a1h6c2Mwai1KN1dFNmlqZFJPY0N1ZlBLS2Z1dXZYQjRHbklxX3k4WXYtREZxWmItUXV2TTd5RVU?oc=5",
+      "source": "People.com",
+      "published": "2026-11-10T16:35:36+00:00",
+      "summary": "Paul McCartney Now Has $1.4B Fortune, Making Him World’s 3rd-Richest Musician Behind Taylor Swift and Jay-Z People.com",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "How Taylor Swift and Travis Kelce’s New Ohio Neighbors Feel About Couple After $5 Million Mansion Purchase",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS3RfRy00aVpXU05QYlFSdGpJek5NdDl2V3FGZTlCYjRaWE5nYWI1RFM2aU5Hd1l2eThRMjRHSTBiM2tvb1J1VWlIMmJWS1NlYU44MWwyaW9YRkZnVlUyLVFDYm54WE5xVkI5N3JiNEVsaGxNT2s3WFpfLW01LXV1S3lkUlJUUGhHRDVsV1kyQ2Y?oc=5",
+      "source": "InStyle",
+      "published": "2026-11-10T16:27:44+00:00",
+      "summary": "How Taylor Swift and Travis Kelce’s New Ohio Neighbors Feel About Couple After $5 Million Mansion Purchase InStyle",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "He is now the world's third-richest musician behind Jay-Z and Taylor Swift.",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQVo2YjZRdms1Y0FXdm9jOTA1S1ZQQUhaeU9Zc1NMS0h4Z0h1ems5dlAxQ2Z1U3p6UU8xa0hkZ1E0Q2N4ZnFFNHZjZXl4SmxZbU9WdlQySkNWSEVWNUs0WVhVdWNoczd1cUhiYUxFTEJHa3BWQnJYUUc1bHFqUGZHOE93UFJ0OFdITEZPcmhnYjJIak0yaVNHM1JadVJLdmNmbXQtU3dHSUJQdzRfMEYwUkxkTHMyNVRmQjlDZjZuWm00N1lIcHN6UERfYkpzanQ2?oc=5",
+      "source": "Facebook",
+      "published": "2026-11-10T15:48:32+00:00",
+      "summary": "He is now the world's third-richest musician behind Jay-Z and Taylor Swift. Facebook",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "The Iconic Sample Behind Kanye West & Kendrick Lamar's \"No More Parties in LA\"",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaDl0YzdxaXdfU0toNnBQR05uN29MSGZ1cl96UjVtOFlCSkt5T3pIQmxudEYxUkQyQkUwc0RQMENOR0lONmtKMFFIVko2UnREckFTdGIxWUppUWVSMWdjcWVucDhZcHNJc05zclZ3WFRvWXB6SHJJYTNSYUVBUF9NUVBoandqVGs?oc=5",
+      "source": "HotNewHipHop",
+      "published": "2026-11-10T15:38:35+00:00",
+      "summary": "The Iconic Sample Behind Kanye West & Kendrick Lamar's \"No More Parties in LA\" HotNewHipHop",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Kendrick Lamar"
+      ]
+    },
+    {
+      "title": "Taylor Swift and Travis Kelce face a christmas family dilemma as both sides make holiday plans",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOa2JZbXpJSjJiVURzb0IzTFM4WkE0RHRoaEdvOE1qOTFUdmRQMHFWLUVGSHdoenMwM2dtWHJiYW9jNFBtbTVtVHBJeDBVVkdudjRNT0I2TkhQRlh4V1prbUFNVFVXbGFsc05RbXVhQVItRlN3N1E2YVFyREZVNkZ4VUtDVjRKMHB4WGNyM0FsSTYzcFVJS2FOV3FLRFRvQXo5QzZJRXVWOGUwVjdDbG1nU3I3aTNMNl9TR2FMZExtNUNyX05odi10U20wbWVGbGhPbG1taGdzNDRCREhPMnhGc25rNjBBRURtWll3X9IB7AFBVV95cUxONC1xRkZqMTQyNzROYUpUNm4wNWtvY1llRWFuX3FVTThLb2llWEJlUUNIQ3ZyNXJnLXV4Nm9adFRSSFRRanlZMC0xaktaT2VONDlkSlFHRkR1UFNSaG9VUHVKMHhmVnQzQjhvTWdEaW5VSlJTc2ZmSG9VbFBQbDVMeWNwc0dpWldGOG1tSEc4TTh0VS05cXNqOUtVWTZCY0NsNnBXOGNLWVNlYnc5QUpNdUNuVW9rSHNPd25MaVNDckVhbFB0a1RmTnNBNWc0eTVoUFBCaTZGTWExQmhzMDlWQlhxbkpfV09Bb3VPeA?oc=5",
+      "source": "MARCA",
+      "published": "2026-11-10T14:59:36+00:00",
+      "summary": "Taylor Swift and Travis Kelce face a christmas family dilemma as both sides make holiday plans MARCA",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "\"He Ended Taylor\": After Taylor Swift Songwriting Scandal, Robbie Williams Comes To Pop Star's Defense",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBFNzR4dlRvM0thQXJ4SVBRblpNQnBTMm00S3dMckZaZzNJc0pmTm1aaXlOaC14TU1XUkYtOXBjWHh6WGJPNHFvb001QVU0cUhxZzdtWjhQS1VzYkd1QUNCQW9xR05vM0JhMEtGUXVmNHBNeXBXMU93dEtpSWM?oc=5",
+      "source": "Yahoo Lifestyle Canada",
+      "published": "2026-11-10T14:30:16+00:00",
+      "summary": "\"He Ended Taylor\": After Taylor Swift Songwriting Scandal, Robbie Williams Comes To Pop Star's Defense Yahoo Lifestyle Canada",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift’s New Handwritten Note Has Fans Speculating About a Christmas Drop...or a Surprise Album",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOenhlRUJXV0c1dTVJQ19yUG8wd0dSWTJtRHBKVUpYcW4wa201eFVSUGk1NHVHbnFrbXd2ay1wT3p3VGlEUFdtTmctZjhqVTVLR2RrOU9uOVNzWjFOVG5OdE1QNGVxZ3NDQ25sQ3JQT1FrS0VYM19OaVlSaDc4LWMxT1dkTXloNlBZYmZiZDJ2OXRaZjczNmxpRm5WNExGRWxYTkFyb0V1MjRQUQ?oc=5",
+      "source": "Cosmopolitan",
+      "published": "2026-11-10T14:10:00+00:00",
+      "summary": "Taylor Swift’s New Handwritten Note Has Fans Speculating About a Christmas Drop...or a Surprise Album Cosmopolitan",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "In 1989, Brian May heard “the most beautiful guitar music”. He still calls the guitarist “one of the greatest geniuses”",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPLVU4elAzdm56NmF2NVJhT0ltb0E4WjdRWExsXzZyZ1J4MEdIOExYV1hPWWxnbVNqVWJXUFZLZFlvY2pkT1R1Y2J4bUdKbnQxanQ2YTNIaVVsaDlUSkhZN3M2RnJKTDJqd0ZCVF93Zm1RbHhXZFF0MDZHU0thNjRDWUdadWpIbXhOR0E?oc=5",
+      "source": "Far Out Magazine",
+      "published": "2026-11-10T14:00:00+00:00",
+      "summary": "In 1989, Brian May heard “the most beautiful guitar music”. He still calls the guitarist “one of the greatest geniuses” Far Out Magazine",
       "categories": [
         "other"
       ],
       "artists": [
         "Queen"
+      ]
+    },
+    {
+      "title": "Felpa Post Malone - MTG Post Malone Is Getting His Own Secret Lair Bell of Lost Souls",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBDU2ZCWFI5Vk01dGlnTy1sWHBOZnRmR2FzVlRLMThDTXljWWdKMXVTcnV2ell4dkRnTFVvSmV2dV9NMWNnQUlQSXNtR3dtMi1STDBV?oc=5",
+      "source": "auroradesio.it",
+      "published": "2026-11-10T10:56:08+00:00",
+      "summary": "Felpa Post Malone - MTG Post Malone Is Getting His Own Secret Lair Bell of Lost Souls auroradesio.it",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Post Malone"
+      ]
+    },
+    {
+      "title": "Taylor Swift Elevates Unbuttoned Polo With $4K Stephanie Gottlieb Pendant",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMlFnZWhRaldYdjhOTzItZWgyazJRbFkxcEpxblR0ZU9ENlQ3YlUtbHlTY2cyU1BXMmpnei1OSGl6N1pEVktlWHhBUlBsMi1XWm9pZ1htVmxVZTdqamU2UUgzVzhTOUxBVU1BYlo4OGxldFkyQ0w2R1BSMTc1aVN5VFpubVc5SGhhUy1MeWxuLWhOYkp2NnVvSFhudnV3VHJRZGVzcEVCVVJMSGlxYkdQbWFLSUJ2QQ?oc=5",
+      "source": "Yahoo",
+      "published": "2026-11-10T08:19:42+00:00",
+      "summary": "Taylor Swift Elevates Unbuttoned Polo With $4K Stephanie Gottlieb Pendant Yahoo",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Pollstar: Post Malone Rises Again.",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWkprY3dGM0p1d0s2a3B1VkIyX2MxZEdHZmhsUlFISFNYX18wN1dxMlRWNmM4cW83b2J2c2lXTDlEX2p3dUxub0dFTXhLaWJUbWV2ZEthamhLT1FZQ1E5Tl9YbW5ZVTZDamRkNTBtSHBta0d3eGRlVXA0eUY2azVzLUFIeHFaV0VXZjJCcFg5RDhSZlp1Um54OGlLSGRQMFc3SDJYWlFBakFwUkRpOHNFR21KaTVlUmgxTmc?oc=5",
+      "source": "Country Insider",
+      "published": "2026-11-10T06:10:00+00:00",
+      "summary": "Pollstar: Post Malone Rises Again. Country Insider",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Post Malone"
+      ]
+    },
+    {
+      "title": "Kendrick Lamar “The Blacker The Berry” Remix Appears in Animated Series ‘Bass X Machina’",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZk1KYlhHcF93RDBLcUVuTl9wd0sxWklObXRiUHFxZmgxN0tsQ2NqcExxUGtJbWQyczRMcnVtZ042aEF6dzFTZlVMUXhpdDlfSWZZTklPOEstamxZNmdqU2RCXzVCSmlnNExxMzZIdXZYMF8tMkQzVFl6SEZuTFdRR0l4Y2dvMTdqcEVQTWtHdUtYdkE?oc=5",
+      "source": "Complex",
+      "published": "2026-11-10T04:35:42+00:00",
+      "summary": "Kendrick Lamar “The Blacker The Berry” Remix Appears in Animated Series ‘Bass X Machina’ Complex",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Kendrick Lamar"
+      ]
+    },
+    {
+      "title": "Breaking Benjamin Announces 2027 Tour With Starset, P.O.D. and Filter",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aWTRFYXJMU1ZzeFFTR0xxaEVOajdMUUdaeU1oQ2FQZnd2anBoRE05SWlMMlRncU0yUXl5S0VGeEtkdTR4cUZZZi03cEk3cTM4WVdyODZjNHZ2RTlXMTNUN0NUaWMwd3BwZkd1dTY1SFUyRm56cXBRTmxraw?oc=5",
+      "source": "TicketNews",
+      "published": "2026-11-10T00:48:57+00:00",
+      "summary": "Breaking Benjamin Announces 2027 Tour With Starset, P.O.D. and Filter TicketNews",
+      "categories": [
+        "tour"
+      ],
+      "artists": [
+        "Breaking Benjamin"
+      ]
+    },
+    {
+      "title": "Knicks guard walks back comment about Taylor Swift being fake fan after Swifties, including his wife, attack",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcTBHMDZCakdJeHQ5UnREWTBYOWtWVTFVZkxlTUxhTzJ6RjJjTlBhNnFWbUpmMGZZRzYzM0ZuY2poSDZDWFgya043Z2J4QWZ1SlN2ZndBQXhhQmpDdzMyRUl6VlZKVFNaTnRTZVZMbHFZRldOVXRQa0l6YUV0ano5YnpPOGx2X2FfODc1VjlETmNKSkhrakllMmFqT0pDWDQ2OWhSd0FCZUlDT3NXc19IZGdTdw?oc=5",
+      "source": "Fox News",
+      "published": "2026-11-10T00:29:15+00:00",
+      "summary": "Knicks guard walks back comment about Taylor Swift being fake fan after Swifties, including his wife, attack Fox News",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Jane Seymour on marrying Freddie Mercury: 'One of the greatest memories of my life'",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNGthTDFmQ0JOQnZUampmNDdGekJLbG9hYTVvemVKSjFzVkJmVTM5Nko5dm9JVFBXQWM2WkUtZHh0aG5WeVp5U1RTWTNFUHJRbGlaWE9mV3E4NXV1VnNHX3dxajFmR01pcVctR2xuMTNMUGUtUTZSRDJfaWZxVk5GODJzZWZGazJFR1RWU016WFhkRTJmbUxNeVdXUUxZOFlOWjlLS19TakRWLXN1RXNNZHJ1WDRqOFhBaFE?oc=5",
+      "source": "Yahoo",
+      "published": "2026-11-10T00:03:32+00:00",
+      "summary": "Jane Seymour on marrying Freddie Mercury: 'One of the greatest memories of my life' Yahoo",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Queen"
+      ]
+    },
+    {
+      "title": "Jhené Aiko – So Good (feat. Kendrick Lamar)",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT2JyXy1vSUVJVC1lUERYWHJ3dG1TWDQ3dHBKTlVyZDRzeDRmVHE3cmNtb283VkF5TTVtNGRkNDhNbE94T1FxMjhJMmdtTXpvWFhmdmpYOHo5MnAtYXdOOGFCX2p5X3BKWE5jUkI3ZnItckZEbjZYM01odkVQcUs1Qg?oc=5",
+      "source": "TrendyHipHop",
+      "published": "2026-11-10T00:00:00+00:00",
+      "summary": "Jhené Aiko – So Good (feat. Kendrick Lamar) TrendyHipHop",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Kendrick Lamar"
+      ]
+    },
+    {
+      "title": "Exclusive | Taylor Swift and Travis Kelce find neighborhood allies as war over $5.35M Ohio mansion heats up",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNXFhbDRsZ1NVREtJVXdMQllpTW1yWFVzU3RXWlphVjBoQTJTamRpc2FuLVhPVW1pM1Ric2NIMHBZME41MVVOM0pMTTRkUWcxZ1BMWGpjN1NaS1RCcEVpbzdTUDk5bHVhaHRSaTJVZnVNbldVZUhRV2tqNlJORVd5azJRNGc1MmliajVlbzVQcGs2ZVYteFlaeTJHbE4tTzFKMHYtTXhxVUhHYkp4NXRiR1d0Y1J5Mm5HaU1XRE93?oc=5",
+      "source": "Page Six",
+      "published": "2026-11-09T23:17:00+00:00",
+      "summary": "Exclusive | Taylor Swift and Travis Kelce find neighborhood allies as war over $5.35M Ohio mansion heats up Page Six",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Queen Alive revisits Freddie Mercury's legacy in Bad Orb",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPODZvYXBzUm83NF9HN01Pel9hY1Vza3BMV3l4a2tIdmY0QTY4V2Zvbnpnbm00QlR4MGR1MFgxeHV0V3pLNWd3Y2dFN1BFY0czR1dqNzhHQl9Ha25sVjVKZ0VITkRQWjA0SmJ0WmY0SW9NY3RrYkZYZktGcUI3WDUtYzViQXA0eERud3hpSTdfN1lkcFFXdmNwbFk3c2I2cDJ4UVE?oc=5",
+      "source": "Foro3D",
+      "published": "2026-11-09T22:57:25+00:00",
+      "summary": "Queen Alive revisits Freddie Mercury's legacy in Bad Orb Foro3D",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Queen"
+      ]
+    },
+    {
+      "title": "Taylor Swift and Karlie Kloss Are ‘in a Good Place,’ ‘a Lot Closer Again’ After Friendship Fallout",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQjRmelg1Zlc3emwzWDdhNlo3N1hPVUhaZlFNWDdha0Q4d2NMeXk2YURQcTdOWXB4eUFoNFhlWGFMVlVkaEpsRkRxcUVlaGd0NC02Y3prY2xsaThNbkdqb2lOaWpIWVVHZ092ejhkaWhEdlpURl9yQy02M3FzTWVxcGxhMHgxU3VndXNKQ202ZnhabzAtalJMYWtNd0FVWkNRUnc?oc=5",
+      "source": "Yahoo",
+      "published": "2026-11-09T22:47:41+00:00",
+      "summary": "Taylor Swift and Karlie Kloss Are ‘in a Good Place,’ ‘a Lot Closer Again’ After Friendship Fallout Yahoo",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift, Karlie Kloss reunite at Kansas City Chiefs game",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQci00UFFGYUEtLVE5U3B2aUN3R3U0VEY3SzZIUnBNZndsMGU1VWtRQ21EZWYzbkF1bDBSamlYWEZ4dXVpcWc0MEw5djhoY2otWGt4eEY1YzlQTFR3X0pVQ1FwblMyb2c5Y0hBbFBMYXN6eHhPRXEzVnlPSjlkX3BZQ2FuWUpvTTZ6?oc=5",
+      "source": "WBAL News Radio",
+      "published": "2026-11-09T22:24:59+00:00",
+      "summary": "Taylor Swift, Karlie Kloss reunite at Kansas City Chiefs game WBAL News Radio",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Post Malone Shelves Asia and Australia Tour Months After Cutting U.S. Stadium Dates",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVDM3YktqS1NtS2ZUWDg4NjdZZWU1dWdIMmZVc3BwaGU4MEloNUhpeW1qM1BMdkduemtyeGsxaVlZUUlJOXdhclNQME51M1NveS0ycU5fajdVRG5KMU82QU9fRW1EeTk5cV9xdFlKVkhNYTgwdFNKVjJyRWpsdFBSc01PMA?oc=5",
+      "source": "TicketNews",
+      "published": "2026-11-09T22:20:16+00:00",
+      "summary": "Post Malone Shelves Asia and Australia Tour Months After Cutting U.S. Stadium Dates TicketNews",
+      "categories": [
+        "tour"
+      ],
+      "artists": [
+        "Post Malone"
+      ]
+    },
+    {
+      "title": "13. Kendrick Lamar: $12 million - 2015-09-22 - Cash Kings 2015: The World’s Highest Paid Hip-Hop Acts",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUdTBYbUhmYUY3QUozOW1xOFhwYmtlM3FnOTNTblVsNDBHWHV2OTh1ZmFNUUV5b3dtY0lqQ0xPSVFjQWlVMWZwdTd0OVVVTFNPNDVKbDZYcmVYQ1NyUkFHYUJvMWNoQnVlc1F6S1JVVXdGeXlM?oc=5",
+      "source": "Forbes",
+      "published": "2026-11-09T21:35:26+00:00",
+      "summary": "13. Kendrick Lamar: $12 million - 2015-09-22 - Cash Kings 2015: The World’s Highest Paid Hip-Hop Acts Forbes",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Kendrick Lamar"
       ]
     },
     {
@@ -84,10 +422,10 @@
     },
     {
       "title": "Knicks Release Statement After Tyler Kolek Questions Taylor Swift’s Fandom",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWHJPemVZV09WQUpVeDRyVnlfVlZ4dXhfQkR2dlBUdlE3SGt4TXdrSXNyZlpnZ28zMzFEMGx4MTFDQ3NJY0NVUzJqS1ZPZFlsNWNCaVFEcjE3ajVnZWhadnVwTEZrUlFUNFh1eG56X2VjY1A4bVJPbWdSWW43SzdRb0lsWndSWUJhOTM3bWV3?oc=5",
-      "source": "Yahoo Sports",
-      "published": "2026-11-09T20:30:37+00:00",
-      "summary": "Knicks Release Statement After Tyler Kolek Questions Taylor Swift’s Fandom Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSmkyVmQxMkpNckhjRExiMlVfOHNkUWlXUjR3QVBpMFNWTHFDTWlfS2dSV24xRV9LZm5fMG15UEVUbWs5OE0tREdLZFo1eXpnVHhRUmJCc0RvdTJKQk93VmpfSzRXUGlJOVZCOFFCRmtlRTR6Sm9JUzN0RkM4aEdVcTZUUXpxVlhzSjFhc1VLakwzNXhjb0szTTlaTm5zN1lGY1V3cDhYRWJhdVhRendkZ2Y5QUNaUUdoekVj?oc=5",
+      "source": "roundtable.io",
+      "published": "2026-11-09T20:35:13+00:00",
+      "summary": "Knicks Release Statement After Tyler Kolek Questions Taylor Swift’s Fandom roundtable.io",
       "categories": [
         "other"
       ],
@@ -96,29 +434,16 @@
       ]
     },
     {
-      "title": "Taylor Swift, Karlie Kloss reunite at Kansas City Chiefs game",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR2RENERfMVBTbmQ2Y1JkbjFpakxFZTdnT3ZnWXdMWTdkLUxSUE1MQ3lmNzAyVGJ0WkgyX0FwMGc2cjdxUHVxRjBRVlJqRTJrQl84cHlrRkxSSzFZTnJpN0gzMmtOMHBRNEJLZHZuMzhMd05ZYmNsNHhwNmMtbGw4RzNkT3o?oc=5",
-      "source": "Country Top 40 with Fitz",
-      "published": "2026-11-09T20:15:00+00:00",
-      "summary": "Taylor Swift, Karlie Kloss reunite at Kansas City Chiefs game Country Top 40 with Fitz",
+      "title": "Kendrick Lamar, 26 - 2015-06-03 - 2014 30 under 30: Music",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBMdHpDa3h2UU9xSmZDNmJDZktCaTFoc1A4ZXpNZjhzeDA4YkJGdldWZk5zaUZfaHktWjhlT0hPWDVRd2ZVSVRvQVdfWjFZUXVhakx0ekhhZG5uMkpxS3c2VktWMU5YaGhnRW1ETA?oc=5",
+      "source": "Forbes",
+      "published": "2026-11-09T19:53:13+00:00",
+      "summary": "Kendrick Lamar, 26 - 2015-06-03 - 2014 30 under 30: Music Forbes",
       "categories": [
         "other"
       ],
       "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Knicks Star Tyler Kolek Covers Taylor Swift Song After ‘Fakest Fan’ Dig",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWF9yRjlJTVZBN2VDbWdwUDN6akJiOF9vMm91NmZMbURyejJnbHdET1VPYXFCd2t1cWd0VUw3dFFJMzNNS0poLTdIcW9lRGxWWXFkTHMwc3h6V2RrOFpRcVk2N2NPVURGcWFaekFrYVgtaWxYeDRXTjJGTzJwSXRLWWxENHFndw?oc=5",
-      "source": "Yahoo Sports",
-      "published": "2026-11-09T20:10:43+00:00",
-      "summary": "Knicks Star Tyler Kolek Covers Taylor Swift Song After ‘Fakest Fan’ Dig Yahoo Sports",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
+        "Kendrick Lamar"
       ]
     },
     {
@@ -135,11 +460,11 @@
       ]
     },
     {
-      "title": "Taylor Swift and Karlie Kloss reunite at Chiefs game years after rumored rift",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNWl2ZFlCOTJfQ3FUMzdWVWItU085WFo2akpvUi03SFo4cjlhOTQ2OTg1WHZMMXktYU4ySDM1VnQwc1RtMTc5Q0UxX1FQZ0dBRksyVFhuVEswWFdvbFVfb1NvS3kyTGluQ01SczZFbjFSQ05jNENVZ1BtcjBvRGpaTXViVDQ3eEhCNEc0NlJqZDZGNDVyMGx2SmtwXzkzUFYxTFF3RXFUZXVfOTZmdG84S1ptdVAwYzZ5?oc=5",
-      "source": "KGAN",
-      "published": "2026-11-09T19:04:11+00:00",
-      "summary": "Taylor Swift and Karlie Kloss reunite at Chiefs game years after rumored rift KGAN",
+      "title": "Paul McCartney Enters ‘Forbes’ List Behind Jay-Z, Taylor Swift With $1.4 Billion Fortune",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdU45enQzZm1FQmdPWG1Ta3VVcU15TkE2b2kyMHdsWTBnZk9kd3B0SFA5RDgzT2lpVGFScmVBelg2cnZrR2ZjN2xEN21aUnF6RGZ3RUVfUWQwSUJULXI4Y2dEMXZrZ05XR0VGVVo3cFZZOFlqb2FOVFp3MWlFa0VKZXhET1gyT1diTHNqcjhlT3pyQkdBUG5sb3RfaTAxdw?oc=5",
+      "source": "Complex",
+      "published": "2026-11-09T19:26:39+00:00",
+      "summary": "Paul McCartney Enters ‘Forbes’ List Behind Jay-Z, Taylor Swift With $1.4 Billion Fortune Complex",
       "categories": [
         "other"
       ],
@@ -148,11 +473,37 @@
       ]
     },
     {
-      "title": "Taylor Swift & Travis Kelce’s Alleged ‘Tug-of-War’ Revealed After Report She Was ‘Furious’ Over a Wedding ‘Betrayal’",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZ0tvMFA0NW5iUC1IRFg3ZHBScG1PWFM2eHIzY3BzOHdrUkI3WnBqUkZZQVJwc2czWVlsR3lXRmEwdVFnaVdicnllQzRuelg0NVZQU0FnX3RiWmV2bU1sdy1Ycl9kMFNVRGlYX3M0b2xJeF9ja0xwcVFGY2o4NUI5MzBZMktVN3dranhrMnBybExOeVJtVDVQbTB3MGVSeGtyVDZPM1ln?oc=5",
-      "source": "Yahoo",
+      "title": "Taylor Swift’s Mom Andrea Swift Nods to Both Her Daughter and Son-in-Law Travis Kelce With Game-Day Outfit",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX25IVlBaeGZTaHdPMmphZjNHblU3QjMyRDJHd3hZaTZ0VWtjOENSX0VuV2kyblRjSldmZGFWTV9XNVlQR1VZaURJRklpMURMRWNHQUk0ZjJRVmwwR2dseGxNQTRxaE15UTMtVHZTR1lqbmtsX1hOZnZLbWd6Qzl1Q0p2SG9yOGNNZHVRVjZaMjJyS0FCejRB?oc=5",
+      "source": "InStyle",
+      "published": "2026-11-09T19:06:31+00:00",
+      "summary": "Taylor Swift’s Mom Andrea Swift Nods to Both Her Daughter and Son-in-Law Travis Kelce With Game-Day Outfit InStyle",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift and Karlie Kloss reunite at Chiefs game years after rumored rift",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeTFfM1daU05fVWlhNy1SbEdfTk40elF0TW9ELXJlNE02M1BJdjBkQTltcG1fUERsWWU3OUJMeFVQcUU0a3ZfUERfNUhTeFQ2R1FtYk9iVE1sNFoyZU1zcTdtYzB1QVhaeEkyb1dCU05mWTVaRVdaQklOaE04QUV2ZXRLUnRWMUR2R01hSFRmX1JqWndLZ01STXJzS0VwN1BNYnBDLTM3c1dwNER2U2hhMkJ6OA?oc=5",
+      "source": "WSBT",
+      "published": "2026-11-09T19:02:31+00:00",
+      "summary": "Taylor Swift and Karlie Kloss reunite at Chiefs game years after rumored rift WSBT",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift & Travis Kelce’s Alleged ‘Tug-of-War’ Revealed After Report She Was 'Furious' Over a Wedding ‘Betrayal’",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTEpleHkzcmtsWUdMU3VqaU0wSDJGalZrUGhMNmd2YUhwcU9PS2UzUEZ1dk81MlpSWXBsNjFHaGpxMDdUb1dTRExPYkJ6TnQweUpDbnVPZ3l1N0lGUUJTVHJmT0xuUnlPcUY3YXNtTGFlR1BNMVRDTVR3eURwRTdiOFRucy1qdFJKN09nMWZOV09hTkwzZERvVDY5am8yTTVJTUN5OWJTRV9mRklDV0gxRGJ0SDFiUQ?oc=5",
+      "source": "StyleCaster",
       "published": "2026-11-09T19:01:59+00:00",
-      "summary": "Taylor Swift & Travis Kelce’s Alleged ‘Tug-of-War’ Revealed After Report She Was ‘Furious’ Over a Wedding ‘Betrayal’ Yahoo",
+      "summary": "Taylor Swift & Travis Kelce’s Alleged ‘Tug-of-War’ Revealed After Report She Was 'Furious' Over a Wedding ‘Betrayal’ StyleCaster",
       "categories": [
         "other"
       ],
@@ -162,10 +513,10 @@
     },
     {
       "title": "Queen Guitarist Brian May Makes Plea To Save The Oceans",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZU50UFhVaXV6N1Brd2hzODhhaXhQMTR2SEJzVkprMGsxeHJudVFIUWRHcXQxTS01SXZ5ZG42WERBWEFKaFVla0dnZkhXOHd4eWdnbnFzcUFwZ3lRaGw3U0JPODRkR29SVzEzdVNEcmdiLWFobmtPZG9mX0dWWUxOUjBtU21VaFRSV1M4RkxpSjVPQUpa?oc=5",
-      "source": "Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeDF5RlRTdS01aU1FbjAtM1NkVDB5YUFsejQzQkdqNjdpMm5lYlk5RlFBSGFJdFZISFFvdnB3cU9tMENMNDVCNUZfaVpjdm5YMTluNXdSYnFjU0wxVnZ0anZJb0JUWW9PSG9KTS1UajdQTXVHMDFmWjBWN0Q5eDVUa19RbnVPYnM?oc=5",
+      "source": "SURFER Magazine",
       "published": "2026-11-09T18:45:21+00:00",
-      "summary": "Queen Guitarist Brian May Makes Plea To Save The Oceans Yahoo",
+      "summary": "Queen Guitarist Brian May Makes Plea To Save The Oceans SURFER Magazine",
       "categories": [
         "other"
       ],
@@ -184,32 +535,6 @@
       ],
       "artists": [
         "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift and Karlie Kloss Hug at Chiefs Game in First Public Photos Together Since 2018",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcGNmN3A4dHdMZGFydWwyc1pKODJMMnhFRGFtb1l4RHJUaGNrcWQzNWlXNzBIelpRU1VmSC1kdkxxVWxGMjZsYmMxZUpKLVh6Z1EyWXQyX1ZqN1lNNUpUNG05RHhkV0RwU2lzR3BnN3pCaTl6QzJfTjRtN2JLWE9USzdQUmtDbE1EUkZ6b090VmZBQUR2NmRUaV9RWDZSNGNI?oc=5",
-      "source": "Yahoo",
-      "published": "2026-11-09T18:00:08+00:00",
-      "summary": "Taylor Swift and Karlie Kloss Hug at Chiefs Game in First Public Photos Together Since 2018 Yahoo",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Breaking Benjamin Announces 2027 Tour With Starset, P.O.D. and Filter",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aWTRFYXJMU1ZzeFFTR0xxaEVOajdMUUdaeU1oQ2FQZnd2anBoRE05SWlMMlRncU0yUXl5S0VGeEtkdTR4cUZZZi03cEk3cTM4WVdyODZjNHZ2RTlXMTNUN0NUaWMwd3BwZkd1dTY1SFUyRm56cXBRTmxraw?oc=5",
-      "source": "TicketNews",
-      "published": "2026-11-09T17:46:57+00:00",
-      "summary": "Breaking Benjamin Announces 2027 Tour With Starset, P.O.D. and Filter TicketNews",
-      "categories": [
-        "tour"
-      ],
-      "artists": [
-        "Breaking Benjamin"
       ]
     },
     {
@@ -252,6 +577,19 @@
       ]
     },
     {
+      "title": "Taylor Swift drops animated music video as 'Toy Story 5' set for streaming",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc2QxRzVlZnFfYVc1eEFMWDRhNjVVWXBCeHdqTFdEbGRZMDBBaE02UDQ2c21mRFpUWFlvYUhKeXRHOGQ1MTdUTzltU1ZZcEFiQXR4Z1ZKTmVJcjVBWGEwWjRLY1F4T1hqWEQwY1VCekFRMkRvMVlqa3J3TXJ4a0FaQXZYR2UyMDEtRlNEUmFtYzdqQmZGbGV1T3g3Tm94aHRaeXfSAacBQVVfeXFMTmd4X2ZfY2lzOHZVZ3lYYm1OLTRLUGE2dF9xVjUtTWhaeG5ILXhEM0I0Rjl3UlNERHdINzR3QUxuSGU4dktMU0djem1CbUJiS3BTaFZFdEJmbG1FYW9UM1FEQk1BVnVJMW9qb1dIMnhYQ0cwRGo1c3dHb3N2Z3RHNUJZeHFyQk1MNEs3QWxfZU1TUThleGp3dGNEWEtVNk9Ya1BIQ0JYdnc?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-09T17:20:07+00:00",
+      "summary": "Taylor Swift drops animated music video as 'Toy Story 5' set for streaming ABC News - Breaking News, Latest News and Videos",
+      "categories": [
+        "new_release"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Taylor Swift and Travis Kelce: Seven photos from Chiefs-Jets game on Sunday",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZFVhdGd2QWFzRHM2Rk5WMENIdlB3SGJ2WkVPZXVERnRHam5zTl82eElycEZIbUJ1QjNsWFpXZE5FY3Z1TVlFaDJGdFpZRk5HeUU5MV83TVZsNkprR3JfR2dCQXNHREJNeEozbHNzQ1RzbnptU3F3MjEtTGU0OUx5TVQ1eHU1dEw0ajV5N3luMnhBd9IBkgFBVV95cUxQVUJFRmh2UENaUVR2YjJRZHRlMFBiWW56cGtobmJMMTFYUmQ1UUYwMXFpUjhJT3drVDhzamxocUhSdXV3R0xTMnl5bFcyTVhPdDNIT3J0NG80bWx5MVFXM3ZVODMtT2pXa3R4T1piZlpTWnA4dko1NGl2bUdGaEV3TXRRR0pEeDFUeE81SUtXTGQtdw?oc=5",
       "source": "Kansas City Star",
@@ -283,19 +621,6 @@
       "source": "ELLE",
       "published": "2026-11-09T16:26:00+00:00",
       "summary": "Taylor Swift and Travis Kelce Re-Created One of Their First Public Moments After the Chiefs’ Win ELLE",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift and Travis Kelce Leave the Chiefs Game in This Unexpected Way",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTnh5cW5WQnh5X1dTZDBYZzI0eFFxVmsxa2JBTktSU1pzYTE5QW43LVdYMTRuSWJET2Iwb2FnWTJYUmtzV21LemxSOFU0LXdJMVhDd1BpS1pldUJEVFdUTTQ0QUh5bmJTSDhHU2JwTW5WLXB4OHRub1dMMzU3QXR6cVR0TU5YZ0lTYjJkeE0xRmNhZExQc1U1ZVd2bw?oc=5",
-      "source": "InStyle",
-      "published": "2026-11-09T16:20:33+00:00",
-      "summary": "Taylor Swift and Travis Kelce Leave the Chiefs Game in This Unexpected Way InStyle",
       "categories": [
         "other"
       ],
@@ -382,11 +707,11 @@
       ]
     },
     {
-      "title": "Taylor Swift’s Latest GameDay Outfit Includes an Under-the-Radar Wink to Her Husband Travis Kelce",
+      "title": "Taylor Swift’s Latest Game-Day Outfit Includes an Under-the-Radar Wink to Her Husband Travis Kelce",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLU1raGllS1FhX0Voelh3VnYyUzR1UkpyQk9OZ0pWdUNFQm1TZ0ZiaVlLOWtDQjdyTm5FeVM3eFRFNWdQaGFMQ2ZLaFhXaGE3cUF5VEVqQW5hN3h1Z3lkOG5qMUs5aVJjRERpRGNsYUhtbklGZ0tfOTlJam90akRLb21velVLeGNYeG5RX0YxdzQ0M0thQS1qcGpvTXE?oc=5",
       "source": "InStyle",
       "published": "2026-11-09T15:35:22+00:00",
-      "summary": "Taylor Swift’s Latest GameDay Outfit Includes an Under-the-Radar Wink to Her Husband Travis Kelce InStyle",
+      "summary": "Taylor Swift’s Latest Game-Day Outfit Includes an Under-the-Radar Wink to Her Husband Travis Kelce InStyle",
       "categories": [
         "other"
       ],
@@ -426,6 +751,19 @@
       "source": "Men's Journal",
       "published": "2026-11-09T14:40:00+00:00",
       "summary": "Taylor Swift Called the ‘Fakest Celebrity Knicks Fan’ by 2 Players Men's Journal",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift Rewears Sentimental Diamond Super Bowl Necklace",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdjdob2pQOWhGaUVjaXBEd3U3T2pXS19kUkpraFREVUhxRUdUM0ZuLUtjMlJ0bXc3NHEwdU5vSnhGemhIRmVLYi1HRkhFS09td1d4bVBwMUhjeFZ3Vl9PMWlLNXI4U3BCa0NMVS1wMVdZNmptVGNkVHlvQnNWblJHRDVKYmUwQUdSWElPWDZNNFE3V0kyT3Y5b3lMTHAzN1kwNy1BMzJBVFNoaUZVckd2X25mTFNudkVla3hUdw?oc=5",
+      "source": "Town & Country Magazine",
+      "published": "2026-11-09T14:40:00+00:00",
+      "summary": "Taylor Swift Rewears Sentimental Diamond Super Bowl Necklace Town & Country Magazine",
       "categories": [
         "other"
       ],
@@ -551,19 +889,6 @@
       ]
     },
     {
-      "title": "Here’s Why Everybody’s Freaking Out Over Taylor Swift And Karlie Kloss",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWDhudnVNMVhrckl1dENtb2tpQXFoZTZTa1ZNYmdzcHBFMGtvWVp2eWNobUhXbTNQaldrVlBUQ0NwOGNkREQ5QklTcXE3aHVYSWZFV3JyNE9Ma1V0X3FuRDd1OFVWRDBxVl8xU2NqUHpqWUIzNjhNVVhzTjhaeWhjdENsZ2F0UXB2NjhQYTdjSnZjbmpPbWdoZ3hsSndtTGNRLWhVc1NlQQ?oc=5",
-      "source": "Yahoo",
-      "published": "2026-11-09T11:54:07+00:00",
-      "summary": "Here’s Why Everybody’s Freaking Out Over Taylor Swift And Karlie Kloss Yahoo",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "‘Morally bankrupt’: NFL criticized for chasing Taylor Swift fans as Josh Jacobs plays through abuse allegations",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeUVaV3ZKckF0RHF1eGwyamVpcEtCS0JNUW4wNVZfcUtteHZScmtRMFdzWVRuYkRodXV6OVI5eHV5RDAzWFpRd2N4bEZ2M1BCakxpZWExSXo5VTR1aTFPTldSdWVUYXZ6MklXc3hMQnR6NlI2aEs4cHdRZ2NsV2c1bWhWeVhEVUlyVUxXd3lQT25WUQ?oc=5",
       "source": "Yahoo Sports",
@@ -603,29 +928,16 @@
       ]
     },
     {
-      "title": "Meet Tyler Kolek, the Knicks star under fire for Taylor Swift comments",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbXpyTVJ6T3VkOHQxdVlfTjdoY3RiSHA3elZsXzhuUDYtZUoxUVFkTGloS3otSTBNZGhvZS1Ud1RSMWw5QV8wTm05cTZsU0Jid2g5MFJXRDUyMHpKalFhTU5VRTdIRjFtM2pyTnJ3bFZIVlZveE0yb1JCemhndVI2THp4ejJ2M0w2MzRkYjJFM0FrV3hyc2xDZ2tDdFpTQ1l1dWp0Q0FzU0w1akotd1g5V0UwSGhRQ011WVo1ZUo5R1QwMU9uMG5lMGZOM3hZOTU2b2xKcDhSaU9QNzRNYVHSAd4BQVVfeXFMTzNYTndOaFduNlozQkM5dUxrWHBidFdDWFlwRl9UWTktQ1kteVh0ZFpsUUtNTFN5M1BxQ0wyakZ3VlNmSnNoQmRwemc3eGp0M2Uza0tKWGlFYmtCaEJlMmFtUjFxOWNQcWtPRVVaSGZZWHZVNGc2THA2dkk4XzN0U0xxbmMxMTEzaHZNZExEZHRPQ0l3a2hTQzkyTTlKWm5GR1FpVEQtWVRxYWRNclNwcHdJMUZwaE1fY2x3d09WSTdseC14d1poanFqaFlqbU8zOU9tVjFfYmNhMGFfWkhB?oc=5",
-      "source": "South China Morning Post",
-      "published": "2026-11-09T07:09:23+00:00",
-      "summary": "Meet Tyler Kolek, the Knicks star under fire for Taylor Swift comments South China Morning Post",
+      "title": "Freddie Mercury | Splendid Things trail",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoNzU4VHhGWGllSWZjX0xKeU9SUXpBMEFUR25RSWtmZy12OXJrT1hDZkE0aFF2cVY0RlpyOEhkQWhwTnp3M2hLM2dPUDNuSS1aS1FzdUhQZTF2TzVWOFRUVWVYVzI4ZHlubEVqMW9LWE0wSW1lMU5n?oc=5",
+      "source": "Victoria and Albert Museum",
+      "published": "2026-11-09T08:00:00+00:00",
+      "summary": "Freddie Mercury | Splendid Things trail Victoria and Albert Museum",
       "categories": [
         "other"
       ],
       "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Travis Kelce and Taylor Swift leave Chiefs win in style with vintage Cadillac that fans love",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ1MtTk1zZkgzV2RrOHgycFVmWXZuRm54Um5HRUFVMnBSVUo4bXU1am9rZFFpM2wwWTJWMUhPdi1kWEVfX2dOU19CcVg1UmJwR3NwMjY2bmxqZDU4SmluTGQzZ3lwSlJQcHZtN0RwajlyRm5TajNnQ05heDBFYk9Sei1XNjhabXBNQjJMM3lLVXRWOWZ2YnpqU2EzSEItNWNndlhYaWhxbVBIVHBNcXRURnB1eDk?oc=5",
-      "source": "HITC",
-      "published": "2026-11-09T06:04:56+00:00",
-      "summary": "Travis Kelce and Taylor Swift leave Chiefs win in style with vintage Cadillac that fans love HITC",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
+        "Queen"
       ]
     },
     {
@@ -656,10 +968,10 @@
     },
     {
       "title": "Taylor Swift shocks at Chiefs game with Karlie Kloss, ends feud rumors",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNWG9QR29SU1ZGNWMxQTlrUXM1MHdXRHZMejRsZmcxMXpnZjBtY1gwVjVSNlVoMnJ5Mk1UcWt1aHNGWEpCU2dGODJqQW1zYVRZR3o4TWdnUWpTMTJzUXhTUHBheWJ6TElDS0xVenpQYnhGX3hEY2JtVm1DdjRlSGhMdElXX0xjeklURFVmRHRMejFXVFN0aWpuV1dMaS1oRl9Jb2ZQZXhFOFBhMjhZdHo4M2dqUzVaSmtzYnc2X29hY2FjdW50MHZka2RnVkhnOFJ0OW9wdF8xeU1UYUhMdGo4Um1kazFlblc5S1BQOGVnMElxY2FDLV9ISk43NTdSSGg0b2xv?oc=5",
-      "source": "Central Oregon Daily",
-      "published": "2026-11-09T03:07:32+00:00",
-      "summary": "Taylor Swift shocks at Chiefs game with Karlie Kloss, ends feud rumors Central Oregon Daily",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQemZOQVIzQkVUNURFWU0xcHdjc0JzWmwyUlQ3bm4wNTFPbWEyb3pQQ2JHVGVkbVBRb3dXN0o5NkZPS2xTM2M3RU9YOTdRVllZVDBuTHZncXF1WkJXd2xucUl0eVpfb21vNXlnUXUwQUh2UEcwaWlrd0lGX09FQlFUZTEwZUx0eGM4dzhhczFxa19iTWVHR2V0UXMzTmgyczkxOTdWS3NvSmxGOGN2eF9DNnN6ZUF2YUx4LWJ2VkVxSUVsci15MW8w?oc=5",
+      "source": "USA Today",
+      "published": "2026-11-09T03:07:00+00:00",
+      "summary": "Taylor Swift shocks at Chiefs game with Karlie Kloss, ends feud rumors USA Today",
       "categories": [
         "legal_drama"
       ],
@@ -668,11 +980,11 @@
       ]
     },
     {
-      "title": "Travis Kelce & Wife Taylor Swift Spotted Hours After Chiefs’ Blowout Win vs. Jets",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdWxNY2MwcjZnb09oSWRqSTdfaXpaQTc0S2E5UGZfTXEwbldaVGdNb2k3QWMtQTBFMnVTem5tcVdnbXRmUjk4VXYtWkFjM25hVEJlQnBrNGMzbFB1X2tNWTE0VV9VOW9PTDBQX2llX2lRaXJMVmpWRzQ5WVkzU0NkQ3l1Z2JlZVE2MHlaTkVfZFR0THRnM05NNnJ3?oc=5",
-      "source": "Heavy.com",
-      "published": "2026-11-09T02:15:00+00:00",
-      "summary": "Travis Kelce & Wife Taylor Swift Spotted Hours After Chiefs’ Blowout Win vs. Jets Heavy.com",
+      "title": "Taylor Swift and Husband Travis Kelce Leave Kansas City Chiefs Game in Cream-Colored Vintage Cadillac",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPakpRY0o2aWxuWk0zbnFYZmtOSDBCcFdHU3VRMlhDRmQxSUhtMU1MN0s5aGpoaG95SFRwcUdEOVhnRzctRDhKY2NZd1ZWM2lzcVpyai0wT1BWWWZEc2lfVlc1TmdKQjREQV84MjJfempITkloZ0kzc3lzZ0ZXTTZZUDJ2NFo1TFcwQjZHY3pNOGpwTTZ0dkNybGpkSWlFTzNmaXdEYkhvZTRSNTA?oc=5",
+      "source": "Us Weekly",
+      "published": "2026-11-09T02:32:56+00:00",
+      "summary": "Taylor Swift and Husband Travis Kelce Leave Kansas City Chiefs Game in Cream-Colored Vintage Cadillac Us Weekly",
       "categories": [
         "other"
       ],
@@ -720,19 +1032,6 @@
       ]
     },
     {
-      "title": "Caitlin Clark reveals details of Taylor Swift-inspired CC1 colorway: \"Nobody has these other than me\"",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQzJrNExDYmVjQzVncGt6LWhRanNlclJNVzJlWVpmUXkxNVhCTEpJVWxydEx2dFBGaGVSZG0yaTRXdTFUbDJDU1FGdi0zT3R6ZjBGZ1FMNGFta0t5S1pOdnkzcGl1b293M0Q2SEwzVE5ZTnRvem5saWRFQTVGU0I1WGR0QWFjODN2NUd6NEhR?oc=5",
-      "source": "Yahoo Sports",
-      "published": "2026-11-09T00:20:44+00:00",
-      "summary": "Caitlin Clark reveals details of Taylor Swift-inspired CC1 colorway: \"Nobody has these other than me\" Yahoo Sports",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "The real names of music’s biggest stars from Bad Bunny to Freddie Mercury",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BWFA1SkNoOW9XNk5YY0xuNV91NTdYRFd5WU8xV1ZBMVRPXzVKd0hjclpPWlRNSHp6SmVEZnJrbEZKeEtIcVlCc1pvTDd4YzJpQk9pS1BlRXFncEhlc0JxRjhvVnZRTnhKZmtJaW40QVljb05BcnVhVElpRQ?oc=5",
       "source": "https://latination.com/",
@@ -746,19 +1045,6 @@
       ]
     },
     {
-      "title": "Jhené Aiko – So Good (feat. Kendrick Lamar)",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT2JyXy1vSUVJVC1lUERYWHJ3dG1TWDQ3dHBKTlVyZDRzeDRmVHE3cmNtb283VkF5TTVtNGRkNDhNbE94T1FxMjhJMmdtTXpvWFhmdmpYOHo5MnAtYXdOOGFCX2p5X3BKWE5jUkI3ZnItckZEbjZYM01odkVQcUs1Qg?oc=5",
-      "source": "TrendyHipHop",
-      "published": "2026-11-09T00:00:00+00:00",
-      "summary": "Jhené Aiko – So Good (feat. Kendrick Lamar) TrendyHipHop",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Kendrick Lamar"
-      ]
-    },
-    {
       "title": "Taylor Swift and Travis Kelce ride off in style in vintage Cadillac after Chiefs game",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNzdSeGZGM0pwTzBKMFhvWHVuOVZZU2dKTFR0dlU1SHlzQXp4ME1jcDNLdF9YYjJDY3l0WGxTa2ZGazJvRmU2eFE4Ym1iamR0Qk1BR2lyVlVxeGhpVkZLbEdHQ3MzajBsV1o3UFlQS1NMQ213Rjd5bjgwcmZBQ1c0OWExcmlfLTF3WDU1YkJNbDNZcjhJb3Y1RzIzY0hJRGJlX0JqZ2paLVU0SVk3RUtfMjE2UmxmWDlETU9Rb29xYnBoanNXT0syaUp1RQ?oc=5",
       "source": "Page Six",
@@ -766,32 +1052,6 @@
       "summary": "Taylor Swift and Travis Kelce ride off in style in vintage Cadillac after Chiefs game Page Six",
       "categories": [
         "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift Brings Familiar Face to Chiefs Game as Travis Kelce Hits Major Milestone",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaVpUWHJyeHNqLVU0SnI3V1Exb1RzMmk5aFNFMTd4WGpXZVNEYXRFSGYxbjZKN3VSTFNpMHdNQ3lZZ2lZc1JXTlpUMG10YkZlS0VOWDhJalI2TXZfTGFwT2R0MWxNM3NGSkd6cW5uT095ZlFESi02WXczSUhtem02NTRBWHhlM0hGc2FwUmdCZ2tHcW42WlE5UklxU0VrNDhqUWpObVliOV91QWhLVHV2YUc3bjBOZWpYVWFyUjdR?oc=5",
-      "source": "Sports Illustrated",
-      "published": "2026-11-08T23:43:16+00:00",
-      "summary": "Taylor Swift Brings Familiar Face to Chiefs Game as Travis Kelce Hits Major Milestone Sports Illustrated",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift and Karlie Kloss end years-long feud rumours with one photo",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVnVHcHBxRzIyaDZNYnJiU21FbEZzVDAtMkJLb2JqS0VPR2F2R2lNSjFVVGZTUHhOSl9famdSeHJOZkhyRUh4UmVUQzR1b3E5bXl1T3lBTU9iWktGbE9Td2ZJejdTTEx1QThZNEpYQ0JhTDlCMlhwUlREc3dkWC1tLUhON0dGUlcwZmFfMDJjZW5YMVZZSWJQaWp2alhoNmRKQVpUalpHWWZwYVJPOENJOHFrMHgtYjVBNU40d2FES0thaElw?oc=5",
-      "source": "Nine.com.au",
-      "published": "2026-11-08T23:32:47+00:00",
-      "summary": "Taylor Swift and Karlie Kloss end years-long feud rumours with one photo Nine.com.au",
-      "categories": [
-        "legal_drama"
       ],
       "artists": [
         "Taylor Swift"
@@ -837,26 +1097,13 @@
       ]
     },
     {
-      "title": "Taylor Swift Receives Apology Before Chiefs-Jets Game",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdjhXQlpuZTM5bzBDbmZEeU5OV0lRNWVFU0w3X3BzNU9KY3ZDMDdXWXVxY1lXNld5Yjc2Q3JEcFAtV0FNMmxLaUwxc0ozUFJyR3VKX1BETi1xWjQyV2xsYWJFczQ1U3c0OEFjR3UxTnRYVHpqc3lXY2JPcWVWTnVUR0tpYlhMakdQY0FOcGFR?oc=5",
-      "source": "Yahoo Sports",
-      "published": "2026-11-08T22:14:14+00:00",
-      "summary": "Taylor Swift Receives Apology Before Chiefs-Jets Game Yahoo Sports",
+      "title": "Taylor Swift and Karlie Kloss Attend Travis Kelce’s Chiefs Game in Kansas City",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcmFTd09Gd2RXeERUSFZScHJkYTF4TVNtZGQzVHRhZmhYLWJfSVl0MGhvQ2ZuaFdiM2wzV0o5MEZYR1BENEtHczBwM3NUWVU0VWlUbGZsYkhxU2xYVERiZGM3ZTZ4cW91TU5OMGpGU3JyNGVOVEwyUTVWY2JVMzRfT1UzQkJQWGloTXBsRmdCSXNXc3pUTjlMWEtVck5tUnFtYVJQWGtlcWw?oc=5",
+      "source": "Billboard",
+      "published": "2026-11-08T22:07:29+00:00",
+      "summary": "Taylor Swift and Karlie Kloss Attend Travis Kelce’s Chiefs Game in Kansas City Billboard",
       "categories": [
         "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift fans left stunned by shock Karlie Kloss reunion at Chiefs game: ‘War is over’",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQ1R2MFVVQXZnZTNTTVhNZjloYzFfNE94VGFRTVB1WndGQWwxSVFKbHR1Q2tfdnh4LXk1ZGhyMnJxOW90ckZGTG8yVmctNVQ0ZTVhQXFhYWkxd18yRnNlS2lQQWdmZ0MwZnNDcjBVdUlxaGE0RmNNYlZPNGRlN3U0OUFUeWhoci1pVUVHZ3g3cXE5djNQRDlKcHRwMnZhdHdJb1E?oc=5",
-      "source": "Yahoo",
-      "published": "2026-11-08T22:06:54+00:00",
-      "summary": "Taylor Swift fans left stunned by shock Karlie Kloss reunion at Chiefs game: ‘War is over’ Yahoo",
-      "categories": [
-        "tour"
       ],
       "artists": [
         "Taylor Swift"
@@ -870,6 +1117,32 @@
       "summary": "Why are Taylor Swift fans so mad at ex-Marquette star Tyler Kolek? Milwaukee Journal Sentinel",
       "categories": [
         "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift attends Chiefs-Jets game at Arrowhead Stadium with supermodel",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbWVUb2VoM1V6eXJFM05UcE4zbFNqRVpjR01hT2xhTmNaUnhLcUZNa2lqYVBWMFJhZTQ2bFlfeS05cGxZQ1lHcGZnbFh5N3A1WnVjT3NrQjVSVEM1aGpqTk4wWHpUSWROUDF2Y2gzRHZSQUNKS0pfZXdUQVlhRHVoNXBpTTVTbUNYd0ZNaHFQNUhZUdIBkgFBVV95cUxPRmdXcGY0VzliTXVkREFYVkxVWWlOZFVIN2k1bFVReHZkRFROYUVRSXBHN21iSXlvQXF1NTJaSmFpZ3RwRkdsaVRGREhJVWVMQjhPejBXRXNoTlpYRzQ3bEZzNEJKY2JCZWxtU0g3LUVpaFVyVU9GajRwUzNZXzBVS0FWMWZtN09uNG5mV252NUVldw?oc=5",
+      "source": "Kansas City Star",
+      "published": "2026-11-08T21:47:59+00:00",
+      "summary": "Taylor Swift attends Chiefs-Jets game at Arrowhead Stadium with supermodel Kansas City Star",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift reunites with former BFF Karlie Kloss after years of feud rumors – see photos",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMTF0bU9rd1V4WF9iZFNxbnp0S01jdVpyc1JvZXEwRnBzMlZ3aEx2bkQ0SUtuZDhSSzk2QWl4cFF0Vk5ZRGtER0ozVVozSnMyQWZUOFZKSTZQRVFsdVhJcUxrUmpwdmY5ZUdZeC1LY3FvVmg1Vllnb19uME5fWlVzdHI5VURFUE9kanM4c1ppc3pycmh2aU9tNlowUmFGelBXbXZreFJXTTB1RmJtNW50UXZfbWlBRlgteUp2R1AzYXhkNVhOUHBrMkFabWg?oc=5",
+      "source": "HELLO!",
+      "published": "2026-11-08T21:38:22+00:00",
+      "summary": "Taylor Swift reunites with former BFF Karlie Kloss after years of feud rumors – see photos HELLO!",
+      "categories": [
+        "legal_drama"
       ],
       "artists": [
         "Taylor Swift"
@@ -928,37 +1201,11 @@
       ]
     },
     {
-      "title": "Taylor Swift and Karlie Kloss Attend Travis Kelce’s Chiefs Game in Kansas City",
-      "link": "https://www.billboard.com/music/music-news/taylor-swift-karlie-kloss-travis-kelce-chiefs-game-1236377058/",
-      "source": "Billboard",
-      "published": "2026-11-08T20:58:07+00:00",
-      "summary": "The longtime friends reunited to watch the Chiefs take on the New York Jets at Arrowhead Stadium on Nov. 8.",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "Taylor Swift and Karlie Kloss Reunite at Travis Kelce’s Chiefs Game Against Jets",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZFF2TVFEeFNxWURKQlM4eWRVRVNnbVltWVFlVW5yeTdSOWJqV0RUZTA1WWpxT1c3LXN1MUJ2amhFSlNDOHVUS2I0YjdUUWxMNVZwcjZBUXZnMWt2QVVwd3Flb2lGYU5mNW56MkdEU09jNmN2Qy0xV1VZY3ZnTU9fYjM0T29IU21JQmRxNkNRRzByelliYkRoUmRYOGY3U1BGV3J5a3c4cGRIQnMx?oc=5",
       "source": "Variety",
       "published": "2026-11-08T20:39:00+00:00",
       "summary": "Taylor Swift and Karlie Kloss Reunite at Travis Kelce’s Chiefs Game Against Jets Variety",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift and Travis Kelce enjoy a luxury exit from Arrowhead after Chiefs' dominant win",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOR0Z1VjRXWmU5TVdSbkJublhMa1g1bXFsemo0MTAxZFRTd2hMWkZxOHg5MXVEd2ptVnA4OTU0Nk12QWdrbXY5bnRTbS1NQWd2bi1oOTRRMmg3eFNEQUVIVDRvWVRIT3plSnBsalVQQjhCcVV3RWE1Q3h0REZZc1hTZGFWQnZXT2s2NjhmLU1lbmtLWlJJay1mbE12NkxLME9KRUh2YWRZd3RpUDAyU1FXWm9DS3ZLZVpKaXRTM2puNnFwVzQzcVdRWEwzdERNRERyTnZyZmNWT0dqR1N0bHVpRXJKRTJIVHPSAecBQVVfeXFMUFFnOXBFRHpiOTlUNTlpV2hBNjZjeHFOWXAzWkFmdmlNeFN1QTUtV0JJMWFRNFFGdXliSlRvSmxkU2htaE0xT3pUMW1WZFhJUVpsQTZGWE9uSWs2Ynk0ckpXR1VNbG4xX2liek80c0lQdVdwNkkybno0Yk83UTVOajNVTjN3TG9MQzBHNS0wQm8zNTdNVThjV0NFMm5JTW14YnFTMHRVWlFGT01xQjRKWFlaUjZ1Y29pZFhRbVJnUVczRmZNTy1FMmVHOUppWVBOcHNzZ0JISkhBa0J3TWI3OXlTWXBtNUQ0?oc=5",
-      "source": "MARCA",
-      "published": "2026-11-08T20:39:00+00:00",
-      "summary": "Taylor Swift and Travis Kelce enjoy a luxury exit from Arrowhead after Chiefs' dominant win MARCA",
       "categories": [
         "other"
       ],
@@ -974,45 +1221,6 @@
       "summary": "Taylor Swift celebrates Travis Kelce’s touchdown against Jets New York Post",
       "categories": [
         "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift Has Priceless Reaction to Travis Kelce's Touchdown Following Patrick Mahomes Injury Scare",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNUdkcGpQTE9PSUUtbHRlMVVLUkxnMDdqeDdjNkhWeXcwZHBWTkgzTVg4UG9QaTV6dmhPS2NPSUhlX29uSWk1aFpXSjFENGR2WGZxRzVHWkY0UndaNEs2UlVUQTgzbEVvaDNscV9TYTlyU01pVXJ1Y0lvcVVkT21NclgxZEZkSnNDMHp0YVhlejc1YWpnekJvMW5hWmZ5XzRsbHFTMjlB?oc=5",
-      "source": "Heavy.com",
-      "published": "2026-11-08T20:33:31+00:00",
-      "summary": "Taylor Swift Has Priceless Reaction to Travis Kelce's Touchdown Following Patrick Mahomes Injury Scare Heavy.com",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Watch Taylor Swift go wild celebrating Travis Kelce’s touchdown in Chiefs vs Jets clash",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSl9EcUM3VHMwc0Ztc09nRDYwRWxGNFU0ekxQUXZCZ19yMGRxYTV1bl9hcGNyVVBXQlNwQkhyU3hBTDR0b0VvN0FfLXlSM1M0SndxdnBVWFhMTlcyLU9DWXhmNnVneWVkV0ZIcVBsdzUtemI2YnlGWnQ2dUVTT1dHOFN0R1BKQ3pPZmp6cVo4N19ZejV1T2RERlpwcWVpQWc?oc=5",
-      "source": "HITC",
-      "published": "2026-11-08T20:27:39+00:00",
-      "summary": "Watch Taylor Swift go wild celebrating Travis Kelce’s touchdown in Chiefs vs Jets clash HITC",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift drops animated music video as 'Toy Story 5' set for streaming",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc2QxRzVlZnFfYVc1eEFMWDRhNjVVWXBCeHdqTFdEbGRZMDBBaE02UDQ2c21mRFpUWFlvYUhKeXRHOGQ1MTdUTzltU1ZZcEFiQXR4Z1ZKTmVJcjVBWGEwWjRLY1F4T1hqWEQwY1VCekFRMkRvMVlqa3J3TXJ4a0FaQXZYR2UyMDEtRlNEUmFtYzdqQmZGbGV1T3g3Tm94aHRaeXfSAacBQVVfeXFMTmd4X2ZfY2lzOHZVZ3lYYm1OLTRLUGE2dF9xVjUtTWhaeG5ILXhEM0I0Rjl3UlNERHdINzR3QUxuSGU4dktMU0djem1CbUJiS3BTaFZFdEJmbG1FYW9UM1FEQk1BVnVJMW9qb1dIMnhYQ0cwRGo1c3dHb3N2Z3RHNUJZeHFyQk1MNEs3QWxfZU1TUThleGp3dGNEWEtVNk9Ya1BIQ0JYdnc?oc=5",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-08T20:20:56+00:00",
-      "summary": "Taylor Swift drops animated music video as 'Toy Story 5' set for streaming ABC News - Breaking News, Latest News and Videos",
-      "categories": [
-        "new_release"
       ],
       "artists": [
         "Taylor Swift"
@@ -1123,19 +1331,6 @@
       ]
     },
     {
-      "title": "Taylor Swift attends Chiefs-Jets game at Arrowhead Stadium with supermodel",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbWVUb2VoM1V6eXJFM05UcE4zbFNqRVpjR01hT2xhTmNaUnhLcUZNa2lqYVBWMFJhZTQ2bFlfeS05cGxZQ1lHcGZnbFh5N3A1WnVjT3NrQjVSVEM1aGpqTk4wWHpUSWROUDF2Y2gzRHZSQUNKS0pfZXdUQVlhRHVoNXBpTTVTbUNYd0ZNaHFQNUhZUdIBkgFBVV95cUxPRmdXcGY0VzliTXVkREFYVkxVWWlOZFVIN2k1bFVReHZkRFROYUVRSXBHN21iSXlvQXF1NTJaSmFpZ3RwRkdsaVRGREhJVWVMQjhPejBXRXNoTlpYRzQ3bEZzNEJKY2JCZWxtU0g3LUVpaFVyVU9GajRwUzNZXzBVS0FWMWZtN09uNG5mV252NUVldw?oc=5",
-      "source": "Kansas City Star",
-      "published": "2026-11-08T18:57:00+00:00",
-      "summary": "Taylor Swift attends Chiefs-Jets game at Arrowhead Stadium with supermodel Kansas City Star",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "Is Taylor Swift at the Chiefs vs Jets Game Today? What We Know!",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaVl1LTJWcll0NzJvTk1xeERTWnRzbEVOeVFPVG5LcDhac0hfS3JyMXhLVTRJWndxMlppejFXNFN1eFFkV2d0UklNZGEyQk1TX1R6cnI2dEVIdF85bnRaNmZKRV9GVHRZUVFZcmtCc0tBMVAxNk5HeF9LbG01U1pKV0d4TTNQMGRweFFXaWdwNHY0NjRuNzFKOUVGVXdQdw?oc=5",
       "source": "Cosmopolitan",
@@ -1175,42 +1370,16 @@
       ]
     },
     {
-      "title": "The Knicks Attempt Damage Control After Tyler Kolek Calls Taylor Swift A Fake Fan",
-      "link": "https://stereogum.com/2516990/the-knicks-attempt-damage-control-after-tyler-kolek-calls-taylor-swift-a-fake-fan/news/",
-      "source": "Stereogum",
-      "published": "2026-11-08T16:43:52+00:00",
-      "summary": "The post The Knicks Attempt Damage Control After Tyler Kolek Calls Taylor Swift A Fake Fan appeared first on Stereogum .",
+      "title": "Taylor Swift, Travis Kelce wedding speculation grows as friend says it is 'close'",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX1FxZk43eExseFRDQk83VTZYVWY0QUctQ1ZkQVVPMWJTUWV0V2dudmNLV3lRMlJEY3Zpam1ZNkd5NDdTYmRobzlDV1c0Mjc5bENGMEdVTmRmNUFoa2prWVFqMGcxTFVqWXRXQlZIQ0lRaUtRNzIxYXJCZFowbEFYNXdvejItd0EzTDNsN3h5YjBRYVNPWms1YS0wVkF4d9IBowFBVV95cUxPcllPY2ptWFdNUExfMTBQTjdDbmlTS2NmUzhhQl9mR25idjRRekNkMXZMNGdHVFpfTjVzS3RMbk5LUlh0R21KeFBJTXBESDcxTm1aVWtNWHhBa3k0aEtUcGRMLTdqM29GaW1BOHZub09UQjdjUk0wdl9qcHM4eUczdHhFczJrXzMxNmh2dW5JbEoxWGdvZWxOdnhmRW80SUQ4U0Y4?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-08T17:55:09+00:00",
+      "summary": "Taylor Swift, Travis Kelce wedding speculation grows as friend says it is 'close' ABC News - Breaking News, Latest News and Videos",
       "categories": [
         "other"
       ],
       "artists": [
         "Taylor Swift"
-      ]
-    },
-    {
-      "title": "'It Might Have Destroyed Us if It Hadn't Broken Away': Queen's Brian May on Making 'Bohemian Rhapsody' Under Financial 'Threat'",
-      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxONUxFZjk1T3M0djMwdnFpQTM4X2tESGstQTROclRxWkJ4THRRdWNESXBrNktpLUhfWlpQY0RqeTkyNFVCOFVjeUZSVFFjLVJHaTJDQ0QtZE5Vc3pEYlF2MGp5dVllVDU1R2xncVBRdWltVkx3OGJXczBzblFkaDVtNjJPRlQzbmtqb2tkQ2w5NkgwWHkzSUVMdktUMDFjb3luRmVmUHNOR2RHYVdrNWZvb3RiYVFTai1XbGFGcGlacmItZUdDZUFwYkt6TjBXbUZpWmtHMFZvQUMyci1laTNtLVpRbDNmUDhYM013d01IOEppczM5enlyUGlRd0pzakthTC1vWQ?oc=5",
-      "source": "Ultimate Guitar",
-      "published": "2026-11-08T13:53:52+00:00",
-      "summary": "'It Might Have Destroyed Us if It Hadn't Broken Away': Queen's Brian May on Making 'Bohemian Rhapsody' Under Financial 'Threat' Ultimate Guitar",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Queen"
-      ]
-    },
-    {
-      "title": "Breaking Benjamin Announce Winter 2027 U.S. Tour",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR1g0U0I3TnhQbE5sSjZGcTNTbGtuNUttVFc0TUtfWnNyNEhMeG5LbUFwTndXQ0ptWFh2ZEFMNGdqeW9KZjBXcDNYRTBwME0zQy1QNGFLeVk1MVhCSmhsLU9pNHE4cUZOaVMyUEhOWVgzOGZOdkFkUUlraHlzcUdXWndZUHEzT1BHR0Y3VHNCbTVGZw?oc=5",
-      "source": "RTTNews",
-      "published": "2026-11-08T13:03:00+00:00",
-      "summary": "Breaking Benjamin Announce Winter 2027 U.S. Tour RTTNews",
-      "categories": [
-        "tour"
-      ],
-      "artists": [
-        "Breaking Benjamin"
       ]
     },
     {
@@ -1292,16 +1461,16 @@
       ]
     },
     {
-      "title": "Bill Maher makes another dig at Taylor Swift’s love life as audience reacts with mix of groans and applause",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNTdIQjhQQjYyTE9KNE85TUxFcmJzb1Mxek02Q3l5bGQ0Tm5XX3VOQWpaMjN3OGdpU2VKVGFfYkM3c2pod2dud0JXUTBUSFJvcWc0MTEyTXVJc1RRQzg0Vnh6MTdrZThkejlUN0FRVXF1cmlady1iWEowWUxhMFlrSGZfaDdYRXAwRmhYRVh3SHJlaFlzZGZ4bF9QV0RCQQ?oc=5",
-      "source": "Page Six",
-      "published": "2026-11-07T23:26:00+00:00",
-      "summary": "Bill Maher makes another dig at Taylor Swift’s love life as audience reacts with mix of groans and applause Page Six",
+      "title": "'It Might Have Destroyed Us if It Hadn't Broken Away': Queen's Brian May on Making 'Bohemian Rhapsody' Under Financial 'Threat'",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxONUxFZjk1T3M0djMwdnFpQTM4X2tESGstQTROclRxWkJ4THRRdWNESXBrNktpLUhfWlpQY0RqeTkyNFVCOFVjeUZSVFFjLVJHaTJDQ0QtZE5Vc3pEYlF2MGp5dVllVDU1R2xncVBRdWltVkx3OGJXczBzblFkaDVtNjJPRlQzbmtqb2tkQ2w5NkgwWHkzSUVMdktUMDFjb3luRmVmUHNOR2RHYVdrNWZvb3RiYVFTai1XbGFGcGlacmItZUdDZUFwYkt6TjBXbUZpWmtHMFZvQUMyci1laTNtLVpRbDNmUDhYM013d01IOEppczM5enlyUGlRd0pzakthTC1vWQ?oc=5",
+      "source": "Ultimate Guitar",
+      "published": "2026-11-08T00:45:24+00:00",
+      "summary": "'It Might Have Destroyed Us if It Hadn't Broken Away': Queen's Brian May on Making 'Bohemian Rhapsody' Under Financial 'Threat' Ultimate Guitar",
       "categories": [
         "other"
       ],
       "artists": [
-        "Taylor Swift"
+        "Queen"
       ]
     },
     {
@@ -1310,19 +1479,6 @@
       "source": "The Guardian",
       "published": "2026-11-07T22:18:00+00:00",
       "summary": "Saved for Sunday: How Sarah J Maas became romantasy’s Taylor Swift The Guardian",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Sneakerhead Jimmy Fallon Just Scored Caitlin Clark’s Unreleased Taylor Swift-Inspired Kicks",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNWZXT1RXTi1xdnYzQ2FZNGhuTEltaml6VkE2dl9ZRzItcEhaSVRFOVVyeXNPZXdTbXhGSlRZUXd5VHlyak5Na293U0xRU3hHbUFfU29PZGU3TFB3MEZiU3YyODdieHhPcHBSdDRXdE5Ma1ZKaUF1UVRfZGtGNEVlbVJRcmNJb0hUa3dta0ZXZVByOU52dzBMcW5WMTdHaEtLb08zNkpudDFydGdG?oc=5",
-      "source": "WWD",
-      "published": "2026-11-07T21:49:31+00:00",
-      "summary": "Sneakerhead Jimmy Fallon Just Scored Caitlin Clark’s Unreleased Taylor Swift-Inspired Kicks WWD",
       "categories": [
         "other"
       ],
@@ -1357,19 +1513,6 @@
       ]
     },
     {
-      "title": "Caitlin Clark Gifts Jimmy Fallon the Taylor Swift-Inspired Nike Caitlin 1 Friendship Bracelet",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaXRKVnlfUnhHeFdabTZHcnhtOFFqUDlGU1dGd2gtZXJHYTRzRTlma0JCZHBSbjJPUnh4NzFYb0szeGxMY3pfNnhTM3JXYnlaM2hvV3ZIUGg0YVE0QThzZzVPLURxQktIanVvUTR1bVZfVXlqeGRnc1hXakZZR2U0U3ZrRnF0OEpmdTR6SUdRZTRFdWZyRGp4T1JfVkxLRDI4SWt5TzNKcjM5QUtQMVJ3RA?oc=5",
-      "source": "Sole Retriever",
-      "published": "2026-11-07T14:32:23+00:00",
-      "summary": "Caitlin Clark Gifts Jimmy Fallon the Taylor Swift-Inspired Nike Caitlin 1 Friendship Bracelet Sole Retriever",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "Knicks defend Taylor Swift after players name her 'fakest celebrity fan'",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOTU1EMjZrVmpDbnNwdng5YndlQ2VfUWdLd0VFTlRHaDhXckdVTTFUaXd4UUdacmJfZEozNmVOcXFGVThyWUZ1M2xnQ0NoNTdYNnVlSUZLN0IyZ0NtNXc?oc=5",
       "source": "BBC",
@@ -1380,6 +1523,19 @@
       ],
       "artists": [
         "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Post Malone curates WWE 2K24 soundtrack, to join playable roster",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS3kySkQwclp0OFQ3TzNKR0xtZnlwMW5sTTRzTGlzb3M3NzRBWkdncFM2SjlqZk1LZS1Nek5VNzZGbVA4aUVNeTAtdURMM3Bac3hRWjZpbmFLRnh3LVd1OUhOcUhPYkVBMWp4MG9vdWcxVHVhY2ZMNFJLYlNjV0FWRHJR?oc=5",
+      "source": "WWE",
+      "published": "2026-11-07T08:00:00+00:00",
+      "summary": "Post Malone curates WWE 2K24 soundtrack, to join playable roster WWE",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Post Malone"
       ]
     },
     {
@@ -1448,19 +1604,6 @@
       ]
     },
     {
-      "title": "Drake, Future & Travis Scott Reunite As New Song Takes Shots At Kendrick Lamar",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45VnktR0E3QlZobGFRUnliamJaaU9jeWFTblUyaDJBU0N0ZXE4SDIzdDVnU2xTd1BpbENaekUxUTVmamVkSGZwLU91NlplQnJqSUFmckVCUzFRRWFF?oc=5",
-      "source": "YouTube",
-      "published": "2026-11-06T20:55:49+00:00",
-      "summary": "Drake, Future & Travis Scott Reunite As New Song Takes Shots At Kendrick Lamar YouTube",
-      "categories": [
-        "new_release"
-      ],
-      "artists": [
-        "Kendrick Lamar"
-      ]
-    },
-    {
       "title": "Knicks 'appreciative' of Taylor Swift after Kolek, McBride question fandom",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYjhxQkdQT3h6aGZUUHM5cERyMzFjZkltUU44NjNRNm5JRGUwOXNEYlZSdk9Bend5eXVnS1BGeXg4Vk5hOUhNcXFORFFGOVdpMG1aOWpZRHpVMTFnYUt4NFRBLVRDc1p2NkxqMUNUVTJNQXZmcWRhemt4NVd4ei1ZYnNTeVhJSUZYV3RWVjlTZVE3MEQ4Y3dsTFJB?oc=5",
       "source": "ESPN",
@@ -1487,6 +1630,19 @@
       ]
     },
     {
+      "title": "Freddie Mercury: A Life in Lyrics With Mary Austin",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNR2J1NlpFMHhmOXMwWlVpYXF3TEJMRDhaTWZmalpfU3A5R3V0TUkxamZoLUxKSWJ1VU01dlY5NTJUbmpfQlVtTHVEQmlqb0ZrakRZMVlvNU1YVV9PTkZTWGZYOWQ3TWs0dUt6RzFCcVlLUDZTUzRXNk9Tb2FzUWdJY3E3SEdOUXR3eFE?oc=5",
+      "source": "Music Connection Magazine",
+      "published": "2026-11-06T20:06:02+00:00",
+      "summary": "Freddie Mercury: A Life in Lyrics With Mary Austin Music Connection Magazine",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Queen"
+      ]
+    },
+    {
       "title": "Knicks defend Taylor Swift's fandom after Tyler Kolek, Miles McBride weigh in",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMUI5SktVdVBnWlR1YmJ0UXZwckY4SzVISV9VcmgwWW5PZGZVRUVCOC1jU0U3Qkdfa3YtcFBwU2JlYk1kTFBaTDRkR0RNaG1rWjlvbEJyby10VnZGZno1UW9BR2tKLUh6ejNzYjRCSWVtcW5WWEZnZ2Z0Z0pNZjRGanlxY2xTT0Y0ZHVLblNhdlBXY2pMVnhtOE5R?oc=5",
       "source": "ESPN",
@@ -1510,19 +1666,6 @@
       ],
       "artists": [
         "Kendrick Lamar"
-      ]
-    },
-    {
-      "title": "Taylor Swift Called the ‘Fakest’ New York Knicks Fan by 2 of Team’s Players: ‘It’s a Little Performative’",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPV0xLTjREdHRvTzRZZHpzMklXaWQ3MTFBdENuR1RRaS1Fc2lxRHRPMm5iNEw5bmljRVphcnJZOVNDUnZLak1sdzJWWUlfU0RXOFpOMTJvMk9FWmcxUHVvLWprbXZXeWVfZ1JpNW9tUXdaSjNyekZsRjZxbGtSTzhITGtQdVR1UHJmc1NGbjJEdExydERvUWZCNElpcy1nWnFHcjBB?oc=5",
-      "source": "Yahoo",
-      "published": "2026-11-06T16:48:14+00:00",
-      "summary": "Taylor Swift Called the ‘Fakest’ New York Knicks Fan by 2 of Team’s Players: ‘It’s a Little Performative’ Yahoo",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
       ]
     },
     {
@@ -1656,19 +1799,6 @@
       ]
     },
     {
-      "title": "BILMURI - KINDA HARD LIVE IN NASHVILLE FULL SHOW (TURBO THICK EDITION)",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1neWVZUEtmYmM3dlREdWNpTGtVZnVrMXRhR3ZjNW5ZV2xuXzFjRzVaeDVXSE51cFprZy1tNVhMMGZOdHR6bGZOQUpQTUhfcjhiYmloaTI2c2VCWjFW?oc=5",
-      "source": "YouTube",
-      "published": "2026-11-06T02:00:10+00:00",
-      "summary": "BILMURI - KINDA HARD LIVE IN NASHVILLE FULL SHOW (TURBO THICK EDITION) YouTube",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Bilmuri"
-      ]
-    },
-    {
       "title": "Post Malone to headline New Year's Eve concert following NHL Winter Classic in Utah",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQc2hoUzF4MEpCTnNoSkZrTHV1YmRfRml1Qy1ZckxxbUJPNTkzSnNnZVctMXBuakRrajhLMEJSY0pNV3ZzcDlwNlplb3loUm9CWXJ1UlJFX0ozeFY5ak92eFFuTTd0RHhoc2Z1bFU3TC1FcENQYWJ5NlRObXdfM21FMkpFSjFMNXFGRHBZVjZZVmZZYkxMVVJzejd6azBVR05vejk5SzROa3h1dExIc1FxbmRnTHp3ckdIbG4wcjZzQ1llbTR0TFFQU3ZKaHZKbVR6dk9XbGt5WVI0QQ?oc=5",
       "source": "KUTV",
@@ -1682,16 +1812,16 @@
       ]
     },
     {
-      "title": "Bilmuri To Stream Their May 2026 Nashville, TN Live Show Tonight For Free",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQkVwMU9aR1hYQTJwYndHdng4NDVsdzR5aEI1UlAxQkdxMlpkZ1lFUF8tdm5VVGJkVWpaRFplUWhYMlRyeFpUeEVMNG1QZVNVWmlpRmx4VFcxTWFGV0VwVUdZSnJmUTROenNzWGNRb0JpcHkwRUZFUkI0MTVQY2pCUVFfV3Q2cjNZeng2UHJfMnRpXzJfTmtQSzZxM2pVdENzbEVZTU9kaUZta3lHTXVYcW5R?oc=5",
-      "source": "Theprp.com",
-      "published": "2026-11-06T00:08:38+00:00",
-      "summary": "Bilmuri To Stream Their May 2026 Nashville, TN Live Show Tonight For Free Theprp.com",
+      "title": "Hollywood Minute: Doc to look at Taylor Swift’s canceled Vienna shows",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOcFM4OE4xb1g3MVdocEFTcWNhWkJnazlRbExMU3VERW1pTlZZRng3U0RLcXNGRlU1OXJuSmVscFN4aG1sd2hfUTRjZ3dEYTZJMG85dWhsM2htM0ZIZ1ozdkh3ODVzNHVvdDdlRzdQTGlXZE40Q2xSM2tqSnpYYWxET0RyTjVCdTZMOWRaWGE1V0pIVkpJazIzdndkc0RKblN1YzNrQnhFMTdXR0pCNERDLS12RTJwRVhJQmFVSThCVUQ2cGlrYkdkODFPTnVza3ZoZV9wRXFnT0tucDJIbFNxcnRNaURENlFvUGx0SWtvRXg4SXhlblE?oc=5",
+      "source": "CNN",
+      "published": "2026-11-06T00:21:38+00:00",
+      "summary": "Hollywood Minute: Doc to look at Taylor Swift’s canceled Vienna shows CNN",
       "categories": [
-        "other"
+        "legal_drama"
       ],
       "artists": [
-        "Bilmuri"
+        "Taylor Swift"
       ]
     },
     {
@@ -1702,19 +1832,6 @@
       "summary": "Post Malone Returns To Hip Hop Roots In Latest Teaser For Upcoming Album, ‘Eternal Buzz’ Whiskey Riff",
       "categories": [
         "other"
-      ],
-      "artists": [
-        "Post Malone"
-      ]
-    },
-    {
-      "title": "Post Malone Shelves Asia and Australia Tour Months After Cutting U.S. Stadium Dates",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVDM3YktqS1NtS2ZUWDg4NjdZZWU1dWdIMmZVc3BwaGU4MEloNUhpeW1qM1BMdkduemtyeGsxaVlZUUlJOXdhclNQME51M1NveS0ycU5fajdVRG5KMU82QU9fRW1EeTk5cV9xdFlKVkhNYTgwdFNKVjJyRWpsdFBSc01PMA?oc=5",
-      "source": "TicketNews",
-      "published": "2026-11-05T20:33:57+00:00",
-      "summary": "Post Malone Shelves Asia and Australia Tour Months After Cutting U.S. Stadium Dates TicketNews",
-      "categories": [
-        "tour"
       ],
       "artists": [
         "Post Malone"
@@ -1744,32 +1861,6 @@
       ],
       "artists": [
         "Breaking Benjamin"
-      ]
-    },
-    {
-      "title": "Taylor Swift’s Vintage Gold Christmas Tree Is a Study in Nostalgic, Collected-Over-Time Decor",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcmxkemVBRGZpY0FRT2VnczJVVmo5Tk81Ny1fdmpZS2xrTFhUZV9sS1ZTamVwUnZ5TGlfdXdqQTZYcnNSYk5NeWpVX0Z3ZnJPRnRrdEVHMDBmcmt5bnJtSWJ1TE0xMlRKZmFXQUZzLTNqdjFubXdLN0QzdGJPLUVRSmNxdGkwNVR4cnBfbFJvZTdaUQ?oc=5",
-      "source": "Homes and Gardens",
-      "published": "2026-11-05T19:00:00+00:00",
-      "summary": "Taylor Swift’s Vintage Gold Christmas Tree Is a Study in Nostalgic, Collected-Over-Time Decor Homes and Gardens",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Travis Kelce Shares His Excitement for First Holiday Season with Taylor Swift as Newlyweds",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTzhOa3pSVFpVYVNSY2FTOURsMzk5NkUyemdfcS1ya1RHSDNmQ0EtcHdpd3VtZXZQb29BNnVLSWpWTmRvaGZ5dHAtbXZhTGNhd0x0THBFSXI4S01sQlNuQTVoU2FlUFMzWkw0UXBWYzVuRk80dWF3dlJBallDaW1neXhpbUhqcnRlR1BYdkx3Wjc2d2JVNnZEVWU5WjNYalBOd0NuTzBYQlVVUW8xcEppWUhHUkpZTGpDTFE?oc=5",
-      "source": "People.com",
-      "published": "2026-11-05T16:50:01+00:00",
-      "summary": "Travis Kelce Shares His Excitement for First Holiday Season with Taylor Swift as Newlyweds People.com",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
       ]
     },
     {
@@ -1848,19 +1939,6 @@
       ],
       "artists": [
         "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Post Malone headlines Salt Lake City festival on 31 December",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdUxUWXpEVktTNnlRVHM5M250QS0weXhHa0RmaEt2alpKWGZhYkQwQmdoZnVTMzdHeXdjZnhlSjd0MzJWUmxZckROQ3IzcDQxV0ZKdDhsNy1nSmhMT0paamtHOFp6MlMydElkTjdRMF91bjdiRUZtLXotb1l5MkJYLXBwTThGazJrdlpEbTRuZDg0SXd5M09xeXp0TE1xckhxTFEtT1RsMGRFbGFNa2RvYmlVXzJNQQ?oc=5",
-      "source": "ad-hoc-news.de",
-      "published": "2026-11-05T12:48:07+00:00",
-      "summary": "Post Malone headlines Salt Lake City festival on 31 December ad-hoc-news.de",
-      "categories": [
-        "tour"
-      ],
-      "artists": [
-        "Post Malone"
       ]
     },
     {
@@ -2112,6 +2190,19 @@
       ]
     },
     {
+      "title": "Taylor Swift Accused of Politician-Like Behavior After Report She's 'Genuinely Anxious' About the 'Backlash' She's Been Facing",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWW9aZlNWaGljXzBsVDlEWUowN1VPajVGSk1MWTh5YnVvZVJQbHRsRjEtUk50c3kxVW1iVGpCTDg0Y1NLR205Y2gxcnZmMmlCOTVJTnBXSXJpTzA0cGxqcG5Ldkt0Znl0bVFoNGJuLWxxS2kzN24yQnBLN3k5MG9LZEJUZGNJZ0JIUTBfYW5rQlp4QmxhNHNveA?oc=5",
+      "source": "StyleCaster",
+      "published": "2026-11-04T18:58:38+00:00",
+      "summary": "Taylor Swift Accused of Politician-Like Behavior After Report She's 'Genuinely Anxious' About the 'Backlash' She's Been Facing StyleCaster",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Grab your ‘Diary of Jane’; Breaking Benjamin is coming to the Bryce Jordan Center",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcU40S3hzTldZMEhlaVBqSEV1eDIxbG5rZHZZdTgxVmxwcS1xOEs1WmtSeEx0bVhCRG1jcEF1QlFvRzJ3VWFkOWN3RWNzOEFJSGp0MWNOS00tdzVvUmRBbTNXWXAyWUJ6UjdTSU80aE9sMGFhZ3dKdDNHX2dlOFphVWRPQQ?oc=5",
       "source": "AOL.com",
@@ -2180,7 +2271,7 @@
       "title": "Breaking Benjamin announces March 2027 Albany concert",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQUpBX3Rqc0xQd2ZLWHQ3WWRGSlFUMEVfSXVkUmJIaVpwUnN6bEhJSkYxbU4zRE54bWxYMkxCTElNQWFzMGFHRzRZZmJSN1kzLVdEc0FFZkU0dUlJRTQzUDhoOTk5VjBSUlNGZnlSV3VYeTdZRThkZ0FlUUVrcnhPY0QtT3diRGtyMWpjLTdmZC15dw?oc=5",
       "source": "Times Union",
-      "published": "2026-11-04T16:25:53+00:00",
+      "published": "2026-11-04T16:25:52+00:00",
       "summary": "Breaking Benjamin announces March 2027 Albany concert Times Union",
       "categories": [
         "other"
@@ -2295,9 +2386,9 @@
     },
     {
       "title": "Breaking Benjamin announces 2027 tour with February stop in Columbus",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUldrWThoRy1lNnZCSFJTckpKTUlnOTZROHdtN1NwV1dnM0lFTW5sV011TjFUUDlBTDFGU2VOWk1sSVV2bGhKZlZJSlIycS1mMzlNNDc2RzlMUVJqUGEtOV9DTnI5bDVuOVhaSWZnbGhwNE02TFIwZmxsck9XM1pwc3NldVNZVUpIUldVOGx0NFZLTDZqNzZEZmNRTjBGVEVUaTJkdHhWVlg1eDZWSWk3eDdCeW0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbVJ2VHpQdkNHeVFZcXl6ZzlKNGlHdTI4T09zeWx2dWwtX19BLTM2anZ2SW1vWTlZZHAtc01lX0NHZ19LY2xHel9TaWVtd2hDWF9fT0pjemlhTjE1QTBMY2pSVWMtUGVPbWdBVUcxYzVRbExRX0NlRUk5NGNadERMdEw5SkdsZUxORTdxS1U5SlZYRERXUzM2ZHhHOXRiSEM1SXpkMVFETE5YQQ?oc=5",
       "source": "WSYX",
-      "published": "2026-11-04T14:30:38+00:00",
+      "published": "2026-11-04T14:36:10+00:00",
       "summary": "Breaking Benjamin announces 2027 tour with February stop in Columbus WSYX",
       "categories": [
         "tour"
@@ -2481,123 +2572,6 @@
       "source": "Guitar Player",
       "published": "2026-11-03T20:39:12+00:00",
       "summary": "Brian May names his favorite Freddie Mercury song: “It always pulls something out of you” Guitar Player",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Queen"
-      ]
-    },
-    {
-      "title": "This Queen Classic May Be Freddie Mercury’s Greatest Empowerment Anthem",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPREdOWWhpUmsyT1kwdG1relladFVYLWZodzlIdUx0SHJFWkNSYWh0ckJTWEVTbEJiSWplVE55Q2ZBeDYwVnlwSVlIVnJBeFVmRmIyaVJSX25aeHNvR184RDV5U1BmMXVWaHQyVjV1cFN2VkZwZ2lYTVpQTG54aUtTckdLNkhZZTMyRlJqOEJBVW02M1JjQUVFMGl0REpfaHlRU0R1SkVld3Zsdw?oc=5",
-      "source": "Songfacts",
-      "published": "2026-11-03T17:35:47+00:00",
-      "summary": "This Queen Classic May Be Freddie Mercury’s Greatest Empowerment Anthem Songfacts",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Queen"
-      ]
-    },
-    {
-      "title": "The 1974 song that truly made Freddie Mercury “a god”",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYmZQLXRJT2k3Wm9iVFg1cFFVS1lncXB5TE9sR216aWkzLWFDOWNNTjBvWF9zUGI3MXFaeU42NWZFYTBudlZfSzRidWJXdWlROWxmR3V0R0Y3SDBueEVaYnB6OUs0NUoxNXNnS3oxY2NrS2lrVndsT1JMQUZzU3dXajBXMk8ybG1I?oc=5",
-      "source": "Far Out Magazine",
-      "published": "2026-11-03T17:30:00+00:00",
-      "summary": "The 1974 song that truly made Freddie Mercury “a god” Far Out Magazine",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Queen"
-      ]
-    },
-    {
-      "title": "Sir Brian May convinced The Darkness to join him on Masters of the Universe track Eternia",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZ096b3B5VFJSS3ZWQVBKT1Bwc3R3Mlc2d2RIcFNpVmFzVk9PeHpBbnM0eVIwdU5WaXhvX0p1UDdEQ0otMktfQzE3d04wOWZ6WWdkVDNkcVA0ZTVKR2JncWFqSm1fcTU5MnhtMkNxVHlXdkdabG9SbGdlX3FLcEVZMjUxel9xZTVsdW84SFpZS19Td1BDN0JEMDVnOG5VMzR6R19PRW92UFplMV9jckZ0VE5YSW1vdVlHSEdQYkpR?oc=5",
-      "source": "Female First",
-      "published": "2026-11-03T16:42:13+00:00",
-      "summary": "Sir Brian May convinced The Darkness to join him on Masters of the Universe track Eternia Female First",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Queen"
-      ]
-    },
-    {
-      "title": "Jay-Z is headlining the Super Bowl halftime show — like Kendrick Lamar, he may not get a paycheck",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUE81SWlUQl8weDNJN3diX2tCNkV3R2J2XzR0d1lXRUtVSURtTXBwZkdHY1dDUnVSQXFfZnk4c1I5TFo4NXZaX3N5bG90bWJZZkw1NVRESWF0TnNNc1diS01BQ0s5UzdZNU53Q0w3ZEJRS3NsLUdIc3lIbkhrZUs5NTBkLW9pZGpQcTJFT1VxdVVwMm5zVmc3RzgyYw?oc=5",
-      "source": "Yahoo Finance",
-      "published": "2026-11-03T11:00:00+00:00",
-      "summary": "Jay-Z is headlining the Super Bowl halftime show — like Kendrick Lamar, he may not get a paycheck Yahoo Finance",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Kendrick Lamar"
-      ]
-    },
-    {
-      "title": "“The guitar is a voice, and if you don’t know what you’re gonna say, it’s pointless opening your mouth”: Brian May on his thoughtful, noodle-free guitar style",
-      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQNmhQY3A4WUFRTlNyT1BsTmNnNldFU1Z0aTVFVklURzhrVFg5WkM5LXRYTWFiTmtUVW03YzBENFR4dFQ0TDFVRFhmYVRWYm5pb3pnT2Q1dHRJcUFEaXlURUJMb1AzR0pabTNEblFVdERfMHdiQktZdEEyaFhHNU12THQ5NVJDd0x6UHhlYTJ6aC1KSzFMampaay1CT3U5UEY1cHdISkVFWlpRMGJVZUU0andnVkxQdGhEMlZ2U0ZUci1rcEF6RkhvSXBwM2NPRy1vQkIxUERYMmxYd0c5RkFWZjVNUzVHWXBTSUxVVmhOZFFwNjIycm91Vzk5M2NZSHI5bjBub2xiMGpjLUtmcW52R2JGbEtLWDM2ZFNVMTNqTEs?oc=5",
-      "source": "MusicRadar",
-      "published": "2026-11-03T09:24:34+00:00",
-      "summary": "“The guitar is a voice, and if you don’t know what you’re gonna say, it’s pointless opening your mouth”: Brian May on his thoughtful, noodle-free guitar style MusicRadar",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Queen"
-      ]
-    },
-    {
-      "title": "Interview | Queen Guitarist Brian May on NASA's New Horizons",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOU1BGTFB4cjRsN0xxZXhjdDJDalVqSUk5QVJGZGd3NGtORE1ncTFlWDZNR0xlZWFXUG8xNUNsamxPbjZXMEVlWTdoM1V2Z2FYbmtoMW5tVDFfLWtUMTU0WHdBa3pNSHhDZ2M0ZWtLQWRFcl9NOHBtV0lVczhmbzZyeg?oc=5",
-      "source": "Britannica",
-      "published": "2026-11-03T08:00:00+00:00",
-      "summary": "Interview | Queen Guitarist Brian May on NASA's New Horizons Britannica",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Queen"
-      ]
-    },
-    {
-      "title": "Pollstar: Post Malone Stays In The Top 10.",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSXdZdlJGUURVM0dDbGhWQTAzemZjNkVsb1NrS1pVY0l4QmlOUlJZRG1VUE13TGdtT0w5LTd0ejUtTDNZcWhzdVdfMWhLdkZMSXp6RzlndGcxRXVWQ0RyYnhzNzQtNUQ4eEI3TWVpUHRJWVo5NjExampSdE9SX2R6Y3REYzdTM3dlMGVRZ2lGaU1YYkdaS25GbndhMjY4a29URHVTVVhfeXdsM1pTOWU5bi1TSGxEUVJ4Y0d4eTVoUURQNlBV?oc=5",
-      "source": "Country Insider",
-      "published": "2026-11-03T06:39:43+00:00",
-      "summary": "Pollstar: Post Malone Stays In The Top 10. Country Insider",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Post Malone"
-      ]
-    },
-    {
-      "title": "Tony & The Kiki: If Freddie Mercury and Cher Had a Love Child",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRFNNR05BeVpsSnZjS2Q4ZmdaaDFkeHVNQWJwZWhsWlhJeUdVanpsLTZTd0tkQ280OVh0aUM4RFI5Q1RTd05oSVExc09MczRJaldhZlpQNlVzVTVZUV9WWEdFUDFEbW1ZX2kwQU15WXRRT0t1OFYyU0h2VWdWdkV0emdua0RGZ2s?oc=5",
-      "source": "Out in STL",
-      "published": "2026-11-03T01:39:07+00:00",
-      "summary": "Tony & The Kiki: If Freddie Mercury and Cher Had a Love Child Out in STL",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Queen"
-      ]
-    },
-    {
-      "title": "Freddie Mercury and his admiration for Aretha Franklin's vocal technique",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPajZYMF90Yk9odjBGVnZGOE12bVpjZ3o1Y0Y5UWNWM3VtVVJDTTl6QXY2TzJfRkxhZFpkVWJ1OFdGa0NXb2ZSNzhsRDZubW5VWFVEUUJNMW1iTVFlTzZiNjR4aWo0bTFyTnpVRE9DdXQtcWhwZnNVeUZEdmZZZzJ4YWlaT0FPVHNhVUd3WTZlZG4tQ0FnbVowV0RhQVUzaTd1Sk1fQzlmWTJSZEF1RUlYZkNB?oc=5",
-      "source": "Foro3D",
-      "published": "2026-11-03T00:15:53+00:00",
-      "summary": "Freddie Mercury and his admiration for Aretha Franklin's vocal technique Foro3D",
       "categories": [
         "other"
       ],
