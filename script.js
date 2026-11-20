@@ -1,18 +1,144 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
 const RSS_FEED_URL = "https://anchor.fm/s/b5fbd7e4/podcast/rss";
-const EPISODE_COUNT = 5;
+const EPISODE_COUNT = 8;
+const SPOTIFY_SHOW_URL = "https://open.spotify.com/show/3cyXQL4kBuqOkCgAFvwczI";
+const PLAY_ICON =
+  '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1l9 5-9 5z" fill="currentColor"/></svg>';
 
-function formatDate(pubDate) {
+function formatDate(pubDate, month = "long") {
   const d = new Date(pubDate);
   if (isNaN(d)) return "";
-  return d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+  return d.toLocaleDateString("en-US", { year: "numeric", month, day: "numeric" });
+}
+
+function isoDate(pubDate) {
+  const d = new Date(pubDate);
+  return isNaN(d) ? "" : d.toISOString().slice(0, 10);
 }
 
 function stripHtml(html) {
   const div = document.createElement("div");
   div.innerHTML = html;
   return (div.textContent || "").trim();
+}
+
+// Feed and news text comes from outside the site, so it's escaped rather than
+// trusted as HTML, and only http(s) links are rendered.
+function escapeHtml(text) {
+  const div = document.createElement("div");
+  div.textContent = text ?? "";
+  return div.innerHTML;
+}
+
+function safeUrl(url) {
+  try {
+    const u = new URL(url);
+    return u.protocol === "http:" || u.protocol === "https:" ? u.href : "#";
+  } catch {
+    return "#";
+  }
+}
+
+/* ---------- Episodes ----------
+   Seasons are shown as sides of a record: season 1 is Side A, season 2 is
+   Side B. Episode numbers come from the feed's itunes:season/itunes:episode
+   tags when present, otherwise from the title ("Title | 2.2", "S1E10 Queen",
+   "S1 Finale - Post Malone"), and the number is taken out of the title. */
+function parseEpisode(item) {
+  const tag = (name) => item.getElementsByTagName(name)[0]?.textContent?.trim() ?? "";
+  let title = tag("title") || "Untitled episode";
+  let season = parseInt(tag("itunes:season"), 10) || null;
+  let number = parseInt(tag("itunes:episode"), 10) || null;
+  let finale = false;
+  let m;
+
+  if ((m = title.match(/^(.*?)\s*\|\s*(\d+)\.(\d+)\s*$/))) {
+    title = m[1];
+    season ??= +m[2];
+    number ??= +m[3];
+  } else if ((m = title.match(/^S(\d+)E(\d+)\s*[-–:]?\s*(.+)$/i))) {
+    season ??= +m[1];
+    number ??= +m[2];
+    title = m[3];
+  } else if ((m = title.match(/^S(\d+)\s+Finale\s*[-–:]\s*(.+)$/i))) {
+    season ??= +m[1];
+    finale = number === null;
+    title = `Season ${m[1]} Finale: ${m[2]}`;
+  }
+
+  const pubDate = tag("pubDate");
+  return {
+    title,
+    season,
+    number,
+    finale,
+    link: safeUrl(tag("link") || SPOTIFY_SHOW_URL),
+    date: formatDate(pubDate, "short"),
+    iso: isoDate(pubDate),
+    description: stripHtml(tag("description")),
+  };
+}
+
+// An episode with no number in the feed or title, right after a numbered one
+// in the same season, is taken to be the next track (e.g. B2 then B3).
+function fillMissingNumbers(episodes) {
+  for (let i = episodes.length - 2; i >= 0; i--) {
+    const ep = episodes[i];
+    const older = episodes[i + 1];
+    if (ep.season === null && ep.number === null && !ep.finale && older.number !== null) {
+      ep.season = older.season;
+      ep.number = older.number + 1;
+    }
+  }
+  return episodes;
+}
+
+function sideLetter(season) {
+  return season ? String.fromCharCode(64 + season) : "";
+}
+
+function trackCode(ep) {
+  const side = sideLetter(ep.season);
+  if (!side) return "—";
+  if (ep.finale) return `${side}·FIN`;
+  return ep.number !== null ? `${side}${ep.number}` : side;
+}
+
+function renderTrack(ep, isLatest) {
+  const title = escapeHtml(ep.title);
+  const desc = ep.description.length > 260 ? `${ep.description.slice(0, 257)}…` : ep.description;
+  return `
+    <li class="track${isLatest ? " is-latest" : ""}">
+      <span class="track-num">${escapeHtml(trackCode(ep))}</span>
+      <div class="track-body">
+        <h3 class="track-title"><a href="${escapeHtml(ep.link)}" target="_blank" rel="noopener">${title}</a></h3>
+        ${desc ? `<p class="track-desc">${escapeHtml(desc)}</p>` : ""}
+      </div>
+      <time class="track-date" datetime="${ep.iso}">${ep.date}</time>
+      <a class="track-play" href="${escapeHtml(ep.link)}" target="_blank" rel="noopener" aria-label="Play ${title}">${PLAY_ICON}</a>
+    </li>
+  `;
+}
+
+function renderLatest(ep) {
+  const side = sideLetter(ep.season);
+  const where = side
+    ? ep.finale
+      ? `Side ${side}, finale`
+      : ep.number !== null
+        ? `Side ${side}, track ${ep.number}`
+        : `Side ${side}`
+    : "";
+  const meta = ["New", where, ep.date].filter(Boolean).join(" · ");
+  const code = trackCode(ep);
+
+  document.getElementById("latest-meta").textContent = meta;
+  document.getElementById("latest-title").innerHTML =
+    `<a href="${escapeHtml(ep.link)}" target="_blank" rel="noopener">${escapeHtml(ep.title)}</a>`;
+  document.getElementById("latest-desc").textContent =
+    ep.description.length > 220 ? `${ep.description.slice(0, 217)}…` : ep.description;
+  document.getElementById("latest-sticker").textContent = code === "—" ? "New" : `New · ${code}`;
 }
 
 async function loadEpisodes() {
@@ -26,33 +152,18 @@ async function loadEpisodes() {
     const xml = new DOMParser().parseFromString(await res.text(), "application/xml");
     if (xml.querySelector("parsererror")) throw new Error("Feed did not parse as XML");
 
-    const items = [...xml.querySelectorAll("item")].slice(0, EPISODE_COUNT);
+    const items = [...xml.querySelectorAll("item")];
     if (items.length === 0) throw new Error("No episodes found in feed");
 
-    list.innerHTML = items
-      .map((item) => {
-        const title = item.querySelector("title")?.textContent ?? "Untitled episode";
-        const link = item.querySelector("link")?.textContent ?? "#";
-        const pubDate = formatDate(item.querySelector("pubDate")?.textContent ?? "");
-        const rawDescription = item.querySelector("description")?.textContent ?? "";
-        const description = stripHtml(rawDescription).slice(0, 240);
-
-        return `
-          <li class="episode">
-            <div class="episode-meta">
-              <span class="episode-date">${pubDate}</span>
-            </div>
-            <h3><a href="${link}" target="_blank" rel="noopener">${title}</a></h3>
-            <p>${description}${description.length === 240 ? "…" : ""}</p>
-          </li>
-        `;
-      })
-      .join("");
+    const episodes = fillMissingNumbers(items.map(parseEpisode)).slice(0, EPISODE_COUNT);
+    list.innerHTML = episodes.map((ep, i) => renderTrack(ep, i === 0)).join("");
+    if (document.getElementById("latest")) renderLatest(episodes[0]);
   } catch (err) {
     console.warn("Could not load live episodes, showing fallback list:", err);
   }
 }
 
+/* ---------- TikTok (About page) ---------- */
 const TIKTOK_PROFILE_URL = "https://www.tiktok.com/@artofartistspod";
 
 async function loadTikTokEmbed() {
@@ -76,6 +187,7 @@ async function loadTikTokEmbed() {
   }
 }
 
+/* ---------- Music news ---------- */
 // Written by scraper/music_news.py — see scraper/README.md.
 const MUSIC_NEWS_URL = "data/music-news.json";
 const NEWS_FILTERS = [
@@ -89,21 +201,19 @@ const NEWS_FILTERS = [
 ];
 const NEWS_TAG_LABELS = Object.fromEntries(NEWS_FILTERS.slice(2));
 
-// Story text comes from third-party feeds, so it's escaped rather than
-// trusted as HTML, and only http(s) links are rendered.
-function escapeHtml(text) {
-  const div = document.createElement("div");
-  div.textContent = text ?? "";
-  return div.innerHTML;
+async function fetchNews() {
+  const res = await fetch(MUSIC_NEWS_URL, { cache: "no-cache" });
+  if (!res.ok) throw new Error(`News request failed: ${res.status}`);
+  return res.json();
 }
 
-function safeUrl(url) {
-  try {
-    const u = new URL(url);
-    return u.protocol === "http:" || u.protocol === "https:" ? u.href : "#";
-  } catch {
-    return "#";
-  }
+// Most feeds use the headline (plus the outlet's name) as the summary.
+// Showing it twice adds nothing, so those summaries are dropped.
+function repeatsTitle(summary, title) {
+  const norm = (s) => (s ?? "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  const s = norm(summary);
+  const t = norm(title);
+  return !s || s.startsWith(t.slice(0, 40)) || s.includes(t);
 }
 
 function renderNewsItem(story) {
@@ -111,14 +221,15 @@ function renderNewsItem(story) {
     ...story.artists,
     ...story.categories.filter((c) => NEWS_TAG_LABELS[c]).map((c) => NEWS_TAG_LABELS[c]),
   ];
+  const summary = repeatsTitle(story.summary, story.title) ? "" : story.summary;
   return `
-    <li class="episode">
-      <div class="episode-meta">
-        <span class="episode-date">${story.published ? formatDate(story.published) : "Recent"}</span>
-        <span class="news-source">${escapeHtml(story.source)}</span>
+    <li class="story">
+      <div class="story-meta">
+        <span class="story-date">${story.published ? formatDate(story.published, "short") : "Recent"}</span>
+        <span>${escapeHtml(story.source)}</span>
       </div>
       <h3><a href="${escapeHtml(safeUrl(story.link))}" target="_blank" rel="noopener">${escapeHtml(story.title)}</a></h3>
-      ${story.summary ? `<p>${escapeHtml(story.summary)}</p>` : ""}
+      ${summary ? `<p>${escapeHtml(summary)}</p>` : ""}
       ${tags.length ? `<div class="news-tags">${tags.map((t) => `<span>${escapeHtml(t)}</span>`).join("")}</div>` : ""}
     </li>
   `;
@@ -132,13 +243,11 @@ async function loadMusicNews() {
 
   let stories;
   try {
-    const res = await fetch(MUSIC_NEWS_URL, { cache: "no-cache" });
-    if (!res.ok) throw new Error(`News request failed: ${res.status}`);
-    const data = await res.json();
+    const data = await fetchNews();
     stories = data.stories ?? [];
     const when = new Date(data.generated_at);
     if (!isNaN(when)) {
-      updated.textContent = `Updated ${when.toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}`;
+      updated.textContent = `Last updated ${when.toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}`;
     }
   } catch (err) {
     console.warn("Could not load music news:", err);
@@ -174,6 +283,40 @@ async function loadMusicNews() {
   show("all");
 }
 
+// Home page "In the news" tile: the newest story for each of a few different
+// artists, so one busy artist can't fill the whole tile.
+async function loadNewsTeaser() {
+  const list = document.getElementById("news-teaser");
+  if (!list) return;
+
+  try {
+    const { stories = [] } = await fetchNews();
+    const seen = new Set();
+    const picks = [];
+    for (const story of stories) {
+      const artist = story.artists[0];
+      if (!artist || seen.has(artist)) continue;
+      seen.add(artist);
+      picks.push(story);
+      if (picks.length === 3) break;
+    }
+    if (picks.length === 0) return;
+
+    list.innerHTML = picks
+      .map(
+        (s) => `
+        <li>
+          <span>${escapeHtml(s.artists[0])}</span>
+          <a href="${escapeHtml(safeUrl(s.link))}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a>
+        </li>`,
+      )
+      .join("");
+  } catch (err) {
+    console.warn("Could not load news teaser:", err);
+  }
+}
+
 loadEpisodes();
 loadTikTokEmbed();
 loadMusicNews();
+loadNewsTeaser();
