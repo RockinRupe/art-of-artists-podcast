@@ -1,6 +1,6 @@
 # Music News Digest
 
-_Generated 2026-11-20 21:41 UTC · last 7 day(s) · 215 stories_
+_Generated 2026-11-20 21:43 UTC · last 7 day(s) · 214 stories_
 
 ## Watchlist Artists
 
@@ -19,7 +19,6 @@ _Generated 2026-11-20 21:41 UTC · last 7 day(s) · 215 stories_
 
 - [Robert Glasper Breaks Down Kendrick Lamar’s 'To Pimp a Butterfly'](https://news.google.com/rss/articles/CBMifEFVX3lxTFBMRnE1Y3ZyYTAxZjk5X2tjclhtS2c2SjMtUkE2RUtDTkFPaktMemhLVEVCT2UzQ3hrSnN2TUJBcERESnJrQkM1Uy1RUVdsanhtT2k4MnQ2Y0JWd2d6SF9aMTFtbDFadUR6STRtYmtBRW1fdUxBZ0UtUHdjSVk?oc=5) — Billboard, 2026-11-19
 - [The Jamaican Influences in Kendrick Lamar’s Art and Identity](https://news.google.com/rss/articles/CBMiigFBVV95cUxNaHhZdGVIZ2h2TUNXWFREZTVuOE9IWFVoS0lEZjdRRk1OeHg1bDlWX1ZlVjRteE5YOHJLNDVndzloTUxwSEZ4ZDZEUTJJX3ZYMkFsMnFUUV9zWVRtU0J3MUJRMkJIOFR1N1FJMWVFVmhCcmdKX2xxTXh6WlRnbUVOUDI3UDl1NW5yeUE?oc=5) — Jamaicans.com, 2026-11-19
-- [Kendrick Lamar, 26 - 2015-06-03 - 2014 30 under 30: Music](https://news.google.com/rss/articles/CBMibEFVX3lxTFBMdHpDa3h2UU9xSmZDNmJDZktCaTFoc1A4ZXpNZjhzeDA4YkJGdldWZk5zaUZfaHktWjhlT0hPWDVRd2ZVSVRvQVdfWjFZUXVhakx0ekhhZG5uMkpxS3c2VktWMU5YaGhnRW1ETA?oc=5) — Forbes, 2026-11-19
 - [Kendrick Lamar, J. Cole and Bun B appear in a resurfaced 2013 photo.](https://news.google.com/rss/articles/CBMieEFVX3lxTE1xQ1Z4Y291UVdmb3ZxMXIxTmJYS0tFcHVEVkNwR3N4c09pQlNpUEVmb2pmLXl0LTk1M0lhdml0bkZlcGVjYnBOekNCaGJnTUN6SS0wZE5hUm1ibFpVWXJzOEFWQWY3c2Z0MWNELVJ2N1FkdUtmdzRaUA?oc=5) — Complex, 2026-11-19
 - [J. Cole and Kendrick Lamar’s “Black Friday” is back in fan discussion as listeners ask for a part 2.](https://news.google.com/rss/articles/CBMibkFVX3lxTE1rYzEyTU1OSk1SNENMRlhNTXZZQm1xWTRvczJqU191UmdxTXIwN1NzSFJPR2VhSDA1UVprcUg4MzNGZ2RjVGN3SWhDNlNzWjZtZkdQMDZvTFVCWkNSMExmaGFFRWI3LUJ4U05idEtn?oc=5) — Complex, 2026-11-19
 - [David Bowie surprisngly listened to Kendrick Lamar while making Blackstar](https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQ0JhQmVxeG5MczdiczVsMTBCTnhxNVNqdWN6eVJ3Y2N6YUtvOXdJbEoyVzBXSU12ek1NQlg0TkVjbGk2dHptdlNUWFZzQlFzOXYzWE80X3oxMlYwNE9CVDcxVGcxUmRfMklNSlU3N1BMTG40RVpDYURKcjlEcjVjUDhwM2cwM2MtSFcw?oc=5) — Yahoo Lifestyle Canada, 2026-11-18
@@ -343,7 +342,7 @@ _Generated 2026-11-20 21:41 UTC · last 7 day(s) · 215 stories_
 - [Taylor Swift Ties Kendrick Lamar's Grammy Record With Fifth Straight Album of the Year Nod for 'Showgirl'](https://news.google.com/rss/articles/CBMixwFBVV95cUxNbzBjTzJyamhhcHR2bERlRHdmWUoyX2lrcGhvd05GZjdDWjhDQTRna2tNNDhqamJDMEg2OHQxWFFuZUo5Q3doSjFxT1JFN3l6MlJjbHRhcjZONl9zdjRLbkFKY3JhVU96ZmtHSG05UjdCTDdqakhaU040NnZVeDFDcnAtTGdORmlWU2RCMnRCdU4yQXlRM3hUZTdRVFF1OThfWVNwVzdad1NNQ1prSXdSbllHb3ZNeUdDeDNJZXBnZGFPREgtMUk4?oc=5) — inkl, 2026-11-16
 - [Taylor Swift Ties Grammy Record for Consecutive Album of the Year Nominations](https://news.google.com/rss/articles/CBMingFBVV95cUxNNGN1aGNraDJBZ1pZYTJIdHY4X3VVZVlIWUxlN1B4cFBlUGljRlQ4em5mNU96Qkt0OFdJVkkzM0RMcjAzRHdfVlBGaHJtVU90MGtJcE9OQ0pvaElsdHNaazA4d3NzNmc3Y0VnTDJET3RQWEQ4NGJjM0liUXZEUC1CX3gwLUhzQzVPX01Fb3NaTld6RXlQWVdfUUdQenFlZw?oc=5) — Variety, 2026-11-16
 
-## Other News (123)
+## Other News (122)
 
 - [Post Malone’s Hollywood Palladium show was request-only: Here’s how to still get tickets](https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWGh0X1JIVk5GeEVqX2ZqUk1RUEdqQWgydUt1OVd6c0IwRVlkdWg3dTUwTW9RSElwVnRSWnFsOW5yT0xSZF9xTVdJTGllN085dHRUMVBwemF4T3lUSmZ1ZDVjU3dMQ3RmN3pRM3ptSjFhT2c2ZlRpOFlka2FVcnhGOUI0SDB0M2xlcW52cHB6Zy1qOUxYRnNBdVoydUEwWFpxTVlsa0NKSVEyMFdiRjBCenVqbnA2cEdfbXhpN05VNlFfX0R3QjRFTHR2YzMyNG53Z19pd29TbE1pQdIB7gFBVV95cUxPdHh3LXp1ajIwekRiZW9vOVgtLVg4QUJtWjdNTFJMR1pfT3BnX3NTUFUzcVJWSTFhamJteFpveTl0UEc3T1dRSTU4c0czdHFiOEN1bjRZcGtqX3JNVlR6U0VLZHNWMlMxSExRcDhhYUtQQU03ZEFra3NNdVhVZ0tLMlpXRVlkYmhpejdWVHM2ZFJZWGNOc3NNYUlVWFZBemRnc0FpbVYtSnY5MHhiWmVkb3g4N2RIbXBTVW4ybVlvVG1oYWpuaXBfamZSdmN6ZUd2RnRIQzJOVHItZV84bnhqY2Mzd1BmRHVDOEJxM1VB?oc=5) — Syracuse.com, 2026-11-20
 - [Ohio Commissioner’s VIP Post Malone Tickets Draw Ethics Questions After $250K County Sponsorship](https://news.google.com/rss/articles/CBMiggFBVV95cUxOQUYxYW1IZFBTczd1T3hLTEdDRG95MUdDSEVYMUtDc0t4c3lMY05xaWYxUFU2YUhyVWFwZkFpaTl0UmQ2QURzSzJKcXNaSXY5OFRLNnJSMVo5RjJNNDY3eHZXZnU1ZkhrTUNibi1OS1dGRk9HV0p1U2J5THo3aUZsclZB?oc=5) — TicketNews, 2026-11-20
@@ -379,7 +378,6 @@ _Generated 2026-11-20 21:41 UTC · last 7 day(s) · 215 stories_
 - [Taylor Swift's First CMA Performance in 13 Years Was Surprisingly Low-Key (And I Have Mixed Feelings)](https://news.google.com/rss/articles/CBMie0FVX3lxTE5ab1VDNC1ORnFqamlnQkhtMlo2WFltN21jbHVybENZaExZd0VIdzEzY1JoYzZCdXptZ3VxdUVGWDRlNEV0ZGxRaVhoZEk3LXFLUWhuWEQwLXRpa1B1T1BzQ0FPdzA5cjBXWE0yVUo2MTFYWmpaSXBSaXVlMA?oc=5) — PureWow, 2026-11-19
 - [Post Malone Announces One-Night-Only 'Stoney' Anniversary Concert, Ticket Requests Close Tonight](https://news.google.com/rss/articles/CBMirAFBVV95cUxOengyR2RrdXJOQjFocFRWQ0NTaWg2cElWdUstenJCOEQ2SW1HZUs2UDh1UjNlX1VKaU5STHlDWXhzZ2Mya3FIYUhPSlNfSnBXekhBUE9BS3lQdE9nQzRyNjQxdE9DLUlOTmdCYkkzM0VUWWNYekpINzBTNmh4b0tuX3l0cGNORG9VVTFiZ2Z0dUo0VDR4dzhHU1NudGpyUXBCY2UzYmV1Z2FZQVdo?oc=5) — Yahoo, 2026-11-19
 - [Post Malone Brings ‘Stoney’ Back With 8 Unreleased Songs](https://news.google.com/rss/articles/CBMijAFBVV95cUxQTzFobHdLLW9jeEE0ZDVVU1hHdVBsOE5qb3M3bjVPR2R2VGI2bllrV2Z4TndLVUZ5SG9uWUdVbVJ6NUJtZjNqUGloTElnSmZHUmcyQzFPTHFwUEZFbkpibEsyRHlpVHJ2Q0tDRTlKczNDSHZrUG5GdS15YVBVa1Z4T1VxZU1WOWxTOExCQQ?oc=5) — V 101.9 Charlotte, 2026-11-19
-- [Kendrick Lamar, 26 - 2015-06-03 - 2014 30 under 30: Music](https://news.google.com/rss/articles/CBMibEFVX3lxTFBMdHpDa3h2UU9xSmZDNmJDZktCaTFoc1A4ZXpNZjhzeDA4YkJGdldWZk5zaUZfaHktWjhlT0hPWDVRd2ZVSVRvQVdfWjFZUXVhakx0ekhhZG5uMkpxS3c2VktWMU5YaGhnRW1ETA?oc=5) — Forbes, 2026-11-19
 - [Taylor Swift Returns To CMAs, Ella Langley Breaks Record For Most Wins In One Night](https://stereogum.com/2518630/taylor-swift-returns-to-cmas-ella-langley-breaks-record-for-most-wins-in-one-night/news/) — Stereogum, 2026-11-19
 - [Kendrick Lamar, J. Cole and Bun B appear in a resurfaced 2013 photo.](https://news.google.com/rss/articles/CBMieEFVX3lxTE1xQ1Z4Y291UVdmb3ZxMXIxTmJYS0tFcHVEVkNwR3N4c09pQlNpUEVmb2pmLXl0LTk1M0lhdml0bkZlcGVjYnBOekNCaGJnTUN6SS0wZE5hUm1ibFpVWXJzOEFWQWY3c2Z0MWNELVJ2N1FkdUtmdzRaUA?oc=5) — Complex, 2026-11-19
 - [Post Malone Announces ‘Stoney’ 10th Anniversary Show](https://news.google.com/rss/articles/CBMigwFBVV95cUxPeVNkM1JxUFdRWncxbk83N2podGpMSHJfS3pENzh0MWJTcXNTLXkxYmhsQWFCY3FyZ1kyNWZPM2dSa2o1eEV6OHYzbTBNbE1ZdS0wdGRFUXlXbnJJaC1Sd29LaTVGdUt5eFhrdURZd0I0dnp6cVBtenN1cWJjOVhJR0o4OA?oc=5) — uDiscoverMusic, 2026-11-19
