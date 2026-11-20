@@ -67,6 +67,8 @@ class Episode:
     season: int | None
     number: int | None
     finale: bool
+    bonus: bool             # an extra between numbered episodes ("Bonus" in the tracklist)
+    trailer: bool           # the show's intro/trailer ("Intro")
     published: str | None   # ISO 8601
     duration_seconds: int | None
     audio_url: str
@@ -82,6 +84,10 @@ class Episode:
 
     @property
     def code(self) -> str:
+        if self.trailer:
+            return "Intro"
+        if self.bonus:
+            return "Bonus"
         if not self.side:
             return "—"
         if self.finale:
@@ -90,8 +96,12 @@ class Episode:
 
     @property
     def where(self) -> str:
+        if self.trailer:
+            return "Show intro"
         if not self.side:
-            return ""
+            return "Bonus track" if self.bonus else ""
+        if self.bonus:
+            return f"Side {self.side}, bonus track"
         if self.finale:
             return f"Side {self.side}, finale"
         if self.number is not None:
@@ -174,14 +184,26 @@ def parse_numbering(title: str, season: int | None, number: int | None):
 
 
 def fill_missing_numbers(episodes: list[Episode]) -> None:
-    """An episode with no number at all, released right after a numbered one,
-    is taken to be the next track of that season (B2 then B3).
-    `episodes` is newest first."""
+    """Give unnumbered episodes a place on the record. `episodes` is newest first.
+
+    An episode with no season or number belongs to the same season as the one
+    before it. If that one was track N and nothing else is numbered N+1, it
+    becomes track N+1 (B2 then B3). Otherwise it's a bonus track, so specials
+    released between numbered episodes never take another episode's number."""
+    taken = {(e.season, e.number) for e in episodes if e.season and e.number is not None}
     for i in range(len(episodes) - 2, -1, -1):
         ep, older = episodes[i], episodes[i + 1]
-        if ep.season is None and ep.number is None and not ep.finale and older.number is not None:
-            ep.season = older.season
-            ep.number = older.number + 1
+        if ep.trailer or ep.finale or ep.season is not None or ep.number is not None:
+            continue
+        if older.season is None:
+            continue
+        ep.season = older.season
+        nxt = (older.season, older.number + 1) if older.number is not None else None
+        if not ep.bonus and nxt and nxt not in taken:
+            ep.number = nxt[1]
+            taken.add(nxt)
+        else:
+            ep.bonus = True
 
 
 def plain_text(raw_html: str) -> str:
@@ -291,6 +313,13 @@ def parse_feed(xml_bytes: bytes, known_slugs: dict[str, str] | None = None) -> l
         season = _int(item.findtext("itunes:season", namespaces=NS))
         number = _int(item.findtext("itunes:episode", namespaces=NS))
         title, season, number, finale = parse_numbering(raw_title, season, number)
+        kind = (item.findtext("itunes:episodeType", namespaces=NS) or "").strip().lower()
+        trailer = kind == "trailer" or bool(re.match(r"^(intro|trailer)\b", title, re.I))
+        bonus = not trailer and (kind == "bonus" or bool(re.match(r"^bonus\b", title, re.I)))
+        if trailer or bonus:
+            number = None
+            if trailer:
+                season = None
 
         published = None
         if pub := item.findtext("pubDate"):
@@ -323,6 +352,8 @@ def parse_feed(xml_bytes: bytes, known_slugs: dict[str, str] | None = None) -> l
             season=season,
             number=number,
             finale=finale,
+            bonus=bonus,
+            trailer=trailer,
             published=published,
             duration_seconds=parse_duration(item.findtext("itunes:duration", namespaces=NS)),
             audio_url=audio if re.match(r"^https?://", audio) else "",
@@ -446,7 +477,7 @@ def track_row(ep: Episode, prefix: str, latest: bool = False) -> str:
 
 def latest_block(ep: Episode) -> str:
     meta = " · ".join(x for x in ("New", ep.where, ep.date_label) if x)
-    sticker = "New" if ep.code == "—" else f"New · {ep.code}"
+    sticker = f"New · {ep.code}" if ep.side and not ep.bonus else "New"
     return f'''      <article class="latest" id="latest">
         <div class="latest-text">
           <p class="latest-meta">{e(meta)}</p>
@@ -466,7 +497,7 @@ def latest_block(ep: Episode) -> str:
 
 
 def season_label(season: int | None) -> str:
-    return f"Side {chr(64 + season)} · Season {season}" if season else "Bonus episodes"
+    return f"Side {chr(64 + season)} · Season {season}" if season else "Extras"
 
 
 def episodes_page(episodes: list[Episode], top: str, bottom: str) -> str:
@@ -481,7 +512,7 @@ def episodes_page(episodes: list[Episode], top: str, bottom: str) -> str:
         eps = seasons[s]
         years = sorted({ep.published[:4] for ep in eps if ep.published})
         span = f" · {years[0]}" + (f"–{years[-1][2:]}" if len(years) > 1 else "") if years else ""
-        pills.append(f'<button type="button" data-season="{s}" aria-pressed="false">{e(season_label(s or None).split(" · ")[0] if s else "Bonus")}{e(span)}</button>')
+        pills.append(f'<button type="button" data-season="{s}" aria-pressed="false">{e(season_label(s or None).split(" · ")[0] if s else "Extras")}{e(span)}</button>')
         count = f"{len(eps)} episode{'s' if len(eps) != 1 else ''}"
         rows = "\n".join(track_row(ep, "", latest=(ep is episodes[0])) for ep in eps)
         groups.append(f'''    <section class="season" data-season="{s}" aria-label="{e(season_label(s or None))}">

@@ -44,12 +44,34 @@
     <description>Queen.</description>
   </item>
   <item>
+    <title>Preparing for Christmas</title>
+    <guid>ep-xmas</guid>
+    <pubDate>Tue, 10 Jan 2023 12:00:00 GMT</pubDate>
+    <enclosure url="https://example.com/xmas.mp3" type="audio/mpeg" length="1"/>
+    <description>A holiday special.</description>
+  </item>
+  <item>
+    <title>Bonus blackbear/Mansionz</title>
+    <guid>ep-bonus</guid>
+    <pubDate>Sun, 08 Jan 2023 12:00:00 GMT</pubDate>
+    <enclosure url="https://example.com/bonus.mp3" type="audio/mpeg" length="1"/>
+    <description>A bonus.</description>
+  </item>
+  <item>
     <title>"Quotes" &amp; &lt;Tags&gt;</title>
     <guid>ep-a9</guid>
     <itunes:season>1</itunes:season>
     <itunes:episode>9</itunes:episode>
     <pubDate>Fri, 06 Jan 2023 12:00:00 GMT</pubDate>
     <description>No audio file for this one.</description>
+  </item>
+  <item>
+    <title>Intro to Art of Artists</title>
+    <guid>ep-intro</guid>
+    <itunes:episode>1</itunes:episode>
+    <pubDate>Sun, 01 Jan 2023 12:00:00 GMT</pubDate>
+    <enclosure url="https://example.com/intro.mp3" type="audio/mpeg" length="1"/>
+    <description>Who we are.</description>
   </item>
 </channel>
 </rss>

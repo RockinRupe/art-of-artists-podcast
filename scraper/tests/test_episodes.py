@@ -21,7 +21,18 @@ class ParseFeedTests(unittest.TestCase):
         self.eps = load()
 
     def test_codes_follow_sides_and_tracks(self):
-        self.assertEqual([e.code for e in self.eps], ["B3", "B2", "B1", "A·FIN", "A10", "A9"])
+        self.assertEqual([e.code for e in self.eps],
+                         ["B3", "B2", "B1", "A·FIN", "A10", "Bonus", "Bonus", "A9", "Intro"])
+
+    def test_specials_never_take_another_episodes_number(self):
+        xmas, bonus = self.eps[5], self.eps[6]
+        self.assertEqual((xmas.title, xmas.season, xmas.number, xmas.bonus), ("Preparing for Christmas", 1, None, True))
+        self.assertEqual((bonus.season, bonus.bonus), (1, True))
+        self.assertEqual(bonus.where, "Side A, bonus track")
+
+    def test_intro_is_a_trailer_outside_the_seasons(self):
+        intro = self.eps[-1]
+        self.assertEqual((intro.trailer, intro.season, intro.number), (True, None, None))
 
     def test_numbers_are_taken_out_of_titles(self):
         self.assertEqual(
@@ -41,7 +52,7 @@ class ParseFeedTests(unittest.TestCase):
         slugs = [e.slug for e in self.eps]
         self.assertEqual(len(slugs), len(set(slugs)))
         self.assertEqual(self.eps[1].slug, "how-do-artists-get-discovered")
-        self.assertEqual(self.eps[5].slug, "quotes-tags")
+        self.assertEqual(self.eps[7].slug, "quotes-tags")
 
     def test_known_slug_is_kept_when_title_changes(self):
         eps = ep_mod.parse_feed((FIXTURES / "podcast.xml").read_bytes(), {"ep-b2": "old-slug"})
@@ -83,7 +94,7 @@ class BuildTests(unittest.TestCase):
             self.assertTrue((self.tmp / rel).exists(), rel)
             self.assertIn(rel, changed)
         data = json.loads((self.tmp / "data/episodes.json").read_text())
-        self.assertEqual(len(data["episodes"]), 6)
+        self.assertEqual(len(data["episodes"]), 9)
 
     def test_second_build_with_same_feed_changes_nothing(self):
         ep_mod.build(self.eps, self.tmp)
@@ -120,7 +131,7 @@ class BuildTests(unittest.TestCase):
 
     def test_removed_episode_page_is_deleted(self):
         ep_mod.build(self.eps, self.tmp)
-        ep_mod.build(self.eps[:-1], self.tmp)
+        ep_mod.build([e for e in self.eps if e.slug != "quotes-tags"], self.tmp)
         self.assertFalse((self.tmp / "episodes/quotes-tags.html").exists())
 
     def test_empty_feed_keeps_existing_pages(self):
