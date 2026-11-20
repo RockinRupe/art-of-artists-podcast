@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T21:38:50.618296+00:00",
+  "generated_at": "2026-11-20T21:40:16.960405+00:00",
   "days": 7,
   "watchlist": [
     "Post Malone",
@@ -11,8 +11,8 @@
   ],
   "counts": {
     "tour": 17,
-    "other": 123,
-    "awards_charts": 68,
+    "other": 118,
+    "awards_charts": 73,
     "new_release": 8
   },
   "stories": [
@@ -69,19 +69,6 @@
       ]
     },
     {
-      "title": "The Taylor Swift Museum Exhibition Is an SOS Call",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRXhLY0M5NkJjVEJ3Q3hXemlIM0Z6Q0pkNnJaZUNBVk4wV3phdWlvb2daTE1DOE5tc25NVlQ5Yl9HbThEOGR1ejZ1dGVFem1YWXZlQWhMWjR5djZtZTJEeHZ1YkhRQkktWlRmeDdwbXNkRzBvMlVxdEpudmw5R0RoVXV5NU4?oc=5",
-      "source": "The Atlantic",
-      "published": "2026-11-20T14:00:00+00:00",
-      "summary": "The Taylor Swift Museum Exhibition Is an SOS Call The Atlantic",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "Watch Jacob Lusk pay tribute to Freddie Mercury and George Michael with jaw-dropping performance at the ZYN Rolling Stone UK Awards 2026",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTXI2QlB5UlZfM19GUUFGcXloYXlFQTNmYTluVXkxXzNHX185OWhsTU4yVHNqd1JuQVJGQ0sxNFplQWI4SzdSbXRqcEFvRlZuVTlLYWRMcVZsZk9hbzlDSnZHZXZxY01KdUpzRkMwc1hlUWc3ZEMzMHFFbjhvNklFSUF5czNoNFB4dGFfa0N1RFdGZzVoZDBhSGZWcEFtTjJ0ZzctRnRGampVYzJtOElrM2xSV242Wmg1aGxzSVNtMTlQWUVnZlBPemZ0ckJUcDRsQy1qNWVwZnZDLTFrbFloeWhFaFV5SkE?oc=5",
       "source": "Rolling Stone UK",
@@ -105,32 +92,6 @@
       ],
       "artists": [
         "Post Malone"
-      ]
-    },
-    {
-      "title": "Meet Swiftiephylus , a group of insects named after Taylor Swift",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1GQXNOaDJ2eVA4cF9tampHVTZMS3NCUnBFUFF2UER2OVdJTGp2UkI2RlhaYVZ1Y0pheko5TzF1QzdMMmxrVlpVQTAzRXBMQTg5SGZYdC1QajU2bkM3emJGWkdkU0lveTR6M0o4?oc=5",
-      "source": "Science News Explores",
-      "published": "2026-11-20T11:30:00+00:00",
-      "summary": "Meet Swiftiephylus , a group of insects named after Taylor Swift Science News Explores",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift (Musician)",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1CZnIzZnRCU2ltM3JjYXFuOXRNalI4dWVyU1B3NXBTN3RJc1A0M1hZMWNWekljVWFpaVNVdXZkTW8zd3Y4eS1ISTBsSFdOMGRZVkcxelJ4OA?oc=5",
-      "source": "Rolling Stone",
-      "published": "2026-11-20T09:10:35+00:00",
-      "summary": "Taylor Swift (Musician) Rolling Stone",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
       ]
     },
     {
@@ -186,19 +147,6 @@
       ]
     },
     {
-      "title": "Taylor Swift loses it at CMA hosts’ joke about her wedding to Travis Kelce",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbnNfZlNZY0FTNV9aLXotS3NJVF8yaWdkb0JhMVhwaHdxYVVJTWk5TDFtWEVsTk1uOXZZMnhVaVRPRWRlcHI5UVVhdjVjSnNILVV6dkdyMnE2dVpxMXBXM2l6QkM3UTFXY0xMdlE3MjBzbmROTjdnYjJLMFZNbjN0MGpVLWhtbVBiZFVjeFNfTHQ1dVBsWWtFUERVS05hM3JxRF9uOUlhNnUwM1N3VHlj?oc=5",
-      "source": "The Independent",
-      "published": "2026-11-20T05:10:00+00:00",
-      "summary": "Taylor Swift loses it at CMA hosts’ joke about her wedding to Travis Kelce The Independent",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "Post Malone Celebrates 10th Anniversary of Debut Album Stoney With Live at The Palladium Show in Los Angeles",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdFBJS053aXRmbDFERUgzUndMUDAxeHd6dERKREl1dS01ckstSWVNclpUQ3lhX1ZtRkVNdkZWVHh4SXpyX3YtWi1Cd0FuZEZxV3ZyODJxVTJ3a2dDdjlreFlFMlF4TTV2cklwZ3V1YWZWSFliZU44RW8yNklhN0VOLVU5TUxta0p4Ml9XWUlramwzRGpFdUpqeXVJTG9vUEt2NlhF?oc=5",
       "source": "The Hype Magazine",
@@ -209,32 +157,6 @@
       ],
       "artists": [
         "Post Malone"
-      ]
-    },
-    {
-      "title": "Every cameo in Taylor Swift's CMA Awards comeback, in order, and why each one was there",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5WWG9CVFc1LWJwdHJjN21xNFJVYmRfZThSaTBNUEtfSWlkdGY3V3J4ZGRnemJxQlNwVzRyZDZQYmlvSWkxVzQ0MGFHcFAtZjNGU01uYmFyeXpDZUxYck9pZw?oc=5",
-      "source": "Happy Mag",
-      "published": "2026-11-20T00:45:56+00:00",
-      "summary": "Every cameo in Taylor Swift's CMA Awards comeback, in order, and why each one was there Happy Mag",
-      "categories": [
-        "awards_charts"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Watch: Taylor Swift posts full CMA performance after 13 years away -",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43ZGxjOHFYenVmMUc3WUFWeU4tMjE3YktHNklTMmpxeDhORFZpeW9NWEtLUE5MVmhKMGRSdW9FdWc0cC1qUmtpRHlUT29LZ05rX3hkLWUtNmFJLXRSZG04NndTYWF0ZFBYaGU0ZW9XUnVkUVE?oc=5",
-      "source": "Happy Mag",
-      "published": "2026-11-19T23:53:57+00:00",
-      "summary": "Watch: Taylor Swift posts full CMA performance after 13 years away - Happy Mag",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
       ]
     },
     {
@@ -261,19 +183,6 @@
       ],
       "artists": [
         "Kendrick Lamar"
-      ]
-    },
-    {
-      "title": "“Taylor Swift: The Eras Collection” will run next year from April 10 through Aug. 15.",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZzdIbmdqT1A2Wmx5TktCZlVVS2JSN2s5c3VDSHUyRWZ3UFlRQjllLWNLSjJ0SGZ4a0lGX2hCaF9zZTZvVmxRb3c5SkNlWWFaNmhRcVFLSDdqMVZ1Sy03MDBLamkyRHp2WkZrbmEwZHBYd3BGWU1LQnNVb1NUWXp2Z3g2a0E5Ty0yUkYwdVI1S2JPX0dmZWVDLW9FOE5sVWNOanFVZEJOVEZpNldBWVB3dWRkVmRVdjkyY1hsQTQ0OGhnNHoxYk5aR0tsdUpPc0taeDhpMHBMdEZUUQ?oc=5",
-      "source": "Facebook",
-      "published": "2026-11-19T23:05:55+00:00",
-      "summary": "“Taylor Swift: The Eras Collection” will run next year from April 10 through Aug. 15. Facebook",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
       ]
     },
     {
@@ -355,32 +264,6 @@
       ]
     },
     {
-      "title": "You Can See the Taylor Swift & SVU Emmys Evidence Board in Person — Here's How",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQ1lGeGpMVGhYa0hsQk4wQWw2Nk9ZQkhYVUdqZmRnbjNydmJHcWZDcUpRQkJFOUZzbmM4RU1ITHJ2bmJkQlRjUGlXR0YtSHcxTndPNi1aODh1VE80dUVGNDV3V0o5N2dBT2FMMUdWenR2QTN0QlRFSHNROWlyd0VQaU5Td1JUdEhBcmhBWWR6bk56OUdSVUE?oc=5",
-      "source": "NBC TV",
-      "published": "2026-11-19T21:26:32+00:00",
-      "summary": "You Can See the Taylor Swift & SVU Emmys Evidence Board in Person — Here's How NBC TV",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "The Full-Circle Moment Behind Bill Anderson’s Cameo During Taylor Swift’s CMA Awards Performance",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQ2Y4RGRQRUItaHdWcXhqVHBfWktKRFhtZEVONVNpU1Awd2hBZ0dra0Z1VGpFNER1czhYZ0VSTDJLdG9kWjlqdjhHY1IwYnA0WDI5Z1JkcnZCc3dpR0pQZmI5VDBiMkpONnp4TC1QZ20wekpEZ1FCRzdNeGZBZW9LdGlkVHJBQnU4QWM4VGVzdVBmSzFEdFRBT0tMbnFqcTdhOHc2RGwyMElDTjYyTC1WVjF3UW80amNNSVNqLUZlczlnOGlDU3RmRzNSbkVXQnc?oc=5",
-      "source": "Whiskey Riff",
-      "published": "2026-11-19T21:12:20+00:00",
-      "summary": "The Full-Circle Moment Behind Bill Anderson’s Cameo During Taylor Swift’s CMA Awards Performance Whiskey Riff",
-      "categories": [
-        "awards_charts"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "10 outfits Taylor Swift has worn at the CMA Awards, ranked from least to most iconic",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYno4RWd5bkM5cmxaeHB5Y2dXT25MZXNvZC03R0MwbFdONFhENXNMd2tsbzhPdUpBQ0hhUUI0TXA0YnNFdFFwU2VMYXFmSUFZUHFXN3Voc1prMk4xeEhYLUVQWEtHeUt3UG9PSlJ2dms2N0EwZXRxVFZQYVBCTzFTdnFXZ18?oc=5",
       "source": "Business Insider",
@@ -388,19 +271,6 @@
       "summary": "10 outfits Taylor Swift has worn at the CMA Awards, ranked from least to most iconic Business Insider",
       "categories": [
         "awards_charts"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Travis Kelce’s Personal Decision With Wife Taylor Swift Amid Chiefs Star’s Injury Turns Heads",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWUJuQjlPRFV0OWEwaWV0STJoRnV5MFV4LTNZRmx5cUJRS2o1VHg0aDk5WkdmMHQtcjVqdHpDamUzZldtdUJ2dGpJdjRtVDRqNkFjQ19ZcE9kVDVMczh1em50R1Y5c0xwMU14MG40N2lnQlNnRWJESUp5bFFXQUhxSml4Skhua3lwRnRsQg?oc=5",
-      "source": "Yahoo Sports",
-      "published": "2026-11-19T19:30:05+00:00",
-      "summary": "Travis Kelce’s Personal Decision With Wife Taylor Swift Amid Chiefs Star’s Injury Turns Heads Yahoo Sports",
-      "categories": [
-        "other"
       ],
       "artists": [
         "Taylor Swift"
@@ -453,19 +323,6 @@
       "summary": "There Were So Many Easter Eggs in Taylor Swift’s CMA Performance Harper's BAZAAR",
       "categories": [
         "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Travis Kelce Is in Proud Husband Mode After Missing Taylor Swift’s CMA Awards Performance",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNnpWMi0xRFlGX2lfamJQelBrTktEcHYxN3hvMWktcUJscHZzMU5pWk95Q2V5UnIwcm5Cem1wenFreGNkQzg3WmhVbXRvc2p3U1dlVk1sOUk0SFh2LXpadTFNbnlIU05JeDNBUElDajdzZ3lwRnJzUXhUV0ZZQkdJZ0xMVkx2WEZXNzZ1SWhfMUROTmNvOEQtXw?oc=5",
-      "source": "InStyle",
-      "published": "2026-11-19T17:53:50+00:00",
-      "summary": "Travis Kelce Is in Proud Husband Mode After Missing Taylor Swift’s CMA Awards Performance InStyle",
-      "categories": [
-        "awards_charts"
       ],
       "artists": [
         "Taylor Swift"
@@ -550,19 +407,6 @@
       ]
     },
     {
-      "title": "Taylor Swift makes it obvious which category she's putting her effort behind for the Grammys at the CMA Awards",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPckhqanVMQ2paLWZQUkVFUFdKX0NxajZLbjc2SllOSml1WEdzYXFqWU9heVp5MnVHRkpNRGsyclJJWXFPTVViR0lUNlU5aEZ1U2NnSmFJQ1pBWTlJd2k5UHF2bWQtVDh6aXBQNzY0aUhBc1RKb2xMUFZTSkJmZ3ZYZnlxbUpPRm1qX1EtanRfNGtkQi1paW5wWGNzX2NqalJRSUY0UVkyeHNYNnZzOXViOW0zMEZUUTYwOW9uME1WNUpBS2l1THhXLVA3cng3OHhxMnF5VVp3?oc=5",
-      "source": "LaineyGossip",
-      "published": "2026-11-19T16:47:34+00:00",
-      "summary": "Taylor Swift makes it obvious which category she's putting her effort behind for the Grammys at the CMA Awards LaineyGossip",
-      "categories": [
-        "awards_charts"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "Taylor Swift's CMA Performance Was Filled With Easter Eggs From the Early Days of Her Career",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMW5VanhRM3hMaTFvTEVaY2dJTEZ2WnQ1c2FWdlpSdG9WRWpCNUNfY0I3SzU5S3FmeVJDQnVnZjRaU2tzcUY1Qmpxa3J1dy1GeGtTRk9VOWExLW05Z1d4Y0d4TGVTWFRhT01aS1c2QnVLc2xvcEt1R0hrUnRRZE9wSkhWU0hGc3hFei1aTGlLUndaMExkTEFaZHZyNFY3cEFWN09OX1o2TXNqWHdEVnFHRg?oc=5",
       "source": "Rolling Stone",
@@ -599,19 +443,6 @@
       ],
       "artists": [
         "Queen"
-      ]
-    },
-    {
-      "title": "Taylor Swift's Emmys 'SVU' Crime Board on Display at the Paley Center",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWFlvYjcweGgwY2FiRHlIUTFRdmFxcXROVjNkbUhwdGpQbGgxc0I2anYwR0FCRkQwQ09XYk5jallYdEo0cURlNU13bkpwVGE0WENUcXJ6MTE1aHJRYkd5QmZYS2Y1Z1c1aVo1WXNCSG8xTHlGYmlIZVF5ZGdKdk5YbzBsZVozREFjMXFBS0ZQdG82eExuUnVSaDV5MkhRamtiZUhJ?oc=5",
-      "source": "Variety",
-      "published": "2026-11-19T16:00:00+00:00",
-      "summary": "Taylor Swift's Emmys 'SVU' Crime Board on Display at the Paley Center Variety",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
       ]
     },
     {
@@ -693,6 +524,19 @@
       ]
     },
     {
+      "title": "Taylor Swift Changed Her Jewelry With Every Outfit at the 2026 CMAs",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUWgtd3hvcnB3b1oyZGpQU1VxUWo3M1d0NW1OWmMzMEc1a2Zod3dld1ZJUklPOXN6ZlBFLXF5QS0zdmxObzRRclF3MC1YS2NwTk52N2VUS1o4RUFDd1RCTzhDbWhZNXE5aTkyejFDdW1WeURsVXNyQXozcjBVWF9mRzdMQko4alloYlBUZS1ub3oxc2dGWkZERmFPbm5GZjBSaWtqODdpc24wQXlq?oc=5",
+      "source": "Town & Country Magazine",
+      "published": "2026-11-19T15:31:00+00:00",
+      "summary": "Taylor Swift Changed Her Jewelry With Every Outfit at the 2026 CMAs Town & Country Magazine",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Post Malone Announces One-Night-Only 'Stoney' Anniversary Concert, Ticket Requests Close Tonight",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOengyR2RrdXJOQjFocFRWQ0NTaWg2cElWdUstenJCOEQ2SW1HZUs2UDh1UjNlX1VKaU5STHlDWXhzZ2Mya3FIYUhPSlNfSnBXekhBUE9BS3lQdE9nQzRyNjQxdE9DLUlOTmdCYkkzM0VUWWNYekpINzBTNmh4b0tuX3l0cGNORG9VVTFiZ2Z0dUo0VDR4dzhHU1NudGpyUXBCY2UzYmV1Z2FZQVdo?oc=5",
       "source": "Yahoo",
@@ -716,6 +560,19 @@
       ],
       "artists": [
         "Post Malone"
+      ]
+    },
+    {
+      "title": "How to watch Taylor Swift, Ella Langley, and more perform live at the CMA Awards",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1cXVLaEdTOGZpV3M5V0RGbG9OVU9TcGE3WHQ5YUE3Sm9ubXhKYUFILVhKMk9Uc1Z2eHF2ZHc3bVBuT0RMWm5RVzlrby1jQ0pmaU5xdGVfam96REhaRnNORzdpMXY5a1JyTDJUb3gyeENaSHo1NWlKLU50UQ?oc=5",
+      "source": "Mashable",
+      "published": "2026-11-19T15:20:08+00:00",
+      "summary": "How to watch Taylor Swift, Ella Langley, and more perform live at the CMA Awards Mashable",
+      "categories": [
+        "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
       ]
     },
     {
@@ -750,6 +607,19 @@
       "source": "Yahoo",
       "published": "2026-11-19T15:10:35+00:00",
       "summary": "9 unmissable CMA Awards moments, from Taylor Swift's return to Ella Langley's historic night (and the biggest star to miss out) Yahoo",
+      "categories": [
+        "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "CMA Awards Photos: Taylor Swift, Ella Langley, Kacey Musgraves, More",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZ0dubGcxMWVIWGM3TjR6cFR3TFJpbzhjMl9mc29FcGY5eVg0RWl5SHltWjBRUmxCZFVIbVpCZzdQdGl5ejR3bTVSejJYRmgtLWEza0dNSXVpeldHUVlMeDJJMWw5QlU2NkU5WXR5SlRsbzdtSWVFT0FTZUhEbUZtMURuRGxGZWFmZ0NiMUVIWmlhSnE0QlAyTlJ2M1hQbWs1c0JyYzBZdW1YejA?oc=5",
+      "source": "Variety",
+      "published": "2026-11-19T15:03:00+00:00",
+      "summary": "CMA Awards Photos: Taylor Swift, Ella Langley, Kacey Musgraves, More Variety",
       "categories": [
         "awards_charts"
       ],
@@ -882,6 +752,19 @@
       "summary": "Taylor Swift Seen in Tears at CMAs as Travis Kelce Stays Home: What Happened? Yahoo",
       "categories": [
         "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift makes CMA Awards return, Ella Langley's \"Choosin' Texas\" wins big",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOM2tiQ0ZWZHFBUHVKX2hEUndfdW5kTlM3UzRDZ2dTZmMzV1dPSzR6VnZwSTRyaGZLc3ZVYjUxcGNPUFpvT0JuN2JXc2xTeXFuUVZHbW1ObzZDM1lhbVp3YzAyUnVPWUJTSEZhVXc5bDZ0SksweFp0aWxsaDhvRlZ6djl6UGsxbC1yTThsbGtiOWtaSWtxUHYxY3ItTVRtUF9NeEZBbXdoUQ?oc=5",
+      "source": "CBS News",
+      "published": "2026-11-19T12:41:00+00:00",
+      "summary": "Taylor Swift makes CMA Awards return, Ella Langley's \"Choosin' Texas\" wins big CBS News",
+      "categories": [
+        "awards_charts"
       ],
       "artists": [
         "Taylor Swift"
@@ -1123,6 +1006,19 @@
       ]
     },
     {
+      "title": "Taylor Swift Changes Into a Cutout Minidress With a Playful Tribute for Her First CMA Awards Performance in 13 Years",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQ2Q5STQ2ck5ScVctSGJ1Ni05bnBxUTNSNDdCdkR6amNvZXpWZElkSkdaUHMyZ1U0SjcwR3VQbnNjM3pUNTd2MTdiOG92VWg2WEJ0OTRoaXFoa29xTzQzcjFHYUxkNkY3NVhYSTcyRHVhQ2ctZGNVOVFLS284VEJieXFzeEVQZw?oc=5",
+      "source": "InStyle",
+      "published": "2026-11-19T03:56:17+00:00",
+      "summary": "Taylor Swift Changes Into a Cutout Minidress With a Playful Tribute for Her First CMA Awards Performance in 13 Years InStyle",
+      "categories": [
+        "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Taylor Swift Presents Brooks & Dunn With Willie Nelson Lifetime Achievement Award at 2026 CMAs",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXkxRlY3ZmhiZnhmQ2RhVHJLcV9uRXJ5YkdQdXpWQVl0YTRBYmcwQVhINzlLdlEyT192QnQ1b0J4VHRkdVB5Y3hvYzFXN0NiMzViWFZGTDk5REkzSjZicF92T2p5Z21wSVlES3kzY3hzR1dvRkk1d2ZVN1BkODlXR0QxaEdNUDkzOHJRU0JKOA?oc=5",
       "source": "Billboard",
@@ -1143,19 +1039,6 @@
       "summary": "A Nostalgic Taylor Swift Is Back in Her Cowboy Boot Era, With a 2026 Version of the Iconic ‘Debut’ Pair WWD",
       "categories": [
         "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift’s 2026 CMA Awards Performance Was Full of Stylish Nods to Her Past Looks",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeGpqZHNRLVpFdllXWllHZlpVeHpSUFBKdlR3QWtiZUllSksxTVU3NDBseE50Mm9adEJLc0RzX1RIQlFIenp0cWQySWRIT0IwbFU3WkJ1c2E3eFE5M3FuQWNEX0RmazBSNTdSemluNXk2U0hrTjNtWXhYWDJXLWJ0a2MwLW1xbVhlZmdiREUwZWlDYzlmWmFMZjVn?oc=5",
-      "source": "People.com",
-      "published": "2026-11-19T03:44:04+00:00",
-      "summary": "Taylor Swift’s 2026 CMA Awards Performance Was Full of Stylish Nods to Her Past Looks People.com",
-      "categories": [
-        "awards_charts"
       ],
       "artists": [
         "Taylor Swift"
@@ -1240,19 +1123,6 @@
       ]
     },
     {
-      "title": "Taylor Swift returns to country music's biggest night after 13 years",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcEdfbk43S2ZpYmZfc2p6U3ZkR2t2S3VCVVRDbFRvSXQxWVdHTDEtSkN6dThxUENSRTZSTXRZWFBrZVBXVTR0eHlmZnl2YWhudU8tLTVzRnFtcmViSi1TblZPY2E1SDdvUTh6MWxHODF0SFExcE43cXlid0dhbDBWX2hPd2lWZXQzZ1NWWHJRd0dTaTN6VXhnYndqN0JuZnJrV2YzNg?oc=5",
-      "source": "NBC 5 Dallas-Fort Worth",
-      "published": "2026-11-19T03:09:54+00:00",
-      "summary": "Taylor Swift returns to country music's biggest night after 13 years NBC 5 Dallas-Fort Worth",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "Taylor Swift performs at CMAs for 1st time in 13 years",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdHRDVUpPMG9hUVBZNHh4LW5SWjE0SDdoRlo0LXBUTVAxWUg2a2dnSTZkVnRiY2M2Q3ZxaS1PNjR0bFpjYU9JTGQwVHoxRk5SNjh0aVZLejE4Q08zZGREVHVyeXlJQjVHaC1zZDV1V2NlTU1SMTJwWFVJNmxIWTFZVkk1WTRJSmsyUVFGVlc1Y0VuYUVlYTV4TEktVl_SAaIBQVVfeXFMTTF3NzEyMGZXUmNlbm8ycEhLdWJoRXB6aUk2VWlDc3BtVzdEMHh3UTRiQ2tWV29QVHJNbmZtSFBySlNuQ25TZENSdWszaEZ4aGZPa3I4aDBpUU4zS1FXRVVfQTRqaTZNREE3S1lEa1JFcGhDYXdpTkFnSWp2WjZUM3lMeUhLSG13RDQzT28zQ2wyRUxmZWx0NzZUbUtTX2dnRWJn?oc=5",
       "source": "ABC News - Breaking News, Latest News and Videos",
@@ -1260,19 +1130,6 @@
       "summary": "Taylor Swift performs at CMAs for 1st time in 13 years ABC News - Breaking News, Latest News and Videos",
       "categories": [
         "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift Returns to CMA Awards Stage After 13 Years with “Our Song” and “I Knew It, I Knew You”",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE41WGZUUkJlZFFadjFRRzY5eXFmblRmX3c2MzRIaHI0Y3FsSmxiU1hyN0NRWHk2ZnE3OHFsMURXLWQzeE5WbGsxaDZjWEcyeU9RMGlfQXRpYks1b2RRbkc2LUo1dEZwc0J1VG15QnJOaDcwVlFaY2hFekV4TmV4Zw?oc=5",
-      "source": "Consequence of Sound",
-      "published": "2026-11-19T02:57:33+00:00",
-      "summary": "Taylor Swift Returns to CMA Awards Stage After 13 Years with “Our Song” and “I Knew It, I Knew You” Consequence of Sound",
-      "categories": [
-        "awards_charts"
       ],
       "artists": [
         "Taylor Swift"
@@ -1448,24 +1305,11 @@
       ]
     },
     {
-      "title": "Pregnant Brittany Mahomes Debuts Baby Bump on Red Carpet While Attending CMA Awards With Taylor Swift",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNN1B3dDNoUlRmcVh6SEtRdGhCeFVkX2xGNTNpN2wtNmZsLUlFNWhkbWdtWmpwWnMyOElDdUhKa0prTlpPRl8tSVg5NDVLLWlPcDJqWERWLTM0SUlrYkVTVDR1NDhnOVFWMWlSM3ptWlJXZjIwNl8xY1JwNE5HU0xkQVJ4S0RLT2wxd1dSckptN2xBcFlXeTdLeGVsbnJ5VjAxRkk4dFBCOGw1Vm1aREE?oc=5",
-      "source": "E! News",
-      "published": "2026-11-19T02:05:00+00:00",
-      "summary": "Pregnant Brittany Mahomes Debuts Baby Bump on Red Carpet While Attending CMA Awards With Taylor Swift E! News",
-      "categories": [
-        "awards_charts"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Best Photos From 2026 CMA Awards Red Carpet: Taylor Swift, Lainey Wilson, Megan Moroney & More",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1acVdSZlh0cUozcjNhRl91dmJZaEpEcUtOQUo1SldjY2k4clN2dUl5Ry1KX1AzVzNRdTFzUHdkampGTmFuM2hJaFFQQk9ucUxhbWJqUWFkTmdjTHBjTC1BMkZqNjRhNmo3aWVaeU1LeWlLSGp1eGpJWmF5aw?oc=5",
-      "source": "Billboard",
-      "published": "2026-11-19T01:56:47+00:00",
-      "summary": "Best Photos From 2026 CMA Awards Red Carpet: Taylor Swift, Lainey Wilson, Megan Moroney & More Billboard",
+      "title": "Taylor Swift Tears Up During This Emotional Moment at CMA Awards 2026",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNFpJdF9rTUNsaDZYb3lfQnBsbjV6TmtQeEZhS1VlcHZQM1ZaZXVBMFRHdGJ1MVlzTi1yQ21YWjFSSmNJVHZOTnl1YnNPOTU1OUxMT0NvWHM5UmY4dHZNdUxMNlpnYWpINWdoZzVLbldVNEJVV1c2c1FINHRfUXZTS1NvWVFGZ0JuUkE?oc=5",
+      "source": "InStyle",
+      "published": "2026-11-19T02:08:04+00:00",
+      "summary": "Taylor Swift Tears Up During This Emotional Moment at CMA Awards 2026 InStyle",
       "categories": [
         "awards_charts"
       ],
@@ -1479,6 +1323,19 @@
       "source": "Billboard",
       "published": "2026-11-19T01:49:40+00:00",
       "summary": "Lainey Wilson and Brad Paisley Joke About Taylor Swift’s Wedding By Parodying a Country Classic Billboard",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift is getting her own exhibit",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1KNzVZaGYyRDhyd3ZIa2lENlhpbDdMQVZpclBXMHFtcWkzOEdVZVZqM2NDVmtyZXJONnpvZU9tb091OG5GWkF1TUJvZTI?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-19T01:36:05+00:00",
+      "summary": "Taylor Swift is getting her own exhibit ABC News - Breaking News, Latest News and Videos",
       "categories": [
         "other"
       ],
@@ -1536,19 +1393,6 @@
       ],
       "artists": [
         "Post Malone"
-      ]
-    },
-    {
-      "title": "CMA Awards 2026 red carpet: See Taylor Swift, Lainey Wilson, and more looks",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdTl3dlpTM1ZFUlR1RmhUeFpFTVNpMnpYallTZWZIeFRHSkx4YV91TUtULTRTTVFWME5OUkZadk5ETndPSU1yOUZucUdKWW1iNlhhUE5hMHI5T2ZvREUtNFduMlFUWEpmRTlMMG9sclo3QVBkZDJNN2hXQjdnZXVjZ3h2WExNTlJoeWhyNWs4VjZ0aFJKVDhNOVZKQTR1SWx2Wk93?oc=5",
-      "source": "Page Six",
-      "published": "2026-11-19T00:15:00+00:00",
-      "summary": "CMA Awards 2026 red carpet: See Taylor Swift, Lainey Wilson, and more looks Page Six",
-      "categories": [
-        "awards_charts"
-      ],
-      "artists": [
-        "Taylor Swift"
       ]
     },
     {
@@ -1643,19 +1487,6 @@
       ]
     },
     {
-      "title": "Where to Watch the 2026 CMA Awards, Featuring Taylor Swift’s Return to the Stage",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdWpuSE5Nc1FrRjhITmJHWnNSSnlzUlZzcC16RlhFeXR0Ukk4UGJwQmRobVMtQ0ZOV1h2MkhybzE5N3Z3bnY3MU5PaEY3OFc0a3F1NzNKbTJYWGNqN042LUdEOFkyVU50LVdpcGxPQmJDQVA4MG8yVjg0S0lwVDVxd1dmYTFoeGg1TFpaMi1sWlNtVHBTc01NUi00Mi1YNVBaLVMyQVN2VUNMaExxeGJlYUZTVHo2Zw?oc=5",
-      "source": "The Hollywood Reporter",
-      "published": "2026-11-18T22:06:23+00:00",
-      "summary": "Where to Watch the 2026 CMA Awards, Featuring Taylor Swift’s Return to the Stage The Hollywood Reporter",
-      "categories": [
-        "awards_charts"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "Is Taylor Swift performing at the 2026 CMA Awards? What time and how to watch for free",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOblpqd2ZaUlFDemRBZGZ2U2JoZHhDc2ZqMDREbmJCLTluODVhUi1GTUNNdVp6NF9PVjEtRFFHdmVCWk8tREMxZ1h6anlXRjNCUFozV1VxY0w0Wks4Nm54Nzh0LXpSdVNxWHQ2c01HSHJJTHJKdHNCMWVfemJjU1ZlcjlScE40V1RRVG1qRnVuNUNXQjdDU29aVjh4WkdIQWdTbHZvMVMxVmpuejhKNERYWll4eUlLSnR6WkJueE5zZzMtSE1N0gHYAUFVX3lxTE95MmM4T1NDdV84V1gyVmtkb28yd1dQV2JWdktyWEEwWGU0SXVYekx1Z1IxNmxaVG92QmRMLVlhNFI5MGdrWFJ5WTFMM1VfQ0hLS09vT2RVdmxfRVNWR1NxRDhjallBYlUwcHhjOWZoZkx3cnRfanhhVUJmYWVFNmlDdmZmMlV4cUg4R1l3c3FkZWdRM1N1cjJ0ZFVzYVI2bGE3d21KTTZVWkNKYlVucktfN2k4Xzcwd1ZqYTZmRkFSUm5uTjZaWkRkZFRTU2NESktELXhVd20wRw?oc=5",
       "source": "Syracuse.com",
@@ -1676,19 +1507,6 @@
       "summary": "How to watch Taylor Swift perform at CMA Awards 2026 for free: Time, livestream Page Six",
       "categories": [
         "awards_charts"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift Is Getting a Museum of Fine Arts Exhibit in Boston",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdmg5bnJqaWdZMmNPcXBDTGh1WXFlYl9iQWFFWERHdkQtcnFqSVBld2Nic3Nuby1Ea2R3TGNibktiUXNSaUhzVEY1YjY1aGVoa1k4UV9qdEVpU0pwVEZWUmtGOS0tYUZnLWZwSUVsUUNUcFVyeXNQRTFycXlab3FLX1F5akpVNVpzU2tqWE4wUkduV3Fud3lqUHplcnlzY2V0ajBvWkNTT05SQWpOVmpRMXFaRXE5dw?oc=5",
-      "source": "Rolling Stone",
-      "published": "2026-11-18T21:28:55+00:00",
-      "summary": "Taylor Swift Is Getting a Museum of Fine Arts Exhibit in Boston Rolling Stone",
-      "categories": [
-        "other"
       ],
       "artists": [
         "Taylor Swift"
@@ -1877,19 +1695,6 @@
       ]
     },
     {
-      "title": "From Ella Langley's 9 nominations to Taylor Swift's return after 13 years: What to expect at tonight's 2026 CMA Awards",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQZmpXM2xiNmNrQ0RJaDBPTFBBdlJTUkNfTDIxcU9hRTNjcEhDZzRSUXF0UXJnR0tlVEFwMGVvbFZZYjc4NUVsSkZmaGZ6bDBTNF9Tb2VYVVVpbWt4aURFZzJQVVZ2MzhmUnVZazhuZUcxUVpXUEwzS3BEQmJzT2xueWV6MzYtczl2MlpOV21YREVPYlNkSVZlZXpzVVgxUVNvenpLSEdOTjM5VkZJdjVoOUw5UTdJMWxxVXRJVTNSSm4tNU52TlpqaGtNeUgycHk1ZEZNeW43blV4S0xuMHpid3ZXbVBjWU1JWHNtUUV3TDdvT3dFT21YWlB3a2RvdjlLNG1idjdXMzZ2RVE?oc=5",
-      "source": "Yahoo",
-      "published": "2026-11-18T17:00:55+00:00",
-      "summary": "From Ella Langley's 9 nominations to Taylor Swift's return after 13 years: What to expect at tonight's 2026 CMA Awards Yahoo",
-      "categories": [
-        "awards_charts"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "Brian May and Roger Taylor Just Completed a Queen Song That Was 40 Years in the Making",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCLUFDV0RKam5TLW90Nk5uaFJSVGNXLVR1S0Q4OHNKSVJFaERhcUhucUxXcGRjRWN5OFdVUVVvT25GdWtuZ1VKVk9rLTE2UjhOYzFyWnlHQ1ozRmtjZUpidWpMcHpQcU02MDRLazAtQXFpallEVkdV?oc=5",
       "source": "Ultimate Classic Rock",
@@ -1942,6 +1747,19 @@
       ]
     },
     {
+      "title": "Taylor Swift’s CMA Return Helped Disney Sell More Ads",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeno0VjZFaW9NblhaN0xaUVNFbmRFb2dZcmZmRHZDOUtPVTM0LWNJUXdJazJNMGlGekg4WXNVeVZrTGRqTnZuRGVISUVsR181ZFZlWDlxbHh3QkljWjNkMkRaM3lHUHJSVW1adml0SEdKakpQQW1EN3RMZU1OM0JVSmxIb3lBbmtyM2J2SnVHMGs2VU9uNlJr?oc=5",
+      "source": "Variety",
+      "published": "2026-11-18T14:00:00+00:00",
+      "summary": "Taylor Swift’s CMA Return Helped Disney Sell More Ads Variety",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Modding, Gaming & Breaking Benjamin with Ben Burnley",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDdUZvR21RQjhJN3FGM2xCVm45cGt5Vm9fR1BheWdfRFhZTExGYUY3YkxyeG9oWERNRVNUdDFrZjh1WWNNWWJFNUpxMXZyRXpsaURHLUo1M1lKSFRP?oc=5",
       "source": "YouTube",
@@ -1957,9 +1775,9 @@
     {
       "title": "Did Dolly Parton and Freddie Mercury sing 'Bohemian Rhapsody' together in London?",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNXJEb1pLNkJrS0E1SUhtR2EwMEJHQVpIN1B6VV9zOGFqdFBjVWllQXVsVTg2UWhhakZvVDR6V3RLNGd3UUhTa0x3QnBLS0RSRDZnWUF2QndsN2lSMkdhWHBuWExNTXRyWFhDMjM1M3dmVVJGNnFGTDBvdnBwWUdma1V4LWREUjJo?oc=5",
-      "source": "Snopes.com",
+      "source": "Snopes",
       "published": "2026-11-18T11:01:23+00:00",
-      "summary": "Did Dolly Parton and Freddie Mercury sing 'Bohemian Rhapsody' together in London? Snopes.com",
+      "summary": "Did Dolly Parton and Freddie Mercury sing 'Bohemian Rhapsody' together in London? Snopes",
       "categories": [
         "other"
       ],
@@ -1968,26 +1786,13 @@
       ]
     },
     {
-      "title": "Taylor Swift Announcement Turns Heads Before CMA Performance",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSUJDMW14N2ttM2FGM2xIMHcweDR3R3hmT1NRaHZMdlNYTU8wZi1CRnR0WEN6REtHcWQ4eGVGZVdmS29BVjJPamRtbHhSb0pMT3kydVpwX21Sd3hJQnJsemxxTFg1OXBwREpLczl5WVk3SlhrZE8zanFCdkk1dnViRWg3UWwyN29Zdl9Kb3lqdkpXOTd0MmJxeFV4TGZ5QnlwZmxITHJWa0VzRlVYZUJBZ3VrZ1g?oc=5",
-      "source": "Yahoo",
-      "published": "2026-11-18T08:33:53+00:00",
-      "summary": "Taylor Swift Announcement Turns Heads Before CMA Performance Yahoo",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift | Songs, Wedding, Travis Kelce, Cruel Summer, Albums, Life of a Showgirl, & Facts",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9femZaalRhODBTZGdVT1NVdEh0ZUtfUjJUaUhZS01HdFlXQTJXSVJLUzNDZ185cmd4eTJzY1lRTHRfSUVKWkZwSjhNcFh6T2lla2pEYkFudWdVWXRTY2c?oc=5",
-      "source": "Britannica",
+      "title": "Is Taylor Swift Participating in the Dolly Parton Tribute at CMA Awards 2026? The Truth",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTEhQSHlzTVFyaDRxaXVYckloS1FtekxIczJibV9GVWtfVU1fY1dycktES2R4SGh2NVF3TVNUSFpFOGlPUU5DNjJoMHR1UEtyT2lvS19Nam5WN2JScDZKRlF0SFZnbVNxS0FjX1hQU3FfbGdVT1Z1UjZ1Wk1JaEJ5eVI4aUZYLVB4WFNxelE3ZHVuS0tIQlIxYzdfUlNuY0FvYUs0SlJ6R2RGT2hDcDRF?oc=5",
+      "source": "E! News",
       "published": "2026-11-18T08:00:00+00:00",
-      "summary": "Taylor Swift | Songs, Wedding, Travis Kelce, Cruel Summer, Albums, Life of a Showgirl, & Facts Britannica",
+      "summary": "Is Taylor Swift Participating in the Dolly Parton Tribute at CMA Awards 2026? The Truth E! News",
       "categories": [
-        "other"
+        "awards_charts"
       ],
       "artists": [
         "Taylor Swift"
@@ -2059,6 +1864,32 @@
       ]
     },
     {
+      "title": "Taylor Swift, Travis Kelce are married: See their relationship timeline",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbGdTeDRLQmJmV2p1VUtjcEpGaTVXN0xVNHpleFZpWWNzU3hPR0N0Skk1a0h3MDdKaVdYOWFZWXJaY2ZnRUdXd25TLUx3VV9VRXp4dEZGcVhJOEVZbEJkdGRNX1plcEdYUUxwS0VDLXowM1h4TE1oWHljQ0t2Y1dBUDUzcU9DYWJaNGFnOE1iaWswZXZsS0ZUa2ZaMHFITWfSAaQBQVVfeXFMT1lKSzZXU2NxdTlKcmdHZWxwWnRmNElIb3JsMy1fZlIwTmNkUTV1RWMtTTh0VDBNTHQ4NmpHM09INXhQbmMxVDV5S29JdGROYzdiS3J6YnJaX1JNWGJUT0tpLXFkU2JjbzBhdjVjVmdqVjRrbXAyX0s5MXdUbWczdVhvbnhWVF9pS2VnMTBEM1pGT210dTdlaGF2ZDAxa2ZxUjlURE0?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-17T19:54:09+00:00",
+      "summary": "Taylor Swift, Travis Kelce are married: See their relationship timeline ABC News - Breaking News, Latest News and Videos",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift \"Eras Collection\" coming to Museum of Fine Arts in Boston. What to know about tickets.",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTm9VZHg3V3Z3bmg2Rm5WWVF0T09IampFWC1VbmE3RjdZWlF6WTh3akxzbk1zZWpIZU1LZzVUb3liQmlmUV84Q3EzLVl1RDE5VDdLdWpVUmtQME9keEFwLUUyb016Vm1rLVdDT0NDaGI0S3dMZENyZ3ZqMy1tTXZkUjNn?oc=5",
+      "source": "CBS News",
+      "published": "2026-11-17T19:04:00+00:00",
+      "summary": "Taylor Swift \"Eras Collection\" coming to Museum of Fine Arts in Boston. What to know about tickets. CBS News",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "David Bowie Listened to Kendrick Lamar’s ‘To Pimp a Butterfly’ While Recording Final Album (Exclusive Excerpt)",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQV0NMRFRtMFZxX09hd3JSWUN4N3hlVmVRTU9aNFBxUUswMUJfVlVzMmdFWF9iTGFibHQtNURSNDd3ekQxZUpYR2k2WTJWUVJRRTdPMG83Ty1PSVZ6ZThHM1kzazF6b3lhS1NMX3pHbV9TaHNLNXZwUzR2U2RESHFVYkFJZ2pISG9HMi14aFpzeTV4U0dvUkxYOFhwRzlGcEkyZWZtZURBWE0wcTFLSlhwNlhwcGx4Y0ZrWWxZX2xSNzBPamZwMHVWS2E4amQxcmJUNUE?oc=5",
       "source": "People.com",
@@ -2085,6 +1916,19 @@
       ]
     },
     {
+      "title": "Taylor Swift exhibition coming to Boston's Museum of Fine Arts next year",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOY2xQN05OMW82Wk9Zejhfa2pHQkpKYVQ4U0l1eXhFZGdXTHVVUHhzcEdwcm95OExuRndseUtibGUwRzQtOFNjUlljakdHWVJNZUpRV3kyMklLREMyWnZuOXNXQmJKSW54ZlU0ZFE5TVdkc3NLQmVPcVFCX0hlNWJyaGJIRHNwbHdFOFFDNkFnUWJuZkFCbnZOeHJwbzZjZTdtUUlPcXpmaGd6bWc0emdTb2lnT2N6Zw?oc=5",
+      "source": "WCVB",
+      "published": "2026-11-17T17:22:00+00:00",
+      "summary": "Taylor Swift exhibition coming to Boston's Museum of Fine Arts next year WCVB",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Post Malone And Megan Moroney Lead Pilgrimage Festival’s Spectacular 2027 Music Celebration",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOEM3R0RQZkZtXzNuNFMtRGI0N3duWHpEenBXcEc4dVRtQUFTVkg5YzhDWHRCUWpmTjc0UDlpOTFWMWpxekVOSmRDb1czSG9LMzdOV2tkbVJwa2stSWkzZDJ1RmVjdERCNzMzdzJFdWRxcHFLZ1YzU3VYUXQtVmtySTF2YjBZMzlQa0FpVTJ4c3ZiLXd0NTNnbk9wOTczLWoybzFmS3l1ZG43c2JIU01aekNfbHBYeGlJcWdDWTBnTUJjU1VidjFDeTM0dFQ?oc=5",
       "source": "That Eric Alper",
@@ -2098,24 +1942,11 @@
       ]
     },
     {
-      "title": "Taylor Swift Finally Comments on Next Step in Travis Kelce Marriage After Report She’s ‘Frustrated’ With Their Relationship—’I Never Know…’",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQlV3dmcxTkdpcEhWZWtCQTNrQVhYa0piNUZwRDFJUHRWWlBhWWV1a2l3bUdyWEZqMm9yYVd4b1FVQXVsZS1xdlVENy1XY2stU0tBM3RZcW81c2o0V2JUSE5INDVOT3dUUFJzUjh3RkdsN3lfTi1Ua3dMWlltampNYkthZ1BYNzNDcVNSWlB6YXVNZnp2MjRNLVZidFVHM21aYTVhMDhNUQ?oc=5",
-      "source": "Yahoo",
-      "published": "2026-11-17T17:06:47+00:00",
-      "summary": "Taylor Swift Finally Comments on Next Step in Travis Kelce Marriage After Report She’s ‘Frustrated’ With Their Relationship—’I Never Know…’ Yahoo",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Ready for it? Taylor Swift’s Eras archive is coming to the MFA",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rMHZrZVZtMDN2UFdaekJubm5PbUJxQkpmVEdWNEt4OUdFdWlpNXV0SHJvY2l6YXpkWHoxblNLSkpDb01tOERTUDBKTXhjbmhqeTk5VEVhWU1fTDlaQ3AtT092TkxGb2F5dFI3bUZZZk1oR3F6?oc=5",
-      "source": "WBUR",
-      "published": "2026-11-17T17:00:56+00:00",
-      "summary": "Ready for it? Taylor Swift’s Eras archive is coming to the MFA WBUR",
+      "title": "Taylor Swift ‘Eras’ exhibition to debut at the MFA next year",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdWJiS3E0VThha1dtdkY3QlZQdnZQc0FlZkZZMENSOGZaS1FiRDJsYlNISjcxTVEyb1kzLUJvNUdpTGs5MWZ1dXNqTWpudlhHOW9lZks0TmVMY1lMTkUtbElmaFJVZnpyajhyRFUzUWxubUw5SXI4R3Vyc1Z3YWxDQ1lENkl2NEZ6b3JaT2RR?oc=5",
+      "source": "The Boston Globe",
+      "published": "2026-11-17T17:03:32+00:00",
+      "summary": "Taylor Swift ‘Eras’ exhibition to debut at the MFA next year The Boston Globe",
       "categories": [
         "other"
       ],
@@ -2134,6 +1965,19 @@
       ],
       "artists": [
         "Queen"
+      ]
+    },
+    {
+      "title": "Taylor Swift’s Song of the Year Grammy Quip Was Likely No Accident",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcmx6QzF5bXJzRHVaMVdveXA0WmxKcFFSaVZTeVhlekFzZkwxY2x4RjR3WHVyb01OQ2xpT0hZbWMwZGY1T1FTZzN6MFNsSWdQTGE5aVRRYnotNThsR0V0RFZYaE5jekMxREFCcTA2eVhXTVhBazBwMmxYd1M3TVBSUldrUmZWXzh1ejNVcUtETEJydHVYVjhiZGoxQTF0QTExd2puTGt1ZWRWcm9oV3JV?oc=5",
+      "source": "Billboard",
+      "published": "2026-11-17T15:48:24+00:00",
+      "summary": "Taylor Swift’s Song of the Year Grammy Quip Was Likely No Accident Billboard",
+      "categories": [
+        "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
       ]
     },
     {
@@ -2160,19 +2004,6 @@
       ],
       "artists": [
         "Kendrick Lamar"
-      ]
-    },
-    {
-      "title": "The 25 Best Songs by Taylor Swift, Ranked",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWnd1N3g1c0JSR1FUS290bEprRHl4M013cmcxN3k5d1JNZkVEclVSb0prVWdHemFjUFdlc2tvdHFkbHlxYjhwWGVMZVlYZmxyRXBBQ2JpWENWcW93XzhGaWg0UWR6T0NWenNLR0NDTnpVdGxrYkttalNxbDdqcy1hWDdxU21tQXBRSk9pT2VNSDRkZw?oc=5",
-      "source": "Still Listening",
-      "published": "2026-11-17T13:01:57+00:00",
-      "summary": "The 25 Best Songs by Taylor Swift, Ranked Still Listening",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
       ]
     },
     {
@@ -2335,6 +2166,19 @@
       ]
     },
     {
+      "title": "Taylor Swift’s Fans Are Convinced Her Grammys Livestream Necklaces Are a Major Easter Egg",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVy1kSXF0MUdwVS03RVZWUDlEVzBLZHd6a1BuYzdTZHEtNzJuRi1OMGlrVWRxcjJZbHZESkRqbnQxT2Y5dDJval9EOE90R1RhWHVPRFBQWkFXZW02UHB3dC1BNkdETXFXUEpLck55SkJET0ZrRkdNMHdfbkxSa1VVUlFZTlVXZGoycEljSzVVRndmY3QzbnZQbWQ2Q3A?oc=5",
+      "source": "People.com",
+      "published": "2026-11-16T22:15:35+00:00",
+      "summary": "Taylor Swift’s Fans Are Convinced Her Grammys Livestream Necklaces Are a Major Easter Egg People.com",
+      "categories": [
+        "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Post Malone, HARDY Set to Headline Salute 250 Concert in Columbus",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYlVHRUpHNDkxckhnSExCZzkyXzAxUzhqZ3hkVUxEN1daWFMtUVE2QkxZeU5Nc21VTDNCV3ZZT1dLWDB2VUNZeTRjdHE0eWRZSFJjbGVqVGRqRW9JM1RDRnVkTjQ1MGd5Ry1yNGcwUnFsZFVhOERWN21rY0hTSW5QUkd0TWRDLW1N?oc=5",
       "source": "TicketNews",
@@ -2465,6 +2309,19 @@
       ]
     },
     {
+      "title": "Taylor Swift makes dig about her losing streak at the Grammys during nominations announcement",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbGZsNVNhc1pkSG51V1Vsdlo1MmRXVWlHelhYejc4THBPR19ieEw5X0tWY0NuNEpLdnY0QXBLcXBvZUhabnhmZlh6Zm9SWUhwaDR5TUVvMFFaMHhxOEYtdERlS3FQelRRQ2VPRkszakVWRm5ya3BmQ2lzMUlRY1dCSXJkdnBIR0F4UEo4WnR6amw5VmozUXdN?oc=5",
+      "source": "Entertainment Weekly",
+      "published": "2026-11-16T19:18:16+00:00",
+      "summary": "Taylor Swift makes dig about her losing streak at the Grammys during nominations announcement Entertainment Weekly",
+      "categories": [
+        "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Cowboys Superfan Post Malone Delivers Expletive-Laden Rant After Loss to 49ers",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWEZUSTAxaEk1cU9lRVpFY3h6QXVYOFo3dTBOeDhtamRFQVZRTU4xR0FvMGpwbjNLdi1mS2ZQWHQ4WGctYzBFMDNkSHVYc283UXNQVDVoUEItdzB3VEd5WGMzdWJwd3pnd19mYVp3MTE4QzVWWXgtR3FVVWJKWGdpRjJrN3FwNFRBMDBhcVRfQ0hlTmFoYi1BdDZBT3RUcmozRjZJdHZR?oc=5",
       "source": "Sports Illustrated",
@@ -2544,6 +2401,19 @@
       ]
     },
     {
+      "title": "Taylor Swift Jokes She’s ‘0 for 8’ in This Grammys Category as She Ties a Record",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPS1lRSUdNWDlsY2NFNDk4ZnVMdnVnOVVXS3dHRWdPdGl4Q01PNVZGNjlKU0FITGVJSXBHdWx3TmxMck5TMk92VkxtSVVPZk9vTmNKRDF2MzM1aTFxb0tfY0VzTkgydnlEWW5rQzdoZlpreFVCeDBGVVZRTHdHdl9RUUljQXBMM1Jma3VkcU1pcldta0JxNFFMblVVSk9QcU5uNFpnYU42bUw5Q3R5Z2g4?oc=5",
+      "source": "People.com",
+      "published": "2026-11-16T17:52:57+00:00",
+      "summary": "Taylor Swift Jokes She’s ‘0 for 8’ in This Grammys Category as She Ties a Record People.com",
+      "categories": [
+        "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Even Cowboys superfan Post Malone is out of answers after defensive disaster vs. 49ers",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeURhRnlQU3pUcWYza3BpbEhTdVNWRTZkUUVTbEYtcndhZElZWkw0WG92T1FOQmxQUHhXdUg2OTRWRkhoU19yTlhndUk3MnZsOFpfcjJSdWItM3dKUkVGVlU0czBDYkh0dE1DSjVGS2IxRmlYRThDSUlLMFJWTTBNZFo5Y1pYdXZHT0hNZnFUakZyWHphNzRpbWxKczhTUQ?oc=5",
       "source": "Dallas News",
@@ -2557,6 +2427,19 @@
       ]
     },
     {
+      "title": "Taylor Swift wears her ‘I Knew It, I Knew You’ good luck charm for Grammy nominations",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOM3BwMVVob3E1UlZ0Qi1NYXVxaXVCR3ZNSXNUVjFmUTVwX1V4U0FkdnFONHNNWERUOHF4TFk3SXBMc1JmeENYazE0el9QTzBJMmNtbXJ3dzAyQkxLZnBySV8xd2JYVnVCZ0hVVnNKSFVncWhabHpPOHhjUndpT0Z2alNUaHlOOHRzM1RObnB1RWxOYXZGMHNFbDBLY1FfWlh3RHQ0emJvVFNKa3k5TW1VNzZMS0pYdmNMbGJvSG1zUTJYNVU?oc=5",
+      "source": "Page Six",
+      "published": "2026-11-16T17:07:00+00:00",
+      "summary": "Taylor Swift wears her ‘I Knew It, I Knew You’ good luck charm for Grammy nominations Page Six",
+      "categories": [
+        "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Post Malone’s expletive-laden rant at losing Cowboys after 49ers crush their soul",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPazIySnBCS1ZDVnhRdTlPdlJkZllTNzdielRXVHhONjVpOHkyUUJaMHcxVU1INV9ROEVlR1BHcFdWMV9aN2NFM25LWXlFNkszaW1xLXZKZHppdjZBUzBDWGtXTlNYR29abG9SQmNkM2dpeWdKYzJzOWFRb1ZPZUxMWHUtaGFLc2M3?oc=5",
       "source": "Yahoo Sports",
@@ -2567,6 +2450,32 @@
       ],
       "artists": [
         "Post Malone"
+      ]
+    },
+    {
+      "title": "Taylor Swift Sets New Grammy Record With 5 Years of Major-Category Nominations",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSG1qV3J4M2pSZE0ycExBWFllTXZxcmN5eWxhc2lmRUk4RXNud2c5TVhvR1J0T19SZU9pbFM4b25yN2FhNUtUVUJQVUVMN2ZCZkRGdTN0V3lRYmtrdzUwaEtVSmpaakZzdmt3QlBwTnJKWDNhMXNDdE1qQ2hZRHdFVG5odHF2QXA2dXY0bXFvVm00ZnNaSjdSdWo3cV93QlhzNWZJOEoyMktiX3lrNVRGeA?oc=5",
+      "source": "Billboard",
+      "published": "2026-11-16T16:43:06+00:00",
+      "summary": "Taylor Swift Sets New Grammy Record With 5 Years of Major-Category Nominations Billboard",
+      "categories": [
+        "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift got 5 Grammy noms, but missed a key category",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaUVRYkxnY2wzT0RYNEkzdTRNOTJDVThwM0hnaUY1ZmhwTlZhOXRZaFpHNGRFWFdWdWxnUHpReGF1UEFlN2Qybk9FNlBzUk9vODNhaXBsazIxenFsQmF6dWI3SGxzUldrbEhKandfcTZHM1ZGQndSUnRabGZELW1mbVV1eGRRRm15SE14LQ?oc=5",
+      "source": "Gold Derby",
+      "published": "2026-11-16T16:15:00+00:00",
+      "summary": "Taylor Swift got 5 Grammy noms, but missed a key category Gold Derby",
+      "categories": [
+        "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
       ]
     },
     {
@@ -2609,6 +2518,19 @@
       ]
     },
     {
+      "title": "Taylor Swift earns five 2027 Grammy nominations. See the full list",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZzRxUWxpa0F0YzlBa0ZyS24tUk5LUGxvLV9ZS3ZvSHhFd01HbjJxRWlHMTBuNU11MzktT2FyWlMyTFYzcmZfYlQ2a0p6Nk9oZklzY2Y1a29NLUQwSUpQNks1dHB5cmFucFFpOVRmZVFyeXljNUh6RndoR04zRTFZSjF2aDRpNU9nU0JKSm15Mk1RaWVlekQzWUFuRXA2WklkSy00U3dUVnlOcHllOUlMUA?oc=5",
+      "source": "USA Today",
+      "published": "2026-11-16T14:53:00+00:00",
+      "summary": "Taylor Swift earns five 2027 Grammy nominations. See the full list USA Today",
+      "categories": [
+        "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Post Malone has had enough of the Cowboys’ downright bad defense",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQY25oWWRwWElHVFlmTWEzUTdJQ2MwYVBKMDFQNjRFaXZUUWRXMk1ja0RMVVJucnVQbTVEMW1NWmhPV01DSXAzVTJMVmdUWHRMVTZkVGtvTWQ2THp6VWpVMGM2dHBJeWlXY25DM2UtdlZCYTRHLWNxbWxpNnlyYUlxMlRqUjdVMFY5LUdIaXVWWkVMYW4wY3Q3aQ?oc=5",
       "source": "Larry Brown Sports",
@@ -2622,6 +2544,19 @@
       ]
     },
     {
+      "title": "Taylor Swift Scores Five Grammy Nominations, Including Album and Record of the Year Nods",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVEViTTExSWczSjNxREU2LUxEZGE2X3JDWFF3QmMtSlM1bFpCZndsdnNvZ3BfdzJrVHVhU01ubzd4aHp1Y2h4RFp0WUtHbDhaRW5QeEYyeUFnNVE1dENta0pyaDUtZFBodnh0d0tuRGZjT1B1VDRhUGRwbWs1cEVkcGg5S1h3SmluTk5DT0hyMzRqM1ktSjZDajJyYzlYWHBZ?oc=5",
+      "source": "The Hollywood Reporter",
+      "published": "2026-11-16T14:32:48+00:00",
+      "summary": "Taylor Swift Scores Five Grammy Nominations, Including Album and Record of the Year Nods The Hollywood Reporter",
+      "categories": [
+        "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Post Malone Goes Off on Cowboys in Profanity-Fueled Rant After 49ers Loss",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQzd2UkRpZTR2dVBzYy1tMUVnWkdZUjB5X2d3SFFtYzlRYlRUc3dSUndEYWRqNVF2ZEtRVFdNTl9UYmZvaURuMGU5RGY1b0dHRkg3SFhhNnhFWlF0UXV5eXJjdzh1ZkRSQlhFN1BxOEp6X0pacWRaS0dTUFBLeTVPZUhqd1JCY3lZNzYxbk1wY3FWZw?oc=5",
       "source": "Heavy.com",
@@ -2632,6 +2567,32 @@
       ],
       "artists": [
         "Post Malone"
+      ]
+    },
+    {
+      "title": "Taylor Swift Invites Olivia Rodrigo To Collab Under Box Propped Up By Stick",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYXR2RFBHQWM3S1hXcFpveGlUaVNSLXNlV2NSM1pTcy1LckxMV0F3TllMaWV4U3JEczVmM2I3VlhhLWtzUXl1R18zQ3kwOWNUX0RmQWlkZFVQak5XRnBnSXpscUdtNHlFVmt6WjFJY3UyM1dmQUJXVTBJLW04RGhFUEhuWXRKS3lxRURISmtseVpyQ0Q5OVFhR3VReHcxZw?oc=5",
+      "source": "The Onion",
+      "published": "2026-11-16T14:00:00+00:00",
+      "summary": "Taylor Swift Invites Olivia Rodrigo To Collab Under Box Propped Up By Stick The Onion",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Why Taylor Swift’s The Life of a Showgirl was nominated at the 2027 Grammys",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdkUxRy1vbDYwOE5hRHBTV3daNEhTRzNRVVZmMWxmZHFZWDhmQzhDMzBKa0VpZHQwWlV0c1lpUGxiNS12cTRWbURxVDZpNm1ieWJvcDZuSHJrUnJFWXAtOVVCOU56aThxM2lQcHZPN1FMa0NCMnVVRkZoSUd4MUFDNGZqaTloeEpBY25KUmQ0cDhqMjBuTHRJX0loR2hHUDY0?oc=5",
+      "source": "Entertainment Weekly",
+      "published": "2026-11-16T13:53:42+00:00",
+      "summary": "Why Taylor Swift’s The Life of a Showgirl was nominated at the 2027 Grammys Entertainment Weekly",
+      "categories": [
+        "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
       ]
     },
     {
@@ -2713,6 +2674,32 @@
       ]
     },
     {
+      "title": "Why Taylor Swift Hasn’t Been Seen at Travis Kelce’s Chiefs-Falcons Game in Atlanta",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNFB2Tnh0dXo3UXkzLTRuRXYzaFNEZDRSdVA3VEpXX3hlemhEdWw1eWo2ZjhyWTBEcWgxbXc4RnV0Zy1BUjhkXzEtaVM0WVdUU0dyMHV5TjF4OGt0R3ZLMFRyNmVGQVFpSWg2a24zN1luUTNaOGloV3NjMzNOVmxYYml2ODFDTkx4dzlkOU5LZjI5X21uUWtEeDcteGVtdXdHTEZEMkdhRVh1S3Nl?oc=5",
+      "source": "ELLE",
+      "published": "2026-11-15T21:09:00+00:00",
+      "summary": "Why Taylor Swift Hasn’t Been Seen at Travis Kelce’s Chiefs-Falcons Game in Atlanta ELLE",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
+      "title": "Taylor Swift Shares Rare Insight Into Her Thoughts on a Relatable Parenting Dilemma",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSEpsWmdlS19HWGZIZDhobGo4V1QwTWZKdktPWm4yMmNEdHIwMXR6dV9NNzdyNUJEZGJpRTJpNTd6Mk9WaVpSaUsxUE9oYnJaa29pNEpvSDdrMVhGVDh3VHJxZWt5SkJ4dkE5VkVSendkeG5PTlRjV2lTMTRnVkY5UUhJUERITS01UmVpZGJVcnQ?oc=5",
+      "source": "InStyle",
+      "published": "2026-11-15T18:00:50+00:00",
+      "summary": "Taylor Swift Shares Rare Insight Into Her Thoughts on a Relatable Parenting Dilemma InStyle",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Drake, Kendrick Lamar, Cardi B & More: Top Hip-Hop Artists & Songs Of 2026 Revealed | Fast Facts",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBfU1p6MzBScnM3enZpV1d1cjRhalZLWVdMVGQxX3FCckhjek1mWUd3SERLemtrOEVCNmxmSmoxeU9zZHdITzFVdGVucEl4cHctQzVVTzNqLV9fT3NP?oc=5",
       "source": "YouTube",
@@ -2762,6 +2749,19 @@
       ],
       "artists": [
         "Post Malone"
+      ]
+    },
+    {
+      "title": "Taylor Swift Talks the Art of Loving Lux and Olivia Dean",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMW9BR21qeEdrcHdEclY5SXFsengxdlFrYUpFazF0R2U0ZktUWkNDdW5PenRoR3QwLWdXbXdNMlV1WHJDc1dPX3RETmprU19tZ0RBbmU1NFNmWVdZS3lYWktBQ0Y1S3JZdHRWVWZLSTJCbHhSa3RneHNKRkdIYkM5ejdn?oc=5",
+      "source": "Vulture",
+      "published": "2026-11-14T19:11:34+00:00",
+      "summary": "Taylor Swift Talks the Art of Loving Lux and Olivia Dean Vulture",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
       ]
     },
     {
