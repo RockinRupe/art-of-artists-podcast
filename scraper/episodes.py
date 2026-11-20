@@ -494,13 +494,18 @@ def track_row(ep: Episode, prefix: str, latest: bool = False) -> str:
         </li>'''
 
 
+def title_class(ep: Episode) -> str:
+    """Long titles get a smaller headline so they don't run to four lines."""
+    return ' class="long-title"' if len(ep.title) > 28 else ""
+
+
 def latest_block(ep: Episode) -> str:
     meta = " · ".join(x for x in ("New", ep.where, ep.date_label) if x)
     sticker = f"New · {ep.code}" if ep.side and not ep.bonus else "New"
     return f'''      <article class="latest" id="latest">
         <div class="latest-text">
           <p class="latest-meta">{e(meta)}</p>
-          <h2><a href="{e(ep.page)}">{e(ep.title)}</a></h2>
+          <h2{title_class(ep)}><a href="{e(ep.page)}">{e(ep.title)}</a></h2>
           <p class="latest-desc">{e(ep.summary)}</p>
           <div class="btn-row">
             {play_button(ep, "", "btn btn-play", "&#9654; Play episode")}
@@ -618,7 +623,7 @@ def episode_page(ep: Episode, newer: Episode | None, older: Episode | None, top:
       <header class="latest episode-hero">
         <div class="latest-text">
           <p class="latest-meta">{e(meta)}</p>
-          <h1>{e(ep.title)}</h1>
+          <h1{title_class(ep)}>{e(ep.title)}</h1>
           <div class="btn-row">
             {play_button(ep, p, "btn btn-play", "&#9654; Play episode")}
             <a class="btn" href="{SPOTIFY_URL}" target="_blank" rel="noopener">Spotify</a>

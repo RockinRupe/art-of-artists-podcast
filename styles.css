@@ -276,7 +276,7 @@ body { padding-bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px));
   text-decoration: none;
 }
 
-main { display: grid; gap: 64px; padding-block: 40px 72px; }
+main { display: grid; grid-template-columns: minmax(0, 1fr); gap: 64px; padding-block: 40px 72px; }
 
 /* ---------- Home: hero ---------- */
 .hero { display: grid; gap: 28px; }
@@ -296,6 +296,7 @@ main { display: grid; gap: 64px; padding-block: 40px 72px; }
 
 .latest {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 28px;
   align-items: end;
 }
@@ -314,11 +315,15 @@ main { display: grid; gap: 64px; padding-block: 40px 72px; }
 .episode-hero h1 {
   font-weight: 900;
   font-variation-settings: "wdth" 62;
-  font-size: clamp(2.9rem, 9vw, 6.2rem);
+  font-size: clamp(2.4rem, 9vw, 6.2rem);
   line-height: 0.88;
+  overflow-wrap: anywhere;
   text-transform: uppercase;
   letter-spacing: -0.005em;
 }
+
+.latest h2.long-title,
+.episode-hero h1.long-title { font-size: clamp(2.2rem, 6vw, 4.4rem); }
 
 .latest h2 a { color: inherit; text-decoration: none; }
 .latest h2 a:hover { color: var(--cobalt); }
@@ -512,8 +517,9 @@ a.chip:hover { border-color: var(--ink); }
 .page-header h1 {
   font-weight: 900;
   font-variation-settings: "wdth" 62;
-  font-size: clamp(2.8rem, 8vw, 5rem);
+  font-size: clamp(2.4rem, 10vw, 5rem);
   line-height: 0.9;
+  overflow-wrap: anywhere;
   text-transform: uppercase;
 }
 
@@ -847,7 +853,7 @@ a.chip:hover { border-color: var(--ink); }
 .season-list { display: grid; gap: 48px; }
 
 /* ---------- Episode page ---------- */
-.episode-page { display: grid; gap: 56px; }
+.episode-page { display: grid; grid-template-columns: minmax(0, 1fr); gap: 56px; }
 
 .show-notes { display: grid; gap: 20px; }
 
@@ -856,6 +862,7 @@ a.chip:hover { border-color: var(--ink); }
   gap: 14px;
   max-width: 68ch;
   font-size: 1.05rem;
+  overflow-wrap: anywhere;
 }
 
 .notes-body ul, .notes-body ol { margin: 0; padding-left: 1.3rem; display: grid; gap: 6px; }
