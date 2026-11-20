@@ -26,7 +26,8 @@
 
   --gutter: max(20px, env(safe-area-inset-left, 0px));
   --gutter-r: max(20px, env(safe-area-inset-right, 0px));
-  --tabbar-h: 64px;
+  --tabbar-h: 60px;
+  --player-h: 64px;
   color-scheme: light;
 }
 
@@ -62,6 +63,8 @@ body {
 }
 
 img { max-width: 100%; height: auto; display: block; }
+
+[hidden] { display: none !important; }
 
 a { color: var(--cobalt); text-underline-offset: 3px; }
 
@@ -196,6 +199,7 @@ p { margin: 0; }
   grid-template-columns: repeat(4, 1fr);
   background: var(--paper);
   border-top: 1px solid var(--line);
+  height: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px));
   padding-bottom: env(safe-area-inset-bottom, 0px);
   padding-left: env(safe-area-inset-left, 0px);
   padding-right: env(safe-area-inset-right, 0px);
@@ -204,8 +208,8 @@ p { margin: 0; }
 .tabbar a {
   display: grid;
   justify-items: center;
+  align-content: center;
   gap: 3px;
-  padding: 9px 0 10px;
   color: var(--muted);
   text-decoration: none;
   font-size: 0.7rem;
@@ -306,7 +310,8 @@ main { display: grid; gap: 64px; padding-block: 40px 72px; }
   color: var(--tangerine);
 }
 
-.latest h2 {
+.latest h2,
+.episode-hero h1 {
   font-weight: 900;
   font-variation-settings: "wdth" 62;
   font-size: clamp(2.9rem, 9vw, 6.2rem);
@@ -399,6 +404,10 @@ main { display: grid; gap: 64px; padding-block: 40px 72px; }
 }
 
 .track-play {
+  font: inherit;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
   width: 2.4rem;
   height: 2.4rem;
   border-radius: 50%;
@@ -806,6 +815,206 @@ a.chip:hover { border-color: var(--ink); }
 @media (min-width: 1000px) {
   main { gap: 80px; padding-block: 56px 96px; }
   .tiles { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+/* ---------- Episodes page ---------- */
+.episode-tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: end;
+  gap: 16px 24px;
+  margin-bottom: -32px;
+}
+
+.episode-tools .news-filters { margin: 0; }
+
+.search-field { display: grid; gap: 6px; width: min(100%, 320px); }
+
+.search-field input {
+  font: inherit;
+  font-size: 0.95rem;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 9px 16px;
+  width: 100%;
+}
+
+.search-field input:focus-visible { outline: 2px solid var(--cobalt); outline-offset: 1px; }
+
+.season-list { display: grid; gap: 48px; }
+
+/* ---------- Episode page ---------- */
+.episode-page { display: grid; gap: 56px; }
+
+.show-notes { display: grid; gap: 20px; }
+
+.notes-body {
+  display: grid;
+  gap: 14px;
+  max-width: 68ch;
+  font-size: 1.05rem;
+}
+
+.notes-body ul, .notes-body ol { margin: 0; padding-left: 1.3rem; display: grid; gap: 6px; }
+.notes-body li::marker { color: var(--tangerine); }
+.notes-body a { overflow-wrap: anywhere; }
+
+.episode-nav {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+  border-top: 2px solid var(--ink);
+  padding-top: 16px;
+}
+
+.episode-nav a {
+  display: grid;
+  gap: 4px;
+  padding: 16px 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.episode-nav a:hover { border-color: var(--ink); }
+.episode-nav a:hover b { color: var(--cobalt); }
+.episode-nav b { font-size: 1.02rem; line-height: 1.35; }
+.episode-nav .next { text-align: right; }
+
+@media (min-width: 720px) {
+  .episode-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* ---------- Mini-player ----------
+   Built by script.js. Sits above the phone tab bar, or at the very bottom on
+   larger screens. It uses the ink color as its background, so it's a dark
+   bar on the light theme and a light bar on the dark theme. */
+.player {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px));
+  z-index: 25;
+  background: var(--ink);
+  color: var(--paper);
+  border-top: 2px solid var(--tangerine-fill);
+}
+
+.player-inner {
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  min-height: var(--player-h);
+  padding-block: 8px;
+}
+
+.player-disc {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: repeating-radial-gradient(circle, var(--paper) 0 1px, var(--ink) 1px 4px);
+  border: 1px solid var(--paper);
+}
+
+.player-disc img { width: 100%; height: 100%; object-fit: cover; }
+
+.player-disc::after {
+  content: "";
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  border-radius: 50%;
+  background: var(--ink);
+  border: 1px solid var(--paper);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .player.is-playing .player-disc { animation: spin 4s linear infinite; }
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.player-info { display: grid; gap: 4px; min-width: 0; }
+
+.player-title {
+  color: var(--paper);
+  font-weight: 600;
+  font-size: 0.92rem;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.player-title:hover { text-decoration: underline; }
+
+.player-progress { display: flex; align-items: center; gap: 10px; }
+
+.player-seek { flex: 1; min-width: 0; accent-color: var(--tangerine-fill); margin: 0; }
+
+.player-time {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.8;
+  white-space: nowrap;
+}
+
+.player-controls { display: flex; align-items: center; gap: 6px; }
+
+.player-btn {
+  font: inherit;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--paper);
+  background: transparent;
+  border: 1px solid var(--muted);
+  border-radius: 999px;
+  min-width: 36px;
+  height: 36px;
+  padding: 0 8px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.player-btn:hover { border-color: var(--paper); }
+.player-btn svg { width: 12px; height: 12px; }
+
+.player-toggle {
+  width: 42px;
+  height: 42px;
+  background: var(--tangerine-fill);
+  border-color: var(--tangerine-fill);
+  color: var(--on-tangerine);
+}
+.player-toggle svg { margin-left: 1px; }
+.player-toggle:hover { border-color: var(--paper); }
+
+.player-close { font-family: var(--body); font-size: 1.1rem; border-color: transparent; }
+
+.has-player body {
+  padding-bottom: calc(var(--tabbar-h) + var(--player-h) + env(safe-area-inset-bottom, 0px));
+}
+
+@media (max-width: 719.98px) {
+  .episode-hero .cover { max-width: 180px; }
+  .player-skip, .player-rate, .player-time { display: none; }
+}
+
+@media (min-width: 720px) {
+  .player { bottom: 0; padding-bottom: env(safe-area-inset-bottom, 0px); }
+  .player-inner { grid-template-columns: 44px minmax(0, 1fr) auto; gap: 20px; }
+  .player-disc { width: 44px; height: 44px; }
+  .has-player body { padding-bottom: calc(var(--player-h) + env(safe-area-inset-bottom, 0px)); }
 }
 
 @media (prefers-reduced-motion: no-preference) {

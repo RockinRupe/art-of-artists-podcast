@@ -1,7 +1,11 @@
-name: Update music news
+name: Update music news and episodes
 
-# Runs scraper/music_news.py every weekday and commits the refreshed
-# data/music-news.json (read by news.html) and data/music-news.md.
+# Runs every weekday and commits:
+# - scraper/episodes.py: episode pages built from the podcast's RSS feed
+#   (episodes.html, episodes/*.html, the home page's latest episodes,
+#   data/episodes.json, sitemap.xml)
+# - scraper/music_news.py: data/music-news.json (read by news.html) and
+#   data/music-news.md
 on:
   schedule:
     - cron: "17 12 * * 1-5" # Monday to Friday at 12:17 UTC (morning in the US)
@@ -28,19 +32,25 @@ jobs:
       - name: Run tests
         run: python -m unittest discover -s scraper/tests
 
+      # If the podcast feed can't be read, the existing episode pages stay as
+      # they are and the news update still runs.
+      - name: Build episode pages
+        continue-on-error: true
+        run: python scraper/episodes.py
+
       # Exits non-zero only if every feed fails, so a total outage never
       # overwrites the last good data with an empty page.
       - name: Scrape music news
         run: python scraper/music_news.py
 
-      - name: Commit updated news
+      - name: Commit updates
         run: |
-          git add data/
+          git add -A
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update music news ($(date -u +%Y-%m-%d))"
+          git commit -m "Update music news and episodes ($(date -u +%Y-%m-%d))"
           git push

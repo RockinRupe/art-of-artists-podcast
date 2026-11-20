@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+  <title>The Art of Everything</title>
+  <itunes:image href="https://example.com/show.jpg"/>
+  <item>
+    <title>Can Artists Change Genres?</title>
+    <guid>ep-b3</guid>
+    <link>https://example.com/b3</link>
+    <pubDate>Sun, 17 Aug 2026 12:00:00 GMT</pubDate>
+    <itunes:duration>2534</itunes:duration>
+    <enclosure url="https://example.com/b3.mp3" type="audio/mpeg" length="1"/>
+    <description><![CDATA[<p>Can musicians really switch styles? We also get into why some artists sell their catalogs.</p><p>Check out <a href="https://example.com/x">this</a> and <a href="javascript:alert(1)">that</a>.</p><script>alert(1)</script><img src="x" onerror="alert(1)"><p>--- </p><p>Send in a voice message: https://example.com/msg</p>]]></description>
+  </item>
+  <item>
+    <title>How Do Artists Get Discovered? | 2.2</title>
+    <guid>ep-b2</guid>
+    <pubDate>Fri, 08 Aug 2026 12:00:00 GMT</pubDate>
+    <itunes:duration>41:05</itunes:duration>
+    <enclosure url="https://example.com/b2.mp3" type="audio/mpeg" length="1"/>
+    <description>Kid Cudi and Post Malone.</description>
+  </item>
+  <item>
+    <title>How Bad is AI Music? | 2.1</title>
+    <guid>ep-b1</guid>
+    <pubDate>Fri, 31 Jul 2026 12:00:00 GMT</pubDate>
+    <itunes:duration>1:02:00</itunes:duration>
+    <enclosure url="https://example.com/b1.mp3" type="audio/mpeg" length="1"/>
+    <description>AI music &amp; the industry.</description>
+  </item>
+  <item>
+    <title>S1 Finale - Post Malone</title>
+    <guid>ep-a-fin</guid>
+    <pubDate>Fri, 27 Jan 2023 12:00:00 GMT</pubDate>
+    <enclosure url="https://example.com/fin.mp3" type="audio/mpeg" length="1"/>
+    <description>Post Malone's career.</description>
+  </item>
+  <item>
+    <title>S1E10 Queen</title>
+    <guid>ep-a10</guid>
+    <pubDate>Fri, 13 Jan 2023 12:00:00 GMT</pubDate>
+    <itunes:image href="https://example.com/queen.jpg"/>
+    <enclosure url="https://example.com/a10.mp3" type="audio/mpeg" length="1"/>
+    <description>Queen.</description>
+  </item>
+  <item>
+    <title>"Quotes" &amp; &lt;Tags&gt;</title>
+    <guid>ep-a9</guid>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>9</itunes:episode>
+    <pubDate>Fri, 06 Jan 2023 12:00:00 GMT</pubDate>
+    <description>No audio file for this one.</description>
+  </item>
+</channel>
+</rss>
