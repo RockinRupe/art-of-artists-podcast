@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T21:43:42.386926+00:00",
+  "generated_at": "2026-11-20T22:02:58.340621+00:00",
   "days": 7,
   "watchlist": [
     "Post Malone",
@@ -9,6 +9,27 @@
     "Breaking Benjamin",
     "Kendrick Lamar"
   ],
+  "watchlist_terms": {
+    "Post Malone": [
+      "Post Malone"
+    ],
+    "Queen": [
+      "Freddie Mercury",
+      "Brian May"
+    ],
+    "Taylor Swift": [
+      "Taylor Swift"
+    ],
+    "Bilmuri": [
+      "Bilmuri"
+    ],
+    "Breaking Benjamin": [
+      "Breaking Benjamin"
+    ],
+    "Kendrick Lamar": [
+      "Kendrick Lamar"
+    ]
+  },
   "counts": {
     "tour": 17,
     "other": 122,
@@ -1097,6 +1118,19 @@
       ]
     },
     {
+      "title": "Taylor Swift, Ella Langley and more: CMA Awards 2026 winners, performances",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObDh3UmszNlotMXVReXR1SVgtV29oWG5pblowSG1vVmk5d2Z2OThab3ZkXzBic0FpWGE2VEt0M3ZPM1JmZy13dGt0VDZHWndSUkE0OUNidG1XOTNhTWF3alJUTG83R2V4UUN1STRTRWlQT2JLcUNqNzZuWnpFSzdMMEI4dUlOSG5XSjZianVmQkpDMWZjaUtMSXE3TVlyVTlaNW1PY0lMWHk2aGcyYnF4eHBfVnpRdHRmYkpvcTVhWE5kUzREbTQ0?oc=5",
+      "source": "USA Today",
+      "published": "2026-11-19T04:21:00+00:00",
+      "summary": "Taylor Swift, Ella Langley and more: CMA Awards 2026 winners, performances USA Today",
+      "categories": [
+        "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Queen rebuilds its 1984 Christmas song with Freddie Mercury's voice",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNVdPYzVLaHRQQU9XdmJrRXllUm0zalg0RDlqM1ZVWGdzcGN4X29kWkVTR3d1cWY5aFVQWGZIYThIT3NaMjRxV3RWS3JFN1otUlVJUFVMSTJyN1lkTzdMVFloUmc3WFlhMUpfVXBweFd6REJJeHdSZWhTbmNGdlM4R3N2eDFzRUY1akdsTzF3TzZncFBlOTdQX20zVVhKdVE2ME1sU1R1Nk44LWxFcGxZVw?oc=5",
       "source": "Foro3D",
@@ -1514,10 +1548,10 @@
     },
     {
       "title": "Post Malone Celebrates 10th Anniversary of ‘Stoney’ With New Album",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcExFZ2hVdjJKeXBERTZxajFRRWRWRzYySF9YRTh4QXkwbXM5SHpfLTBlYnlpU0U4UmtPcXVnLU5MZzlJVnZTYjhoaFFWMXYyVHhLM05JdTA0M3JzTnU4d1UxWkNERk9OdVBfN2k5TEV0RG14bXozS0JodjUyWF9HMEs5bnl1M0pUQTJDWXoxYmwwSjMwUTV6MWVyVW1SVEoxYUFmSG05Vm5fZE9lTDc3Nm5QR2k4ZEE?oc=5",
-      "source": "Yahoo",
-      "published": "2026-11-19T00:18:00+00:00",
-      "summary": "Post Malone Celebrates 10th Anniversary of ‘Stoney’ With New Album Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOR05nRS1jV2R2UnkycW1icGJjcmNkR015Y2o2Q3Nkak5yUEpERm43V2FFV2I5UVkwU2s5YjI5TDlvOFViTW9YcnBUZlpubmNGSTR0RklEakEtMnBIMEtzYkRQYmZpMnJyUVhyNUlrdFNNcHZHZ2JyaVhueHVWNmx4ZHNLSHpLSmRQY3c4V3ZVN0daeDB5Mmc?oc=5",
+      "source": "intouchweekly.com",
+      "published": "2026-11-19T00:18:44+00:00",
+      "summary": "Post Malone Celebrates 10th Anniversary of ‘Stoney’ With New Album intouchweekly.com",
       "categories": [
         "new_release"
       ],
@@ -1559,19 +1593,6 @@
       "summary": "Taylor Swift's CMA return after 13 years sparks debate USA Today",
       "categories": [
         "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift Surprises in an Unexpected Color for Her First CMA Awards in 10 Years",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdGVJZWhISGRkQ09YZUpMaXB5RTBQLTdablVqd0FScGVIQ3RsdlJjRmJNRkhFZ2pUYm8tbkxHcUoyVzY2ejhZWVBxOW0xamRuX3hyM3RKaHoyMUppODNlNVVWc2NWV0lIc1NmaUpZWDdwTTRQdFFKZGpJT1RSdFQzMHBGMEk?oc=5",
-      "source": "InStyle",
-      "published": "2026-11-19T00:00:53+00:00",
-      "summary": "Taylor Swift Surprises in an Unexpected Color for Her First CMA Awards in 10 Years InStyle",
-      "categories": [
-        "awards_charts"
       ],
       "artists": [
         "Taylor Swift"
