@@ -1,0 +1,39 @@
+# Artists on the site's Artists tab.
+#
+# Put one artist per line. Blank lines and lines starting with # are ignored.
+# Changes show up on the next weekday update (or press "Run workflow" on the
+# Actions tab).
+#
+# Episodes are linked to an artist automatically:
+#   - "Episodes about" an artist: their name is in the episode title.
+#   - "Also mentioned in": their name is in the show notes.
+#
+# If a name is also an everyday word, put a | after it and list the words to
+# look for instead, like the news list (scraper/artists.txt). An episode whose
+# whole title is the artist's name always counts.
+#
+#   Queen | Freddie Mercury | Brian May
+#
+# To add a few words of your own about an artist, put them on the next line
+# starting with >. They show at the top of that artist's page.
+#
+#   Khalid
+#   > The voice that got us through every road trip in 2018.
+#
+# Everyone in scraper/artists.txt (the News watchlist) also gets a page, so
+# you don't need to list them twice.
+
+The Kid LAROI
+Imagine Dragons
+Ed Sheeran
+NF
+Michael Jackson
+Taylor Swift
+blackbear
+Joyner Lucas
+Khalid
+Queen | Freddie Mercury | Brian May
+Post Malone
+Kid Cudi
+K/DA
+Heartsteel

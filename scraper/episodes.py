@@ -6,6 +6,9 @@ Reads the podcast's RSS feed and writes:
   data/episodes.json        every episode as structured data
   episodes.html             the Episodes tab (whole back catalog)
   episodes/<slug>.html      one page per episode
+  artists.html              the Artists tab
+  artists/<slug>.html       one page per artist (from scraper/show-artists.txt
+                            and scraper/artists.txt)
   index.html                the newest episode and latest tracklist, between
                             the <!-- episodes:... --> markers
   sitemap.xml               every page, for search engines
@@ -33,6 +36,7 @@ import json
 import re
 import sys
 import unicodedata
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from dataclasses import asdict, dataclass
@@ -40,6 +44,9 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from artists import Artist, load_artists, match_episodes  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 FEED_URL = "https://anchor.fm/s/b5fbd7e4/podcast/rss"
@@ -411,11 +418,11 @@ def extract_shell(index_html: str) -> tuple[str, str]:
     return between("top"), between("bottom")
 
 
-def shell_for(chunk: str, prefix: str) -> str:
-    """Point the Episodes links at the current page and fix relative URLs
-    for pages one folder down."""
+def shell_for(chunk: str, prefix: str, current: str = "episodes.html") -> str:
+    """Mark the current section in the menus and fix relative URLs for
+    pages one folder down."""
     chunk = chunk.replace(' aria-current="page"', "")
-    chunk = chunk.replace('href="episodes.html"', 'href="episodes.html" aria-current="page"')
+    chunk = chunk.replace(f'href="{current}"', f'href="{current}" aria-current="page"')
     if prefix:
         chunk = re.sub(
             r'(href|src)="(?!https?:|#|mailto:|data:|/)([^"]*)"',
@@ -588,8 +595,18 @@ def episodes_page(episodes: list[Episode], top: str, bottom: str) -> str:
 ''' + shell_for(bottom, "") + "\n"
 
 
-def episode_page(ep: Episode, newer: Episode | None, older: Episode | None, top: str, bottom: str) -> str:
+def episode_page(ep: Episode, newer: Episode | None, older: Episode | None, top: str, bottom: str,
+                 ep_artists: list[Artist] | None = None) -> str:
     p = "../"
+    artist_chips = ""
+    if ep_artists:
+        chips = "".join(f'<a class="chip" href="{p}{e(a.page)}">{e(a.name)}</a>' for a in ep_artists)
+        artist_chips = f'''
+      <section class="episode-artists" aria-labelledby="artists-label">
+        <div class="section-label"><h2 id="artists-label">Artists in this episode</h2></div>
+        <div class="chip-row">{chips}</div>
+      </section>
+'''
     meta = " · ".join(x for x in (ep.where, ep.date_label, ep.duration_label) if x)
     description = ep.summary or f"An episode of {SHOW_NAME}."
     jsonld = {
@@ -637,6 +654,7 @@ def episode_page(ep: Episode, newer: Episode | None, older: Episode | None, top:
         </div>
       </header>
 
+{artist_chips}
       <section class="show-notes" aria-labelledby="notes-label">
         <div class="section-label"><h2 id="notes-label">Show notes</h2></div>
         <div class="notes-body">
@@ -655,6 +673,135 @@ def episode_page(ep: Episode, newer: Episode | None, older: Episode | None, top:
 ''' + shell_for(bottom, p) + "\n"
 
 
+# ----- Artists -----
+
+def sleeve_variant(artist: Artist) -> int:
+    return sum(map(ord, artist.name)) % 4
+
+
+def sleeve_class(artist: Artist) -> str:
+    longest = max((len(w) for w in artist.name.split()), default=0)
+    return f"sleeve sleeve-v{sleeve_variant(artist)}" + (" sleeve-long" if longest > 8 else "")
+
+
+def artist_meta(artist: Artist) -> str:
+    bits = []
+    if artist.about:
+        bits.append(f"{len(artist.about)} episode{'s' if len(artist.about) != 1 else ''}")
+    if artist.mentioned:
+        bits.append(f"mentioned in {len(artist.mentioned)}")
+    if artist.followed:
+        bits.append("in the news")
+    return " · ".join(bits) or "Coming up"
+
+
+def artist_card(artist: Artist, prefix: str) -> str:
+    codes = " · ".join(ep.code for ep in artist.about[:3]) or ("News" if artist.followed else "Mentioned")
+    return f'''        <li class="artist-item" data-show="{int(bool(artist.about or artist.mentioned))}" data-followed="{int(artist.followed)}">
+          <a class="artist-card" href="{prefix}{e(artist.page)}">
+            <span class="{sleeve_class(artist)}" aria-hidden="true">
+              <span class="sleeve-cat">{e(codes)}</span>
+              <span class="sleeve-name">{e(artist.name)}</span>
+            </span>
+            <span class="artist-name visually-hidden">{e(artist.name)}</span>
+            <span class="artist-meta">{e(artist_meta(artist))}</span>
+          </a>
+        </li>'''
+
+
+def artists_page(artists: list[Artist], top: str, bottom: str, image: str) -> str:
+    on_show = sum(1 for a in artists if a.about or a.mentioned)
+    followed = sum(1 for a in artists if a.followed)
+    desc = "Every artist we've covered on The Art of Everything, plus the ones we follow in the news."
+    cards = "\n".join(artist_card(a, "") for a in artists)
+    return head("Artists", desc, "artists.html", "", image) + shell_for(top, "", "artists.html") + f'''
+
+  <main id="main" class="container">
+    <section class="page-header">
+      <p class="eyebrow">{len(artists)} artists</p>
+      <h1>Artists</h1>
+      <p>Every artist we&rsquo;ve covered on the show, plus the ones we follow in the news. Open one to see their episodes and latest headlines.</p>
+    </section>
+
+    <section aria-label="Artists">
+      <div class="news-filters" role="group" aria-label="Show artists" id="artist-filters">
+        <button type="button" data-kind="all" aria-pressed="true">All</button>
+        <button type="button" data-kind="show" aria-pressed="false">On the show &middot; {on_show}</button>
+        <button type="button" data-kind="followed" aria-pressed="false">In the news &middot; {followed}</button>
+      </div>
+      <ul class="artist-grid" id="artist-grid">
+{cards}
+      </ul>
+    </section>
+  </main>
+
+''' + shell_for(bottom, "", "artists.html") + "\n"
+
+
+def artist_page(artist: Artist, top: str, bottom: str, show_image: str) -> str:
+    p = "../"
+    desc = artist.blurb or f"{artist.name} on The Art of Everything: {artist_meta(artist)}."
+    image = artist.about[0].image if artist.about else show_image
+
+    def tracks(title: str, eps: list[Episode], label_id: str) -> str:
+        if not eps:
+            return ""
+        rows = "\n".join(track_row(ep, p) for ep in eps)
+        return f'''
+    <section aria-labelledby="{label_id}">
+      <div class="section-label"><h2 id="{label_id}">{e(title)}</h2><span class="eyebrow">{len(eps)}</span></div>
+      <ol class="tracklist">
+{rows}
+      </ol>
+    </section>
+'''
+
+    news = ""
+    if artist.followed:
+        news = f'''
+    <section aria-labelledby="news-label">
+      <div class="section-label">
+        <h2 id="news-label">Latest news</h2>
+        <a href="{p}news.html?artist={e(urllib.parse.quote(artist.name))}">All {e(artist.name)} news &rarr;</a>
+      </div>
+      <ul class="story-list story-list-plain" data-artist-news="{e(artist.name)}">
+        <li class="news-empty">Loading the latest stories&hellip;</li>
+      </ul>
+    </section>
+'''
+    blurb = f'<p class="artist-blurb">{e(artist.blurb)}</p>' if artist.blurb else ""
+    empty = ""
+    if not artist.about and not artist.mentioned:
+        empty = '''
+    <p class="news-empty">We haven&rsquo;t done an episode on them yet. For now, we follow them in the news.</p>
+'''
+    return head(artist.name, desc, artist.page, p, image) + shell_for(top, p, "artists.html") + f'''
+
+  <main id="main" class="container" data-root="{p}">
+    <section class="page-header artist-header">
+      <span class="{sleeve_class(artist)} sleeve-lg" aria-hidden="true">
+        <span class="sleeve-cat">{e(" · ".join(ep.code for ep in artist.about[:3]) or "AOE")}</span>
+        <span class="sleeve-name">{e(artist.name)}</span>
+      </span>
+      <div class="artist-header-text">
+        <p class="eyebrow">Artist &middot; {e(artist_meta(artist))}</p>
+        <h1>{e(artist.name)}</h1>
+        {blurb}
+      </div>
+    </section>
+{tracks(f"Episodes about {artist.name}", artist.about, "about-label")}{tracks("Also mentioned in", artist.mentioned, "mentioned-label")}{empty}{news}
+    <p><a href="{p}artists.html">&larr; All artists</a></p>
+  </main>
+
+''' + shell_for(bottom, p, "artists.html") + "\n"
+
+
+def home_artist_chips(artists: list[Artist]) -> str:
+    covered = [a for a in artists if a.about]
+    covered.sort(key=lambda a: a.about[0].published or "", reverse=True)
+    return "\n".join(f'          <a class="chip" href="{e(a.page)}">{e(a.name)}</a>' for a in covered[:6])
+
+
 def replace_between(text: str, name: str, new: str) -> str:
     pattern = re.compile(rf"(<!-- episodes:{name}:start -->\n).*?(\n\s*<!-- episodes:{name}:end -->)", re.S)
     if not pattern.search(text):
@@ -662,11 +809,12 @@ def replace_between(text: str, name: str, new: str) -> str:
     return pattern.sub(lambda m: m.group(1) + new + m.group(2), text, count=1)
 
 
-def sitemap(episodes: list[Episode]) -> str:
+def sitemap(episodes: list[Episode], artists: list[Artist] = ()) -> str:
     today = datetime.now(timezone.utc).date().isoformat()
     urls = [("", today), ("episodes.html", episodes[0].date_iso if episodes else today),
-            ("news.html", today), ("about.html", today)]
+            ("artists.html", today), ("news.html", today), ("about.html", today)]
     urls += [(ep.page, ep.date_iso or today) for ep in episodes]
+    urls += [(a.page, (a.about[0].date_iso if a.about else "") or today) for a in artists]
     body = "\n".join(f"  <url><loc>{SITE_URL}{e(path)}</loc><lastmod>{mod}</lastmod></url>" for path, mod in urls)
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{body}\n</urlset>\n'
 
@@ -716,6 +864,9 @@ def build(episodes: list[Episode], root: Path) -> list[str]:
         new_index, "list",
         "\n".join(track_row(ep, "", latest=(i == 0)) for i, ep in enumerate(episodes[:HOME_EPISODE_COUNT])),
     )
+    artists = load_artists(root / "scraper" / "show-artists.txt", root / "scraper" / "artists.txt", slugify)
+    match_episodes(artists, episodes)
+    new_index = replace_between(new_index, "artists", home_artist_chips(artists))
     out("index.html", new_index)
     out("episodes.html", episodes_page(episodes, top, bottom))
 
@@ -723,17 +874,25 @@ def build(episodes: list[Episode], root: Path) -> list[str]:
     for i, ep in enumerate(episodes):
         newer = episodes[i - 1] if i > 0 else None
         older = episodes[i + 1] if i + 1 < len(episodes) else None
-        out(ep.page, episode_page(ep, newer, older, top, bottom))
-        keep.add(f"{ep.slug}.html")
+        ep_artists = [a for a in artists if ep in a.about] + [a for a in artists if ep in a.mentioned]
+        out(ep.page, episode_page(ep, newer, older, top, bottom, ep_artists))
+        keep.add(f"episodes/{ep.slug}.html")
 
-    # Remove pages for episodes that left the feed (only ones we generated).
-    ep_dir = root / "episodes"
-    for page in ep_dir.glob("*.html"):
-        if page.name not in keep and GENERATED_MARK in page.read_text(encoding="utf-8")[:400]:
-            page.unlink()
-            changed.append(f"episodes/{page.name} (removed)")
+    out("artists.html", artists_page(artists, top, bottom, episodes[0].image))
+    for artist in artists:
+        out(artist.page, artist_page(artist, top, bottom, episodes[0].image))
+        keep.add(artist.page)
 
-    out("sitemap.xml", sitemap(episodes))
+    # Remove pages for episodes that left the feed and artists taken off the
+    # lists (only pages this script generated).
+    for folder in ("episodes", "artists"):
+        for page in (root / folder).glob("*.html"):
+            rel = f"{folder}/{page.name}"
+            if rel not in keep and GENERATED_MARK in page.read_text(encoding="utf-8")[:400]:
+                page.unlink()
+                changed.append(f"{rel} (removed)")
+
+    out("sitemap.xml", sitemap(episodes, artists))
     return changed
 
 

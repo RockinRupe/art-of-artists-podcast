@@ -335,7 +335,8 @@ def _md_item(s: Story) -> str:
 
 
 def write_outputs(stories: list[Story], errors: list[dict], out_dir: Path,
-                  days: int, watchlist: list[str], generated: datetime) -> tuple[Path, Path]:
+                  days: int, watchlist: list[str], generated: datetime,
+                  watchlist_terms: dict[str, list[str]] | None = None) -> tuple[Path, Path]:
     out_dir.mkdir(parents=True, exist_ok=True)
     counts: dict[str, int] = {}
     for s in stories:
@@ -345,6 +346,9 @@ def write_outputs(stories: list[Story], errors: list[dict], out_dir: Path,
         "generated_at": generated.isoformat(),
         "days": days,
         "watchlist": watchlist,
+        # The words searched for each artist ("Queen" -> Freddie Mercury, ...).
+        # The site uses them to tell which headline words are just the artist.
+        "watchlist_terms": watchlist_terms or {},
         "counts": counts,
         "stories": [asdict(s) for s in stories],
         "feed_errors": errors,
@@ -383,7 +387,7 @@ def main(argv: list[str] | None = None) -> int:
         stories = [s for s in stories if s.artists]
 
     json_path, md_path = write_outputs(stories, errors, args.out, days, list(watchlist),
-                                       datetime.now(timezone.utc))
+                                       datetime.now(timezone.utc), watchlist_terms=dict(watchlist))
     print(f"\n{len(stories)} stories → {json_path} and {md_path}", file=sys.stderr)
     if errors:
         print(f"{len(errors)} feed(s) failed; see feed_errors in the JSON.", file=sys.stderr)

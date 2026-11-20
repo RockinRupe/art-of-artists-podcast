@@ -196,7 +196,7 @@ p { margin: 0; }
   bottom: 0;
   z-index: 20;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   background: var(--paper);
   border-top: 1px solid var(--line);
   height: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px));
@@ -894,6 +894,161 @@ a.chip:hover { border-color: var(--ink); }
 
 @media (min-width: 720px) {
   .episode-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* ---------- Artists ---------- */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.artist-grid {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px 16px;
+}
+
+.artist-card {
+  display: grid;
+  gap: 8px;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.artist-card .sleeve { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+.artist-card:hover .sleeve,
+.artist-card:focus-visible .sleeve { transform: translate(-3px, -3px); box-shadow: 6px 6px 0 var(--ink); }
+.artist-card:hover .artist-name { color: var(--cobalt); }
+
+.artist-name { font-weight: 700; font-size: 1.02rem; line-height: 1.25; }
+
+.artist-meta {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* A record sleeve: catalog numbers at the top, the name set big at the
+   bottom, and the grooves of a record peeking out of the corner. */
+.sleeve {
+  --sleeve-bg: var(--cobalt);
+  --sleeve-fg: var(--on-accent);
+  position: relative;
+  display: grid;
+  align-content: space-between;
+  gap: 8px;
+  aspect-ratio: 1;
+  max-width: 100%;
+  padding: 12px;
+  overflow: hidden;
+  container-type: inline-size;
+  border: 1px solid var(--ink);
+  color: var(--sleeve-fg);
+  background:
+    repeating-radial-gradient(circle at 100% 0%, transparent 0 9px, color-mix(in srgb, var(--sleeve-fg) 22%, transparent) 9px 10px),
+    var(--sleeve-bg);
+}
+
+.sleeve-v1 { --sleeve-bg: var(--tangerine-fill); --sleeve-fg: var(--on-tangerine); }
+.sleeve-v2 { --sleeve-bg: var(--ink); --sleeve-fg: var(--paper); }
+.sleeve-v3 { --sleeve-bg: var(--surface); --sleeve-fg: var(--ink); }
+
+.sleeve-cat {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.sleeve-name {
+  font-family: var(--display);
+  font-weight: 900;
+  font-variation-settings: "wdth" 62;
+  font-size: 1.5rem;
+  font-size: min(2.6rem, 17cqi);   /* scales with the card */
+  line-height: 0.88;
+  text-transform: uppercase;
+  overflow-wrap: break-word;
+  text-wrap: balance;
+}
+
+/* Names with a long single word (HEARTSTEEL) set a size smaller so the
+   word fits on one line instead of breaking. */
+.sleeve-long .sleeve-name { font-size: min(2.2rem, 13.5cqi); }
+
+.artist-header {
+  grid-template-columns: minmax(0, 1fr);
+  align-items: end;
+  gap: 24px;
+}
+
+.artist-header-text { display: grid; gap: 14px; min-width: 0; }
+.sleeve-lg { width: min(100%, 200px); }
+.artist-blurb { font-size: 1.15rem; color: var(--ink); max-width: 58ch; }
+
+.episode-artists { display: grid; gap: 16px; }
+
+/* ---------- News: filters, grouped stories, paging ---------- */
+.news-controls { display: grid; gap: 14px; }
+
+.filter-row { display: grid; gap: 8px; }
+.filter-row .news-filters { margin: 0; }
+
+/* Phones: each filter row scrolls sideways instead of filling the screen. */
+@media (max-width: 719.98px) {
+  .filter-row .news-filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-inline: calc(-1 * var(--gutter)) calc(-1 * var(--gutter-r));
+    padding-inline: var(--gutter) var(--gutter-r);
+    padding-block: 2px;
+  }
+  .filter-row .news-filters::-webkit-scrollbar { display: none; }
+  .filter-row .news-filters button { flex: none; }
+}
+
+.story-more { font-size: 0.9rem; }
+
+.story-more summary {
+  cursor: pointer;
+  color: var(--cobalt);
+  font-weight: 600;
+  width: fit-content;
+}
+
+.story-more ul {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0 0 0 14px;
+  border-left: 2px solid var(--line);
+  display: grid;
+  gap: 8px;
+}
+
+.story-more li a { color: var(--ink); text-decoration: none; }
+.story-more li a:hover { color: var(--cobalt); text-decoration: underline; }
+.story-more li span { font-family: var(--mono); font-size: 0.72rem; text-transform: uppercase; color: var(--muted); margin-right: 8px; }
+
+.news-more { margin-top: 24px; }
+
+@media (min-width: 720px) {
+  .artist-grid { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 32px 24px; }
+  .artist-header { grid-template-columns: 220px minmax(0, 1fr); gap: 40px; }
+  .sleeve-lg { width: 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .artist-card .sleeve { transition: none; }
 }
 
 /* ---------- Mini-player ----------

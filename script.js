@@ -387,19 +387,23 @@ async function loadTikTokEmbed() {
 
 // Written by scraper/music_news.py — see scraper/README.md.
 const MUSIC_NEWS_URL = "data/music-news.json";
-const NEWS_FILTERS = [
-  ["all", "All"],
-  ["watchlist", "Artists We Follow"],
+const NEWS_TYPES = [
   ["new_release", "New Releases"],
   ["death", "Tributes"],
   ["tour", "Tours"],
   ["awards_charts", "Awards & Charts"],
   ["legal_drama", "Drama"],
 ];
-const NEWS_TAG_LABELS = Object.fromEntries(NEWS_FILTERS.slice(2));
+const NEWS_TAG_LABELS = Object.fromEntries(NEWS_TYPES);
+const NEWS_PAGE_SIZE = 20;
+
+// Pages one folder down (artists/…) say where the site root is.
+function siteRoot() {
+  return document.getElementById("main")?.dataset.root ?? "";
+}
 
 async function fetchNews() {
-  const res = await fetch(MUSIC_NEWS_URL, { cache: "no-cache" });
+  const res = await fetch(siteRoot() + MUSIC_NEWS_URL, { cache: "no-cache" });
   if (!res.ok) throw new Error(`News request failed: ${res.status}`);
   return res.json();
 }
@@ -413,7 +417,58 @@ function repeatsTitle(summary, title) {
   return !s || s.startsWith(t.slice(0, 40)) || s.includes(t);
 }
 
-function renderNewsItem(story) {
+/* Group stories about the same thing: same artist, within two days, and at
+   least two meaningful words in common with the group's newest story. The
+   artist's own name and search words (Queen -> Freddie Mercury) and filler
+   words don't count. Ten headlines about one moment become one story with
+   "+ 9 more". Comparing with the newest story only keeps groups from
+   snowballing into "everything about this artist this week". */
+const STOP_WORDS = new Set(
+  ("a an and are as at be but by for from has have her his how in into is it its new of on or our out over " +
+    "she that the their them they this to up was what when who why will with you your after about just " +
+    "here all more most says said gets got first two one back " +
+    // Words nearly every music headline has, so sharing them means nothing.
+    "music song album award year watch video live show star fan singer rapper band").split(" "),
+);
+
+function headlineWords(story, terms) {
+  const own = new Set(
+    story.artists
+      .flatMap((a) => [a, ...(terms[a] ?? [])])
+      .join(" ")
+      .toLowerCase()
+      .split(/[^a-z0-9]+/),
+  );
+  return new Set(
+    story.title
+      .toLowerCase()
+      .replace(/['’]s\b/g, "")
+      .split(/[^a-z0-9]+/)
+      .map((w) => (w.length > 3 && w.endsWith("s") ? w.slice(0, -1) : w))
+      .filter((w) => w.length > 2 && !STOP_WORDS.has(w) && !own.has(w) && !/^(19|20)\d\d$/.test(w)),
+  );
+}
+
+function groupStories(stories, terms = {}) {
+  const groups = [];
+  const TWO_DAYS = 2 * 24 * 3600 * 1000;
+  for (const story of stories) {
+    const words = headlineWords(story, terms);
+    const when = new Date(story.published).getTime() || 0;
+    const artist = story.artists[0] ?? "";
+    const group = groups.find(
+      (g) =>
+        g.artist === artist &&
+        Math.abs(g.when - when) <= TWO_DAYS &&
+        [...words].filter((x) => g.words.has(x)).length >= 2,
+    );
+    if (group) group.stories.push(story);
+    else groups.push({ artist, when, words, stories: [story] });
+  }
+  return groups;
+}
+
+function renderNewsItem(story, extra = "") {
   const tags = [
     ...story.artists,
     ...story.categories.filter((c) => NEWS_TAG_LABELS[c]).map((c) => NEWS_TAG_LABELS[c]),
@@ -427,57 +482,129 @@ function renderNewsItem(story) {
       </div>
       <h3><a href="${escapeHtml(safeUrl(story.link))}" target="_blank" rel="noopener">${escapeHtml(story.title)}</a></h3>
       ${summary ? `<p>${escapeHtml(summary)}</p>` : ""}
+      ${extra}
       ${tags.length ? `<div class="news-tags">${tags.map((t) => `<span>${escapeHtml(t)}</span>`).join("")}</div>` : ""}
     </li>
   `;
 }
 
+function renderGroup(group) {
+  const [lead, ...rest] = group.stories;
+  if (rest.length === 0) return renderNewsItem(lead);
+  const sources = [...new Set(rest.map((s) => s.source))];
+  const from = sources.slice(0, 2).join(", ") + (sources.length > 2 ? ` and ${sources.length - 2} more` : "");
+  const more = `
+      <details class="story-more">
+        <summary>+ ${rest.length} more on this from ${escapeHtml(from)}</summary>
+        <ul>
+          ${rest
+            .map(
+              (s) =>
+                `<li><span>${escapeHtml(s.source)}</span><a href="${escapeHtml(safeUrl(s.link))}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a></li>`,
+            )
+            .join("")}
+        </ul>
+      </details>`;
+  return renderNewsItem(lead, more);
+}
+
 async function loadMusicNews() {
   const list = document.getElementById("news-list");
   if (!list) return;
-  const filters = document.getElementById("news-filters");
+  const artistFilters = document.getElementById("artist-news-filters");
+  const typeFilters = document.getElementById("news-filters");
+  const moreBtn = document.getElementById("news-more");
   const updated = document.getElementById("news-updated");
 
-  let stories;
+  let data;
   try {
-    const data = await fetchNews();
-    stories = data.stories ?? [];
+    data = await fetchNews();
     const when = new Date(data.generated_at);
     if (!isNaN(when)) {
       updated.textContent = `Last updated ${when.toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}`;
     }
   } catch (err) {
     console.warn("Could not load music news:", err);
-    stories = [];
   }
+  const stories = data?.stories ?? [];
   if (stories.length === 0) {
     list.innerHTML = `<li class="news-empty">No news yet — check back soon.</li>`;
     return;
   }
 
-  const matches = (story, key) =>
-    key === "all" || (key === "watchlist" ? story.artists.length > 0 : story.categories.includes(key));
+  // Artists in watchlist order, then anyone else with stories.
+  const artists = [...new Set([...(data.watchlist ?? []), ...stories.flatMap((s) => s.artists)])].filter((a) =>
+    stories.some((s) => s.artists.includes(a)),
+  );
+  const types = NEWS_TYPES.filter(([key]) => stories.some((s) => s.categories.includes(key)));
+  const wanted = new URLSearchParams(location.search).get("artist");
+  const state = { artist: artists.includes(wanted) ? wanted : "all", type: "all", shown: NEWS_PAGE_SIZE };
 
-  function show(key) {
-    const shown = stories.filter((s) => matches(s, key));
-    list.innerHTML = shown.length
-      ? shown.map(renderNewsItem).join("")
-      : `<li class="news-empty">Nothing in this category right now.</li>`;
-    filters.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.key === key));
+  const chip = (key, label, group) =>
+    `<button type="button" data-${group}="${escapeHtml(key)}">${escapeHtml(label)}</button>`;
+  artistFilters.innerHTML = chip("all", "All artists", "artist") + artists.map((a) => chip(a, a, "artist")).join("");
+  typeFilters.innerHTML = chip("all", "All news", "type") + types.map(([k, l]) => chip(k, l, "type")).join("");
+  typeFilters.closest(".filter-row").hidden = types.length === 0;
+
+  function render() {
+    const shown = stories.filter(
+      (s) =>
+        (state.artist === "all" || s.artists.includes(state.artist)) &&
+        (state.type === "all" || s.categories.includes(state.type)),
+    );
+    const groups = groupStories(shown, data.watchlist_terms);
+    list.innerHTML = groups.length
+      ? groups.slice(0, state.shown).map(renderGroup).join("")
+      : `<li class="news-empty">Nothing here right now. Try another filter.</li>`;
+    moreBtn.hidden = groups.length <= state.shown;
+    artistFilters.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.artist === state.artist)));
+    typeFilters.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.type === state.type)));
   }
 
-  // Only offer filters that have stories behind them. When every story is
-  // about a followed artist, "Artists We Follow" would just repeat "All".
-  const everyStoryFollowed = stories.every((s) => s.artists.length > 0);
-  filters.innerHTML = NEWS_FILTERS.filter(([key]) => stories.some((s) => matches(s, key)))
-    .filter(([key]) => !(key === "watchlist" && everyStoryFollowed))
-    .map(([key, label]) => `<button type="button" data-key="${key}">${label}</button>`)
-    .join("");
-  filters.addEventListener("click", (e) => {
+  artistFilters.addEventListener("click", (e) => {
     const btn = e.target.closest("button");
-    if (btn) show(btn.dataset.key);
+    if (!btn) return;
+    state.artist = btn.dataset.artist;
+    state.shown = NEWS_PAGE_SIZE;
+    // Keep the choice in the address so the filtered page can be shared.
+    const url = new URL(location.href);
+    if (state.artist === "all") url.searchParams.delete("artist");
+    else url.searchParams.set("artist", state.artist);
+    history.replaceState(history.state, "", url);
+    render();
   });
-  show("all");
+  typeFilters.addEventListener("click", (e) => {
+    const btn = e.target.closest("button");
+    if (!btn) return;
+    state.type = btn.dataset.type;
+    state.shown = NEWS_PAGE_SIZE;
+    render();
+  });
+  moreBtn.addEventListener("click", () => {
+    state.shown += NEWS_PAGE_SIZE;
+    render();
+  });
+  render();
+}
+
+// Artist pages: their latest few stories, grouped the same way.
+async function loadArtistNews() {
+  const list = document.querySelector("[data-artist-news]");
+  if (!list) return;
+  const name = list.dataset.artistNews;
+  try {
+    const { stories = [], watchlist_terms: terms = {} } = await fetchNews();
+    const groups = groupStories(
+      stories.filter((s) => s.artists.includes(name)),
+      terms,
+    );
+    list.innerHTML = groups.length
+      ? groups.slice(0, 5).map(renderGroup).join("")
+      : `<li class="news-empty">No news about ${escapeHtml(name)} this week.</li>`;
+  } catch (err) {
+    console.warn("Could not load artist news:", err);
+    list.innerHTML = `<li class="news-empty">News couldn't load right now.</li>`;
+  }
 }
 
 // Home page "In the news" tile: the newest story for each of a few different
@@ -511,6 +638,22 @@ async function loadNewsTeaser() {
   } catch (err) {
     console.warn("Could not load news teaser:", err);
   }
+}
+
+// Artists page: show everyone, only artists from the show, or only the
+// ones followed in the news.
+function setupArtistFilters() {
+  const pills = document.getElementById("artist-filters");
+  if (!pills) return;
+  pills.addEventListener("click", (e) => {
+    const btn = e.target.closest("button");
+    if (!btn) return;
+    const kind = btn.dataset.kind;
+    pills.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b === btn)));
+    document.querySelectorAll("#artist-grid .artist-item").forEach((item) => {
+      item.hidden = kind !== "all" && item.dataset[kind] !== "1";
+    });
+  });
 }
 
 // Episodes page: filter by season and search titles and descriptions.
@@ -575,7 +718,9 @@ function initPage() {
   loadTikTokEmbed();
   loadMusicNews();
   loadNewsTeaser();
+  loadArtistNews();
   setupEpisodeFilters();
+  setupArtistFilters();
   updatePlayState();
 }
 

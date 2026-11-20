@@ -16,6 +16,15 @@ Episode numbers show as record sides: season 1 is Side A, season 2 is Side B, so
 
 The menu, header and footer of the generated pages are copied from `index.html` (between the `<!-- shell:... -->` markers), so change the menu there first. The other hand-written pages (`news.html`, `about.html`, and so on) have their own copy that needs the same change.
 
+## Artists
+
+The [Artists page](https://rockinrupe.github.io/art-of-artists-podcast/artists.html) and a page for each artist are built by the same weekday update.
+
+- **To add or remove an artist,** edit [`scraper/show-artists.txt`](scraper/show-artists.txt). Instructions are at the top of the file.
+- **To add a few words about an artist,** put them on the line under the artist's name, starting with `>`.
+- Episodes link up automatically: an episode is "about" an artist when the artist's name is in its title, and "mentions" them when the name is in the show notes.
+- Everyone in the News watchlist (`scraper/artists.txt`) also gets a page, with their latest headlines.
+
 ## Music News
 
 The [Music News page](https://rockinrupe.github.io/art-of-artists-podcast/news.html) is updated automatically every weekday by a scraper that collects news about the artists we follow.
