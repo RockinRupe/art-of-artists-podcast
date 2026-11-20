@@ -30,6 +30,11 @@ class ParseFeedTests(unittest.TestCase):
         self.assertEqual((bonus.season, bonus.bonus), (1, True))
         self.assertEqual(bonus.where, "Side A, bonus track")
 
+    def test_number_in_title_beats_same_number_in_tags(self):
+        queen, xmas = self.eps[4], self.eps[5]
+        self.assertEqual((queen.code, queen.number_from), ("A10", "title"))
+        self.assertEqual((xmas.code, xmas.bonus), ("Bonus", True))
+
     def test_intro_is_a_trailer_outside_the_seasons(self):
         intro = self.eps[-1]
         self.assertEqual((intro.trailer, intro.season, intro.number), (True, None, None))

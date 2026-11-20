@@ -46,6 +46,8 @@
   <item>
     <title>Preparing for Christmas</title>
     <guid>ep-xmas</guid>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>10</itunes:episode>
     <pubDate>Tue, 10 Jan 2023 12:00:00 GMT</pubDate>
     <enclosure url="https://example.com/xmas.mp3" type="audio/mpeg" length="1"/>
     <description>A holiday special.</description>

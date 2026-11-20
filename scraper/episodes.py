@@ -69,6 +69,7 @@ class Episode:
     finale: bool
     bonus: bool             # an extra between numbered episodes ("Bonus" in the tracklist)
     trailer: bool           # the show's intro/trailer ("Intro")
+    number_from: str        # where the number came from: "title", "tags", "order" or ""
     published: str | None   # ISO 8601
     duration_seconds: int | None
     audio_url: str
@@ -190,6 +191,19 @@ def fill_missing_numbers(episodes: list[Episode]) -> None:
     before it. If that one was track N and nothing else is numbered N+1, it
     becomes track N+1 (B2 then B3). Otherwise it's a bonus track, so specials
     released between numbered episodes never take another episode's number."""
+    # Two episodes can claim the same number (one in its title, another in
+    # the host's episode tags). A number written in the title wins, then the
+    # later release; the other one becomes a bonus track.
+    claims: dict[tuple, list[Episode]] = {}
+    for ep in episodes:
+        if ep.season and ep.number is not None:
+            claims.setdefault((ep.season, ep.number), []).append(ep)
+    for eps in claims.values():
+        if len(eps) > 1:
+            eps.sort(key=lambda x: (x.number_from == "title", x.published or ""), reverse=True)
+            for loser in eps[1:]:
+                loser.number, loser.bonus, loser.number_from = None, True, ""
+
     taken = {(e.season, e.number) for e in episodes if e.season and e.number is not None}
     for i in range(len(episodes) - 2, -1, -1):
         ep, older = episodes[i], episodes[i + 1]
@@ -201,6 +215,7 @@ def fill_missing_numbers(episodes: list[Episode]) -> None:
         nxt = (older.season, older.number + 1) if older.number is not None else None
         if not ep.bonus and nxt and nxt not in taken:
             ep.number = nxt[1]
+            ep.number_from = "order"
             taken.add(nxt)
         else:
             ep.bonus = True
@@ -312,12 +327,15 @@ def parse_feed(xml_bytes: bytes, known_slugs: dict[str, str] | None = None) -> l
         raw_title = (item.findtext("title") or "Untitled episode").strip()
         season = _int(item.findtext("itunes:season", namespaces=NS))
         number = _int(item.findtext("itunes:episode", namespaces=NS))
+        tagged = number is not None
         title, season, number, finale = parse_numbering(raw_title, season, number)
+        number_from = ("tags" if tagged else "title") if number is not None else ""
         kind = (item.findtext("itunes:episodeType", namespaces=NS) or "").strip().lower()
         trailer = kind == "trailer" or bool(re.match(r"^(intro|trailer)\b", title, re.I))
         bonus = not trailer and (kind == "bonus" or bool(re.match(r"^bonus\b", title, re.I)))
         if trailer or bonus:
             number = None
+            number_from = ""
             if trailer:
                 season = None
 
@@ -354,6 +372,7 @@ def parse_feed(xml_bytes: bytes, known_slugs: dict[str, str] | None = None) -> l
             finale=finale,
             bonus=bonus,
             trailer=trailer,
+            number_from=number_from,
             published=published,
             duration_seconds=parse_duration(item.findtext("itunes:duration", namespaces=NS)),
             audio_url=audio if re.match(r"^https?://", audio) else "",
