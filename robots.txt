@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rockinrupe.github.io/art-of-artists-podcast/sitemap.xml

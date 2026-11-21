@@ -30,9 +30,10 @@ that file exists, the page shows "No news yet".
 ## Weekday updates
 
 `.github/workflows/music-news.yml` runs the scraper every weekday at 12:17 UTC on
-GitHub Actions, then commits the refreshed `data/` folder to `main`. To run it
-immediately, open the repo's **Actions** tab, pick **Update music news**, and
-click **Run workflow**. If every feed fails, the job fails and nothing is
+GitHub Actions, then commits the refreshed `data/` folder to `main`. The same
+job also rebuilds the episode pages with `scraper/episodes.py`. To run it
+immediately, open the repo's **Actions** tab, pick **Update music news and
+episodes**, and click **Run workflow**. If every feed fails, the job fails and nothing is
 committed, so the page keeps showing the last good results. You can still run
 the scraper by hand and commit `data/` yourself.
 

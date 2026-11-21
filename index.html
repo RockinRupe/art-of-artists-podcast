@@ -2,124 +2,233 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Art of Everything — Podcast</title>
-  <meta name="description" content="Two brothers who love pretty much everything about music discuss what inspires famous musicians, their backgrounds, and how they achieved fame." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>The Art of Everything</title>
+  <meta name="description" content="Two brothers digging into how artists, creators and big ideas got where they are. Music is where we started." />
+  <link rel="canonical" href="https://rockinrupe.github.io/art-of-artists-podcast/" />
+  <meta name="theme-color" content="#edeff3" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0e1024" media="(prefers-color-scheme: dark)" />
+
+  <!-- Link previews (iMessage, Discord, Instagram, X, etc.) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="The Art of Everything" />
+  <meta property="og:title" content="The Art of Everything" />
+  <meta property="og:description" content="Two brothers digging into how artists, creators and big ideas got where they are. Music is where we started." />
+  <meta property="og:url" content="https://rockinrupe.github.io/art-of-artists-podcast/" />
+  <meta property="og:image" content="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/30431809/30431809-1662696432220-55d632c391292.jpg" />
+  <meta property="og:image:alt" content="The Art of Everything podcast cover art" />
+  <meta name="twitter:card" content="summary" />
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Instrument+Sans:wght@400;500;600;700&amp;display=swap" />
   <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastSeries",
+    "name": "The Art of Everything",
+    "alternateName": "Art of Artists",
+    "description": "Two brothers digging into how artists, creators and big ideas got where they are. Music is where we started.",
+    "url": "https://rockinrupe.github.io/art-of-artists-podcast/",
+    "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/30431809/30431809-1662696432220-55d632c391292.jpg",
+    "webFeed": "https://anchor.fm/s/b5fbd7e4/podcast/rss",
+    "author": [{"@type": "Person", "name": "Corbin Rupe"}, {"@type": "Person", "name": "Carter Rupe"}],
+    "sameAs": ["https://open.spotify.com/show/3cyXQL4kBuqOkCgAFvwczI", "https://podcasts.apple.com/us/podcast/art-of-artists/id1646595706", "https://youtube.com/@artofartistspodcast", "https://www.instagram.com/art.of.artists.podcast", "https://www.tiktok.com/@artofartistspod"]
+  }
+  </script>
 </head>
 <body>
+  <!-- shell:top:start -->
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <nav class="site-nav">
+  <header class="site-nav">
     <div class="container nav-inner">
       <a class="brand" href="index.html">The Art of Everything</a>
-      <div class="nav-links">
-        <a href="index.html" class="active">Home</a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="episodes.html">Episodes</a>
+        <a href="artists.html">Artists</a>
         <a href="news.html">News</a>
-        <a href="merch.html">Merch</a>
-        <a href="socials.html">Socials</a>
-        <a href="recommendations.html">Recommendations</a>
-      </div>
-    </div>
-  </nav>
-
-  <header class="hero">
-    <div class="container hero-inner">
-      <img class="cover-art" src="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/30431809/30431809-1662696432220-55d632c391292.jpg" alt="Podcast cover art" width="200" height="200" />
-      <div class="hero-text">
-        <h1>The Art of Everything</h1>
-        <p class="tagline">Two brothers who love pretty much everything about music discuss what inspires famous musicians, their backgrounds, and how they achieved fame.</p>
-        <div class="listen-buttons">
-          <a class="btn btn-spotify" href="https://open.spotify.com/show/3cyXQL4kBuqOkCgAFvwczI" target="_blank" rel="noopener">Listen on Spotify</a>
-          <a class="btn btn-apple" href="https://podcasts.apple.com/us/podcast/art-of-artists/id1646595706" target="_blank" rel="noopener">Listen on Apple Podcasts</a>
-        </div>
-      </div>
+        <a href="about.html">About</a>
+      </nav>
+      <details class="listen-menu">
+        <summary class="btn btn-play">&#9654; Listen</summary>
+        <ul>
+          <li><a href="https://open.spotify.com/show/3cyXQL4kBuqOkCgAFvwczI" target="_blank" rel="noopener">Spotify</a></li>
+          <li><a href="https://podcasts.apple.com/us/podcast/art-of-artists/id1646595706" target="_blank" rel="noopener">Apple Podcasts</a></li>
+          <li><a href="https://youtube.com/@artofartistspodcast" target="_blank" rel="noopener">YouTube</a></li>
+          <li><a href="https://anchor.fm/s/b5fbd7e4/podcast/rss" target="_blank" rel="noopener">RSS feed</a></li>
+        </ul>
+      </details>
     </div>
   </header>
 
-  <main class="container">
-    <section id="listen">
-      <h2>Listen</h2>
-      <div class="embed-grid">
-        <iframe
-          class="embed-frame"
-          src="https://open.spotify.com/embed/show/3cyXQL4kBuqOkCgAFvwczI?utm_source=generator"
-          width="100%"
-          height="352"
-          frameborder="0"
-          allowfullscreen
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-          title="The Art of Everything on Spotify"
-        ></iframe>
-        <iframe
-          class="embed-frame"
-          allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
-          height="352"
-          style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;"
-          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-          src="https://embed.podcasts.apple.com/us/podcast/art-of-artists/id1646595706"
-          title="The Art of Everything on Apple Podcasts"
-        ></iframe>
+  <!-- Phones: the menu lives in this bar at the bottom of the screen. -->
+  <nav class="tabbar" aria-label="Main">
+    <a href="index.html" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>Home</a>
+    <a href="episodes.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg>Episodes</a>
+    <a href="artists.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3M8.5 21h7"/></svg>Artists</a>
+    <a href="news.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M7 8h10M7 12h10M7 16h6"/></svg>News</a>
+    <a href="about.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15.5 14.5c3 0 5.5 2 5.5 5.5"/></svg>About</a>
+  </nav>
+  <!-- shell:top:end -->
+
+  <main id="main" class="container">
+    <section class="hero" aria-labelledby="show-name">
+      <div class="show-id">
+        <p class="eyebrow">A podcast by brothers Corbin &amp; Carter Rupe</p>
+        <h1 id="show-name">The Art of Everything</h1>
+        <p class="tagline">Two brothers digging into how artists, creators and big ideas got where they are. Music is where we started.</p>
       </div>
+
+      <!-- Between the episodes:latest markers is rewritten by scraper/episodes.py
+           from the podcast feed on every update. Edit the generator, not this. -->
+      <!-- episodes:latest:start -->
+      <article class="latest" id="latest">
+        <div class="latest-text">
+          <p class="latest-meta">New · Side B, track 6 · Nov 16, 2026</p>
+          <h2 class="long-title"><a href="episodes/sibling-showdown-would-you-rather.html">Sibling Showdown - Would You Rather</a></h2>
+          <p class="latest-desc">We&#x27;re switching things up and bringing you a fun episode full of games, laughs, wild scenarios, and some interesting decisions! This time, Corbin and Carter go head-to-head playing a few different games: 🎮 Would You Rather? – Tough…</p>
+          <div class="btn-row">
+            <button class="btn btn-play" type="button" data-play data-src="https://anchor.fm/s/b5fbd7e4/podcast/play/129510674/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F436834537-44100-2-c1c496443469b.mp3" data-title="Sibling Showdown - Would You Rather" data-code="B6" data-href="episodes/sibling-showdown-would-you-rather.html" data-image="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/30431809/30431809-1662696432220-55d632c391292.jpg">&#9654; Play episode</button>
+            <a class="btn" href="https://open.spotify.com/show/3cyXQL4kBuqOkCgAFvwczI" target="_blank" rel="noopener">Spotify</a>
+            <a class="btn" href="https://podcasts.apple.com/us/podcast/art-of-artists/id1646595706" target="_blank" rel="noopener">Apple Podcasts</a>
+          </div>
+        </div>
+        <div class="cover">
+          <img src="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/30431809/30431809-1662696432220-55d632c391292.jpg" alt="The Art of Everything cover art" width="320" height="320" />
+          <span class="sticker">New · B6</span>
+        </div>
+      </article>
+      <!-- episodes:latest:end -->
     </section>
 
-    <!-- Stacks on mobile; side by side on desktop (see .home-columns). -->
-    <div class="home-columns">
-      <section id="episodes">
-        <h2>Latest Episodes</h2>
-        <ul class="episode-list" id="episode-list">
-          <!-- Fallback content below is replaced dynamically by script.js from the RSS feed. -->
-          <li class="episode">
-            <div class="episode-meta">
-              <span class="episode-date">August 17, 2026</span>
-            </div>
-            <h3>Can Artists Change Genres?</h3>
-            <p>Examines whether musicians can effectively transition between musical styles and discusses why some artists sell their catalogs, including one notable case of an artist repurchasing their work.</p>
-          </li>
-          <li class="episode">
-            <div class="episode-meta">
-              <span class="episode-date">August 8, 2026</span>
-            </div>
-            <h3>How Do Artists Get Discovered? | 2.2</h3>
-            <p>Explores the discovery process for musicians like Kid Cudi and Post Malone, analyzing both the fortunate circumstances and strategic advantages that contributed to their rise.</p>
-          </li>
-          <li class="episode">
-            <div class="episode-meta">
-              <span class="episode-date">July 31, 2026</span>
-            </div>
-            <h3>How Bad is AI Music? | 2.1</h3>
-            <p>The hosts investigate AI-generated music and its potential impact on the music industry.</p>
-          </li>
-          <li class="episode">
-            <div class="episode-meta">
-              <span class="episode-date">January 27, 2023</span>
-            </div>
-            <h3>S1 Finale - Post Malone</h3>
-            <p>A comprehensive look at Post Malone's career, collaborations with major artists, and his influence across multiple musical genres.</p>
-          </li>
-          <li class="episode">
-            <div class="episode-meta">
-              <span class="episode-date">January 13, 2023</span>
-            </div>
-            <h3>S1E10 Queen</h3>
-            <p>Details the British rock band's formation and evolution from heavy metal influences to their status as one of history's best-selling bands.</p>
-          </li>
-        </ul>
-      </section>
+    <section id="episodes" aria-labelledby="episodes-label">
+      <div class="section-label">
+        <h2 id="episodes-label">Latest episodes</h2>
+        <a href="episodes.html">All episodes &rarr;</a>
+      </div>
+      <ol class="tracklist" id="episode-list">
+        <!-- episodes:list:start -->
+        <li class="track is-latest" data-season="2" data-search="b6 sibling showdown - would you rather we&#x27;re switching things up and bringing you a fun episode full of games, laughs, wild scenarios, and some interesting decisions! this time, corbin and carter go head-to-head playing a few different games: 🎮 would you rather? – tough…">
+          <span class="track-num">B6</span>
+          <div class="track-body">
+            <h3 class="track-title"><a href="episodes/sibling-showdown-would-you-rather.html">Sibling Showdown - Would You Rather</a></h3>
+            <p class="track-desc">We&#x27;re switching things up and bringing you a fun episode full of games, laughs, wild scenarios, and some interesting decisions! This time, Corbin and Carter go head-to-head playing a few different games: 🎮 Would You Rather? – Tough…</p>
+          </div>
+          <span class="track-date"><time datetime="2026-11-16">Nov 16, 2026 · 38 min</time></span>
+          <button class="track-play" type="button" aria-label="Play Sibling Showdown - Would You Rather" data-play data-src="https://anchor.fm/s/b5fbd7e4/podcast/play/129510674/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F436834537-44100-2-c1c496443469b.mp3" data-title="Sibling Showdown - Would You Rather" data-code="B6" data-href="episodes/sibling-showdown-would-you-rather.html" data-image="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/30431809/30431809-1662696432220-55d632c391292.jpg"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1l9 5-9 5z" fill="currentColor"/></svg></button>
+        </li>
+        <li class="track" data-season="2" data-search="b5 is riot music back? k/da, heartsteel &amp; worlds anthems is riot games still the king of video game music? we break down league of legends’ worlds anthems over the years and riot’s virtual bands, from k/da and true damage to heartsteel. which projects hit, which ones missed, and is a k/da…">
+          <span class="track-num">B5</span>
+          <div class="track-body">
+            <h3 class="track-title"><a href="episodes/is-riot-music-back-k-da-heartsteel-worlds-anthems.html">Is Riot Music Back? K/DA, Heartsteel &amp; Worlds Anthems</a></h3>
+            <p class="track-desc">Is Riot Games still the king of video game music? We break down League of Legends’ Worlds anthems over the years and Riot’s virtual bands, from K/DA and True Damage to Heartsteel. Which projects hit, which ones missed, and is a K/DA…</p>
+          </div>
+          <span class="track-date"><time datetime="2026-10-30">Oct 30, 2026 · 33 min</time></span>
+          <button class="track-play" type="button" aria-label="Play Is Riot Music Back? K/DA, Heartsteel &amp; Worlds Anthems" data-play data-src="https://anchor.fm/s/b5fbd7e4/podcast/play/128396478/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-30%2F435389811-44100-2-13aba3880a78f.mp3" data-title="Is Riot Music Back? K/DA, Heartsteel &amp; Worlds Anthems" data-code="B5" data-href="episodes/is-riot-music-back-k-da-heartsteel-worlds-anthems.html" data-image="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/30431809/30431809-1662696432220-55d632c391292.jpg"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1l9 5-9 5z" fill="currentColor"/></svg></button>
+        </li>
+        <li class="track" data-season="2" data-search="b4 music needs visuals... or does it? does music need visuals? carter says yes, absolutely. corbin says... sometimes. we dig into how music shapes movies, tv shows, and music videos, and whether visuals make a song better or just different.then, why do band members leave…">
+          <span class="track-num">B4</span>
+          <div class="track-body">
+            <h3 class="track-title"><a href="episodes/music-needs-visuals-or-does-it.html">Music Needs Visuals... Or Does It?</a></h3>
+            <p class="track-desc">Does music need visuals? Carter says yes, absolutely. Corbin says... sometimes. We dig into how music shapes movies, TV shows, and music videos, and whether visuals make a song better or just different.Then, why do band members leave…</p>
+          </div>
+          <span class="track-date"><time datetime="2026-10-23">Oct 23, 2026 · 36 min</time></span>
+          <button class="track-play" type="button" aria-label="Play Music Needs Visuals... Or Does It?" data-play data-src="https://anchor.fm/s/b5fbd7e4/podcast/play/127971863/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-23%2F434843540-44100-2-af7eb610a339f.mp3" data-title="Music Needs Visuals... Or Does It?" data-code="B4" data-href="episodes/music-needs-visuals-or-does-it.html" data-image="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/30431809/30431809-1662696432220-55d632c391292.jpg"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1l9 5-9 5z" fill="currentColor"/></svg></button>
+        </li>
+        <li class="track" data-season="2" data-search="b3 can artists change genres? in this episode of the art of artists podcast, we talk about if artists can change genres effectively, or if they should stick with what they have always done. we also discuss why some artists sell their catalog, and even a case of one…">
+          <span class="track-num">B3</span>
+          <div class="track-body">
+            <h3 class="track-title"><a href="episodes/can-artists-change-genres.html">Can Artists Change Genres?</a></h3>
+            <p class="track-desc">In this episode of the Art of Artists podcast, we talk about if artists can change genres effectively, or if they should stick with what they have always done. We also discuss why some artists sell their catalog, and even a case of one…</p>
+          </div>
+          <span class="track-date"><time datetime="2026-08-17">Aug 17, 2026 · 43 min</time></span>
+          <button class="track-play" type="button" aria-label="Play Can Artists Change Genres?" data-play data-src="https://anchor.fm/s/b5fbd7e4/podcast/play/124321086/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-17%2F429976901-44100-2-fa3f157885d97.mp3" data-title="Can Artists Change Genres?" data-code="B3" data-href="episodes/can-artists-change-genres.html" data-image="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/30431809/30431809-1662696432220-55d632c391292.jpg"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1l9 5-9 5z" fill="currentColor"/></svg></button>
+        </li>
+        <li class="track" data-season="2" data-search="b2 how do artists get discovered? in this episode of the art of artists podcast, we talk about how artists like kid cudi or post malone get started. we discuss some of the luck they experienced as well as what they used to get an advantage. 🎧 go watch us on youtube!…">
+          <span class="track-num">B2</span>
+          <div class="track-body">
+            <h3 class="track-title"><a href="episodes/how-do-artists-get-discovered.html">How Do Artists Get Discovered?</a></h3>
+            <p class="track-desc">In this episode of the Art of Artists podcast, we talk about how artists like Kid Cudi or Post Malone get started. We discuss some of the luck they experienced as well as what they used to get an advantage. 🎧 Go watch us on YouTube!…</p>
+          </div>
+          <span class="track-date"><time datetime="2026-08-08">Aug 8, 2026 · 31 min</time></span>
+          <button class="track-play" type="button" aria-label="Play How Do Artists Get Discovered?" data-play data-src="https://anchor.fm/s/b5fbd7e4/podcast/play/123937910/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-8%2F429453073-44100-2-1667a96b26fa9.mp3" data-title="How Do Artists Get Discovered?" data-code="B2" data-href="episodes/how-do-artists-get-discovered.html" data-image="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/30431809/30431809-1786179619911-c9793e4dab7d8.jpg"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1l9 5-9 5z" fill="currentColor"/></svg></button>
+        </li>
+        <!-- episodes:list:end -->
+      </ol>
+    </section>
 
-      <section id="about">
-        <h2>About the Show</h2>
-        <p>The Art of Everything digs into what actually makes musicians successful — talent, timing, luck, or all three. Hosted by two brothers who can't stop talking about music.</p>
-      </section>
-    </div>
+    <section class="tiles" aria-label="More from the show">
+      <div class="tile">
+        <h3>Artists on the show</h3>
+        <div class="chip-row">
+          <!-- episodes:artists:start -->
+          <a class="chip" href="artists/heartsteel.html">Heartsteel</a>
+          <a class="chip" href="artists/k-da.html">K/DA</a>
+          <a class="chip" href="artists/post-malone.html">Post Malone</a>
+          <a class="chip" href="artists/queen.html">Queen</a>
+          <a class="chip" href="artists/khalid.html">Khalid</a>
+          <a class="chip" href="artists/joyner-lucas.html">Joyner Lucas</a>
+          <!-- episodes:artists:end -->
+        </div>
+        <a href="artists.html">All artists &rarr;</a>
+      </div>
+      <div class="tile">
+        <h3>In the news</h3>
+        <ul class="headline-list" id="news-teaser">
+          <li><a href="news.html">See the latest stories on the artists we follow</a></li>
+        </ul>
+        <a href="news.html">All news &rarr;</a>
+      </div>
+      <div class="tile tile-feature">
+        <h3>Two brothers, one obsession</h3>
+        <p>Meet Corbin and Carter, and find out how the show started.</p>
+        <a href="about.html">About the show &rarr;</a>
+      </div>
+      <div class="tile">
+        <h3>Follow along</h3>
+        <div class="chip-row">
+          <a class="chip" href="https://www.instagram.com/art.of.artists.podcast" target="_blank" rel="noopener">Instagram</a>
+          <a class="chip" href="https://www.tiktok.com/@artofartistspod" target="_blank" rel="noopener">TikTok</a>
+          <a class="chip" href="https://youtube.com/@artofartistspodcast" target="_blank" rel="noopener">YouTube</a>
+        </div>
+      </div>
+    </section>
   </main>
 
+  <!-- shell:bottom:start -->
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; <span id="year"></span> The Art of Everything</p>
+      <div class="footer-grid">
+        <div>
+          <h2>Listen</h2>
+          <ul>
+            <li><a href="https://open.spotify.com/show/3cyXQL4kBuqOkCgAFvwczI" target="_blank" rel="noopener">Spotify</a></li>
+            <li><a href="https://podcasts.apple.com/us/podcast/art-of-artists/id1646595706" target="_blank" rel="noopener">Apple Podcasts</a></li>
+            <li><a href="https://youtube.com/@artofartistspodcast" target="_blank" rel="noopener">YouTube</a></li>
+            <li><a href="https://anchor.fm/s/b5fbd7e4/podcast/rss" target="_blank" rel="noopener">RSS feed</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Follow</h2>
+          <ul>
+            <li><a href="https://www.instagram.com/art.of.artists.podcast" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@artofartistspod" target="_blank" rel="noopener">TikTok</a></li>
+            <li><a href="https://youtube.com/@artofartistspodcast" target="_blank" rel="noopener">YouTube</a></li>
+          </ul>
+        </div>
+        <div class="footer-merch">
+          <h2>Merch</h2>
+          <p>Merch is on the way. Follow us to catch the drop.</p>
+        </div>
+      </div>
+      <p class="footer-legal">&copy; <span id="year"></span> The Art of Everything &middot; formerly Art of Artists</p>
     </div>
   </footer>
 
   <script src="script.js"></script>
+  <!-- shell:bottom:end -->
 </body>
 </html>

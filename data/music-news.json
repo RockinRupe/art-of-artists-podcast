@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T20:28:20.070003+00:00",
+  "generated_at": "2026-11-20T22:02:58.340621+00:00",
   "days": 7,
   "watchlist": [
     "Post Malone",
@@ -9,13 +9,47 @@
     "Breaking Benjamin",
     "Kendrick Lamar"
   ],
+  "watchlist_terms": {
+    "Post Malone": [
+      "Post Malone"
+    ],
+    "Queen": [
+      "Freddie Mercury",
+      "Brian May"
+    ],
+    "Taylor Swift": [
+      "Taylor Swift"
+    ],
+    "Bilmuri": [
+      "Bilmuri"
+    ],
+    "Breaking Benjamin": [
+      "Breaking Benjamin"
+    ],
+    "Kendrick Lamar": [
+      "Kendrick Lamar"
+    ]
+  },
   "counts": {
-    "other": 123,
-    "awards_charts": 69,
-    "new_release": 8,
-    "tour": 16
+    "tour": 17,
+    "other": 122,
+    "awards_charts": 68,
+    "new_release": 8
   },
   "stories": [
+    {
+      "title": "Post Malone, Megan Moroney Lead 2027 Pilgrimage Festival Lineup",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIQWFqdl9qUzlWeFhtcXMwbk5tRzdScFNPaDFHdkpxYWZZcmRSYUpnTEhuWlJMVGdTQVB4NDlZdHFxU2FEOHpYSjUyV2hIT3FOQlNpRlFTQnNJRXdjSkJRUXRCQjREcUdld2NmLU9PZHRvYlFiUEE?oc=5",
+      "source": "TicketNews",
+      "published": "2026-11-20T21:25:38+00:00",
+      "summary": "Post Malone, Megan Moroney Lead 2027 Pilgrimage Festival Lineup TicketNews",
+      "categories": [
+        "tour"
+      ],
+      "artists": [
+        "Post Malone"
+      ]
+    },
     {
       "title": "Post Malone’s Hollywood Palladium show was request-only: Here’s how to still get tickets",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWGh0X1JIVk5GeEVqX2ZqUk1RUEdqQWgydUt1OVd6c0IwRVlkdWg3dTUwTW9RSElwVnRSWnFsOW5yT0xSZF9xTVdJTGllN085dHRUMVBwemF4T3lUSmZ1ZDVjU3dMQ3RmN3pRM3ptSjFhT2c2ZlRpOFlka2FVcnhGOUI0SDB0M2xlcW52cHB6Zy1qOUxYRnNBdVoydUEwWFpxTVlsa0NKSVEyMFdiRjBCenVqbnA2cEdfbXhpN05VNlFfX0R3QjRFTHR2YzMyNG53Z19pd29TbE1pQdIB7gFBVV95cUxPdHh3LXp1ajIwekRiZW9vOVgtLVg4QUJtWjdNTFJMR1pfT3BnX3NTUFUzcVJWSTFhamJteFpveTl0UEc3T1dRSTU4c0czdHFiOEN1bjRZcGtqX3JNVlR6U0VLZHNWMlMxSExRcDhhYUtQQU03ZEFra3NNdVhVZ0tLMlpXRVlkYmhpejdWVHM2ZFJZWGNOc3NNYUlVWFZBemRnc0FpbVYtSnY5MHhiWmVkb3g4N2RIbXBTVW4ybVlvVG1oYWpuaXBfamZSdmN6ZUd2RnRIQzJOVHItZV84bnhqY2Mzd1BmRHVDOEJxM1VB?oc=5",
@@ -537,19 +571,6 @@
       ]
     },
     {
-      "title": "Ella Langley Sweeps and Taylor Swift Returns at the 2026 CMA Awards",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxON2J4R1BPQnEtVGxqOUhGNENLV3l2eGZicUhjbFFUYUJTQVRVX2VIZ1oxcXlXOUhjVkFwMUhsOXVYRV9rQWVOY3pyR0NKbVpjSnR5cmZ0SU8yc2FCX0hCSkRpMEhLdWk5QVNVY0lHZ1BQZUtMbGtGOVdoNmxUbVM4RzZjaS02RTB6YlZmbHpJNEs?oc=5",
-      "source": "The New York Times",
-      "published": "2026-11-19T16:58:08+00:00",
-      "summary": "Ella Langley Sweeps and Taylor Swift Returns at the 2026 CMA Awards The New York Times",
-      "categories": [
-        "awards_charts"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "Taylor Swift makes it obvious which category she's putting her effort behind for the Grammys at the CMA Awards",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPckhqanVMQ2paLWZQUkVFUFdKX0NxajZLbjc2SllOSml1WEdzYXFqWU9heVp5MnVHRkpNRGsyclJJWXFPTVViR0lUNlU5aEZ1U2NnSmFJQ1pBWTlJd2k5UHF2bWQtVDh6aXBQNzY0aUhBc1RKb2xMUFZTSkJmZ3ZYZnlxbUpPRm1qX1EtanRfNGtkQi1paW5wWGNzX2NqalJRSUY0UVkyeHNYNnZzOXViOW0zMEZUUTYwOW9uME1WNUpBS2l1THhXLVA3cng3OHhxMnF5VVp3?oc=5",
       "source": "LaineyGossip",
@@ -599,6 +620,19 @@
       ],
       "artists": [
         "Queen"
+      ]
+    },
+    {
+      "title": "Taylor Swift's Emmys 'SVU' Crime Board on Display at the Paley Center",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWFlvYjcweGgwY2FiRHlIUTFRdmFxcXROVjNkbUhwdGpQbGgxc0I2anYwR0FCRkQwQ09XYk5jallYdEo0cURlNU13bkpwVGE0WENUcXJ6MTE1aHJRYkd5QmZYS2Y1Z1c1aVo1WXNCSG8xTHlGYmlIZVF5ZGdKdk5YbzBsZVozREFjMXFBS0ZQdG82eExuUnVSaDV5MkhRamtiZUhJ?oc=5",
+      "source": "Variety",
+      "published": "2026-11-19T16:00:00+00:00",
+      "summary": "Taylor Swift's Emmys 'SVU' Crime Board on Display at the Paley Center Variety",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
       ]
     },
     {
@@ -672,19 +706,6 @@
       "source": "PureWow",
       "published": "2026-11-19T15:34:45+00:00",
       "summary": "Taylor Swift's First CMA Performance in 13 Years Was Surprisingly Low-Key (And I Have Mixed Feelings) PureWow",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift Changed Her Jewelry With Every Outfit at the 2026 CMAs",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUWgtd3hvcnB3b1oyZGpQU1VxUWo3M1d0NW1OWmMzMEc1a2Zod3dld1ZJUklPOXN6ZlBFLXF5QS0zdmxObzRRclF3MC1YS2NwTk52N2VUS1o4RUFDd1RCTzhDbWhZNXE5aTkyejFDdW1WeURsVXNyQXozcjBVWF9mRzdMQko4alloYlBUZS1ub3oxc2dGWkZERmFPbm5GZjBSaWtqODdpc24wQXlq?oc=5",
-      "source": "Town & Country Magazine",
-      "published": "2026-11-19T15:31:00+00:00",
-      "summary": "Taylor Swift Changed Her Jewelry With Every Outfit at the 2026 CMAs Town & Country Magazine",
       "categories": [
         "other"
       ],
@@ -927,6 +948,19 @@
       ]
     },
     {
+      "title": "See Taylor Swift Crack Up at CMAs Joke About Travis Kelce Wedding at Madison Square Garden",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdnQ0RmM2QmNDN3lmTVg5NzdhU0kzZ2lEazFGUzZwaEcwVTM0RFF1TXZ1WTM0UVhiWno3VUFSam9aRHNSWU5fakdNY3RJVlpKSFhpSThuNFpIdU9rd3FjNVpnQm9aa2ItWnpRUWhZclA0WkRqMW1WTGlZN2piVEpqZEFXOEM5Rm1sSzRfMEgwZDJlN0FycFgwcmFESkNvM1JHeDR3?oc=5",
+      "source": "E! News",
+      "published": "2026-11-19T10:12:00+00:00",
+      "summary": "See Taylor Swift Crack Up at CMAs Joke About Travis Kelce Wedding at Madison Square Garden E! News",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "Post Malone digs into the Stoney vault with 8 unreleased songs for 10th anniversary edition",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcU9IUGl3cXZkRUJaQVdBZzl3Vms0WXVsa0dCU0NTN3lraGxMOFNyZEZfeG9uNHRXTEprXzAxWXZtZHFneVBKckNMWE8wMTBRd09xa0hFcG9zMzZBakVDbjh4RnJ3R29JT19HOXIwUFlCRThEbmNLTVBJTC1teWtxMzZPWHU5aHF1Y1hkbEtCWGJxRnN2OERuakxOemNxSE1lb3lRWVZOQnVLLXFDV1FlbnUyLVFVQlVyXzVzbTMtVDNCdjZOMmFZSk1oV3V3Zw?oc=5",
       "source": "Music-News.com",
@@ -937,6 +971,19 @@
       ],
       "artists": [
         "Post Malone"
+      ]
+    },
+    {
+      "title": "Ella Langley Sweeps and Taylor Swift Returns at the 2026 CMA Awards",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxON2J4R1BPQnEtVGxqOUhGNENLV3l2eGZicUhjbFFUYUJTQVRVX2VIZ1oxcXlXOUhjVkFwMUhsOXVYRV9rQWVOY3pyR0NKbVpjSnR5cmZ0SU8yc2FCX0hCSkRpMEhLdWk5QVNVY0lHZ1BQZUtMbGtGOVdoNmxUbVM4RzZjaS02RTB6YlZmbHpJNEs?oc=5",
+      "source": "The New York Times",
+      "published": "2026-11-19T10:02:12+00:00",
+      "summary": "Ella Langley Sweeps and Taylor Swift Returns at the 2026 CMA Awards The New York Times",
+      "categories": [
+        "awards_charts"
+      ],
+      "artists": [
+        "Taylor Swift"
       ]
     },
     {
@@ -1422,19 +1469,6 @@
       ]
     },
     {
-      "title": "See Taylor Swift Crack Up at CMAs Joke About Travis Kelce Wedding at Madison Square Garden",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdnQ0RmM2QmNDN3lmTVg5NzdhU0kzZ2lEazFGUzZwaEcwVTM0RFF1TXZ1WTM0UVhiWno3VUFSam9aRHNSWU5fakdNY3RJVlpKSFhpSThuNFpIdU9rd3FjNVpnQm9aa2ItWnpRUWhZclA0WkRqMW1WTGlZN2piVEpqZEFXOEM5Rm1sSzRfMEgwZDJlN0FycFgwcmFESkNvM1JHeDR3?oc=5",
-      "source": "E! News",
-      "published": "2026-11-19T02:12:00+00:00",
-      "summary": "See Taylor Swift Crack Up at CMAs Joke About Travis Kelce Wedding at Madison Square Garden E! News",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
       "title": "Pregnant Brittany Mahomes Debuts Baby Bump on Red Carpet While Attending CMA Awards With Taylor Swift",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNN1B3dDNoUlRmcVh6SEtRdGhCeFVkX2xGNTNpN2wtNmZsLUlFNWhkbWdtWmpwWnMyOElDdUhKa0prTlpPRl8tSVg5NDVLLWlPcDJqWERWLTM0SUlrYkVTVDR1NDhnOVFWMWlSM3ptWlJXZjIwNl8xY1JwNE5HU0xkQVJ4S0RLT2wxd1dSckptN2xBcFlXeTdLeGVsbnJ5VjAxRkk4dFBCOGw1Vm1aREE?oc=5",
       "source": "E! News",
@@ -1514,10 +1548,10 @@
     },
     {
       "title": "Post Malone Celebrates 10th Anniversary of ‘Stoney’ With New Album",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcExFZ2hVdjJKeXBERTZxajFRRWRWRzYySF9YRTh4QXkwbXM5SHpfLTBlYnlpU0U4UmtPcXVnLU5MZzlJVnZTYjhoaFFWMXYyVHhLM05JdTA0M3JzTnU4d1UxWkNERk9OdVBfN2k5TEV0RG14bXozS0JodjUyWF9HMEs5bnl1M0pUQTJDWXoxYmwwSjMwUTV6MWVyVW1SVEoxYUFmSG05Vm5fZE9lTDc3Nm5QR2k4ZEE?oc=5",
-      "source": "Yahoo",
-      "published": "2026-11-19T00:18:00+00:00",
-      "summary": "Post Malone Celebrates 10th Anniversary of ‘Stoney’ With New Album Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOR05nRS1jV2R2UnkycW1icGJjcmNkR015Y2o2Q3Nkak5yUEpERm43V2FFV2I5UVkwU2s5YjI5TDlvOFViTW9YcnBUZlpubmNGSTR0RklEakEtMnBIMEtzYkRQYmZpMnJyUVhyNUlrdFNNcHZHZ2JyaVhueHVWNmx4ZHNLSHpLSmRQY3c4V3ZVN0daeDB5Mmc?oc=5",
+      "source": "intouchweekly.com",
+      "published": "2026-11-19T00:18:44+00:00",
+      "summary": "Post Malone Celebrates 10th Anniversary of ‘Stoney’ With New Album intouchweekly.com",
       "categories": [
         "new_release"
       ],
@@ -1559,19 +1593,6 @@
       "summary": "Taylor Swift's CMA return after 13 years sparks debate USA Today",
       "categories": [
         "other"
-      ],
-      "artists": [
-        "Taylor Swift"
-      ]
-    },
-    {
-      "title": "Taylor Swift Surprises in an Unexpected Color for Her First CMA Awards in 10 Years",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdGVJZWhISGRkQ09YZUpMaXB5RTBQLTdablVqd0FScGVIQ3RsdlJjRmJNRkhFZ2pUYm8tbkxHcUoyVzY2ejhZWVBxOW0xamRuX3hyM3RKaHoyMUppODNlNVVWc2NWV0lIc1NmaUpZWDdwTTRQdFFKZGpJT1RSdFQzMHBGMEk?oc=5",
-      "source": "InStyle",
-      "published": "2026-11-19T00:00:53+00:00",
-      "summary": "Taylor Swift Surprises in an Unexpected Color for Her First CMA Awards in 10 Years InStyle",
-      "categories": [
-        "awards_charts"
       ],
       "artists": [
         "Taylor Swift"
@@ -1851,6 +1872,19 @@
       ]
     },
     {
+      "title": "Travis Kelce Reflects on First Time Taylor Swift Came to a Chiefs Game: ‘I’m a Lucky Man’",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNjF1TmU1YnRma25haDV3M1dTci1ZVDFwcl9VQUhzY2xTLUYtaXU4a3RZVGJxRWZqWXpjcGNpRllHXy1Rd0ZieFBBUThhcHFCdnZnSVB0dmpGcXUwWmR4RHJoWXZieDZsMmVKTWNubEI1bzd1elhLR0Ytb0gzajdxaENxcjU4ZzNVNjJmZFJyOWlHZEZqczZxSDVTWEw?oc=5",
+      "source": "People.com",
+      "published": "2026-11-18T17:05:29+00:00",
+      "summary": "Travis Kelce Reflects on First Time Taylor Swift Came to a Chiefs Game: ‘I’m a Lucky Man’ People.com",
+      "categories": [
+        "other"
+      ],
+      "artists": [
+        "Taylor Swift"
+      ]
+    },
+    {
       "title": "From Ella Langley's 9 nominations to Taylor Swift's return after 13 years: What to expect at tonight's 2026 CMA Awards",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQZmpXM2xiNmNrQ0RJaDBPTFBBdlJTUkNfTDIxcU9hRTNjcEhDZzRSUXF0UXJnR0tlVEFwMGVvbFZZYjc4NUVsSkZmaGZ6bDBTNF9Tb2VYVVVpbWt4aURFZzJQVVZ2MzhmUnVZazhuZUcxUVpXUEwzS3BEQmJzT2xueWV6MzYtczl2MlpOV21YREVPYlNkSVZlZXpzVVgxUVNvenpLSEdOTjM5VkZJdjVoOUw5UTdJMWxxVXRJVTNSSm4tNU52TlpqaGtNeUgycHk1ZEZNeW43blV4S0xuMHpid3ZXbVBjWU1JWHNtUUV3TDdvT3dFT21YWlB3a2RvdjlLNG1idjdXMzZ2RVE?oc=5",
       "source": "Yahoo",
@@ -1931,9 +1965,9 @@
     {
       "title": "Did Dolly Parton and Freddie Mercury sing 'Bohemian Rhapsody' together in London?",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNXJEb1pLNkJrS0E1SUhtR2EwMEJHQVpIN1B6VV9zOGFqdFBjVWllQXVsVTg2UWhhakZvVDR6V3RLNGd3UUhTa0x3QnBLS0RSRDZnWUF2QndsN2lSMkdhWHBuWExNTXRyWFhDMjM1M3dmVVJGNnFGTDBvdnBwWUdma1V4LWREUjJo?oc=5",
-      "source": "Snopes.com",
+      "source": "Snopes",
       "published": "2026-11-18T11:01:23+00:00",
-      "summary": "Did Dolly Parton and Freddie Mercury sing 'Bohemian Rhapsody' together in London? Snopes.com",
+      "summary": "Did Dolly Parton and Freddie Mercury sing 'Bohemian Rhapsody' together in London? Snopes",
       "categories": [
         "other"
       ],
@@ -2216,19 +2250,6 @@
       ]
     },
     {
-      "title": "Interview | Queen Guitarist Brian May on NASA's New Horizons",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOU1BGTFB4cjRsN0xxZXhjdDJDalVqSUk5QVJGZGd3NGtORE1ncTFlWDZNR0xlZWFXUG8xNUNsamxPbjZXMEVlWTdoM1V2Z2FYbmtoMW5tVDFfLWtUMTU0WHdBa3pNSHhDZ2M0ZWtLQWRFcl9NOHBtV0lVczhmbzZyeg?oc=5",
-      "source": "Britannica",
-      "published": "2026-11-17T08:00:00+00:00",
-      "summary": "Interview | Queen Guitarist Brian May on NASA's New Horizons Britannica",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Queen"
-      ]
-    },
-    {
       "title": "Megan Moroney, Post Malone To Headline Pilgrimage Festival.",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdjdFeWlvRUs5Vnhja052MDZnT3RuQ2xDTHJ5c01FLUprSExHRm5aN05CQktLV2NQNGV1Z1BHUTd5TXowWVM3bk5hWVBlc0RSOTdmUHh1aFNjRThTUkVST0lrckV1RXZ6b0dZRUNKT05YSTQwcldOc2JHVGhzUlhHMnpuNGJBMVpoTU5PWk45Y19uclBtMTBfS2t6VHBxbThaMGRiLWN3U3Fnc3NSUEtnM1FlQUNONEdmYW9VTzk2UElVenM2OV9KTG0wMF9kMWFMdmNkOGljNTlxcU0?oc=5",
       "source": "Country Insider",
@@ -2501,19 +2522,6 @@
       ],
       "artists": [
         "Post Malone"
-      ]
-    },
-    {
-      "title": "Queen Revisits Holiday Classic as “Thank God It’s Christmas … Again!” with New Vocals from Brian May + Roger Taylor",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSnRpb3J0ai1uUGNDNnJkMjJVa3BoN2dXRVB6RnBOQmpIc2hpNUZIeGlXX2VhOEptOUNURXE0b2ZmUUxBLWJ1Rk1ZTUNzUjNGeFVGcDh4djFpY2c1ZDY2dVV3czNZaUdpQl94RW5IWHprZTNrUi1LQUlPR0hrMEF6R1h5cnFDLTlJ?oc=5",
-      "source": "Rock Cellar Magazine",
-      "published": "2026-11-16T18:07:17+00:00",
-      "summary": "Queen Revisits Holiday Classic as “Thank God It’s Christmas … Again!” with New Vocals from Brian May + Roger Taylor Rock Cellar Magazine",
-      "categories": [
-        "other"
-      ],
-      "artists": [
-        "Queen"
       ]
     },
     {

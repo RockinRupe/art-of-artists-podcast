@@ -133,9 +133,11 @@ class ScrapeTests(unittest.TestCase):
 
     def test_write_outputs(self):
         with tempfile.TemporaryDirectory() as tmp:
-            json_path, md_path = mn.write_outputs(self.stories, self.errors, Path(tmp), 7, [], NOW)
+            json_path, md_path = mn.write_outputs(self.stories, self.errors, Path(tmp), 7, [], NOW,
+                                                 {"Queen": ["Freddie Mercury"]})
             data = json.loads(json_path.read_text())
             self.assertEqual(len(data["stories"]), len(self.stories))
+            self.assertEqual(data["watchlist_terms"], {"Queen": ["Freddie Mercury"]})
             md = md_path.read_text()
             self.assertIn("## Deaths & Tributes (1)", md)
             self.assertIn("### Radiohead", md)
